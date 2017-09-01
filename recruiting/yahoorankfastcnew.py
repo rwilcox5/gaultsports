@@ -26,7 +26,7 @@ def writecsv(parr, filen):
                         except:
                                 print parr[i], i
 def writecsvstr(parr, filen):
-        with open(filen, 'wb') as csvfile:
+        with open(filen, 'ab') as csvfile:
                 spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 for i in range(0,len(parr)):
                         try:
@@ -76,7 +76,6 @@ def getplayerlist(driver,pagen):
             driver.get(b_url)
             driver.find_element_by_class_name('btn-primary').click()
             time.sleep(3)
-
             for i in range(0,20):
 
                 getplayers = driver.find_elements_by_class_name("player-name-prospects")
@@ -310,6 +309,8 @@ def getreclist(driver,linkurl,allsl):
                                             schoollink.append("03/01/"+str(theyear))
                                     schoollink.append(yt)
 
+
+    #The losing schools
     for ii in getschools[1:]:
             trow = ii.find_elements_by_tag_name("td")
             yt = trow[0].text
@@ -336,7 +337,7 @@ def getreclist(driver,linkurl,allsl):
 #firefox_profile.set_preference("permissions.default.image",2)
 #firefox_profile.set_preference("javascript.enabled", False)
 
-#driver = webdriver.Chrome("C:\Python27\Chrome\chromedriver")
+#driver = webdriver.Chrome()
 #allplayers = getplayerlist(driver,0)
 #writecsvstr(allplayers,"allplayers2016act"+str(theyear)+".csv")
 #print stopit
@@ -367,10 +368,12 @@ for i in allplayersa:
         if i not in playersdone:
                 allplayers.append(i)
 print len(allplayers)
+
 #print stopit
 def runthis(driver,ii,adone,allsl):
         iii = 0
         lx =len(allplayers)
+        lx = 1000
         nerror = 0
         nodone = 0
         for i in allplayers[(lx/5+1)*ii:(lx/5+1)*(1+ii)]:
@@ -400,7 +403,7 @@ for ii in range(0,1):
                 #firefox_profile.set_preference("javascript.enabled", False)
                 options = webdriver.ChromeOptions() 
 
-                driver.append(webdriver.Chrome(executable_path="C:\Python27\Chrome\chromedriver", chrome_options=options))
+                driver.append(webdriver.Chrome(chrome_options=options))
                 driver[i].implicitly_wait(30)
                 t[i] = Thread(target=runthis,args=(driver[i],i,[],[]))
                 t[i].start()
