@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 
 
 def writecsv(parr, filen):
-        with open(filen, 'wb') as csvfile:
+        with open(filen, 'ab') as csvfile:
                 spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 for i in range(0,len(parr)):
                         try:
@@ -59,29 +59,38 @@ def getvoters(driver):
         allhrefs.append(voter.get_attribute('href'))
     return allhrefs
 
-def getvotes(driver,b_url):
-
+def getvotes(b_url):
+    driver = webdriver.Chrome()
     allvotes = [b_url]
+    time.sleep(1)
     driver.get(b_url)
     time.sleep(1)
     pollTable = driver.find_element_by_id('poll-content')
     time.sleep(1)
     voteTable = pollTable.find_elements_by_tag_name('tr')
+    print len(voteTable), b_url
     for vote in voteTable:
         isheader = vote.find_elements_by_tag_name('th')
         if len(isheader)==0:
             allvotes.append(vote.find_element_by_tag_name('a').get_attribute('href'))
+    driver.close()
     return allvotes
 
 
 
-
+import sys
+weekn = str(sys.argv[1])
 driver = webdriver.Chrome()
 allvoters = getvoters(driver)
 allvotes = []
-for voter in allvoters:
-    allvotes.append(getvotes(driver,voter))
-writecsv(allvotes,'week1.csv')
+driver.close()
+for voter in allvoters[0:]:
+    try:
+        allvotes = getvotes(voter)
+        writecsv([allvotes],'week'+weekn+'.csv')
+    except:
+        allvotes = getvotes(voter)
+        writecsv([allvotes],'week'+weekn+'.csv')
 driver.close()
 
 
