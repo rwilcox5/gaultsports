@@ -46,7 +46,7 @@ for i in range(0,len(allrows)):
 			if allrows[ii][0]=='id':
 				break
 			elif allrows[ii][0]=='play':
-				if random.random()<.5:
+				if random.random()<1:
 					if allrows[ii][2]==str(0):
 						count = [0,0]
 						allpas0.append([hpitcher,allrows[ii][6]])
@@ -236,15 +236,41 @@ for idx,i in enumerate(allgames):
 		else:
 			batters[pid].append([idx,iidx])
 
+allptypes = ['B','S','C','F','X']
 alleloarrays = []
 alleloarrays.append(getallelos(allgames,'B',pitchers,batters))
 alleloarrays.append(getallelos(allgames,'S',pitchers,batters))
 alleloarrays.append(getallelos(allgames,'C',pitchers,batters))
 alleloarrays.append(getallelos(allgames,'F',pitchers,batters))
 alleloarrays.append(getallelos(allgames,'X',pitchers,batters))
+def createcsv(iii,ptype,porb):
+	tocsv = []
+	if porb=='P':
+		for i in alleloarrays[iii][0]:
+			toarr = [i[0]]
+			for ii in i[1]:
+				toarr.append(ii)
+			tocsv.append(toarr)
+		writecsv(tocsv,'2016/'+ptype+'pitcher.csv')
+	else:
+		for i in alleloarrays[iii][1]:
+			toarr = [i[0]]
+			for ii in i[1]:
+				toarr.append(ii)
+			tocsv.append(toarr)
+		writecsv(tocsv,'2016/'+ptype+'batter.csv')
 
-
-
+for i in range(0,5):
+	createcsv(i,allptypes[i],'P')
+	createcsv(i,allptypes[i],'B')
+writecsv(pitchers,'2016/pitchers.csv')
+writecsv(batters,'2016/batters.csv')
+tocsv = []
+for i in allgames:
+	for ii in i:
+		tocsv.append(ii)
+writecsv(tocsv,'2016/allgames.csv')
+print soto
 totalwalks = 0
 totalk = 0
 totalab = 0
@@ -332,5 +358,5 @@ for idx,pitcher in enumerate(pitchers):
 	acttotw+=actwp
 	acttotk+=actkp
 	acttotpa+=actpas
-	if actpas > 50 and actpas<150:
+	if actpas > 100:
 		print pitcher[0], walkpct*1./pitcherpa, kpct*1./pitcherpa, actwp*1./actpas, actkp*1./actpas, actwp1*1./actpas1, actkp1*1./actpas1#, totalwalks*1./totalab, totalk*1./totalab, acttotw*1./acttotpa, acttotk*1./acttotpa
