@@ -70,6 +70,9 @@ def setinitialelos(teams,allplayers):
                     for iii in range(3,len(allplayers[ii])):
                             if allplayers[ii][iii]==teams[i][0]:
                                     teams[i][1]=teams[i][1]+1
+                                    if iii==3:
+                                        teams[i][4]=teams[i][4]+1
+
     for i in range(0,len(teams)):
             if teams[i][1]<30:
                     teams[i][2]=1200
@@ -190,7 +193,8 @@ for i in range(0,len(teams)):
     yt = ""
     if len(teams[i])==5:
         if int(teams[i][1])>30:
-            tteams.append(teams[i])
+            this_team = [teams[i][0],teams[i][3]+min(teams[i][4],30)*20+teams[i][1],teams[i][4]]
+            tteams.append(this_team)
         else:
             print "not Enough", teams[i][0]
     else:
@@ -203,3 +207,19 @@ for i in range(0,len(allplayers)):
 writecsv(tocsv,'eloplayers.csv')
 #for i in range(0,len(teams)):
 #        print teams[i]
+unsorted = True
+while unsorted:
+    unsorted = False
+    for i in range(0,len(tteams)-1):
+        if float(tteams[i][1])<float(tteams[i+1][1]):
+            holdt = tteams[i]
+            tteams[i]=tteams[i+1]
+            tteams[i+1]=holdt
+            unsorted = True
+
+
+for i in range(0,10):
+    if i%2==0:
+        print '<tr style="background-color: #DDDDDD;"><td>'+tteams[i][0]+'</td><td>SEC</td><td>'+str(tteams[i][2])+'</td><td>'+str(int(tteams[i][1]))+'</td></tr>'
+    else:
+        print '<tr><td>'+tteams[i][0]+'</td><td>SEC</td><td>'+str(tteams[i][2])+'</td><td>'+str(int(tteams[i][1]))+'</td></tr>'
