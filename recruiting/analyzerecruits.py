@@ -218,8 +218,22 @@ while unsorted:
             unsorted = True
 
 
-for i in range(0,10):
-    if i%2==0:
-        print '<tr style="background-color: #DDDDDD;"><td>'+tteams[i][0]+'</td><td>SEC</td><td>'+str(tteams[i][2])+'</td><td>'+str(int(tteams[i][1]))+'</td></tr>'
-    else:
-        print '<tr><td>'+tteams[i][0]+'</td><td>SEC</td><td>'+str(tteams[i][2])+'</td><td>'+str(int(tteams[i][1]))+'</td></tr>'
+teamstr = "teams = ['Heading','"
+confstr = "conferences = ['Heading','"
+commitstr = "commits = ['Heading',"
+ratingstr = "ratings = ['Heading',"
+for i in range(0,99):
+    teamstr +=tteams[i][0]+"','"
+    confstr += 'SEC'+"','"
+    commitstr += str(tteams[i][2]) +","
+    ratingstr += str(int(tteams[i][1]))+","
+
+i = 99
+teamstr +=tteams[i][0]+"'];"
+confstr += 'SEC'+"'];"
+commitstr += str(tteams[i][2]) +"];"
+ratingstr += str(int(tteams[i][1]))+"];"
+print teamstr
+print confstr
+print commitstr
+print ratingstr

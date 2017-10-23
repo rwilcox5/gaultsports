@@ -1,5 +1,5 @@
 import time
-
+import sys
 import random
 import csv
 import math
@@ -11,6 +11,15 @@ from selenium.webdriver.chrome.options import Options
 
 
 def writecsv(parr, filen):
+        with open(filen, 'wb') as csvfile:
+                spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                for i in range(0,len(parr)):
+                        try:
+                                spamwriter.writerow(parr[i])
+                        except:
+                                print parr[i], i
+
+def writecsva(parr, filen):
         with open(filen, 'ab') as csvfile:
                 spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 for i in range(0,len(parr)):
@@ -19,14 +28,6 @@ def writecsv(parr, filen):
                         except:
                                 print parr[i], i
 
-def combine():
-        allrecs = []
-        for ii in range(0,5):
-            with open('allrecs'+str(theyear)+str(ii)+'.csv', 'rb') as csvfile:
-                spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
-                for row in spamreader:
-                    allrecs.append(row)
-        writecsv(allrecs,"allrecs"+str(theyear)+"fb.csv")
 
 def readcsv(filen):
         allgamesa  =[]
@@ -108,14 +109,10 @@ def getmasseyids(driver,b_url):
                     break
             if addteam:
                 allteams.append([data_str[sindex+3:eindex], data_str[eeindex+1:eeeindex]])
-
-
-
-
     return allteams
 
 driver = webdriver.Chrome()
-this_week = 5
+this_week = int(sys.argv[1])
 for week in range(0,this_week):
     b_url = "https://www.masseyratings.com/cf/arch/compare2017-"+str(week)+".htm"
     allteams = getmasseyids(driver,b_url)
@@ -124,7 +121,8 @@ b_url = "https://www.masseyratings.com/cf/compare.htm"
 allteams = getmasseyids(driver,b_url)
 writecsv(allteams,'masseyweek'+str(this_week)+'.csv')
 driver.close()
-print soto
+
+
 
 def getteams(driver,with_names):
     b_url = "http://www.espn.com/college-football/standings"
@@ -146,7 +144,7 @@ def getteams(driver,with_names):
 
     return allhrefs
 
-def getvotes(teamid):
+def getgames(teamid):
     b_url = 'http://www.espn.com/college-football/team/schedule?id='+teamid+'&year=2017'
     driver = webdriver.Chrome()
     time.sleep(1)
@@ -213,15 +211,15 @@ driver.close()
 #writecsv(allteams,'convert.csv')
 #print soto
 
-
-for voter in allteams:
-    print voter
+writecsv('','results.csv')
+for team in allteams:
+    print team
     try:
-        allvotes = getvotes(voter)
-        writecsv(allvotes,'results.csv')
+        allvotes = getgames(team)
+        writecsva(allvotes,'results.csv')
     except:
-        allvotes = getvotes(voter)
-        writecsv(allvotes,'results.csv')
+        allvotes = getgames(team)
+        writecsva(allvotes,'results.csv')
 
 
 
