@@ -1,5 +1,5 @@
 import time
-
+import sys
 import random
 import csv
 import math
@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 nteams = 130
-this_week = 5
+this_week = sys.argv[1]
 
 def writecsv(parr, filen):
         with open(filen, 'ab') as csvfile:
@@ -166,6 +166,17 @@ for game in allgames:
             week = 4
         elif date < 31:
             week = 5
+    elif month=='Oct':
+        if date < 8:
+            week = 6
+        elif date < 15:
+            week = 7
+        elif date < 22:
+            week = 8
+        elif date < 29:
+            week = 9
+        elif date < 32:
+            week = 10
     ateam = 'FCS'
     aconf = 'FCS'
     hteam = 'FCS'
@@ -239,6 +250,9 @@ for voter in allvoterbias:
 
 
 top25 = []
+expweight = 1.0
+teambiaschg = 2.
+confbiaschg = 1.
 for i in apmassey:
     rating = 0
     adjrating = 0
@@ -248,13 +262,13 @@ for i in apmassey:
     for voter in allvoterbias:
         for ii in voter:
             if ii[1]==i[1]:
-                totalweight += 1./(ii[3]**1.15+ii[5]**1.15+ii[7]**1.15)
+                totalweight += 1./(ii[3]**expweight+ii[5]**expweight+ii[7]**expweight)
                 tvoters += 1
     for voter in allvoterbias:
         for ii in voter:
             if ii[1]==i[1]:
                 rating += 1./tvoters*(ii[4])
-                adjrating += (1./(ii[3]**1.15+ii[5]**1.15+ii[7]**1.15))/totalweight*(ii[4]+ii[2]/200.+ii[6]/200.)
+                adjrating += (1./(ii[3]**expweight+ii[5]**expweight+ii[7]**expweight))/totalweight*(ii[4]+ii[2]/teambiaschg+ii[6]/confbiaschg)
                 tbias += ii[2]/tvoters
     top25.append([i[1], rating, adjrating,tbias])
 
@@ -277,21 +291,27 @@ for i in apgames:
     if i[0]==this_week:
         ateamrate = 55.
         hteamrate = 55.
-        for ii in top25:
+        top25game = False
+        for iidx,ii in enumerate(top25):
             if ii[0]==i[1][0]:
                 ateamrate = ii[1]
+                if iidx < 25:
+                    top25game = True
             if ii[0]==i[1][1]:
                 hteamrate = ii[1]
-        if hteamrate+2>ateamrate:
-            predoutcome = math.log(hteamrate+2-ateamrate+1)
-        else:
-            predoutcome = -1*math.log(-hteamrate-2+ateamrate+1)
-        if int(i[3][1])>int(i[3][0]):
-            actoutcome = math.log(1.+int(i[3][1])-int(i[3][0]))
-        else:
-            actoutcome = -1.*math.log(1.-int(i[3][1])+int(i[3][0]))
-        tse+=(predoutcome-actoutcome)**2
-        nse +=1
+                if iidx < 25:
+                    top25game = True
+        if top25game:
+            if hteamrate+2>ateamrate:
+                predoutcome = math.log(hteamrate+2-ateamrate+1)
+            else:
+                predoutcome = -1*math.log(-hteamrate-2+ateamrate+1)
+            if int(i[3][1])>int(i[3][0]):
+                actoutcome = math.log(1.+int(i[3][1])-int(i[3][0]))
+            else:
+                actoutcome = -1.*math.log(1.-int(i[3][1])+int(i[3][0]))
+            tse+=(predoutcome-actoutcome)**2
+            nse +=1
 print tse/nse,nse
 
 
@@ -301,21 +321,27 @@ for i in apgames:
     if i[0]==this_week:
         ateamrate = 55.
         hteamrate = 55.
-        for ii in top25:
+        top25game = False
+        for iidx,ii in enumerate(top25):
             if ii[0]==i[1][0]:
                 ateamrate = ii[2]
+                if iidx < 25:
+                    top25game = True
             if ii[0]==i[1][1]:
                 hteamrate = ii[2]
-        if hteamrate+2>ateamrate:
-            predoutcome = math.log(hteamrate+2-ateamrate+1)
-        else:
-            predoutcome = -1*math.log(-hteamrate-2+ateamrate+1)
-        if int(i[3][1])>int(i[3][0]):
-            actoutcome = math.log(1.+int(i[3][1])-int(i[3][0]))
-        else:
-            actoutcome = -1.*math.log(1.-int(i[3][1])+int(i[3][0]))
-        tse+=(predoutcome-actoutcome)**2
-        nse +=1
+                if iidx < 25:
+                    top25game = True
+        if top25game:
+            if hteamrate+2>ateamrate:
+                predoutcome = math.log(hteamrate+2-ateamrate+1)
+            else:
+                predoutcome = -1*math.log(-hteamrate-2+ateamrate+1)
+            if int(i[3][1])>int(i[3][0]):
+                actoutcome = math.log(1.+int(i[3][1])-int(i[3][0]))
+            else:
+                actoutcome = -1.*math.log(1.-int(i[3][1])+int(i[3][0]))
+            tse+=(predoutcome-actoutcome)**2
+            nse +=1
 print tse/nse,nse
 
 
