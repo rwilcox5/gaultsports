@@ -46,7 +46,7 @@ def readcsva(filen):
 
 def getvoters(driver):
 
-    b_url = "http://collegefootball.ap.org/poll"
+    b_url = "https://collegefootball.ap.org/poll"
     allhrefs = []
     driver.get(b_url)
     time.sleep(1)
@@ -56,12 +56,14 @@ def getvoters(driver):
     allvoters = voterMenu.find_elements_by_tag_name('a')
     for voter in allvoters:
         print voter.get_attribute('href')
-        allhrefs.append(voter.get_attribute('href'))
+        allhrefs.append(str(voter.get_attribute('href')).replace('http:','https:'))
     return allhrefs
 
 def getvotes(b_url):
-    driver = webdriver.Chrome()
-    allvotes = [b_url]
+    chrome_options = Options()
+    chrome_options.add_argument("--disable-javascript")
+    driver = webdriver.Chrome(chrome_options=chrome_options)
+    allvotes = [b_url[b_url.find('voter/')+6:]]
     time.sleep(1)
     driver.get(b_url)
     time.sleep(1)
@@ -80,11 +82,13 @@ def getvotes(b_url):
 
 import sys
 weekn = str(sys.argv[1])
-driver = webdriver.Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--disable-javascript")
+driver = webdriver.Chrome(chrome_options=chrome_options)
 allvoters = getvoters(driver)
 allvotes = []
 driver.close()
-for voter in allvoters[0:]:
+for voter in allvoters[9:]:
     try:
         allvotes = getvotes(voter)
         writecsv([allvotes],'week'+weekn+'temp.csv')

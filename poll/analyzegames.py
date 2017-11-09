@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 nteams = 130
-this_week = sys.argv[1]
+this_week = int(sys.argv[1])
 
 def writecsv(parr, filen):
         with open(filen, 'ab') as csvfile:
@@ -67,6 +67,7 @@ def genbias(voter,this_week,apmassey,apgames):
             if ii[0]==voter:
                 voterranks = getranking(ii[1:],i)
                 allranks.append(voterranks)
+
 
     teambias = []
     for i in apmassey:
@@ -177,6 +178,17 @@ for game in allgames:
             week = 9
         elif date < 32:
             week = 10
+    elif month=='Nov':
+        if date < 5:
+            week= 10
+        elif date < 12:
+            week = 11
+        elif date < 19:
+            week = 12
+        elif date < 26:
+            week = 13
+        elif date < 32:
+            week = 14
     ateam = 'FCS'
     aconf = 'FCS'
     hteam = 'FCS'

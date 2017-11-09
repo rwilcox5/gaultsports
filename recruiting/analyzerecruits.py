@@ -23,6 +23,13 @@ def writecsv(parr, filen):
                         except:
                                 print parr[i], i
 
+def readcsv(filen):
+        allgamesa  =[]
+        with open(filen, 'rb') as csvfile:
+                spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
+                for row in spamreader:
+                        allgamesa.append(row)
+        return allgamesa
 
 #print allplayers[0]
 def minforstars(nstars):
@@ -217,20 +224,35 @@ while unsorted:
             tteams[i+1]=holdt
             unsorted = True
 
-
+conflist = readcsv('conflist.csv')
+confconv = [['acc','ACC'],['big10','Big 10'],['big12','Big 12'],['pac12','Pac 12'],['sec','SEC'],['sbelt','Sun Belt'],['ia','Ind.'],['mwest','M. West'],['midam','MAC'],['aac','American'],['wac','WAC'],['cusa','Conf USA']]
+for i in range(0,len(conflist)):
+    for ii in confconv:
+        if ii[0]==conflist[i][1]:
+            conflist[i][1]=ii[1]
 teamstr = "teams = ['Heading','"
 confstr = "conferences = ['Heading','"
 commitstr = "commits = ['Heading',"
 ratingstr = "ratings = ['Heading',"
 for i in range(0,99):
     teamstr +=tteams[i][0]+"','"
-    confstr += 'SEC'+"','"
+    confname = 'FCS'
+    for ii in conflist:
+        if ii[0]==tteams[i][0]:
+            confname = ii[1]
+    confstr += confname+"','"
+    if confname=='':
+        print tteams[i][0]
     commitstr += str(tteams[i][2]) +","
     ratingstr += str(int(tteams[i][1]))+","
 
 i = 99
 teamstr +=tteams[i][0]+"'];"
-confstr += 'SEC'+"'];"
+confname = 'FCS'
+for ii in conflist:
+    if ii[0]==tteams[i][0]:
+        confname = ii[1]
+confstr += confname+"'];"
 commitstr += str(tteams[i][2]) +"];"
 ratingstr += str(int(tteams[i][1]))+"];"
 print teamstr
