@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
+  <gnm:Version Epoch="1" Major="12" Minor="28" Full="1.12.28"/>
+  <gnm:Attributes>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_vertical_scrollbar</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::show_notebook_tabs</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::do_auto_completion</gnm:name>
+      <gnm:value>TRUE</gnm:value>
+    </gnm:Attribute>
+    <gnm:Attribute>
+      <gnm:name>WorkbookView::is_protected</gnm:name>
+      <gnm:value>FALSE</gnm:value>
+    </gnm:Attribute>
+  </gnm:Attributes>
+  <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
+    <office:meta>
+      <dc:date>2017-10-04T15:17:17Z</dc:date>
+      <meta:creation-date>2017-10-04T15:05:07Z</meta:creation-date>
+    </office:meta>
+  </office:document-meta>
+  <gnm:Calculation ManualRecalc="0" EnableIteration="1" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
+  <gnm:SheetNameIndex>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">aplist.csv</gnm:SheetName>
+  </gnm:SheetNameIndex>
+  <gnm:Geometry Width="1440" Height="612"/>
+  <gnm:Sheets>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>aplist.csv</gnm:Name>
+      <gnm:MaxCol>5</gnm:MaxCol>
+      <gnm:MaxRow>133</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Names>
+        <gnm:Name>
+          <gnm:name>Print_Area</gnm:name>
+          <gnm:value>#REF!</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+        <gnm:Name>
+          <gnm:name>Sheet_Title</gnm:name>
+          <gnm:value>&quot;aplist.csv&quot;</gnm:value>
+          <gnm:position>A1</gnm:position>
+        </gnm:Name>
+      </gnm:Names>
+      <gnm:PrintInformation>
+        <gnm:Margins>
+          <gnm:top Points="120" PrefUnit="mm"/>
+          <gnm:bottom Points="120" PrefUnit="mm"/>
+          <gnm:left Points="72" PrefUnit="mm"/>
+          <gnm:right Points="72" PrefUnit="mm"/>
+          <gnm:header Points="72" PrefUnit="mm"/>
+          <gnm:footer Points="72" PrefUnit="mm"/>
+        </gnm:Margins>
+        <gnm:Scale type="percentage" percentage="100"/>
+        <gnm:vcenter value="0"/>
+        <gnm:hcenter value="0"/>
+        <gnm:grid value="0"/>
+        <gnm:even_if_only_styles value="0"/>
+        <gnm:monochrome value="0"/>
+        <gnm:draft value="0"/>
+        <gnm:titles value="0"/>
+        <gnm:do_not_print value="0"/>
+        <gnm:print_range value="GNM_PRINT_ACTIVE_SHEET"/>
+        <gnm:order>d_then_r</gnm:order>
+        <gnm:orientation>portrait</gnm:orientation>
+        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
+        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
+        <gnm:paper>na_letter</gnm:paper>
+        <gnm:comments placement="GNM_PRINT_COMMENTS_IN_PLACE"/>
+        <gnm:errors PrintErrorsAs="GNM_PRINT_ERRORS_AS_DISPLAYED"/>
+      </gnm:PrintInformation>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="1" endRow="65531">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="65532" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="0" endCol="4" endRow="65531">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="0" endCol="255" endRow="65531">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48">
+        <gnm:ColInfo No="0" Unit="90" HardSize="1"/>
+        <gnm:ColInfo No="1" Unit="96.75" HardSize="1"/>
+        <gnm:ColInfo No="4" Unit="174" HardSize="1"/>
+      </gnm:Cols>
+      <gnm:Rows DefaultSizePts="12.75"/>
+      <gnm:Selections CursorCol="3" CursorRow="0">
+        <gnm:Selection startCol="3" startRow="0" endCol="10" endRow="65535"/>
+      </gnm:Selections>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">boston-college</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="40">103</gnm:Cell>
+        <gnm:Cell Row="1" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="1" Col="1" ValueType="60">clemson</gnm:Cell>
+        <gnm:Cell Row="1" Col="2" ValueType="40">228</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="60">duke</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="40">150</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">florida-state</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="40">52</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="60">georgia-tech</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="40">59</gnm:Cell>
+        <gnm:Cell Row="5" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="5" Col="1" ValueType="60">louisville</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="40">97</gnm:Cell>
+        <gnm:Cell Row="6" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="6" Col="1" ValueType="60">miami-fl</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="40">2390</gnm:Cell>
+        <gnm:Cell Row="7" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="60">north-carolina</gnm:Cell>
+        <gnm:Cell Row="7" Col="2" ValueType="40">153</gnm:Cell>
+        <gnm:Cell Row="8" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="8" Col="1" ValueType="60">north-carolina-state</gnm:Cell>
+        <gnm:Cell Row="8" Col="2" ValueType="40">152</gnm:Cell>
+        <gnm:Cell Row="9" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="9" Col="1" ValueType="60">pittsburgh</gnm:Cell>
+        <gnm:Cell Row="9" Col="2" ValueType="40">221</gnm:Cell>
+        <gnm:Cell Row="10" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="10" Col="1" ValueType="60">syracuse</gnm:Cell>
+        <gnm:Cell Row="10" Col="2" ValueType="40">183</gnm:Cell>
+        <gnm:Cell Row="11" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="11" Col="1" ValueType="60">virginia</gnm:Cell>
+        <gnm:Cell Row="11" Col="2" ValueType="40">258</gnm:Cell>
+        <gnm:Cell Row="12" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="12" Col="1" ValueType="60">virginia-tech</gnm:Cell>
+        <gnm:Cell Row="12" Col="2" ValueType="40">259</gnm:Cell>
+        <gnm:Cell Row="13" Col="0" ValueType="60">ACC</gnm:Cell>
+        <gnm:Cell Row="13" Col="1" ValueType="60">wake-forest</gnm:Cell>
+        <gnm:Cell Row="13" Col="2" ValueType="40">154</gnm:Cell>
+        <gnm:Cell Row="14" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="14" Col="1" ValueType="60">baylor</gnm:Cell>
+        <gnm:Cell Row="14" Col="2" ValueType="40">239</gnm:Cell>
+        <gnm:Cell Row="15" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="15" Col="1" ValueType="60">iowa-state</gnm:Cell>
+        <gnm:Cell Row="15" Col="2" ValueType="40">66</gnm:Cell>
+        <gnm:Cell Row="16" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="16" Col="1" ValueType="60">kansas</gnm:Cell>
+        <gnm:Cell Row="16" Col="2" ValueType="40">2305</gnm:Cell>
+        <gnm:Cell Row="17" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="17" Col="1" ValueType="60">kansas-state</gnm:Cell>
+        <gnm:Cell Row="17" Col="2" ValueType="40">2306</gnm:Cell>
+        <gnm:Cell Row="18" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="18" Col="1" ValueType="60">oklahoma</gnm:Cell>
+        <gnm:Cell Row="18" Col="2" ValueType="40">201</gnm:Cell>
+        <gnm:Cell Row="19" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="19" Col="1" ValueType="60">oklahoma-state</gnm:Cell>
+        <gnm:Cell Row="19" Col="2" ValueType="40">197</gnm:Cell>
+        <gnm:Cell Row="20" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="20" Col="1" ValueType="60">tcu</gnm:Cell>
+        <gnm:Cell Row="20" Col="2" ValueType="40">2628</gnm:Cell>
+        <gnm:Cell Row="21" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="21" Col="1" ValueType="60">texas</gnm:Cell>
+        <gnm:Cell Row="21" Col="2" ValueType="40">251</gnm:Cell>
+        <gnm:Cell Row="22" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="22" Col="1" ValueType="60">texas-tech</gnm:Cell>
+        <gnm:Cell Row="22" Col="2" ValueType="40">2641</gnm:Cell>
+        <gnm:Cell Row="23" Col="0" ValueType="60">Big 12</gnm:Cell>
+        <gnm:Cell Row="23" Col="1" ValueType="60">west-virginia</gnm:Cell>
+        <gnm:Cell Row="23" Col="2" ValueType="40">277</gnm:Cell>
+        <gnm:Cell Row="24" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="24" Col="1" ValueType="60">illinois</gnm:Cell>
+        <gnm:Cell Row="24" Col="2" ValueType="40">356</gnm:Cell>
+        <gnm:Cell Row="25" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="25" Col="1" ValueType="60">indiana</gnm:Cell>
+        <gnm:Cell Row="25" Col="2" ValueType="40">84</gnm:Cell>
+        <gnm:Cell Row="26" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="26" Col="1" ValueType="60">iowa</gnm:Cell>
+        <gnm:Cell Row="26" Col="2" ValueType="40">2294</gnm:Cell>
+        <gnm:Cell Row="27" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="27" Col="1" ValueType="60">maryland</gnm:Cell>
+        <gnm:Cell Row="27" Col="2" ValueType="40">120</gnm:Cell>
+        <gnm:Cell Row="28" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="28" Col="1" ValueType="60">michigan</gnm:Cell>
+        <gnm:Cell Row="28" Col="2" ValueType="40">130</gnm:Cell>
+        <gnm:Cell Row="29" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="29" Col="1" ValueType="60">michigan-state</gnm:Cell>
+        <gnm:Cell Row="29" Col="2" ValueType="40">127</gnm:Cell>
+        <gnm:Cell Row="30" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="30" Col="1" ValueType="60">minnesota</gnm:Cell>
+        <gnm:Cell Row="30" Col="2" ValueType="40">135</gnm:Cell>
+        <gnm:Cell Row="31" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="31" Col="1" ValueType="60">nebraska</gnm:Cell>
+        <gnm:Cell Row="31" Col="2" ValueType="40">158</gnm:Cell>
+        <gnm:Cell Row="32" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="32" Col="1" ValueType="60">northwestern</gnm:Cell>
+        <gnm:Cell Row="32" Col="2" ValueType="40">77</gnm:Cell>
+        <gnm:Cell Row="33" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="33" Col="1" ValueType="60">ohio-state</gnm:Cell>
+        <gnm:Cell Row="33" Col="2" ValueType="40">194</gnm:Cell>
+        <gnm:Cell Row="34" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="34" Col="1" ValueType="60">penn-state</gnm:Cell>
+        <gnm:Cell Row="34" Col="2" ValueType="40">213</gnm:Cell>
+        <gnm:Cell Row="35" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="35" Col="1" ValueType="60">purdue</gnm:Cell>
+        <gnm:Cell Row="35" Col="2" ValueType="40">2509</gnm:Cell>
+        <gnm:Cell Row="36" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="36" Col="1" ValueType="60">rutgers</gnm:Cell>
+        <gnm:Cell Row="36" Col="2" ValueType="40">164</gnm:Cell>
+        <gnm:Cell Row="37" Col="0" ValueType="60">Big Ten</gnm:Cell>
+        <gnm:Cell Row="37" Col="1" ValueType="60">wisconsin</gnm:Cell>
+        <gnm:Cell Row="37" Col="2" ValueType="40">275</gnm:Cell>
+        <gnm:Cell Row="38" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="38" Col="1" ValueType="60">fiu</gnm:Cell>
+        <gnm:Cell Row="38" Col="2" ValueType="40">2229</gnm:Cell>
+        <gnm:Cell Row="39" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="39" Col="1" ValueType="60">florida-atlantic</gnm:Cell>
+        <gnm:Cell Row="39" Col="2" ValueType="40">2226</gnm:Cell>
+        <gnm:Cell Row="40" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="40" Col="1" ValueType="60">louisiana-tech</gnm:Cell>
+        <gnm:Cell Row="40" Col="2" ValueType="40">2348</gnm:Cell>
+        <gnm:Cell Row="41" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="41" Col="1" ValueType="60">marshall</gnm:Cell>
+        <gnm:Cell Row="41" Col="2" ValueType="40">276</gnm:Cell>
+        <gnm:Cell Row="42" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="42" Col="1" ValueType="60">middle-tennessee</gnm:Cell>
+        <gnm:Cell Row="42" Col="2" ValueType="40">2393</gnm:Cell>
+        <gnm:Cell Row="43" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="43" Col="1" ValueType="60">north-texas</gnm:Cell>
+        <gnm:Cell Row="43" Col="2" ValueType="40">249</gnm:Cell>
+        <gnm:Cell Row="44" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="44" Col="1" ValueType="60">old-dominion</gnm:Cell>
+        <gnm:Cell Row="44" Col="2" ValueType="40">295</gnm:Cell>
+        <gnm:Cell Row="45" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="45" Col="1" ValueType="60">rice</gnm:Cell>
+        <gnm:Cell Row="45" Col="2" ValueType="40">242</gnm:Cell>
+        <gnm:Cell Row="46" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="46" Col="1" ValueType="60">southern-miss</gnm:Cell>
+        <gnm:Cell Row="46" Col="2" ValueType="40">2567</gnm:Cell>
+        <gnm:Cell Row="47" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="47" Col="1" ValueType="60">utep</gnm:Cell>
+        <gnm:Cell Row="47" Col="2" ValueType="40">2638</gnm:Cell>
+        <gnm:Cell Row="48" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="48" Col="1" ValueType="60">utsa</gnm:Cell>
+        <gnm:Cell Row="48" Col="2" ValueType="40">2636</gnm:Cell>
+        <gnm:Cell Row="49" Col="0" ValueType="60">Conference USA</gnm:Cell>
+        <gnm:Cell Row="49" Col="1" ValueType="60">western-kentucky</gnm:Cell>
+        <gnm:Cell Row="49" Col="2" ValueType="40">98</gnm:Cell>
+        <gnm:Cell Row="50" Col="0" ValueType="60">Division I FBS Independents</gnm:Cell>
+        <gnm:Cell Row="50" Col="1" ValueType="60">army</gnm:Cell>
+        <gnm:Cell Row="50" Col="2" ValueType="40">349</gnm:Cell>
+        <gnm:Cell Row="51" Col="0" ValueType="60">Division I FBS Independents</gnm:Cell>
+        <gnm:Cell Row="51" Col="1" ValueType="60">brigham-young</gnm:Cell>
+        <gnm:Cell Row="51" Col="2" ValueType="40">252</gnm:Cell>
+        <gnm:Cell Row="52" Col="0" ValueType="60">Division I FBS Independents</gnm:Cell>
+        <gnm:Cell Row="52" Col="1" ValueType="60">charlotte</gnm:Cell>
+        <gnm:Cell Row="52" Col="2" ValueType="40">2429</gnm:Cell>
+        <gnm:Cell Row="53" Col="0" ValueType="60">Division I FBS Independents</gnm:Cell>
+        <gnm:Cell Row="53" Col="1" ValueType="60">notre-dame</gnm:Cell>
+        <gnm:Cell Row="53" Col="2" ValueType="40">87</gnm:Cell>
+        <gnm:Cell Row="54" Col="0" ValueType="60">Division I FBS Independents</gnm:Cell>
+        <gnm:Cell Row="54" Col="1" ValueType="60">ua-birmingham</gnm:Cell>
+        <gnm:Cell Row="54" Col="2" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="55" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="55" Col="1" ValueType="60">akron</gnm:Cell>
+        <gnm:Cell Row="55" Col="2" ValueType="40">2006</gnm:Cell>
+        <gnm:Cell Row="56" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="56" Col="1" ValueType="60">ball-state</gnm:Cell>
+        <gnm:Cell Row="56" Col="2" ValueType="40">2050</gnm:Cell>
+        <gnm:Cell Row="57" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="57" Col="1" ValueType="60">bowling-green</gnm:Cell>
+        <gnm:Cell Row="57" Col="2" ValueType="40">189</gnm:Cell>
+        <gnm:Cell Row="58" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="58" Col="1" ValueType="60">buffalo</gnm:Cell>
+        <gnm:Cell Row="58" Col="2" ValueType="40">2084</gnm:Cell>
+        <gnm:Cell Row="59" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="59" Col="1" ValueType="60">central-michigan</gnm:Cell>
+        <gnm:Cell Row="59" Col="2" ValueType="40">2117</gnm:Cell>
+        <gnm:Cell Row="60" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="60" Col="1" ValueType="60">eastern-michigan</gnm:Cell>
+        <gnm:Cell Row="60" Col="2" ValueType="40">2199</gnm:Cell>
+        <gnm:Cell Row="61" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="61" Col="1" ValueType="60">kent-state</gnm:Cell>
+        <gnm:Cell Row="61" Col="2" ValueType="40">2309</gnm:Cell>
+        <gnm:Cell Row="62" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="62" Col="1" ValueType="60">massachusetts</gnm:Cell>
+        <gnm:Cell Row="62" Col="2" ValueType="40">113</gnm:Cell>
+        <gnm:Cell Row="63" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="63" Col="1" ValueType="60">miami-ohio</gnm:Cell>
+        <gnm:Cell Row="63" Col="2" ValueType="40">193</gnm:Cell>
+        <gnm:Cell Row="64" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="64" Col="1" ValueType="60">northern-illinois</gnm:Cell>
+        <gnm:Cell Row="64" Col="2" ValueType="40">2459</gnm:Cell>
+        <gnm:Cell Row="65" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="65" Col="1" ValueType="60">ohio</gnm:Cell>
+        <gnm:Cell Row="65" Col="2" ValueType="40">195</gnm:Cell>
+        <gnm:Cell Row="66" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="66" Col="1" ValueType="60">toledo</gnm:Cell>
+        <gnm:Cell Row="66" Col="2" ValueType="40">2649</gnm:Cell>
+        <gnm:Cell Row="67" Col="0" ValueType="60">Mid-American</gnm:Cell>
+        <gnm:Cell Row="67" Col="1" ValueType="60">western-michigan</gnm:Cell>
+        <gnm:Cell Row="67" Col="2" ValueType="40">2711</gnm:Cell>
+        <gnm:Cell Row="68" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="68" Col="1" ValueType="60">air-force</gnm:Cell>
+        <gnm:Cell Row="68" Col="2" ValueType="40">2005</gnm:Cell>
+        <gnm:Cell Row="69" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="69" Col="1" ValueType="60">boise-state</gnm:Cell>
+        <gnm:Cell Row="69" Col="2" ValueType="40">68</gnm:Cell>
+        <gnm:Cell Row="70" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="70" Col="1" ValueType="60">colorado-state</gnm:Cell>
+        <gnm:Cell Row="70" Col="2" ValueType="40">36</gnm:Cell>
+        <gnm:Cell Row="71" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="71" Col="1" ValueType="60">fresno-state</gnm:Cell>
+        <gnm:Cell Row="71" Col="2" ValueType="40">278</gnm:Cell>
+        <gnm:Cell Row="72" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="72" Col="1" ValueType="60">hawaii</gnm:Cell>
+        <gnm:Cell Row="72" Col="2" ValueType="40">62</gnm:Cell>
+        <gnm:Cell Row="73" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="73" Col="1" ValueType="60">nevada</gnm:Cell>
+        <gnm:Cell Row="73" Col="2" ValueType="40">2440</gnm:Cell>
+        <gnm:Cell Row="74" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="74" Col="1" ValueType="60">new-mexico</gnm:Cell>
+        <gnm:Cell Row="74" Col="2" ValueType="40">167</gnm:Cell>
+        <gnm:Cell Row="75" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="75" Col="1" ValueType="60">san-diego-state</gnm:Cell>
+        <gnm:Cell Row="75" Col="2" ValueType="40">21</gnm:Cell>
+        <gnm:Cell Row="76" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="76" Col="1" ValueType="60">san-jose-state</gnm:Cell>
+        <gnm:Cell Row="76" Col="2" ValueType="40">23</gnm:Cell>
+        <gnm:Cell Row="77" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="77" Col="1" ValueType="60">unlv</gnm:Cell>
+        <gnm:Cell Row="77" Col="2" ValueType="40">2439</gnm:Cell>
+        <gnm:Cell Row="78" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="78" Col="1" ValueType="60">utah-state</gnm:Cell>
+        <gnm:Cell Row="78" Col="2" ValueType="40">328</gnm:Cell>
+        <gnm:Cell Row="79" Col="0" ValueType="60">Mountain West</gnm:Cell>
+        <gnm:Cell Row="79" Col="1" ValueType="60">wyoming</gnm:Cell>
+        <gnm:Cell Row="79" Col="2" ValueType="40">2751</gnm:Cell>
+        <gnm:Cell Row="80" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="80" Col="1" ValueType="60">arizona</gnm:Cell>
+        <gnm:Cell Row="80" Col="2" ValueType="40">12</gnm:Cell>
+        <gnm:Cell Row="81" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="81" Col="1" ValueType="60">arizona-state</gnm:Cell>
+        <gnm:Cell Row="81" Col="2" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="82" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="82" Col="1" ValueType="60">california</gnm:Cell>
+        <gnm:Cell Row="82" Col="2" ValueType="40">25</gnm:Cell>
+        <gnm:Cell Row="83" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="83" Col="1" ValueType="60">colorado</gnm:Cell>
+        <gnm:Cell Row="83" Col="2" ValueType="40">38</gnm:Cell>
+        <gnm:Cell Row="84" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="84" Col="1" ValueType="60">oregon</gnm:Cell>
+        <gnm:Cell Row="84" Col="2" ValueType="40">2483</gnm:Cell>
+        <gnm:Cell Row="85" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="85" Col="1" ValueType="60">oregon-state</gnm:Cell>
+        <gnm:Cell Row="85" Col="2" ValueType="40">204</gnm:Cell>
+        <gnm:Cell Row="86" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="86" Col="1" ValueType="60">stanford</gnm:Cell>
+        <gnm:Cell Row="86" Col="2" ValueType="40">24</gnm:Cell>
+        <gnm:Cell Row="87" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="87" Col="1" ValueType="60">ucla</gnm:Cell>
+        <gnm:Cell Row="87" Col="2" ValueType="40">26</gnm:Cell>
+        <gnm:Cell Row="88" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="88" Col="1" ValueType="60">usc</gnm:Cell>
+        <gnm:Cell Row="88" Col="2" ValueType="40">30</gnm:Cell>
+        <gnm:Cell Row="89" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="89" Col="1" ValueType="60">utah</gnm:Cell>
+        <gnm:Cell Row="89" Col="2" ValueType="40">254</gnm:Cell>
+        <gnm:Cell Row="90" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="90" Col="1" ValueType="60">washington</gnm:Cell>
+        <gnm:Cell Row="90" Col="2" ValueType="40">264</gnm:Cell>
+        <gnm:Cell Row="91" Col="0" ValueType="60">Pac-12</gnm:Cell>
+        <gnm:Cell Row="91" Col="1" ValueType="60">washington-state</gnm:Cell>
+        <gnm:Cell Row="91" Col="2" ValueType="40">265</gnm:Cell>
+        <gnm:Cell Row="92" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="92" Col="1" ValueType="60">alabama</gnm:Cell>
+        <gnm:Cell Row="92" Col="2" ValueType="40">333</gnm:Cell>
+        <gnm:Cell Row="93" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="93" Col="1" ValueType="60">arkansas</gnm:Cell>
+        <gnm:Cell Row="93" Col="2" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="94" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="94" Col="1" ValueType="60">auburn</gnm:Cell>
+        <gnm:Cell Row="94" Col="2" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="95" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="95" Col="1" ValueType="60">florida</gnm:Cell>
+        <gnm:Cell Row="95" Col="2" ValueType="40">57</gnm:Cell>
+        <gnm:Cell Row="96" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="96" Col="1" ValueType="60">georgia</gnm:Cell>
+        <gnm:Cell Row="96" Col="2" ValueType="40">61</gnm:Cell>
+        <gnm:Cell Row="97" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="97" Col="1" ValueType="60">kentucky</gnm:Cell>
+        <gnm:Cell Row="97" Col="2" ValueType="40">96</gnm:Cell>
+        <gnm:Cell Row="98" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="98" Col="1" ValueType="60">lsu</gnm:Cell>
+        <gnm:Cell Row="98" Col="2" ValueType="40">99</gnm:Cell>
+        <gnm:Cell Row="99" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="99" Col="1" ValueType="60">mississippi</gnm:Cell>
+        <gnm:Cell Row="99" Col="2" ValueType="40">145</gnm:Cell>
+        <gnm:Cell Row="100" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="100" Col="1" ValueType="60">mississippi-state</gnm:Cell>
+        <gnm:Cell Row="100" Col="2" ValueType="40">344</gnm:Cell>
+        <gnm:Cell Row="101" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="101" Col="1" ValueType="60">missouri</gnm:Cell>
+        <gnm:Cell Row="101" Col="2" ValueType="40">142</gnm:Cell>
+        <gnm:Cell Row="102" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="102" Col="1" ValueType="60">south-carolina</gnm:Cell>
+        <gnm:Cell Row="102" Col="2" ValueType="40">2579</gnm:Cell>
+        <gnm:Cell Row="103" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="103" Col="1" ValueType="60">tennessee</gnm:Cell>
+        <gnm:Cell Row="103" Col="2" ValueType="40">2633</gnm:Cell>
+        <gnm:Cell Row="104" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="104" Col="1" ValueType="60">texas-am</gnm:Cell>
+        <gnm:Cell Row="104" Col="2" ValueType="40">245</gnm:Cell>
+        <gnm:Cell Row="105" Col="0" ValueType="60">SEC</gnm:Cell>
+        <gnm:Cell Row="105" Col="1" ValueType="60">vanderbilt</gnm:Cell>
+        <gnm:Cell Row="105" Col="2" ValueType="40">238</gnm:Cell>
+        <gnm:Cell Row="106" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="106" Col="1" ValueType="60">appalachian-state</gnm:Cell>
+        <gnm:Cell Row="106" Col="2" ValueType="40">2026</gnm:Cell>
+        <gnm:Cell Row="107" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="107" Col="1" ValueType="60">arkansas-state</gnm:Cell>
+        <gnm:Cell Row="107" Col="2" ValueType="40">2032</gnm:Cell>
+        <gnm:Cell Row="108" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="108" Col="1" ValueType="60">coastal-carolina</gnm:Cell>
+        <gnm:Cell Row="108" Col="2" ValueType="40">324</gnm:Cell>
+        <gnm:Cell Row="109" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="109" Col="1" ValueType="60">georgia-southern</gnm:Cell>
+        <gnm:Cell Row="109" Col="2" ValueType="40">290</gnm:Cell>
+        <gnm:Cell Row="110" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="110" Col="1" ValueType="60">georgia-state</gnm:Cell>
+        <gnm:Cell Row="110" Col="2" ValueType="40">2247</gnm:Cell>
+        <gnm:Cell Row="111" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="111" Col="1" ValueType="60">idaho</gnm:Cell>
+        <gnm:Cell Row="111" Col="2" ValueType="40">70</gnm:Cell>
+        <gnm:Cell Row="112" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="112" Col="1" ValueType="60">louisiana-lafayette</gnm:Cell>
+        <gnm:Cell Row="112" Col="2" ValueType="40">309</gnm:Cell>
+        <gnm:Cell Row="113" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="113" Col="1" ValueType="60">louisiana-monroe</gnm:Cell>
+        <gnm:Cell Row="113" Col="2" ValueType="40">2433</gnm:Cell>
+        <gnm:Cell Row="114" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="114" Col="1" ValueType="60">new-mexico-state</gnm:Cell>
+        <gnm:Cell Row="114" Col="2" ValueType="40">166</gnm:Cell>
+        <gnm:Cell Row="115" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="115" Col="1" ValueType="60">south-alabama</gnm:Cell>
+        <gnm:Cell Row="115" Col="2" ValueType="40">6</gnm:Cell>
+        <gnm:Cell Row="116" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="116" Col="1" ValueType="60">texas-state</gnm:Cell>
+        <gnm:Cell Row="116" Col="2" ValueType="40">326</gnm:Cell>
+        <gnm:Cell Row="117" Col="0" ValueType="60">Sun Belt</gnm:Cell>
+        <gnm:Cell Row="117" Col="1" ValueType="60">troy</gnm:Cell>
+        <gnm:Cell Row="117" Col="2" ValueType="40">2653</gnm:Cell>
+        <gnm:Cell Row="118" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="118" Col="1" ValueType="60">cincinnati</gnm:Cell>
+        <gnm:Cell Row="118" Col="2" ValueType="40">2132</gnm:Cell>
+        <gnm:Cell Row="119" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="119" Col="1" ValueType="60">connecticut</gnm:Cell>
+        <gnm:Cell Row="119" Col="2" ValueType="40">41</gnm:Cell>
+        <gnm:Cell Row="120" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="120" Col="1" ValueType="60">east-carolina</gnm:Cell>
+        <gnm:Cell Row="120" Col="2" ValueType="40">151</gnm:Cell>
+        <gnm:Cell Row="121" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="121" Col="1" ValueType="60">houston</gnm:Cell>
+        <gnm:Cell Row="121" Col="2" ValueType="40">248</gnm:Cell>
+        <gnm:Cell Row="122" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="122" Col="1" ValueType="60">memphis</gnm:Cell>
+        <gnm:Cell Row="122" Col="2" ValueType="40">235</gnm:Cell>
+        <gnm:Cell Row="123" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="123" Col="1" ValueType="60">navy</gnm:Cell>
+        <gnm:Cell Row="123" Col="2" ValueType="40">2426</gnm:Cell>
+        <gnm:Cell Row="124" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="124" Col="1" ValueType="60">southern-methodist</gnm:Cell>
+        <gnm:Cell Row="124" Col="2" ValueType="40">2572</gnm:Cell>
+        <gnm:Cell Row="125" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="125" Col="1" ValueType="60">south-florida</gnm:Cell>
+        <gnm:Cell Row="125" Col="2" ValueType="40">58</gnm:Cell>
+        <gnm:Cell Row="126" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="126" Col="1" ValueType="60">temple</gnm:Cell>
+        <gnm:Cell Row="126" Col="2" ValueType="40">218</gnm:Cell>
+        <gnm:Cell Row="127" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="127" Col="1" ValueType="60">tulane</gnm:Cell>
+        <gnm:Cell Row="127" Col="2" ValueType="40">2655</gnm:Cell>
+        <gnm:Cell Row="128" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="128" Col="1" ValueType="60">tulsa</gnm:Cell>
+        <gnm:Cell Row="128" Col="2" ValueType="40">202</gnm:Cell>
+        <gnm:Cell Row="129" Col="0" ValueType="60">The American</gnm:Cell>
+        <gnm:Cell Row="129" Col="1" ValueType="60">ucf</gnm:Cell>
+        <gnm:Cell Row="129" Col="2" ValueType="40">2116</gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
+    </gnm:Sheet>
+  </gnm:Sheets>
+  <gnm:UIData SelectedTab="0"/>
+</gnm:Workbook>

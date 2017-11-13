@@ -6,8 +6,9 @@ import math
 import threading
 from threading import Thread
 from selenium import webdriver
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 def writecsv(parr, filen):
@@ -60,9 +61,7 @@ def getvoters(driver):
     return allhrefs
 
 def getvotes(b_url):
-    chrome_options = Options()
-    chrome_options.add_argument("--disable-javascript")
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+    driver = webdriver.PhantomJS()
     allvotes = [b_url[b_url.find('voter/')+6:]]
     time.sleep(1)
     driver.get(b_url)
@@ -82,13 +81,11 @@ def getvotes(b_url):
 
 import sys
 weekn = str(sys.argv[1])
-chrome_options = Options()
-chrome_options.add_argument("--disable-javascript")
-driver = webdriver.Chrome(chrome_options=chrome_options)
+driver = webdriver.PhantomJS()
 allvoters = getvoters(driver)
 allvotes = []
 driver.close()
-for voter in allvoters[9:]:
+for voter in allvoters[0:]:
     try:
         allvotes = getvotes(voter)
         writecsv([allvotes],'week'+weekn+'temp.csv')

@@ -6,9 +6,9 @@ import math
 import threading
 from threading import Thread
 from selenium import webdriver
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.chrome.options import Options
-
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 def writecsv(parr, filen):
         with open(filen, 'wb') as csvfile:
@@ -76,11 +76,6 @@ def getapteamsconfs(driver):
             pass
     return allteamarray
 
-#driver = webdriver.Chrome()
-#allteams = getapteamsconfs(driver)
-#writecsv(allteams,'aplist.csv')
-#driver.close()
-#print soto
 
 def getmasseyids(driver,b_url):
     
@@ -111,7 +106,7 @@ def getmasseyids(driver,b_url):
                 allteams.append([data_str[sindex+3:eindex], data_str[eeindex+1:eeeindex]])
     return allteams
 
-driver = webdriver.Chrome()
+driver = webdriver.PhantomJS()
 this_week = int(sys.argv[1])
 for week in range(0,this_week-1):
     b_url = "https://www.masseyratings.com/cf/arch/compare2017-"+str(week)+".htm"
@@ -130,7 +125,6 @@ def getteams(driver,with_names):
     driver.get(b_url)
     time.sleep(2)
     alltrs = driver.find_elements_by_class_name('standings-row')
-    print 
     for cell in alltrs:
         td = cell.find_element_by_tag_name('td')
         link = td.find_element_by_tag_name('a')
@@ -198,7 +192,7 @@ def getgames(teamid,driver):
 
 
 import sys
-driver = webdriver.Chrome()
+driver = webdriver.PhantomJS()
 allteams = getteams(driver,0)
 print len(allteams)
 
@@ -210,15 +204,32 @@ allvotes = []
 #print soto
 
 writecsv('','results.csv')
+getgamesyet = True
+teamagain = []
 for team in allteams:
-    print team
-    try:
-        allvotes = getgames(team,driver)
-        writecsva(allvotes,'results.csv')
-    except:
-        allvotes = getgames(team,driver)
-        writecsva(allvotes,'results.csv')
-
+    if getgamesyet:
+        try:
+            allvotes = getgames(team,driver)
+            writecsva(allvotes,'results.csv')
+        except:
+            teamagain.append(team)
+teamagain2 = []
+for team in teamagain:
+    if getgamesyet:
+        try:
+            allvotes = getgames(team,driver)
+            writecsva(allvotes,'results.csv')
+        except:
+            teamagain2.append(team)
+teamagain3 = []
+for team in teamagain2:
+    if getgamesyet:
+        try:
+            allvotes = getgames(team,driver)
+            writecsva(allvotes,'results.csv')
+        except:
+            teamagain3.append(team)
+print teamagain3
 driver.close()
 
 

@@ -259,3 +259,6 @@ print teamstr
 print confstr
 print commitstr
 print ratingstr
+f = open('helloworld.txt','w')
+f.write(teamstr+'\n'+confstr+'\n'+commitstr+'\n'+ratingstr)
+f.close()

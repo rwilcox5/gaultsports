@@ -15,14 +15,14 @@ checks for players that have been done and adds to files.
 
 combinerecruitdata.py combines all different recruits from threads into one csv.
 first parameter is the year.
-second parameter is the basefile-auto adds year and 1-5 stars to combine into base+year+done.csv.
+second parameter is the basefile-auto adds year to combine into base+year+done.csv.
 
 analyzerecruits.py generates rankings
 first parameter is the year.
 second parameter is the basefile-auto adds year to get base+year+done.csv.
-outputs to javascript arrays
+outputs to helloworld.txt
 
-
+Combined into updat-recruiting.sh in gaultsports
 
 
 

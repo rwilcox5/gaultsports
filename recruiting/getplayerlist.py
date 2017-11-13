@@ -9,13 +9,13 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 
-theyear = int(sys.argv[2])
 nstars = int(sys.argv[1])
-basefile = sys.argv[3]
+theyear = int(sys.argv[2])
+basefile = str(sys.argv[3])
 
 
 def writecsvstr(parr, filen):
-        with open(filen, 'ab') as csvfile:
+        with open(filen, 'wb') as csvfile:
                 spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
                 for i in range(0,len(parr)):
                         try:

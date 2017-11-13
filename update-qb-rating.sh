@@ -1,9 +1,8 @@
 #!/bin/bash
 cd nfl_scrape
+python getqbstats.py
+echo "got qb stats for 2017"
 python genstr.py
-cat helloworld.txt ../../gaultsports-site/nfl/custom-QB-rating-base.js > ../../gaultsports-site/nfl/custom-QB-rating.js
-cd ..
-cd ..
-cd gaultsports-site
-echo "update website"
-rsync -e "ssh -i /home/rwilcox/.ssh/cdn77_rsa" -va . user_ebh79y2z@push-24.cdn77.com:/www/
+cat helloworld.txt ../../gaultsports-site/nfl/base/custom-QB-rating-base.js > ../../gaultsports-site/nfl/custom-QB-rating.js
+
+

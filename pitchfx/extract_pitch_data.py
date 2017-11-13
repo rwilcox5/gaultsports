@@ -70,7 +70,7 @@ if int(pid) == 0:
                                         pidgamelist.append(i[0])
                 istr += str(pitcher_id)+','+str(tgames)+','
                 for pidgame in pidgamelist:
-                        iistr += str(pidgame[3:7])+','+str(pidgame[7:9])+','+str(pidgame[9:11])+','
+                        iistr += str(pidgame[3:7])+','+str(int(pidgame[7:9]))+','+str(int(pidgame[9:11]))+','
                         tgames+=1
                 istr += str(tgames)+','
                 for ii in allnamedata:
