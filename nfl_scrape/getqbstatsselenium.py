@@ -8,12 +8,7 @@ from threading import Thread
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
-import lxml
-from lxml import html
-from lxml import etree
-from io import StringIO, BytesIO
-from lxml.cssselect import CSSSelector
-import requests
+
 
 def readcsv(filen):
         allgamesa  =[]
@@ -89,31 +84,31 @@ def getqblist(driver):
        
     return allqbs
 
-def getgamedata(qb_id):
-    burl = "http://www.nfl.com/player/tombrady/"+str(qb_id)+"/gamelogs"
-    res = requests.get(burl)
-    doc = html.fromstring(res.content)
-    alltables = doc.find_class('data-table1')
+def getgamedata(driver,qb_id):
+    b_url = "http://www.nfl.com/player/tombrady/"+str(qb_id)+"/gamelogs"
+    driver.get(b_url)
+    time.sleep(2)
+    alltables = driver.find_elements_by_class_name('data-table1')
     allgames = []
-    for i in range(1,len(alltables)+1):
+    for data_table in alltables:
         season_type = 'Not'
-        all_cells = doc.xpath('//*[@id="player_profile_tabs_0"]/table['+str(i)+']/thead/tr[1]//td')
+        all_cells = data_table.find_elements_by_tag_name('td')
         for cell in all_cells:
-            if cell.text_content()=='Preseason':
+            if cell.get_attribute('innerHTML')=='Preseason':
                 season_type = 'Pre'
-            if cell.text_content()=='Regular Season':
+            if cell.get_attribute('innerHTML')=='Regular Season':
                 season_type = 'Reg'
-            if cell.text_content()=='Postseason':
+            if cell.get_attribute('innerHTML')=='Postseason':
                 season_type = 'Post'
-
         if season_type != 'Not':
-            all_rows = doc.xpath('//*[@id="player_profile_tabs_0"]/table['+str(i)+']/tbody//tr')
-            for ii in range(0,len(all_rows)+1):
-                all_cells = doc.xpath('//*[@id="player_profile_tabs_0"]/table['+str(i)+']/tbody/tr['+str(ii)+']//td')
+            table_body = data_table.find_element_by_tag_name('tbody')
+            all_rows = table_body.find_elements_by_tag_name('tr')
+            for row in all_rows:
+                all_cells = row.find_elements_by_tag_name('td')
                 if len(all_cells)==22:
-                    oppname = str(doc.xpath('//*[@id="player_profile_tabs_0"]/table['+str(i)+']/tbody/tr['+str(ii)+']/td[3]//a')[-1].attrib['href'])
+                    oppname = str(all_cells[2].find_elements_by_tag_name('a')[-1].get_attribute('href'))
                     oppname = oppname[oppname.find('=')+1:]
-                    allgames.append([qb_id,season_type,str(all_cells[0].text_content()),str(all_cells[1].text_content()),oppname,str(all_cells[6].text_content()),str(all_cells[7].text_content()),str(all_cells[9].text_content()),str(all_cells[11].text_content()),str(all_cells[12].text_content())])
+                    allgames.append([qb_id,season_type,str(all_cells[0].get_attribute('innerHTML')),str(all_cells[1].get_attribute('innerHTML')),oppname,str(all_cells[6].get_attribute('innerHTML')),str(all_cells[7].get_attribute('innerHTML')),str(all_cells[9].get_attribute('innerHTML')),str(all_cells[11].get_attribute('innerHTML')),str(all_cells[12].get_attribute('innerHTML'))])
 
     return allgames
 
@@ -125,11 +120,11 @@ def getgamedata(qb_id):
 driver = webdriver.Chrome()
 allqbs = getqblist(driver)
 print allqbs
-driver.close()
+
 writecsv([],"qbgames2017.csv")
 for qb_id in allqbs:
     print qb_id
-    allgames = getgamedata(qb_id)
+    allgames = getgamedata(driver,qb_id)
     writecsva(allgames,"qbgames2017.csv")
-
+driver.close()
 

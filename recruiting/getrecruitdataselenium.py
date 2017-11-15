@@ -5,12 +5,10 @@ import csv
 import math
 import threading
 from threading import Thread
-import lxml
-from lxml import html
-from lxml import etree
-from io import StringIO, BytesIO
-from lxml.cssselect import CSSSelector
-import requests
+from selenium import webdriver
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.chrome.options import Options
+
 theyear = int(sys.argv[1])
 basefile = sys.argv[2]
 nthreads = 5
@@ -44,40 +42,44 @@ def writecsvstr(parr, filen):
 
 
 
-def getreclist(linkurl,allsl,pstars):
+def getreclist(driver,linkurl,allsl,pstars):
     burl = ""
     for i in linkurl:
         burl=burl+i
     plist = []
-    res = requests.get(burl)
-    doc = html.fromstring(res.content)
-    schoollink= [burl,str(theyear),pstars]
-    allrows = doc.xpath('//*[@id="college_choices"]//tr')
-    for i in range(1,len(allrows)+1):
-            alltds = doc.xpath('//*[@id="college_choices"]/tbody/tr['+str(i)+']//td')
+    driver.get(burl)
+    getcollegetable = driver.find_element_by_id("college_choices")
 
-            yt = alltds[0].text_content().replace('\n','')
-            index = alltds[1].text_content().find('Committed',0)
+    getschools = getcollegetable.find_elements_by_tag_name("tr")
+    schoollink= [burl,str(theyear),pstars]
+
+    for ii in getschools[1:]:
+            
+            trow = ii.find_elements_by_tag_name("td")
+            yt = trow[0].text
+            toffer = trow[2].get_attribute("innerHTML")
+            index = trow[1].text.find('Committed',0)
             if index > -1:
                     schoollink.append(yt)
             else:
-                    index = alltds[1].text_content().find('Enrolled',0)
+                    index = trow[1].text.find('Enrolled',0)
                     if index > -1:
                             schoollink.append(yt)
                     else:
-                        index = alltds[1].text_content().find('Signed',0)
+                        index = trow[1].text.find('Signed',0)
                         if index > -1:
                                 schoollink.append(yt)
 
+
     #The losing schools
-    for i in range(1,len(allrows)+1):
-            alltds = doc.xpath('//*[@id="college_choices"]/tbody/tr['+str(i)+']//td')
-            yt = alltds[0].text_content().replace('\n','')
-            toffer = alltds[2].find_class('checkmark-gray')
-            if len(toffer) > 0:
-                    indexc = alltds[1].text_content().find('Committed',0)
-                    indexe = alltds[1].text_content().find('Enrolled',0)
-                    indexs = alltds[1].text_content().find('Signed',0)
+    for ii in getschools[1:]:
+            trow = ii.find_elements_by_tag_name("td")
+            yt = trow[0].text
+            toffer = trow[2].get_attribute("innerHTML")
+            if len(toffer) > 1:
+                    indexc = trow[1].text.find('Committed',0)
+                    indexe = trow[1].text.find('Enrolled',0)
+                    indexs = trow[1].text.find('Signed',0)
                     if indexc == -1 and indexe == -1 and indexs == -1:
                             schoollink.append(yt)
                             
@@ -119,7 +121,6 @@ allplayers = []
 for i in allplayersa:
         if i[0] not in playersdone:
                 allplayers.append(i)
-allplayers = allplayersa
 print len(allplayers)
 
 
@@ -128,21 +129,24 @@ def runthis(driver,ii):
         for iiii in allplayers[(lx/nthreads+1)*ii:min((lx/nthreads+1)*(1+ii),lx)]:
                 i = iiii[0]
                 try:
-                        allsl = getreclist(i,[],iiii[1])
+                        allsl = getreclist(driver,i,[],iiii[1])
                         writecsva(allsl,basefile+str(theyear)+'done'+str(ii)+".csv")
                 except:
-                        print 'BAD', i
                         break
                         
         print ii, "DONE"
+        driver.close()
 
-
-driver = [0,0,0,0,0]
+driver = []
 t = []
 
 for i in range(0,nthreads):
         t.append(0)
 
+        options = webdriver.ChromeOptions() 
+
+        driver.append(webdriver.Chrome(chrome_options=options))
+        driver[i].implicitly_wait(30)
         t[i] = Thread(target=runthis,args=(driver[i],i))
         t[i].start()
         print "TAC=", threading.active_count()

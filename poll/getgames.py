@@ -9,6 +9,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import lxml
+from lxml import html
+from lxml import etree
+from io import StringIO, BytesIO
+from lxml.cssselect import CSSSelector
+import requests
+
 
 def writecsv(parr, filen):
         with open(filen, 'wb') as csvfile:
@@ -138,45 +145,44 @@ def getteams(driver,with_names):
 
     return allhrefs
 
-def getgames(teamid,driver):
-    b_url = 'http://www.espn.com/college-football/team/schedule?id='+teamid+'&year=2017'
+def getgames(teamid):
+    burl = 'http://www.espn.com/college-football/team/schedule?id='+teamid+'&year=2017'
+    res = requests.get(burl)
+    doc = html.fromstring(res.content)
 
-    time.sleep(1)
-    driver.get(b_url)
 
-    time.sleep(1)
-    pollTable = driver.find_element_by_class_name('tablehead')
-    time.sleep(1)
-    voteTable = pollTable.find_elements_by_tag_name('tr')
+    voteTable = doc.xpath('//*[@id="showschedule"]/div/table//tr')
     allgames = []
-    for vote in voteTable[2:]:
-        try:
-            game = []
-            isheader = vote.find_elements_by_tag_name('td')
-            tname = isheader[1].find_element_by_class_name('team-name').find_element_by_tag_name('a').get_attribute('href')
-            sindex = tname.find('/id')
-            eindex = tname.find('/',sindex+4)
+    print teamid
+    for i in range(3,len(voteTable)+1):
 
-            
-            if str(isheader[1].find_element_by_class_name('game-status').get_attribute('innerHTML'))=='@':
-                game.append(teamid)
-                game.append(str(tname[sindex+4:eindex]))
-            else:
-                game.append(str(tname[sindex+4:eindex]))
-                game.append(teamid)
-            game.append(str(isheader[0].get_attribute('innerHTML')))
-            score_str = str(isheader[2].find_element_by_class_name('score').find_element_by_tag_name('a').get_attribute('innerHTML'))
+        game = []
+        isheader = doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']//td')
+        tname = doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']/td[2]//a')[0].attrib['href']
+        sindex = tname.find('/id')
+        eindex = tname.find('/',sindex+4)
+
+        
+        if str(isheader[1].find_class('game-status')[0].text_content())=='@':
+            game.append(teamid)
+            game.append(str(tname[sindex+4:eindex]))
+        else:
+            game.append(str(tname[sindex+4:eindex]))
+            game.append(teamid)
+        game.append(str(isheader[0].text_content()))
+        try:
+            score_str = str(doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']/td[3]//a')[0].text_content())
             dindex = score_str.find('-')
 
-            if str(isheader[1].find_element_by_class_name('game-status').get_attribute('innerHTML'))=='@':
-                if str(isheader[2].get_attribute('innerHTML')).find('redfont')>-1:
+            if str(isheader[1].find_class('game-status')[0].text_content())=='@':
+                if str(isheader[2].text_content()).find('L')>-1:
                     game.append(score_str[dindex+1:])
                     game.append(score_str[:dindex])
                 else:
                     game.append(score_str[:dindex])
                     game.append(score_str[dindex+1:])
             else:
-                if str(isheader[2].get_attribute('innerHTML')).find('redfont')==-1:
+                if str(isheader[2].text_content()).find('L')==-1:
                     game.append(score_str[dindex+1:])
                     game.append(score_str[:dindex])
                 else:
@@ -187,6 +193,7 @@ def getgames(teamid,driver):
         except:
             pass
 
+
     return allgames
 
 
@@ -195,7 +202,7 @@ import sys
 driver = webdriver.PhantomJS()
 allteams = getteams(driver,0)
 print len(allteams)
-
+driver.close()
 allvotes = []
 
 
@@ -209,7 +216,7 @@ teamagain = []
 for team in allteams:
     if getgamesyet:
         try:
-            allvotes = getgames(team,driver)
+            allvotes = getgames(team)
             writecsva(allvotes,'results.csv')
         except:
             teamagain.append(team)
@@ -217,7 +224,7 @@ teamagain2 = []
 for team in teamagain:
     if getgamesyet:
         try:
-            allvotes = getgames(team,driver)
+            allvotes = getgames(team)
             writecsva(allvotes,'results.csv')
         except:
             teamagain2.append(team)
@@ -225,12 +232,12 @@ teamagain3 = []
 for team in teamagain2:
     if getgamesyet:
         try:
-            allvotes = getgames(team,driver)
+            allvotes = getgames(team)
             writecsva(allvotes,'results.csv')
         except:
             teamagain3.append(team)
 print teamagain3
-driver.close()
+
 
 
 
