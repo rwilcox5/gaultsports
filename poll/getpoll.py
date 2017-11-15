@@ -88,10 +88,10 @@ driver.close()
 for voter in allvoters[0:]:
     try:
         allvotes = getvotes(voter)
-        writecsv([allvotes],'week'+weekn+'temp.csv')
+        writecsv([allvotes],'ap2017/week'+weekn+'temp.csv')
     except:
         allvotes = getvotes(voter)
-        writecsv([allvotes],'week'+weekn+'temp.csv')
+        writecsv([allvotes],'ap2017/week'+weekn+'temp.csv')
 driver.close()
 
 

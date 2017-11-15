@@ -118,10 +118,10 @@ this_week = int(sys.argv[1])
 for week in range(0,this_week-1):
     b_url = "https://www.masseyratings.com/cf/arch/compare2017-"+str(week)+".htm"
     allteams = getmasseyids(driver,b_url)
-    writecsv(allteams,'masseyweek'+str(week)+'.csv')
+    writecsv(allteams,'massey2017/masseyweek'+str(week)+'.csv')
 b_url = "https://www.masseyratings.com/cf/compare.htm"
 allteams = getmasseyids(driver,b_url)
-writecsv(allteams,'masseyweek'+str(this_week-1)+'.csv')
+writecsv(allteams,'massey2017/masseyweek'+str(this_week-1)+'.csv')
 driver.close()
 
 

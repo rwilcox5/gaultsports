@@ -34,7 +34,7 @@ apconvert = [["ACC","boston-college",103],["ACC","clemson",228],["ACC","duke",15
 apmassey = [["ACC","boston-college",783],["ACC","clemson",1603],["ACC","duke",2265],["ACC","florida-state",2666],["ACC","georgia-tech",2911],["ACC","louisville",4224],["ACC","miami-fl",4719],["ACC","north-carolina",5492],["ACC","north-carolina-state",5511],["ACC","pittsburgh",6236],["ACC","syracuse",7729],["ACC","virginia",8432],["ACC","virginia-tech",8459],["ACC","wake-forest",8508],["Big 12","baylor",557],["Big 12","iowa-state",3554],["Big 12","kansas",3717],["Big 12","kansas-state",3731],["Big 12","oklahoma",5886],["Big 12","oklahoma-state",5912],["Big 12","tcu",7878],["Big 12","texas",7840],["Big 12","texas-tech",7918],["Big 12","west-virginia",8716],["Big Ten","illinois",3425],["Big Ten","indiana",3484],["Big Ten","iowa",3540],["Big Ten","maryland",4474],["Big Ten","michigan",4741],["Big Ten","michigan-state",4757],["Big Ten","minnesota",4858],["Big Ten","nebraska",5279],["Big Ten","northwestern",5704],["Big Ten","ohio-state",5850],["Big Ten","penn-state",6114],["Big Ten","purdue",6393],["Big Ten","rutgers",6696],["Big Ten","wisconsin",9031],["Conference USA","fiu",2652],["Conference USA","florida-atlantic",2638],["Conference USA","louisiana-tech",4218],["Conference USA","marshall",4436],["Conference USA","middle-tennessee",4785],["Conference USA","north-texas",5584],["Conference USA","old-dominion",5925],["Conference USA","rice",6535],["Conference USA","southern-miss",7365],["Conference USA","utep",7933],["Conference USA","utsa",7900],["Conference USA","western-kentucky",8761],["Division I FBS Independents","army",356],["Division I FBS Independents","brigham-young",891],["Division I FBS Independents","charlotte",8156],["Division I FBS Independents","notre-dame",5749],["Division I FBS Independents","ua-birmingham",87],["Mid-American","akron",66],["Mid-American","ball-state",501],["Mid-American","bowling-green",821],["Mid-American","buffalo",979],["Mid-American","central-michigan",1404],["Mid-American","eastern-michigan",2353],["Mid-American","kent-state",3771],["Mid-American","massachusetts",4548],["Mid-American","miami-ohio",4725],["Mid-American","northern-illinois",5634],["Mid-American","ohio",5825],["Mid-American","toledo",7978],["Mid-American","western-michigan",8767],["Mountain West","air-force",55],["Mountain West","boise-state",771],["Mountain West","colorado-state",1753],["Mountain West","fresno-state",2776],["Mountain West","hawaii",3197],["Mountain West","nevada",5316],["Mountain West","new-mexico",5371],["Mountain West","san-diego-state",7002],["Mountain West","san-jose-state",7024],["Mountain West","unlv",5323],["Mountain West","utah-state",8325],["Mountain West","wyoming",9162],["Pac-12","arizona",294],["Pac-12","arizona-state",304],["Pac-12","california",1098],["Pac-12","colorado",1715],["Pac-12","oregon",5961],["Pac-12","oregon-state",5970],["Pac-12","stanford",7582],["Pac-12","ucla",8141],["Pac-12","usc",8251],["Pac-12","utah",8315],["Pac-12","washington",8551],["Pac-12","washington-state",8588],["SEC","alabama",74],["SEC","arkansas",316],["SEC","auburn",402],["SEC","florida",2625],["SEC","georgia",2881],["SEC","kentucky",3781],["SEC","lsu",4206],["SEC","mississippi",4920],["SEC","mississippi-state",4936],["SEC","missouri",4948],["SEC","south-carolina",7242],["SEC","tennessee",7801],["SEC","texas-am",7848],["SEC","vanderbilt",8367],["Sun Belt","appalachian-state",275],["Sun Belt","arkansas-state",333],["Sun Belt","coastal-carolina",1637],["Sun Belt","georgia-southern",2899],["Sun Belt","georgia-state",2907],["Sun Belt","idaho",3415],["Sun Belt","louisiana-lafayette",4194],["Sun Belt","louisiana-monroe",4200],["Sun Belt","new-mexico-state",5387],["Sun Belt","south-alabama",7237],["Sun Belt","texas-state",7911],["Sun Belt","troy",8068],["The American","cincinnati",1529],["The American","connecticut",1872],["The American","east-carolina",2292],["The American","houston",3347],["The American","memphis",4636],["The American","navy",5253],["The American","southern-methodist",7358],["The American","south-florida",7278],["The American","temple",7788],["The American","tulane",8092],["The American","tulsa",8099],["The American", "ucf",1380]]
 
 def getranking(voterranks,week):
-    masseyrankraw = readcsv('masseyweek'+str(week-1)+'.csv')
+    masseyrankraw = readcsv('massey2017/masseyweek'+str(week-1)+'.csv')
     masseyranks = []
     for i in range(0,nteams):
         masseyranks.append(int(masseyrankraw[i][0]))
@@ -62,7 +62,7 @@ def sse(x):
 def genbias(voter,this_week,apmassey,apgames):
     allranks = []
     for i in range(1,this_week+1):
-        allvotes = readcsv('week'+str(i)+'.csv')
+        allvotes = readcsv('ap2017/week'+str(i)+'.csv')
         for ii in allvotes:
             if ii[0]==voter:
                 voterranks = getranking(ii[1:],i)
@@ -219,12 +219,12 @@ for game in allgames:
         apgames.append([week,[ateam,hteam],[aconf,hconf],[game[4],game[5]],nsite])
 
 allvoters = []
-allvotes = readcsv('week1.csv')
+allvotes = readcsv('ap2017/week1.csv')
 for i in allvotes:
     allvoters.append(i[0])
 
 for i in range(2,this_week+1):
-    allvotes = readcsv('week'+str(i)+'.csv')
+    allvotes = readcsv('ap2017/week'+str(i)+'.csv')
     for ii in allvoters:
         voterin = False
         for iii in allvotes:

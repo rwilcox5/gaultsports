@@ -35,7 +35,7 @@ apmassey = [["ACC","boston-college",783],["ACC","clemson",1603],["ACC","duke",22
 nameconvert = [['boston-college', 'Boston College'], ['clemson', 'Clemson'], ['duke', 'Duke'], ['florida-state', 'Florida State'], ['georgia-tech', 'Georgia Tech'], ['louisville', 'Louisville'], ['miami-fl', 'Miami (FL)'], ['north-carolina', 'North Carolina'], ['north-carolina-state', 'North Carolina State'], ['pittsburgh', 'Pittsburgh'], ['syracuse', 'Syracuse'], ['virginia', 'Virginia'], ['virginia-tech', 'Virginia Tech'], ['wake-forest', 'Wake Forest'], ['baylor', 'Baylor'], ['iowa-state', 'Iowa State'], ['kansas', 'Kansas'], ['kansas-state', 'Kansas State'], ['oklahoma', 'Oklahoma'], ['oklahoma-state', 'Oklahoma State'], ['tcu', 'TCU'], ['texas', 'Texas'], ['texas-tech', 'Texas Tech'], ['west-virginia', 'West Virginia'], ['illinois', 'Illinois'], ['indiana', 'Indiana'], ['iowa', 'Iowa'], ['maryland', 'Maryland'], ['michigan', 'Michigan'], ['michigan-state', 'Michigan State'], ['minnesota', 'Minnesota'], ['nebraska', 'Nebraska'], ['northwestern', 'Northwestern'], ['ohio-state', 'Ohio State'], ['penn-state', 'Penn State'], ['purdue', 'Purdue'], ['rutgers', 'Rutgers'], ['wisconsin', 'Wisconsin'], ['fiu', 'FIU'], ['florida-atlantic', 'Florida Atlantic'], ['louisiana-tech', 'Louisiana Tech'], ['marshall', 'Marshall'], ['middle-tennessee', 'Middle Tennessee'], ['north-texas', 'North Texas'], ['old-dominion', 'Old Dominion'], ['rice', 'Rice'], ['southern-miss', 'Southern Miss'], ['utep', 'UTEP'], ['utsa', 'UTSA'], ['western-kentucky', 'Western Kentucky'], ['army', 'Army'], ['ua-birmingham', 'UA-Birmingham'], ['brigham-young', 'Brigham Young'], ['charlotte', 'Charlotte'], ['notre-dame', 'Notre Dame'], ['akron', 'Akron'], ['ball-state', 'Ball State'], ['bowling-green', 'Bowling Green'], ['buffalo', 'Buffalo'], ['central-michigan', 'Central Michigan'], ['eastern-michigan', 'Eastern Michigan'], ['kent-state', 'Kent State'], ['massachusetts', 'Massachusetts'], ['miami-ohio', 'Miami (Ohio)'], ['northern-illinois', 'Northern Illinois'], ['ohio', 'Ohio'], ['toledo', 'Toledo'], ['western-michigan', 'Western Michigan'], ['air-force', 'Air Force'], ['boise-state', 'Boise State'], ['colorado-state', 'Colorado State'], ['fresno-state', 'Fresno State'], ['hawaii', 'Hawaii'], ['nevada', 'Nevada'], ['new-mexico', 'New Mexico'], ['san-diego-state', 'San Diego State'], ['san-jose-state', 'San Jose State'], ['unlv', 'UNLV'], ['utah-state', 'Utah State'], ['wyoming', 'Wyoming'], ['arizona', 'Arizona'], ['arizona-state', 'Arizona State'], ['california', 'California'], ['colorado', 'Colorado'], ['oregon', 'Oregon'], ['oregon-state', 'Oregon State'], ['stanford', 'Stanford'], ['ucla', 'UCLA'], ['usc', 'USC'], ['utah', 'Utah'], ['washington', 'Washington'], ['washington-state', 'Washington State'], ['alabama', 'Alabama'], ['arkansas', 'Arkansas'], ['auburn', 'Auburn'], ['florida', 'Florida'], ['georgia', 'Georgia'], ['kentucky', 'Kentucky'], ['lsu', 'LSU'], ['mississippi', 'Mississippi'], ['mississippi-state', 'Mississippi State'], ['missouri', 'Missouri'], ['south-carolina', 'South Carolina'], ['tennessee', 'Tennessee'], ['texas-am', 'Texas A&amp;M'], ['vanderbilt', 'Vanderbilt'], ['appalachian-state', 'Appalachian State'], ['arkansas-state', 'Arkansas State'], ['coastal-carolina', 'Coastal Carolina'], ['georgia-southern', 'Georgia Southern'], ['georgia-state', 'Georgia State'], ['idaho', 'Idaho'], ['louisiana-lafayette', 'Louisiana-Lafayette'], ['new-mexico-state', 'New Mexico State'], ['louisiana-monroe', 'Louisiana-Monroe'], ['south-alabama', 'South Alabama'], ['texas-state', 'Texas State'], ['troy', 'Troy'], ['cincinnati', 'Cincinnati'], ['connecticut', 'Connecticut'], ['east-carolina', 'East Carolina'], ['houston', 'Houston'], ['navy', 'Navy'], ['memphis', 'Memphis'], ['southern-methodist', 'Southern Methodist'], ['south-florida', 'South Florida'], ['tulane', 'Tulane'], ['temple', 'Temple'], ['tulsa', 'Tulsa'], ['ucf', 'UCF'], ['north-dakota-state', 'North Dakota State'], ['alabama', 'Alabama'], ['penn-state', 'Penn State'], ['georgia', 'Georgia'], ['tcu', 'TCU'], ['wisconsin', 'Wisconsin'], ['ohio-state', 'Ohio State'], ['clemson', 'Clemson'], ['miami-fl', 'Miami (FL)'], ['notre-dame', 'Notre Dame'], ['oklahoma', 'Oklahoma']]
 
 def getranking(voterranks,week):
-    masseyrankraw = readcsv('masseyweek'+str(week-1)+'.csv')
+    masseyrankraw = readcsv('massey2017/masseyweek'+str(week-1)+'.csv')
     masseyranks = []
     for i in range(0,nteams):
         masseyranks.append(int(masseyrankraw[i][0]))
@@ -63,7 +63,7 @@ def sse(x):
 def genbias(voter,this_week,apmassey,apgames):
     allranks = []
     for i in range(1,this_week+1):
-        allvotes = readcsv('week'+str(i)+'.csv')
+        allvotes = readcsv('ap2017/week'+str(i)+'.csv')
         for ii in allvotes:
             if ii[0]==voter:
                 voterranks = getranking(ii[1:],i)
@@ -182,6 +182,17 @@ def createRank(my_week):
                 week = 9
             elif date < 32:
                 week = 10
+        elif month=='Nov':
+            if date < 5:
+                week= 10
+            elif date < 12:
+                week = 11
+            elif date < 19:
+                week = 12
+            elif date < 26:
+                week = 13
+            elif date < 32:
+                week = 14
         ateam = 'FCS'
         aconf = 'FCS'
         hteam = 'FCS'
@@ -212,12 +223,12 @@ def createRank(my_week):
             apgames.append([week,[ateam,hteam],[aconf,hconf],[game[4],game[5]],nsite])
 
     allvoters = []
-    allvotes = readcsv('week1.csv')
+    allvotes = readcsv('ap2017/week1.csv')
     for i in allvotes:
         allvoters.append(i[0])
 
     for i in range(2,my_week+1):
-        allvotes = readcsv('week'+str(i)+'.csv')
+        allvotes = readcsv('ap2017/week'+str(i)+'.csv')
         for ii in allvoters:
             voterin = False
             for iii in allvotes:
@@ -290,12 +301,12 @@ def createRank(my_week):
 
 def unbiasedRank(my_week):
     allvoters = []
-    allvotes = readcsv('week1.csv')
+    allvotes = readcsv('ap2017/week1.csv')
     for i in allvotes:
         allvoters.append(i[0])
 
     for i in range(2,my_week+1):
-        allvotes = readcsv('week'+str(i)+'.csv')
+        allvotes = readcsv('ap2017/week'+str(i)+'.csv')
         for ii in allvoters:
             voterin = False
             for iii in allvotes:
@@ -305,7 +316,7 @@ def unbiasedRank(my_week):
                 allvoters.remove(ii)
     allvoterdata = []
     for voter in allvoters:
-        allvotes = readcsv('week'+str(my_week)+'.csv')
+        allvotes = readcsv('ap2017/week'+str(my_week)+'.csv')
         for ii in allvotes:
             if ii[0]==voter:
                 voterranks = getranking(ii[1:],my_week)
