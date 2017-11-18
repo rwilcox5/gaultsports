@@ -41,9 +41,8 @@ def getranking(voterranks,week):
         masseyranks.append(int(masseyrankraw[i][0]))
     myrank = []
     for i in voterranks:
-        teamlink = str(i)
-        sindex = teamlink.find('/teams/')
-        team = teamlink[sindex+7:]
+        team = str(i)
+
         for ii in apmassey:
             if ii[1]==team:
                 masseyranks.remove(ii[2])
@@ -63,7 +62,7 @@ def sse(x):
 def genbias(voter,this_week,apmassey,apgames):
     allranks = []
     for i in range(1,this_week+1):
-        allvotes = readcsv('week'+str(i)+'.csv')
+        allvotes = readcsv('ap1718/week'+str(i)+'.csv')
         for ii in allvotes:
             if ii[0]==voter:
                 voterranks = getranking(ii[1:],i)
@@ -212,7 +211,7 @@ def createRank(my_week):
             apgames.append([week,[ateam,hteam],[aconf,hconf],[game[4],game[5]],nsite])
 
     allvoters = []
-    allvotes = readcsv('week1.csv')
+    allvotes = readcsv('ap1718/week1.csv')
     for i in allvotes:
         allvoters.append(i[0])
 
@@ -290,12 +289,12 @@ def createRank(my_week):
 
 def unbiasedRank(my_week):
     allvoters = []
-    allvotes = readcsv('week1.csv')
+    allvotes = readcsv('ap1718/week1.csv')
     for i in allvotes:
         allvoters.append(i[0])
 
     for i in range(2,my_week+1):
-        allvotes = readcsv('week'+str(i)+'.csv')
+        allvotes = readcsv('ap1718/week'+str(i)+'.csv')
         for ii in allvoters:
             voterin = False
             for iii in allvotes:
@@ -305,7 +304,7 @@ def unbiasedRank(my_week):
                 allvoters.remove(ii)
     allvoterdata = []
     for voter in allvoters:
-        allvotes = readcsv('week'+str(my_week)+'.csv')
+        allvotes = readcsv('ap1718/week'+str(my_week)+'.csv')
         for ii in allvotes:
             if ii[0]==voter:
                 voterranks = getranking(ii[1:],my_week)

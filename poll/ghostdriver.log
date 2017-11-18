@@ -1,21 +1,72 @@
-[INFO  - 2017-11-14T17:34:53.050Z] GhostDriver - Main - running on port 60120
-[INFO  - 2017-11-14T17:34:53.788Z] Session [1feec850-c962-11e7-9838-15ffb3e8d391] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-11-14T17:34:53.797Z] Session [1feec850-c962-11e7-9838-15ffb3e8d391] - page.customHeaders:  - {}
-[INFO  - 2017-11-14T17:34:53.797Z] Session [1feec850-c962-11e7-9838-15ffb3e8d391] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-11-14T17:34:53.797Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1feec850-c962-11e7-9838-15ffb3e8d391
-[ERROR - 2017-11-14T17:34:58.057Z] Session [1feec850-c962-11e7-9838-15ffb3e8d391] - page.onError - msg: [OneID] [%s]:  ERROR Already initialized
+[INFO  - 2017-11-16T16:13:19.590Z] GhostDriver - Main - running on port 49340
+[INFO  - 2017-11-16T16:13:20.228Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-11-16T16:13:20.228Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.customHeaders:  - {}
+[INFO  - 2017-11-16T16:13:20.229Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-11-16T16:13:20.229Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54
+[ERROR - 2017-11-16T16:13:23.186Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - msg: Error: Invalid screen name
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-11-14T17:34:58.058Z] Session [1feec850-c962-11e7-9838-15ffb3e8d391] - page.onError - stack:
-  error (:0)
+[ERROR - 2017-11-16T16:13:23.187Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - stack:
+  r (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-11-14T17:34:59.146Z] Session [1feec850-c962-11e7-9838-15ffb3e8d391] - page.onError - msg: [OneID] [%s]:  ERROR Session not established
+[ERROR - 2017-11-16T16:13:23.190Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - msg: Error: Invalid screen name
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-11-14T17:34:59.146Z] Session [1feec850-c962-11e7-9838-15ffb3e8d391] - page.onError - stack:
-  error (:0)
+[ERROR - 2017-11-16T16:13:23.190Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - stack:
+  r (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2017-11-14T17:39:53.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-11-14T17:39:53.302Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '1feec850-c962-11e7-9838-15ffb3e8d391', because windowless
+[ERROR - 2017-11-16T16:13:23.194Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - msg: Error: Invalid screen name
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-16T16:13:23.194Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - stack:
+  r (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-16T16:13:23.196Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - msg: Error: Invalid screen name
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-16T16:13:23.197Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - stack:
+  r (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-16T16:13:23.199Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - msg: Error: Invalid screen name
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-11-16T16:13:23.200Z] Session [0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54] - page.onError - stack:
+  r (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  e (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+  (anonymous function) (https://platform.twitter.com/widgets/follow_button.21783de9dc99fcf78a11eef96926d932.en.html:35)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-11-16T16:18:19.579Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-11-16T16:18:19.580Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '0ff86fe0-cae9-11e7-9ec1-e1cb4d0e4f54', because windowless

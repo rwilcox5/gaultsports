@@ -9,6 +9,12 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import lxml
+from lxml import html
+from lxml import etree
+from io import StringIO, BytesIO
+from lxml.cssselect import CSSSelector
+import requests
 
 
 def writecsv(parr, filen):
@@ -60,21 +66,13 @@ def getvoters(driver):
         allhrefs.append(str(voter.get_attribute('href')).replace('http:','https:'))
     return allhrefs
 
-def getvotes(b_url):
-    driver = webdriver.PhantomJS()
-    allvotes = [b_url[b_url.find('voter/')+6:]]
-    time.sleep(1)
-    driver.get(b_url)
-    time.sleep(1)
-    pollTable = driver.find_element_by_id('poll-content')
-    time.sleep(1)
-    voteTable = pollTable.find_elements_by_tag_name('tr')
-    print len(voteTable), b_url
-    for vote in voteTable:
-        isheader = vote.find_elements_by_tag_name('th')
-        if len(isheader)==0:
-            allvotes.append(vote.find_element_by_tag_name('a').get_attribute('href'))
-    driver.close()
+def getvotes(burl):
+    allvotes = [burl[burl.find('voter/')+6:]]
+    res = requests.get(burl)
+    doc = html.fromstring(res.content)
+    voteTable = doc.xpath("//td[contains(@class, 'tname')]//a")
+    for vote in voteTable[:25]:
+        allvotes.append(vote.attrib['href'].replace('/teams/',''))
     return allvotes
 
 
@@ -92,6 +90,6 @@ for voter in allvoters[0:]:
     except:
         allvotes = getvotes(voter)
         writecsv([allvotes],'ap2017/week'+weekn+'temp.csv')
-driver.close()
+
 
 

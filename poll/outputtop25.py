@@ -41,9 +41,7 @@ def getranking(voterranks,week):
         masseyranks.append(int(masseyrankraw[i][0]))
     myrank = []
     for i in voterranks:
-        teamlink = str(i)
-        sindex = teamlink.find('/teams/')
-        team = teamlink[sindex+7:]
+        team = str(i)
         for ii in apmassey:
             if ii[1]==team:
                 masseyranks.remove(ii[2])
