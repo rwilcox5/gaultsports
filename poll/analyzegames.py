@@ -264,7 +264,7 @@ for voter in allvoterbias:
 top25 = []
 expweight = 1.0
 teambiaschg = 2.
-confbiaschg = 1.
+confbiaschg = 2.
 for i in apmassey:
     rating = 0
     adjrating = 0
