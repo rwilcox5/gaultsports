@@ -1,0 +1,2452 @@
+1901,BLA,NYY,5,68,65,,,N,,Baltimore Orioles,Oriole Park
+1901,BOS,BOS,2,79,57,,,N,,Boston Americans,Huntington Avenue Grounds
+1901,BRO,LAD,3,79,57,,,N,,Brooklyn Superbas,Washington Park III
+1901,BSN,ATL,5,69,69,,,N,,Boston Beaneaters,South End Grounds III
+1901,CHA,CHW,1,83,53,,,Y,,Chicago White Sox,South Side Park II
+1901,CHN,CHC,6,53,86,,,N,,Chicago Orphans,West Side Park II
+1901,CIN,CIN,8,52,87,,,N,,Cincinnati Reds,League Park II in Cincinnati
+1901,CLE,CLE,7,54,82,,,N,,Cleveland Blues,League Park I
+1901,DET,DET,3,74,61,,,N,,Detroit Tigers,Bennett Park
+1901,MLA,BAL,8,48,89,,,N,,Milwaukee Brewers,Lloyd Street Grounds
+1901,NY1,SFG,7,52,85,,,N,,New York Giants,Polo Grounds III
+1901,PHA,OAK,4,74,62,,,N,,Philadelphia Athletics,Columbia Park
+1901,PHI,PHI,2,83,57,,,N,,Philadelphia Phillies,Baker Bowl
+1901,PIT,PIT,1,90,49,,,Y,,Pittsburgh Pirates,Exposition Park
+1901,SLN,STL,4,76,64,,,N,,St. Louis Cardinals,Robison Field
+1901,WS1,MIN,6,61,72,,,N,,Washington Senators,American League Park I
+1902,BLA,NYY,8,50,88,,,N,,Baltimore Orioles,Oriole Park
+1902,BOS,BOS,3,77,60,,,N,,Boston Americans,Huntington Avenue Grounds
+1902,BRO,LAD,2,75,63,,,N,,Brooklyn Superbas,Washington Park III
+1902,BSN,ATL,3,73,64,,,N,,Boston Beaneaters,South End Grounds III
+1902,CHA,CHW,4,74,60,,,N,,Chicago White Sox,South Side Park II
+1902,CHN,CHC,5,68,69,,,N,,Chicago Orphans,West Side Park II
+1902,CIN,CIN,4,70,70,,,N,,Cincinnati Reds,Palace of the Fans
+1902,CLE,CLE,5,69,67,,,N,,Cleveland Bronchos,League Park I
+1902,DET,DET,7,52,83,,,N,,Detroit Tigers,Bennett Park
+1902,NY1,SFG,8,48,88,,,N,,New York Giants,Polo Grounds III
+1902,PHA,OAK,1,83,53,,,Y,,Philadelphia Athletics,Columbia Park
+1902,PHI,PHI,7,56,81,,,N,,Philadelphia Phillies,Baker Bowl
+1902,PIT,PIT,1,103,36,,,Y,,Pittsburgh Pirates,Exposition Park
+1902,SLA,BAL,2,78,58,,,N,,St. Louis Browns,Sportsman's Park III
+1902,SLN,STL,6,56,78,,,N,,St. Louis Cardinals,Robison Field
+1902,WS1,MIN,6,61,75,,,N,,Washington Senators,American League Park I
+1903,BOS,BOS,1,91,47,,,Y,Y,Boston Americans,Huntington Avenue Grounds
+1903,BRO,LAD,5,70,66,,,N,N,Brooklyn Superbas,Washington Park III
+1903,BSN,ATL,6,58,80,,,N,N,Boston Beaneaters,South End Grounds III
+1903,CHA,CHW,7,60,77,,,N,N,Chicago White Sox,South Side Park II
+1903,CHN,CHC,3,82,56,,,N,N,Chicago Cubs,West Side Park II
+1903,CIN,CIN,4,74,65,,,N,N,Cincinnati Reds,Palace of the Fans
+1903,CLE,CLE,3,77,63,,,N,N,Cleveland Naps,League Park I
+1903,DET,DET,5,65,71,,,N,N,Detroit Tigers,Bennett Park
+1903,NY1,SFG,2,84,55,,,N,N,New York Giants,Polo Grounds III
+1903,NYA,NYY,4,72,62,,,N,N,New York Highlanders,Hilltop Park
+1903,PHA,OAK,2,75,60,,,N,N,Philadelphia Athletics,Columbia Park
+1903,PHI,PHI,7,49,86,,,N,N,Philadelphia Phillies,Baker Bowl
+1903,PIT,PIT,1,91,49,,,Y,N,Pittsburgh Pirates,Exposition Park
+1903,SLA,BAL,6,65,74,,,N,N,St. Louis Browns,Sportsman's Park III
+1903,SLN,STL,8,43,94,,,N,N,St. Louis Cardinals,Robison Field
+1903,WS1,MIN,8,43,94,,,N,N,Washington Senators,American League Park I
+1904,BOS,BOS,1,95,59,,,Y,,Boston Americans,Huntington Avenue Grounds
+1904,BRO,LAD,6,56,97,,,N,,Brooklyn Superbas,Washington Park III
+1904,BSN,ATL,7,55,98,,,N,,Boston Beaneaters,South End Grounds III
+1904,CHA,CHW,3,89,65,,,N,,Chicago White Sox,South Side Park II
+1904,CHN,CHC,2,93,60,,,N,,Chicago Cubs,West Side Park II
+1904,CIN,CIN,3,88,65,,,N,,Cincinnati Reds,Palace of the Fans
+1904,CLE,CLE,4,86,65,,,N,,Cleveland Naps,League Park I
+1904,DET,DET,7,62,90,,,N,,Detroit Tigers,Bennett Park
+1904,NY1,SFG,1,106,47,,,Y,,New York Giants,Polo Grounds III
+1904,NYA,NYY,2,92,59,,,N,,New York Highlanders,Hilltop Park
+1904,PHA,OAK,5,81,70,,,N,,Philadelphia Athletics,Columbia Park
+1904,PHI,PHI,8,52,100,,,N,,Philadelphia Phillies,Baker Bowl
+1904,PIT,PIT,4,87,66,,,N,,Pittsburgh Pirates,Exposition Park
+1904,SLA,BAL,6,65,87,,,N,,St. Louis Browns,Sportsman's Park III
+1904,SLN,STL,5,75,79,,,N,,St. Louis Cardinals,Robison Field
+1904,WS1,MIN,8,38,113,,,N,,Washington Senators,American League Park II
+1905,BOS,BOS,4,78,74,,,N,N,Boston Americans,Huntington Avenue Grounds
+1905,BRO,LAD,8,48,104,,,N,N,Brooklyn Superbas,Washington Park III
+1905,BSN,ATL,7,51,103,,,N,N,Boston Beaneaters,South End Grounds III
+1905,CHA,CHW,2,92,60,,,N,N,Chicago White Sox,South Side Park II
+1905,CHN,CHC,3,92,61,,,N,N,Chicago Cubs,West Side Park II
+1905,CIN,CIN,5,79,74,,,N,N,Cincinnati Reds,Palace of the Fans
+1905,CLE,CLE,5,76,78,,,N,N,Cleveland Naps,League Park I
+1905,DET,DET,3,79,74,,,N,N,Detroit Tigers,Bennett Park
+1905,NY1,SFG,1,105,48,,,Y,Y,New York Giants,Polo Grounds III
+1905,NYA,NYY,6,71,78,,,N,N,New York Highlanders,Hilltop Park
+1905,PHA,OAK,1,92,56,,,Y,N,Philadelphia Athletics,Columbia Park
+1905,PHI,PHI,4,83,69,,,N,N,Philadelphia Phillies,Baker Bowl
+1905,PIT,PIT,2,96,57,,,N,N,Pittsburgh Pirates,Exposition Park
+1905,SLA,BAL,8,54,99,,,N,N,St. Louis Browns,Sportsman's Park III
+1905,SLN,STL,6,58,96,,,N,N,St. Louis Cardinals,Robison Field
+1905,WS1,MIN,7,64,87,,,N,N,Washington Senators,American League Park II
+1906,BOS,BOS,8,49,105,,,N,N,Boston Americans,Huntington Avenue Grounds
+1906,BRO,LAD,5,66,86,,,N,N,Brooklyn Superbas,Washington Park III
+1906,BSN,ATL,8,49,102,,,N,N,Boston Beaneaters,South End Grounds III
+1906,CHA,CHW,1,93,58,,,Y,Y,Chicago White Sox,South Side Park II
+1906,CHN,CHC,1,116,36,,,Y,N,Chicago Cubs,West Side Park II
+1906,CIN,CIN,6,64,87,,,N,N,Cincinnati Reds,Palace of the Fans
+1906,CLE,CLE,3,89,64,,,N,N,Cleveland Naps,League Park I
+1906,DET,DET,6,71,78,,,N,N,Detroit Tigers,Bennett Park
+1906,NY1,SFG,2,96,56,,,N,N,New York Giants,Polo Grounds III
+1906,NYA,NYY,2,90,61,,,N,N,New York Highlanders,Hilltop Park
+1906,PHA,OAK,4,78,67,,,N,N,Philadelphia Athletics,Columbia Park
+1906,PHI,PHI,4,71,82,,,N,N,Philadelphia Phillies,Baker Bowl
+1906,PIT,PIT,3,93,60,,,N,N,Pittsburgh Pirates,Exposition Park
+1906,SLA,BAL,5,76,73,,,N,N,St. Louis Browns,Sportsman's Park III
+1906,SLN,STL,7,52,98,,,N,N,St. Louis Cardinals,Robison Field
+1906,WS1,MIN,7,55,95,,,N,N,Washington Senators,American League Park II
+1907,BOS,BOS,7,59,90,,,N,N,Boston Americans,Huntington Avenue Grounds
+1907,BRO,LAD,5,65,83,,,N,N,Brooklyn Superbas,Washington Park III
+1907,BSN,ATL,7,58,90,,,N,N,Boston Doves,South End Grounds III
+1907,CHA,CHW,3,87,64,,,N,N,Chicago White Sox,South Side Park II
+1907,CHN,CHC,1,107,45,,,Y,Y,Chicago Cubs,West Side Park II
+1907,CIN,CIN,6,66,87,,,N,N,Cincinnati Reds,Palace of the Fans
+1907,CLE,CLE,4,85,67,,,N,N,Cleveland Naps,League Park I
+1907,DET,DET,1,92,58,,,Y,N,Detroit Tigers,Bennett Park
+1907,NY1,SFG,4,82,71,,,N,N,New York Giants,Polo Grounds III
+1907,NYA,NYY,5,70,78,,,N,N,New York Highlanders,Hilltop Park
+1907,PHA,OAK,2,88,57,,,N,N,Philadelphia Athletics,Columbia Park
+1907,PHI,PHI,3,83,64,,,N,N,Philadelphia Phillies,Baker Bowl
+1907,PIT,PIT,2,91,63,,,N,N,Pittsburgh Pirates,Exposition Park
+1907,SLA,BAL,6,69,83,,,N,N,St. Louis Browns,Sportsman's Park III
+1907,SLN,STL,8,52,101,,,N,N,St. Louis Cardinals,Robison Field
+1907,WS1,MIN,8,49,102,,,N,N,Washington Senators,American League Park II
+1908,BOS,BOS,5,75,79,,,N,N,Boston Red Sox,Huntington Avenue Grounds
+1908,BRO,LAD,7,53,101,,,N,N,Brooklyn Superbas,Washington Park III
+1908,BSN,ATL,6,63,91,,,N,N,Boston Doves,South End Grounds III
+1908,CHA,CHW,3,88,64,,,N,N,Chicago White Sox,South Side Park II
+1908,CHN,CHC,1,99,55,,,Y,Y,Chicago Cubs,West Side Park II
+1908,CIN,CIN,5,73,81,,,N,N,Cincinnati Reds,Palace of the Fans
+1908,CLE,CLE,2,90,64,,,N,N,Cleveland Naps,League Park I
+1908,DET,DET,1,90,63,,,Y,N,Detroit Tigers,Bennett Park
+1908,NY1,SFG,2,98,56,,,N,N,New York Giants,Polo Grounds III
+1908,NYA,NYY,8,51,103,,,N,N,New York Highlanders,Hilltop Park
+1908,PHA,OAK,6,68,85,,,N,N,Philadelphia Athletics,Columbia Park
+1908,PHI,PHI,4,83,71,,,N,N,Philadelphia Phillies,Baker Bowl
+1908,PIT,PIT,2,98,56,,,N,N,Pittsburgh Pirates,Exposition Park
+1908,SLA,BAL,4,83,69,,,N,N,St. Louis Browns,Sportsman's Park III
+1908,SLN,STL,8,49,105,,,N,N,St. Louis Cardinals,Robison Field
+1908,WS1,MIN,7,67,85,,,N,N,Washington Senators,American League Park II
+1909,BOS,BOS,3,88,63,,,N,N,Boston Red Sox,Huntington Avenue Grounds
+1909,BRO,LAD,6,55,98,,,N,N,Brooklyn Superbas,Washington Park III
+1909,BSN,ATL,8,45,108,,,N,N,Boston Doves,South End Grounds III
+1909,CHA,CHW,4,78,74,,,N,N,Chicago White Sox,South Side Park II
+1909,CHN,CHC,2,104,49,,,N,N,Chicago Cubs,West Side Park II
+1909,CIN,CIN,4,77,76,,,N,N,Cincinnati Reds,Palace of the Fans
+1909,CLE,CLE,6,71,82,,,N,N,Cleveland Naps,League Park I
+1909,DET,DET,1,98,54,,,Y,N,Detroit Tigers,Bennett Park
+1909,NY1,SFG,3,92,61,,,N,N,New York Giants,Polo Grounds III
+1909,NYA,NYY,5,74,77,,,N,N,New York Highlanders,Hilltop Park
+1909,PHA,OAK,2,95,58,,,N,N,Philadelphia Athletics,Shibe Park
+1909,PHI,PHI,5,74,79,,,N,N,Philadelphia Phillies,Baker Bowl
+1909,PIT,PIT,1,110,42,,,Y,Y,Pittsburgh Pirates,Exposition Park/Forbes Field
+1909,SLA,BAL,7,61,89,,,N,N,St. Louis Browns,Sportsman's Park IV
+1909,SLN,STL,7,54,98,,,N,N,St. Louis Cardinals,Robison Field
+1909,WS1,MIN,8,42,110,,,N,N,Washington Senators,American League Park II
+1910,BOS,BOS,4,81,72,,,N,N,Boston Red Sox,Huntington Avenue Grounds
+1910,BRO,LAD,6,64,90,,,N,N,Brooklyn Superbas,Washington Park III
+1910,BSN,ATL,8,53,100,,,N,N,Boston Doves,South End Grounds III
+1910,CHA,CHW,6,68,85,,,N,N,Chicago White Sox,South Side Park II/Comiskey Park
+1910,CHN,CHC,1,104,50,,,Y,N,Chicago Cubs,West Side Park II
+1910,CIN,CIN,5,75,79,,,N,N,Cincinnati Reds,Palace of the Fans
+1910,CLE,CLE,5,71,81,,,N,N,Cleveland Naps,League Park II
+1910,DET,DET,3,86,68,,,N,N,Detroit Tigers,Bennett Park
+1910,NY1,SFG,2,91,63,,,N,N,New York Giants,Polo Grounds III
+1910,NYA,NYY,2,88,63,,,N,N,New York Highlanders,Hilltop Park
+1910,PHA,OAK,1,102,48,,,Y,Y,Philadelphia Athletics,Shibe Park
+1910,PHI,PHI,4,78,75,,,N,N,Philadelphia Phillies,Baker Bowl
+1910,PIT,PIT,3,86,67,,,N,N,Pittsburgh Pirates,Forbes Field
+1910,SLA,BAL,8,47,107,,,N,N,St. Louis Browns,Sportsman's Park IV
+1910,SLN,STL,7,63,90,,,N,N,St. Louis Cardinals,Robison Field
+1910,WS1,MIN,7,66,85,,,N,N,Washington Senators,American League Park II
+1911,BOS,BOS,4,78,75,,,N,N,Boston Red Sox,Huntington Avenue Grounds
+1911,BRO,LAD,7,64,86,,,N,N,Brooklyn Dodgers,Washington Park III
+1911,BSN,ATL,8,44,107,,,N,N,Boston Rustlers,South End Grounds III
+1911,CHA,CHW,5,77,74,,,N,N,Chicago White Sox,Comiskey Park
+1911,CHN,CHC,2,92,62,,,N,N,Chicago Cubs,West Side Park II
+1911,CIN,CIN,6,70,83,,,N,N,Cincinnati Reds,Palace of the Fans
+1911,CLE,CLE,3,80,73,,,N,N,Cleveland Naps,League Park II
+1911,DET,DET,2,89,65,,,N,N,Detroit Tigers,Bennett Park
+1911,NY1,SFG,1,99,54,,,Y,N,New York Giants,Polo Grounds III/Polo Grounds IV
+1911,NYA,NYY,6,76,76,,,N,N,New York Highlanders,Hilltop Park
+1911,PHA,OAK,1,101,50,,,Y,Y,Philadelphia Athletics,Shibe Park
+1911,PHI,PHI,4,79,73,,,N,N,Philadelphia Phillies,Baker Bowl
+1911,PIT,PIT,3,85,69,,,N,N,Pittsburgh Pirates,Forbes Field
+1911,SLA,BAL,8,45,107,,,N,N,St. Louis Browns,Sportsman's Park IV
+1911,SLN,STL,5,75,74,,,N,N,St. Louis Cardinals,Robison Field
+1911,WS1,MIN,7,64,90,,,N,N,Washington Senators,Griffith Stadium I
+1912,BOS,BOS,1,105,47,,,Y,Y,Boston Red Sox,Fenway Park I
+1912,BRO,LAD,7,58,95,,,N,N,Brooklyn Dodgers,Washington Park III
+1912,BSN,ATL,8,52,101,,,N,N,Boston Braves,South End Grounds III
+1912,CHA,CHW,4,78,76,,,N,N,Chicago White Sox,Comiskey Park
+1912,CHN,CHC,3,91,59,,,N,N,Chicago Cubs,West Side Park II
+1912,CIN,CIN,4,75,78,,,N,N,Cincinnati Reds,Crosley Field
+1912,CLE,CLE,5,75,78,,,N,N,Cleveland Naps,League Park II
+1912,DET,DET,6,69,84,,,N,N,Detroit Tigers,Navin Field
+1912,NY1,SFG,1,103,48,,,Y,N,New York Giants,Polo Grounds IV
+1912,NYA,NYY,8,50,102,,,N,N,New York Highlanders,Hilltop Park
+1912,PHA,OAK,3,90,62,,,N,N,Philadelphia Athletics,Shibe Park
+1912,PHI,PHI,5,73,79,,,N,N,Philadelphia Phillies,Baker Bowl
+1912,PIT,PIT,2,93,58,,,N,N,Pittsburgh Pirates,Forbes Field
+1912,SLA,BAL,7,53,101,,,N,N,St. Louis Browns,Sportsman's Park IV
+1912,SLN,STL,6,63,90,,,N,N,St. Louis Cardinals,Robison Field
+1912,WS1,MIN,2,91,61,,,N,N,Washington Senators,Griffith Stadium I
+1913,BOS,BOS,4,79,71,,,N,N,Boston Red Sox,Fenway Park I
+1913,BRO,LAD,6,65,84,,,N,N,Brooklyn Superbas,Ebbets Field
+1913,BSN,ATL,5,69,82,,,N,N,Boston Braves,South End Grounds III
+1913,CHA,CHW,5,78,74,,,N,N,Chicago White Sox,Comiskey Park
+1913,CHN,CHC,3,88,65,,,N,N,Chicago Cubs,West Side Park II
+1913,CIN,CIN,7,64,89,,,N,N,Cincinnati Reds,Crosley Field
+1913,CLE,CLE,3,86,66,,,N,N,Cleveland Naps,League Park II
+1913,DET,DET,6,66,87,,,N,N,Detroit Tigers,Navin Field
+1913,NY1,SFG,1,101,51,,,Y,N,New York Giants,Polo Grounds IV
+1913,NYA,NYY,7,57,94,,,N,N,New York Yankees,Polo Grounds IV
+1913,PHA,OAK,1,96,57,,,Y,Y,Philadelphia Athletics,Shibe Park
+1913,PHI,PHI,2,88,63,,,N,N,Philadelphia Phillies,Baker Bowl
+1913,PIT,PIT,4,78,71,,,N,N,Pittsburgh Pirates,Forbes Field
+1913,SLA,BAL,8,57,96,,,N,N,St. Louis Browns,Sportsman's Park IV
+1913,SLN,STL,8,51,99,,,N,N,St. Louis Cardinals,Robison Field
+1913,WS1,MIN,2,90,64,,,N,N,Washington Senators,Griffith Stadium I
+1914,BLF,BLT,3,84,70,,,N,,Baltimore Terrapins,
+1914,BOS,BOS,2,91,62,,,N,N,Boston Red Sox,Fenway Park I
+1914,BRF,BTT,5,77,77,,,N,,Brooklyn Tip-Tops,
+1914,BRO,LAD,5,75,79,,,N,N,Brooklyn Robins,Ebbets Field
+1914,BSN,ATL,1,94,59,,,Y,Y,Boston Braves,South End Grounds III
+1914,BUF,BFL,4,80,71,,,N,,Buffalo Buffeds,
+1914,CHA,CHW,6,70,84,,,N,N,Chicago White Sox,Comiskey Park
+1914,CHF,CHH,2,87,67,,,N,,Chicago Chi-Feds,Wrigley Field
+1914,CHN,CHC,4,78,76,,,N,N,Chicago Cubs,West Side Park II
+1914,CIN,CIN,8,60,94,,,N,N,Cincinnati Reds,Crosley Field
+1914,CLE,CLE,8,51,102,,,N,N,Cleveland Naps,League Park II
+1914,DET,DET,4,80,73,,,N,N,Detroit Tigers,Navin Field
+1914,IND,NEW,1,88,65,,,Y,,Indianapolis Hoosiers,
+1914,KCF,KCP,6,67,84,,,N,,Kansas City Packers,
+1914,NY1,SFG,2,84,70,,,N,N,New York Giants,Polo Grounds IV
+1914,NYA,NYY,6,70,84,,,N,N,New York Yankees,Polo Grounds IV
+1914,PHA,OAK,1,99,53,,,Y,N,Philadelphia Athletics,Shibe Park
+1914,PHI,PHI,6,74,80,,,N,N,Philadelphia Phillies,Baker Bowl
+1914,PIT,PIT,7,69,85,,,N,N,Pittsburgh Pirates,Forbes Field
+1914,PTF,PBS,7,64,86,,,N,,Pittsburgh Rebels,
+1914,SLA,BAL,5,71,82,,,N,N,St. Louis Browns,Sportsman's Park IV
+1914,SLF,SLI,8,62,89,,,N,,St. Louis Terriers,
+1914,SLN,STL,3,81,72,,,N,N,St. Louis Cardinals,Robison Field
+1914,WS1,MIN,3,81,73,,,N,N,Washington Senators,Griffith Stadium I
+1915,BLF,BLT,8,47,107,,,N,,Baltimore Terrapins,
+1915,BOS,BOS,1,101,50,,,Y,Y,Boston Red Sox,Fenway Park I
+1915,BRF,BTT,7,70,82,,,N,,Brooklyn Tip-Tops,
+1915,BRO,LAD,3,80,72,,,N,N,Brooklyn Robins,Ebbets Field
+1915,BSN,ATL,2,83,69,,,N,N,Boston Braves,Fenway Park I / Braves Field
+1915,BUF,BFL,6,74,78,,,N,,Buffalo Blues,
+1915,CHA,CHW,3,93,61,,,N,N,Chicago White Sox,Comiskey Park
+1915,CHF,CHH,2,86,66,,,Y,,Chicago Whales,Wrigley Field
+1915,CHN,CHC,4,73,80,,,N,N,Chicago Cubs,West Side Park II
+1915,CIN,CIN,7,71,83,,,N,N,Cincinnati Reds,Crosley Field
+1915,CLE,CLE,7,57,95,,,N,N,Cleveland Indians,League Park II
+1915,DET,DET,2,100,54,,,N,N,Detroit Tigers,Navin Field
+1915,KCF,KCP,4,81,72,,,N,,Kansas City Packers,
+1915,NEW,NEW,5,80,72,,,N,,Newark Pepper,
+1915,NY1,SFG,8,69,83,,,N,N,New York Giants,Polo Grounds IV
+1915,NYA,NYY,5,69,83,,,N,N,New York Yankees,Polo Grounds IV
+1915,PHA,OAK,8,43,109,,,N,N,Philadelphia Athletics,Shibe Park
+1915,PHI,PHI,1,90,62,,,Y,N,Philadelphia Phillies,Baker Bowl
+1915,PIT,PIT,5,73,81,,,N,N,Pittsburgh Pirates,Forbes Field
+1915,PTF,PBS,3,86,67,,,N,,Pittsburgh Rebels,
+1915,SLA,BAL,6,63,91,,,N,N,St. Louis Browns,Sportsman's Park IV
+1915,SLF,SLI,1,87,67,,,N,,St. Louis Terriers,
+1915,SLN,STL,6,72,81,,,N,N,St. Louis Cardinals,Robison Field
+1915,WS1,MIN,4,85,68,,,N,N,Washington Senators,Griffith Stadium I
+1916,BOS,BOS,1,91,63,,,Y,Y,Boston Red Sox,Fenway Park I
+1916,BRO,LAD,1,94,60,,,Y,N,Brooklyn Robins,Ebbets Field
+1916,BSN,ATL,3,89,63,,,N,N,Boston Braves,Braves Field
+1916,CHA,CHW,2,89,65,,,N,N,Chicago White Sox,Comiskey Park
+1916,CHN,CHC,5,67,86,,,N,N,Chicago Cubs,Wrigley Field
+1916,CIN,CIN,7,60,93,,,N,N,Cincinnati Reds,Crosley Field
+1916,CLE,CLE,6,77,77,,,N,N,Cleveland Indians,League Park II
+1916,DET,DET,3,87,67,,,N,N,Detroit Tigers,Navin Field
+1916,NY1,SFG,4,86,66,,,N,N,New York Giants,Polo Grounds IV
+1916,NYA,NYY,4,80,74,,,N,N,New York Yankees,Polo Grounds IV
+1916,PHA,OAK,8,36,117,,,N,N,Philadelphia Athletics,Shibe Park
+1916,PHI,PHI,2,91,62,,,N,N,Philadelphia Phillies,Baker Bowl
+1916,PIT,PIT,6,65,89,,,N,N,Pittsburgh Pirates,Forbes Field
+1916,SLA,BAL,5,79,75,,,N,N,St. Louis Browns,Sportsman's Park IV
+1916,SLN,STL,7,60,93,,,N,N,St. Louis Cardinals,Robison Field
+1916,WS1,MIN,7,76,77,,,N,N,Washington Senators,Griffith Stadium I
+1917,BOS,BOS,2,90,62,,,N,N,Boston Red Sox,Fenway Park I
+1917,BRO,LAD,7,70,81,,,N,N,Brooklyn Robins,Ebbets Field
+1917,BSN,ATL,6,72,81,,,N,N,Boston Braves,Braves Field
+1917,CHA,CHW,1,100,54,,,Y,Y,Chicago White Sox,Comiskey Park
+1917,CHN,CHC,5,74,80,,,N,N,Chicago Cubs,Wrigley Field
+1917,CIN,CIN,4,78,76,,,N,N,Cincinnati Reds,Crosley Field
+1917,CLE,CLE,3,88,66,,,N,N,Cleveland Indians,League Park II
+1917,DET,DET,4,78,75,,,N,N,Detroit Tigers,Navin Field
+1917,NY1,SFG,1,98,56,,,Y,N,New York Giants,Polo Grounds IV
+1917,NYA,NYY,6,71,82,,,N,N,New York Yankees,Polo Grounds IV
+1917,PHA,OAK,8,55,98,,,N,N,Philadelphia Athletics,Shibe Park
+1917,PHI,PHI,2,87,65,,,N,N,Philadelphia Phillies,Baker Bowl
+1917,PIT,PIT,8,51,103,,,N,N,Pittsburgh Pirates,Forbes Field
+1917,SLA,BAL,7,57,97,,,N,N,St. Louis Browns,Sportsman's Park IV
+1917,SLN,STL,3,82,70,,,N,N,St. Louis Cardinals,Robison Field
+1917,WS1,MIN,5,74,79,,,N,N,Washington Senators,Griffith Stadium I
+1918,BOS,BOS,1,75,51,,,Y,Y,Boston Red Sox,Fenway Park I
+1918,BRO,LAD,5,57,69,,,N,N,Brooklyn Robins,Ebbets Field
+1918,BSN,ATL,7,53,71,,,N,N,Boston Braves,Braves Field
+1918,CHA,CHW,6,57,67,,,N,N,Chicago White Sox,Comiskey Park
+1918,CHN,CHC,1,84,45,,,Y,N,Chicago Cubs,Wrigley Field
+1918,CIN,CIN,3,68,60,,,N,N,Cincinnati Reds,Crosley Field
+1918,CLE,CLE,2,73,54,,,N,N,Cleveland Indians,League Park II
+1918,DET,DET,7,55,71,,,N,N,Detroit Tigers,Navin Field
+1918,NY1,SFG,2,71,53,,,N,N,New York Giants,Polo Grounds IV
+1918,NYA,NYY,4,60,63,,,N,N,New York Yankees,Polo Grounds IV
+1918,PHA,OAK,8,52,76,,,N,N,Philadelphia Athletics,Shibe Park
+1918,PHI,PHI,6,55,68,,,N,N,Philadelphia Phillies,Baker Bowl
+1918,PIT,PIT,4,65,60,,,N,N,Pittsburgh Pirates,Forbes Field
+1918,SLA,BAL,5,58,64,,,N,N,St. Louis Browns,Sportsman's Park IV
+1918,SLN,STL,8,51,78,,,N,N,St. Louis Cardinals,Robison Field
+1918,WS1,MIN,3,72,56,,,N,N,Washington Senators,Griffith Stadium I
+1919,BOS,BOS,6,66,71,,,N,N,Boston Red Sox,Fenway Park I
+1919,BRO,LAD,5,69,71,,,N,N,Brooklyn Robins,Ebbets Field
+1919,BSN,ATL,6,57,82,,,N,N,Boston Braves,Braves Field
+1919,CHA,CHW,1,88,52,,,Y,N,Chicago White Sox,Comiskey Park
+1919,CHN,CHC,3,75,65,,,N,N,Chicago Cubs,Wrigley Field
+1919,CIN,CIN,1,96,44,,,Y,Y,Cincinnati Reds,Crosley Field
+1919,CLE,CLE,2,84,55,,,N,N,Cleveland Indians,League Park II
+1919,DET,DET,4,80,60,,,N,N,Detroit Tigers,Navin Field
+1919,NY1,SFG,2,87,53,,,N,N,New York Giants,Polo Grounds IV
+1919,NYA,NYY,3,80,59,,,N,N,New York Yankees,Polo Grounds IV
+1919,PHA,OAK,8,36,104,,,N,N,Philadelphia Athletics,Shibe Park
+1919,PHI,PHI,8,47,90,,,N,N,Philadelphia Phillies,Baker Bowl
+1919,PIT,PIT,4,71,68,,,N,N,Pittsburgh Pirates,Forbes Field
+1919,SLA,BAL,5,67,72,,,N,N,St. Louis Browns,Sportsman's Park IV
+1919,SLN,STL,7,54,83,,,N,N,St. Louis Cardinals,Robison Field
+1919,WS1,MIN,7,56,84,,,N,N,Washington Senators,Griffith Stadium I
+1920,BOS,BOS,5,72,81,,,N,N,Boston Red Sox,Fenway Park I
+1920,BRO,LAD,1,93,61,,,Y,N,Brooklyn Robins,Ebbets Field
+1920,BSN,ATL,7,62,90,,,N,N,Boston Braves,Braves Field
+1920,CHA,CHW,2,96,58,,,N,N,Chicago White Sox,Comiskey Park
+1920,CHN,CHC,5,75,79,,,N,N,Chicago Cubs,Wrigley Field
+1920,CIN,CIN,3,82,71,,,N,N,Cincinnati Reds,Crosley Field
+1920,CLE,CLE,1,98,56,,,Y,Y,Cleveland Indians,League Park II
+1920,DET,DET,7,61,93,,,N,N,Detroit Tigers,Navin Field
+1920,NY1,SFG,2,86,68,,,N,N,New York Giants,Polo Grounds IV
+1920,NYA,NYY,3,95,59,,,N,N,New York Yankees,Polo Grounds IV
+1920,PHA,OAK,8,48,106,,,N,N,Philadelphia Athletics,Shibe Park
+1920,PHI,PHI,8,62,91,,,N,N,Philadelphia Phillies,Baker Bowl
+1920,PIT,PIT,4,79,75,,,N,N,Pittsburgh Pirates,Forbes Field
+1920,SLA,BAL,4,76,77,,,N,N,St. Louis Browns,Sportsman's Park IV
+1920,SLN,STL,5,75,79,,,N,N,St. Louis Cardinals,Robison Field/Sportsman's Park IV
+1920,WS1,MIN,6,68,84,,,N,N,Washington Senators,Griffith Stadium I
+1921,BOS,BOS,5,75,79,,,N,N,Boston Red Sox,Fenway Park I
+1921,BRO,LAD,5,77,75,,,N,N,Brooklyn Robins,Ebbets Field
+1921,BSN,ATL,4,79,74,,,N,N,Boston Braves,Braves Field
+1921,CHA,CHW,7,62,92,,,N,N,Chicago White Sox,Comiskey Park
+1921,CHN,CHC,7,64,89,,,N,N,Chicago Cubs,Wrigley Field
+1921,CIN,CIN,6,70,83,,,N,N,Cincinnati Reds,Crosley Field
+1921,CLE,CLE,2,94,60,,,N,N,Cleveland Indians,League Park II
+1921,DET,DET,6,71,82,,,N,N,Detroit Tigers,Navin Field
+1921,NY1,SFG,1,94,59,,,Y,Y,New York Giants,Polo Grounds IV
+1921,NYA,NYY,1,98,55,,,Y,N,New York Yankees,Polo Grounds IV
+1921,PHA,OAK,8,53,100,,,N,N,Philadelphia Athletics,Shibe Park
+1921,PHI,PHI,8,51,103,,,N,N,Philadelphia Phillies,Baker Bowl
+1921,PIT,PIT,2,90,63,,,N,N,Pittsburgh Pirates,Forbes Field
+1921,SLA,BAL,3,81,73,,,N,N,St. Louis Browns,Sportsman's Park IV
+1921,SLN,STL,3,87,66,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1921,WS1,MIN,4,80,73,,,N,N,Washington Senators,Griffith Stadium I
+1922,BOS,BOS,8,61,93,,,N,N,Boston Red Sox,Fenway Park I
+1922,BRO,LAD,6,76,78,,,N,N,Brooklyn Robins,Ebbets Field
+1922,BSN,ATL,8,53,100,,,N,N,Boston Braves,Braves Field
+1922,CHA,CHW,5,77,77,,,N,N,Chicago White Sox,Comiskey Park
+1922,CHN,CHC,5,80,74,,,N,N,Chicago Cubs,Wrigley Field
+1922,CIN,CIN,2,86,68,,,N,N,Cincinnati Reds,Crosley Field
+1922,CLE,CLE,4,78,76,,,N,N,Cleveland Indians,League Park II
+1922,DET,DET,3,79,75,,,N,N,Detroit Tigers,Navin Field
+1922,NY1,SFG,1,93,61,,,Y,Y,New York Giants,Polo Grounds IV
+1922,NYA,NYY,1,94,60,,,Y,N,New York Yankees,Polo Grounds IV
+1922,PHA,OAK,7,65,89,,,N,N,Philadelphia Athletics,Shibe Park
+1922,PHI,PHI,7,57,96,,,N,N,Philadelphia Phillies,Baker Bowl
+1922,PIT,PIT,3,85,69,,,N,N,Pittsburgh Pirates,Forbes Field
+1922,SLA,BAL,2,93,61,,,N,N,St. Louis Browns,Sportsman's Park IV
+1922,SLN,STL,3,85,69,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1922,WS1,MIN,6,69,85,,,N,N,Washington Senators,Griffith Stadium I
+1923,BOS,BOS,8,61,91,,,N,N,Boston Red Sox,Fenway Park I
+1923,BRO,LAD,6,76,78,,,N,N,Brooklyn Robins,Ebbets Field
+1923,BSN,ATL,7,54,100,,,N,N,Boston Braves,Braves Field
+1923,CHA,CHW,7,69,85,,,N,N,Chicago White Sox,Comiskey Park
+1923,CHN,CHC,4,83,71,,,N,N,Chicago Cubs,Wrigley Field
+1923,CIN,CIN,2,91,63,,,N,N,Cincinnati Reds,Crosley Field
+1923,CLE,CLE,3,82,71,,,N,N,Cleveland Indians,League Park II
+1923,DET,DET,2,83,71,,,N,N,Detroit Tigers,Navin Field
+1923,NY1,SFG,1,95,58,,,Y,N,New York Giants,Polo Grounds IV
+1923,NYA,NYY,1,98,54,,,Y,Y,New York Yankees,Yankee Stadium I
+1923,PHA,OAK,6,69,83,,,N,N,Philadelphia Athletics,Shibe Park
+1923,PHI,PHI,8,50,104,,,N,N,Philadelphia Phillies,Baker Bowl
+1923,PIT,PIT,3,87,67,,,N,N,Pittsburgh Pirates,Forbes Field
+1923,SLA,BAL,5,74,78,,,N,N,St. Louis Browns,Sportsman's Park IV
+1923,SLN,STL,5,79,74,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1923,WS1,MIN,4,75,78,,,N,N,Washington Senators,Griffith Stadium I
+1924,BOS,BOS,7,67,87,,,N,N,Boston Red Sox,Fenway Park I
+1924,BRO,LAD,2,92,62,,,N,N,Brooklyn Robins,Ebbets Field
+1924,BSN,ATL,8,53,100,,,N,N,Boston Braves,Braves Field
+1924,CHA,CHW,8,66,87,,,N,N,Chicago White Sox,Comiskey Park
+1924,CHN,CHC,5,81,72,,,N,N,Chicago Cubs,Wrigley Field
+1924,CIN,CIN,4,83,70,,,N,N,Cincinnati Reds,Crosley Field
+1924,CLE,CLE,6,67,86,,,N,N,Cleveland Indians,League Park II
+1924,DET,DET,3,86,68,,,N,N,Detroit Tigers,Navin Field
+1924,NY1,SFG,1,93,60,,,Y,N,New York Giants,Polo Grounds IV
+1924,NYA,NYY,2,89,63,,,N,N,New York Yankees,Yankee Stadium I
+1924,PHA,OAK,5,71,81,,,N,N,Philadelphia Athletics,Shibe Park
+1924,PHI,PHI,7,55,96,,,N,N,Philadelphia Phillies,Baker Bowl
+1924,PIT,PIT,3,90,63,,,N,N,Pittsburgh Pirates,Forbes Field
+1924,SLA,BAL,4,74,78,,,N,N,St. Louis Browns,Sportsman's Park IV
+1924,SLN,STL,6,65,89,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1924,WS1,MIN,1,92,62,,,Y,Y,Washington Senators,Griffith Stadium I
+1925,BOS,BOS,8,47,105,,,N,N,Boston Red Sox,Fenway Park I
+1925,BRO,LAD,6,68,85,,,N,N,Brooklyn Robins,Ebbets Field
+1925,BSN,ATL,5,70,83,,,N,N,Boston Braves,Braves Field
+1925,CHA,CHW,5,79,75,,,N,N,Chicago White Sox,Comiskey Park
+1925,CHN,CHC,8,68,86,,,N,N,Chicago Cubs,Wrigley Field
+1925,CIN,CIN,3,80,73,,,N,N,Cincinnati Reds,Crosley Field
+1925,CLE,CLE,6,70,84,,,N,N,Cleveland Indians,League Park II
+1925,DET,DET,4,81,73,,,N,N,Detroit Tigers,Navin Field
+1925,NY1,SFG,2,86,66,,,N,N,New York Giants,Polo Grounds IV
+1925,NYA,NYY,7,69,85,,,N,N,New York Yankees,Yankee Stadium I
+1925,PHA,OAK,2,88,64,,,N,N,Philadelphia Athletics,Shibe Park
+1925,PHI,PHI,6,68,85,,,N,N,Philadelphia Phillies,Baker Bowl
+1925,PIT,PIT,1,95,58,,,Y,Y,Pittsburgh Pirates,Forbes Field
+1925,SLA,BAL,3,82,71,,,N,N,St. Louis Browns,Sportsman's Park IV
+1925,SLN,STL,4,77,76,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1925,WS1,MIN,1,96,55,,,Y,N,Washington Senators,Griffith Stadium I
+1926,BOS,BOS,8,46,107,,,N,N,Boston Red Sox,Fenway Park I
+1926,BRO,LAD,6,71,82,,,N,N,Brooklyn Robins,Ebbets Field
+1926,BSN,ATL,7,66,86,,,N,N,Boston Braves,Braves Field
+1926,CHA,CHW,5,81,72,,,N,N,Chicago White Sox,Comiskey Park
+1926,CHN,CHC,4,82,72,,,N,N,Chicago Cubs,Wrigley Field
+1926,CIN,CIN,2,87,67,,,N,N,Cincinnati Reds,Crosley Field
+1926,CLE,CLE,2,88,66,,,N,N,Cleveland Indians,League Park II
+1926,DET,DET,6,79,75,,,N,N,Detroit Tigers,Navin Field
+1926,NY1,SFG,5,74,77,,,N,N,New York Giants,Polo Grounds IV
+1926,NYA,NYY,1,91,63,,,Y,N,New York Yankees,Yankee Stadium I
+1926,PHA,OAK,3,83,67,,,N,N,Philadelphia Athletics,Shibe Park
+1926,PHI,PHI,8,58,93,,,N,N,Philadelphia Phillies,Baker Bowl
+1926,PIT,PIT,3,84,69,,,N,N,Pittsburgh Pirates,Forbes Field
+1926,SLA,BAL,7,62,92,,,N,N,St. Louis Browns,Sportsman's Park IV
+1926,SLN,STL,1,89,65,,,Y,Y,St. Louis Cardinals,Sportsman's Park IV
+1926,WS1,MIN,4,81,69,,,N,N,Washington Senators,Griffith Stadium I
+1927,BOS,BOS,8,51,103,,,N,N,Boston Red Sox,Fenway Park I
+1927,BRO,LAD,6,65,88,,,N,N,Brooklyn Robins,Ebbets Field
+1927,BSN,ATL,7,60,94,,,N,N,Boston Braves,Braves Field
+1927,CHA,CHW,5,70,83,,,N,N,Chicago White Sox,Comiskey Park
+1927,CHN,CHC,4,85,68,,,N,N,Chicago Cubs,Wrigley Field
+1927,CIN,CIN,5,75,78,,,N,N,Cincinnati Reds,Crosley Field
+1927,CLE,CLE,6,66,87,,,N,N,Cleveland Indians,League Park II
+1927,DET,DET,4,82,71,,,N,N,Detroit Tigers,Navin Field
+1927,NY1,SFG,3,92,62,,,N,N,New York Giants,Polo Grounds IV
+1927,NYA,NYY,1,110,44,,,Y,Y,New York Yankees,Yankee Stadium I
+1927,PHA,OAK,2,91,63,,,N,N,Philadelphia Athletics,Shibe Park
+1927,PHI,PHI,8,51,103,,,N,N,Philadelphia Phillies,Baker Bowl
+1927,PIT,PIT,1,94,60,,,Y,N,Pittsburgh Pirates,Forbes Field
+1927,SLA,BAL,7,59,94,,,N,N,St. Louis Browns,Sportsman's Park IV
+1927,SLN,STL,2,92,61,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1927,WS1,MIN,3,85,69,,,N,N,Washington Senators,Griffith Stadium I
+1928,BOS,BOS,8,57,96,,,N,N,Boston Red Sox,Fenway Park I
+1928,BRO,LAD,6,77,76,,,N,N,Brooklyn Robins,Ebbets Field
+1928,BSN,ATL,7,50,103,,,N,N,Boston Braves,Braves Field
+1928,CHA,CHW,5,72,82,,,N,N,Chicago White Sox,Comiskey Park
+1928,CHN,CHC,3,91,63,,,N,N,Chicago Cubs,Wrigley Field
+1928,CIN,CIN,5,78,74,,,N,N,Cincinnati Reds,Crosley Field
+1928,CLE,CLE,7,62,92,,,N,N,Cleveland Indians,League Park II
+1928,DET,DET,6,68,86,,,N,N,Detroit Tigers,Navin Field
+1928,NY1,SFG,2,93,61,,,N,N,New York Giants,Polo Grounds IV
+1928,NYA,NYY,1,101,53,,,Y,Y,New York Yankees,Yankee Stadium I
+1928,PHA,OAK,2,98,55,,,N,N,Philadelphia Athletics,Shibe Park
+1928,PHI,PHI,8,43,109,,,N,N,Philadelphia Phillies,Baker Bowl
+1928,PIT,PIT,4,85,67,,,N,N,Pittsburgh Pirates,Forbes Field
+1928,SLA,BAL,3,82,72,,,N,N,St. Louis Browns,Sportsman's Park IV
+1928,SLN,STL,1,95,59,,,Y,N,St. Louis Cardinals,Sportsman's Park IV
+1928,WS1,MIN,4,75,79,,,N,N,Washington Senators,Griffith Stadium I
+1929,BOS,BOS,8,58,96,,,N,N,Boston Red Sox,Fenway Park I
+1929,BRO,LAD,6,70,83,,,N,N,Brooklyn Robins,Ebbets Field
+1929,BSN,ATL,8,56,98,,,N,N,Boston Braves,Braves Field
+1929,CHA,CHW,7,59,93,,,N,N,Chicago White Sox,Comiskey Park
+1929,CHN,CHC,1,98,54,,,Y,N,Chicago Cubs,Wrigley Field
+1929,CIN,CIN,7,66,88,,,N,N,Cincinnati Reds,Crosley Field
+1929,CLE,CLE,3,81,71,,,N,N,Cleveland Indians,League Park II
+1929,DET,DET,6,70,84,,,N,N,Detroit Tigers,Navin Field
+1929,NY1,SFG,3,84,67,,,N,N,New York Giants,Polo Grounds IV
+1929,NYA,NYY,2,88,66,,,N,N,New York Yankees,Yankee Stadium I
+1929,PHA,OAK,1,104,46,,,Y,Y,Philadelphia Athletics,Shibe Park
+1929,PHI,PHI,5,71,82,,,N,N,Philadelphia Phillies,Baker Bowl
+1929,PIT,PIT,2,88,65,,,N,N,Pittsburgh Pirates,Forbes Field
+1929,SLA,BAL,4,79,73,,,N,N,St. Louis Browns,Sportsman's Park IV
+1929,SLN,STL,4,78,74,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1929,WS1,MIN,5,71,81,,,N,N,Washington Senators,Griffith Stadium I
+1930,BOS,BOS,8,52,102,,,N,N,Boston Red Sox,Fenway Park I
+1930,BRO,LAD,4,86,68,,,N,N,Brooklyn Robins,Ebbets Field
+1930,BSN,ATL,6,70,84,,,N,N,Boston Braves,Braves Field
+1930,CHA,CHW,7,62,92,,,N,N,Chicago White Sox,Comiskey Park
+1930,CHN,CHC,2,90,64,,,N,N,Chicago Cubs,Wrigley Field
+1930,CIN,CIN,7,59,95,,,N,N,Cincinnati Reds,Crosley Field
+1930,CLE,CLE,4,81,73,,,N,N,Cleveland Indians,League Park II
+1930,DET,DET,5,75,79,,,N,N,Detroit Tigers,Navin Field
+1930,NY1,SFG,3,87,67,,,N,N,New York Giants,Polo Grounds IV
+1930,NYA,NYY,3,86,68,,,N,N,New York Yankees,Yankee Stadium I
+1930,PHA,OAK,1,102,52,,,Y,Y,Philadelphia Athletics,Shibe Park
+1930,PHI,PHI,8,52,102,,,N,N,Philadelphia Phillies,Baker Bowl
+1930,PIT,PIT,5,80,74,,,N,N,Pittsburgh Pirates,Forbes Field
+1930,SLA,BAL,6,64,90,,,N,N,St. Louis Browns,Sportsman's Park IV
+1930,SLN,STL,1,92,62,,,Y,N,St. Louis Cardinals,Sportsman's Park IV
+1930,WS1,MIN,2,94,60,,,N,N,Washington Senators,Griffith Stadium I
+1931,BOS,BOS,6,62,90,,,N,N,Boston Red Sox,Fenway Park I
+1931,BRO,LAD,4,79,73,,,N,N,Brooklyn Robins,Ebbets Field
+1931,BSN,ATL,7,64,90,,,N,N,Boston Braves,Braves Field
+1931,CHA,CHW,8,56,97,,,N,N,Chicago White Sox,Comiskey Park
+1931,CHN,CHC,3,84,70,,,N,N,Chicago Cubs,Wrigley Field
+1931,CIN,CIN,8,58,96,,,N,N,Cincinnati Reds,Crosley Field
+1931,CLE,CLE,4,78,76,,,N,N,Cleveland Indians,League Park II
+1931,DET,DET,7,61,93,,,N,N,Detroit Tigers,Navin Field
+1931,NY1,SFG,2,87,65,,,N,N,New York Giants,Polo Grounds IV
+1931,NYA,NYY,2,94,59,,,N,N,New York Yankees,Yankee Stadium I
+1931,PHA,OAK,1,107,45,,,Y,N,Philadelphia Athletics,Shibe Park
+1931,PHI,PHI,6,66,88,,,N,N,Philadelphia Phillies,Baker Bowl
+1931,PIT,PIT,5,75,79,,,N,N,Pittsburgh Pirates,Forbes Field
+1931,SLA,BAL,5,63,91,,,N,N,St. Louis Browns,Sportsman's Park IV
+1931,SLN,STL,1,101,53,,,Y,Y,St. Louis Cardinals,Sportsman's Park IV
+1931,WS1,MIN,3,92,62,,,N,N,Washington Senators,Griffith Stadium I
+1932,BOS,BOS,8,43,111,,,N,N,Boston Red Sox,Fenway Park I
+1932,BRO,LAD,3,81,73,,,N,N,Brooklyn Dodgers,Ebbets Field
+1932,BSN,ATL,5,77,77,,,N,N,Boston Braves,Braves Field
+1932,CHA,CHW,7,49,102,,,N,N,Chicago White Sox,Comiskey Park
+1932,CHN,CHC,1,90,64,,,Y,N,Chicago Cubs,Wrigley Field
+1932,CIN,CIN,8,60,94,,,N,N,Cincinnati Reds,Crosley Field
+1932,CLE,CLE,4,87,65,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1932,DET,DET,5,76,75,,,N,N,Detroit Tigers,Navin Field
+1932,NY1,SFG,6,72,82,,,N,N,New York Giants,Polo Grounds IV
+1932,NYA,NYY,1,107,47,,,Y,Y,New York Yankees,Yankee Stadium I
+1932,PHA,OAK,2,94,60,,,N,N,Philadelphia Athletics,Shibe Park
+1932,PHI,PHI,4,78,76,,,N,N,Philadelphia Phillies,Baker Bowl
+1932,PIT,PIT,2,86,68,,,N,N,Pittsburgh Pirates,Forbes Field
+1932,SLA,BAL,6,63,91,,,N,N,St. Louis Browns,Sportsman's Park IV
+1932,SLN,STL,6,72,82,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1932,WS1,MIN,3,93,61,,,N,N,Washington Senators,Griffith Stadium I
+1933,BOS,BOS,7,63,86,,,N,N,Boston Red Sox,Fenway Park I
+1933,BRO,LAD,6,65,88,,,N,N,Brooklyn Dodgers,Ebbets Field
+1933,BSN,ATL,4,83,71,,,N,N,Boston Braves,Braves Field
+1933,CHA,CHW,6,67,83,,,N,N,Chicago White Sox,Comiskey Park
+1933,CHN,CHC,3,86,68,,,N,N,Chicago Cubs,Wrigley Field
+1933,CIN,CIN,8,58,94,,,N,N,Cincinnati Reds,Crosley Field
+1933,CLE,CLE,4,75,76,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1933,DET,DET,5,75,79,,,N,N,Detroit Tigers,Navin Field
+1933,NY1,SFG,1,91,61,,,Y,Y,New York Giants,Polo Grounds IV
+1933,NYA,NYY,2,91,59,,,N,N,New York Yankees,Yankee Stadium I
+1933,PHA,OAK,3,79,72,,,N,N,Philadelphia Athletics,Shibe Park
+1933,PHI,PHI,7,60,92,,,N,N,Philadelphia Phillies,Baker Bowl
+1933,PIT,PIT,2,87,67,,,N,N,Pittsburgh Pirates,Forbes Field
+1933,SLA,BAL,8,55,96,,,N,N,St. Louis Browns,Sportsman's Park IV
+1933,SLN,STL,5,82,71,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1933,WS1,MIN,1,99,53,,,Y,N,Washington Senators,Griffith Stadium I
+1934,BOS,BOS,4,76,76,,,N,N,Boston Red Sox,Fenway Park II
+1934,BRO,LAD,6,71,81,,,N,N,Brooklyn Dodgers,Ebbets Field
+1934,BSN,ATL,4,78,73,,,N,N,Boston Braves,Braves Field
+1934,CHA,CHW,8,53,99,,,N,N,Chicago White Sox,Comiskey Park
+1934,CHN,CHC,3,86,65,,,N,N,Chicago Cubs,Wrigley Field
+1934,CIN,CIN,8,52,99,,,N,N,Cincinnati Reds,Crosley Field
+1934,CLE,CLE,3,85,69,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1934,DET,DET,1,101,53,,,Y,N,Detroit Tigers,Navin Field
+1934,NY1,SFG,2,93,60,,,N,N,New York Giants,Polo Grounds IV
+1934,NYA,NYY,2,94,60,,,N,N,New York Yankees,Yankee Stadium I
+1934,PHA,OAK,5,68,82,,,N,N,Philadelphia Athletics,Shibe Park
+1934,PHI,PHI,7,56,93,,,N,N,Philadelphia Phillies,Baker Bowl
+1934,PIT,PIT,5,74,76,,,N,N,Pittsburgh Pirates,Forbes Field
+1934,SLA,BAL,6,67,85,,,N,N,St. Louis Browns,Sportsman's Park IV
+1934,SLN,STL,1,95,58,,,Y,Y,St. Louis Cardinals,Sportsman's Park IV
+1934,WS1,MIN,7,66,86,,,N,N,Washington Senators,Griffith Stadium I
+1935,BOS,BOS,4,78,75,,,N,N,Boston Red Sox,Fenway Park II
+1935,BRO,LAD,5,70,83,,,N,N,Brooklyn Dodgers,Ebbets Field
+1935,BSN,ATL,8,38,115,,,N,N,Boston Braves,Braves Field
+1935,CHA,CHW,5,74,78,,,N,N,Chicago White Sox,Comiskey Park
+1935,CHN,CHC,1,100,54,,,Y,N,Chicago Cubs,Wrigley Field
+1935,CIN,CIN,6,68,85,,,N,N,Cincinnati Reds,Crosley Field
+1935,CLE,CLE,3,82,71,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1935,DET,DET,1,93,58,,,Y,Y,Detroit Tigers,Navin Field
+1935,NY1,SFG,3,91,62,,,N,N,New York Giants,Polo Grounds IV
+1935,NYA,NYY,2,89,60,,,N,N,New York Yankees,Yankee Stadium I
+1935,PHA,OAK,8,58,91,,,N,N,Philadelphia Athletics,Shibe Park
+1935,PHI,PHI,7,64,89,,,N,N,Philadelphia Phillies,Baker Bowl
+1935,PIT,PIT,4,86,67,,,N,N,Pittsburgh Pirates,Forbes Field
+1935,SLA,BAL,7,65,87,,,N,N,St. Louis Browns,Sportsman's Park IV
+1935,SLN,STL,2,96,58,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1935,WS1,MIN,6,67,86,,,N,N,Washington Senators,Griffith Stadium I
+1936,BOS,BOS,6,74,80,,,N,N,Boston Red Sox,Fenway Park II
+1936,BRO,LAD,7,67,87,,,N,N,Brooklyn Dodgers,Ebbets Field
+1936,BSN,ATL,6,71,83,,,N,N,Boston Bees,Braves Field
+1936,CHA,CHW,4,81,70,,,N,N,Chicago White Sox,Comiskey Park
+1936,CHN,CHC,2,87,67,,,N,N,Chicago Cubs,Wrigley Field
+1936,CIN,CIN,5,74,80,,,N,N,Cincinnati Reds,Crosley Field
+1936,CLE,CLE,5,80,74,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1936,DET,DET,2,83,71,,,N,N,Detroit Tigers,Navin Field
+1936,NY1,SFG,1,92,62,,,Y,N,New York Giants,Polo Grounds IV
+1936,NYA,NYY,1,102,51,,,Y,Y,New York Yankees,Yankee Stadium I
+1936,PHA,OAK,8,53,100,,,N,N,Philadelphia Athletics,Shibe Park
+1936,PHI,PHI,8,54,100,,,N,N,Philadelphia Phillies,Baker Bowl
+1936,PIT,PIT,4,84,70,,,N,N,Pittsburgh Pirates,Forbes Field
+1936,SLA,BAL,7,57,95,,,N,N,St. Louis Browns,Sportsman's Park IV
+1936,SLN,STL,2,87,67,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1936,WS1,MIN,3,82,71,,,N,N,Washington Senators,Griffith Stadium I
+1937,BOS,BOS,5,80,72,,,N,N,Boston Red Sox,Fenway Park II
+1937,BRO,LAD,6,62,91,,,N,N,Brooklyn Dodgers,Ebbets Field
+1937,BSN,ATL,5,79,73,,,N,N,Boston Bees,Braves Field
+1937,CHA,CHW,3,86,68,,,N,N,Chicago White Sox,Comiskey Park
+1937,CHN,CHC,2,93,61,,,N,N,Chicago Cubs,Wrigley Field
+1937,CIN,CIN,8,56,98,,,N,N,Cincinnati Reds,Crosley Field
+1937,CLE,CLE,4,83,71,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1937,DET,DET,2,89,65,,,N,N,Detroit Tigers,Navin Field
+1937,NY1,SFG,1,95,57,,,Y,N,New York Giants,Polo Grounds IV
+1937,NYA,NYY,1,102,52,,,Y,Y,New York Yankees,Yankee Stadium I
+1937,PHA,OAK,7,54,97,,,N,N,Philadelphia Athletics,Shibe Park
+1937,PHI,PHI,7,61,92,,,N,N,Philadelphia Phillies,Baker Bowl
+1937,PIT,PIT,3,86,68,,,N,N,Pittsburgh Pirates,Forbes Field
+1937,SLA,BAL,8,46,108,,,N,N,St. Louis Browns,Sportsman's Park IV
+1937,SLN,STL,4,81,73,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1937,WS1,MIN,6,73,80,,,N,N,Washington Senators,Griffith Stadium I
+1938,BOS,BOS,2,88,61,,,N,N,Boston Red Sox,Fenway Park II
+1938,BRO,LAD,7,69,80,,,N,N,Brooklyn Dodgers,Ebbets Field
+1938,BSN,ATL,5,77,75,,,N,N,Boston Bees,Braves Field
+1938,CHA,CHW,6,65,83,,,N,N,Chicago White Sox,Comiskey Park
+1938,CHN,CHC,1,89,63,,,Y,N,Chicago Cubs,Wrigley Field
+1938,CIN,CIN,4,82,68,,,N,N,Cincinnati Reds,Crosley Field
+1938,CLE,CLE,3,86,66,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1938,DET,DET,4,84,70,,,N,N,Detroit Tigers,Briggs Stadium
+1938,NY1,SFG,3,83,67,,,N,N,New York Giants,Polo Grounds IV
+1938,NYA,NYY,1,99,53,,,Y,Y,New York Yankees,Yankee Stadium I
+1938,PHA,OAK,8,53,99,,,N,N,Philadelphia Athletics,Shibe Park
+1938,PHI,PHI,8,45,105,,,N,N,Philadelphia Phillies,Baker Bowl/Shibe Park
+1938,PIT,PIT,2,86,64,,,N,N,Pittsburgh Pirates,Forbes Field
+1938,SLA,BAL,7,55,97,,,N,N,St. Louis Browns,Sportsman's Park IV
+1938,SLN,STL,6,71,80,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1938,WS1,MIN,5,75,76,,,N,N,Washington Senators,Griffith Stadium I
+1939,BOS,BOS,2,89,62,,,N,N,Boston Red Sox,Fenway Park II
+1939,BRO,LAD,3,84,69,,,N,N,Brooklyn Dodgers,Ebbets Field
+1939,BSN,ATL,7,63,88,,,N,N,Boston Bees,Braves Field
+1939,CHA,CHW,4,85,69,,,N,N,Chicago White Sox,Comiskey Park
+1939,CHN,CHC,4,84,70,,,N,N,Chicago Cubs,Wrigley Field
+1939,CIN,CIN,1,97,57,,,Y,N,Cincinnati Reds,Crosley Field
+1939,CLE,CLE,3,87,67,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1939,DET,DET,5,81,73,,,N,N,Detroit Tigers,Briggs Stadium
+1939,NY1,SFG,5,77,74,,,N,N,New York Giants,Polo Grounds IV
+1939,NYA,NYY,1,106,45,,,Y,Y,New York Yankees,Yankee Stadium I
+1939,PHA,OAK,7,55,97,,,N,N,Philadelphia Athletics,Shibe Park
+1939,PHI,PHI,8,45,106,,,N,N,Philadelphia Phillies,Shibe Park
+1939,PIT,PIT,6,68,85,,,N,N,Pittsburgh Pirates,Forbes Field
+1939,SLA,BAL,8,43,111,,,N,N,St. Louis Browns,Sportsman's Park IV
+1939,SLN,STL,2,92,61,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1939,WS1,MIN,6,65,87,,,N,N,Washington Senators,Griffith Stadium I
+1940,BOS,BOS,4,82,72,,,N,N,Boston Red Sox,Fenway Park II
+1940,BRO,LAD,2,88,65,,,N,N,Brooklyn Dodgers,Ebbets Field
+1940,BSN,ATL,7,65,87,,,N,N,Boston Bees,Braves Field
+1940,CHA,CHW,4,82,72,,,N,N,Chicago White Sox,Comiskey Park
+1940,CHN,CHC,5,75,79,,,N,N,Chicago Cubs,Wrigley Field
+1940,CIN,CIN,1,100,53,,,Y,Y,Cincinnati Reds,Crosley Field
+1940,CLE,CLE,2,89,65,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1940,DET,DET,1,90,64,,,Y,N,Detroit Tigers,Briggs Stadium
+1940,NY1,SFG,6,72,80,,,N,N,New York Giants,Polo Grounds IV
+1940,NYA,NYY,3,88,66,,,N,N,New York Yankees,Yankee Stadium I
+1940,PHA,OAK,8,54,100,,,N,N,Philadelphia Athletics,Shibe Park
+1940,PHI,PHI,8,50,103,,,N,N,Philadelphia Phillies,Shibe Park
+1940,PIT,PIT,4,78,76,,,N,N,Pittsburgh Pirates,Forbes Field
+1940,SLA,BAL,6,67,87,,,N,N,St. Louis Browns,Sportsman's Park IV
+1940,SLN,STL,3,84,69,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1940,WS1,MIN,7,64,90,,,N,N,Washington Senators,Griffith Stadium I
+1941,BOS,BOS,2,84,70,,,N,N,Boston Red Sox,Fenway Park II
+1941,BRO,LAD,1,100,54,,,Y,N,Brooklyn Dodgers,Ebbets Field
+1941,BSN,ATL,7,62,92,,,N,N,Boston Braves,Braves Field
+1941,CHA,CHW,3,77,77,,,N,N,Chicago White Sox,Comiskey Park
+1941,CHN,CHC,6,70,84,,,N,N,Chicago Cubs,Wrigley Field
+1941,CIN,CIN,3,88,66,,,N,N,Cincinnati Reds,Crosley Field
+1941,CLE,CLE,4,75,79,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1941,DET,DET,4,75,79,,,N,N,Detroit Tigers,Briggs Stadium
+1941,NY1,SFG,5,74,79,,,N,N,New York Giants,Polo Grounds IV
+1941,NYA,NYY,1,101,53,,,Y,Y,New York Yankees,Yankee Stadium I
+1941,PHA,OAK,8,64,90,,,N,N,Philadelphia Athletics,Shibe Park
+1941,PHI,PHI,8,43,111,,,N,N,Philadelphia Phillies,Shibe Park
+1941,PIT,PIT,4,81,73,,,N,N,Pittsburgh Pirates,Forbes Field
+1941,SLA,BAL,6,70,84,,,N,N,St. Louis Browns,Sportsman's Park IV
+1941,SLN,STL,2,97,56,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1941,WS1,MIN,6,70,84,,,N,N,Washington Senators,Griffith Stadium I
+1942,BOS,BOS,2,93,59,,,N,N,Boston Red Sox,Fenway Park II
+1942,BRO,LAD,2,104,50,,,N,N,Brooklyn Dodgers,Ebbets Field
+1942,BSN,ATL,7,59,89,,,N,N,Boston Braves,Braves Field
+1942,CHA,CHW,6,66,82,,,N,N,Chicago White Sox,Comiskey Park
+1942,CHN,CHC,6,68,86,,,N,N,Chicago Cubs,Wrigley Field
+1942,CIN,CIN,4,76,76,,,N,N,Cincinnati Reds,Crosley Field
+1942,CLE,CLE,4,75,79,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1942,DET,DET,5,73,81,,,N,N,Detroit Tigers,Briggs Stadium
+1942,NY1,SFG,3,85,67,,,N,N,New York Giants,Polo Grounds IV
+1942,NYA,NYY,1,103,51,,,Y,N,New York Yankees,Yankee Stadium I
+1942,PHA,OAK,8,55,99,,,N,N,Philadelphia Athletics,Shibe Park
+1942,PHI,PHI,8,42,109,,,N,N,Philadelphia Phillies,Shibe Park
+1942,PIT,PIT,5,66,81,,,N,N,Pittsburgh Pirates,Forbes Field
+1942,SLA,BAL,3,82,69,,,N,N,St. Louis Browns,Sportsman's Park IV
+1942,SLN,STL,1,106,48,,,Y,Y,St. Louis Cardinals,Sportsman's Park IV
+1942,WS1,MIN,7,62,89,,,N,N,Washington Senators,Griffith Stadium I
+1943,BOS,BOS,7,68,84,,,N,N,Boston Red Sox,Fenway Park II
+1943,BRO,LAD,3,81,72,,,N,N,Brooklyn Dodgers,Ebbets Field
+1943,BSN,ATL,6,68,85,,,N,N,Boston Braves,Braves Field
+1943,CHA,CHW,4,82,72,,,N,N,Chicago White Sox,Comiskey Park
+1943,CHN,CHC,5,74,79,,,N,N,Chicago Cubs,Wrigley Field
+1943,CIN,CIN,2,87,67,,,N,N,Cincinnati Reds,Crosley Field
+1943,CLE,CLE,3,82,71,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1943,DET,DET,5,78,76,,,N,N,Detroit Tigers,Briggs Stadium
+1943,NY1,SFG,8,55,98,,,N,N,New York Giants,Polo Grounds IV
+1943,NYA,NYY,1,98,56,,,Y,Y,New York Yankees,Yankee Stadium I
+1943,PHA,OAK,8,49,105,,,N,N,Philadelphia Athletics,Shibe Park
+1943,PHI,PHI,7,64,90,,,N,N,Philadelphia Blue Jays,Shibe Park
+1943,PIT,PIT,4,80,74,,,N,N,Pittsburgh Pirates,Forbes Field
+1943,SLA,BAL,6,72,80,,,N,N,St. Louis Browns,Sportsman's Park IV
+1943,SLN,STL,1,105,49,,,Y,N,St. Louis Cardinals,Sportsman's Park IV
+1943,WS1,MIN,2,84,69,,,N,N,Washington Senators,Griffith Stadium I
+1944,BOS,BOS,4,77,77,,,N,N,Boston Red Sox,Fenway Park II
+1944,BRO,LAD,7,63,91,,,N,N,Brooklyn Dodgers,Ebbets Field
+1944,BSN,ATL,6,65,89,,,N,N,Boston Braves,Braves Field
+1944,CHA,CHW,7,71,83,,,N,N,Chicago White Sox,Comiskey Park
+1944,CHN,CHC,4,75,79,,,N,N,Chicago Cubs,Wrigley Field
+1944,CIN,CIN,3,89,65,,,N,N,Cincinnati Reds,Crosley Field
+1944,CLE,CLE,5,72,82,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1944,DET,DET,2,88,66,,,N,N,Detroit Tigers,Briggs Stadium
+1944,NY1,SFG,5,67,87,,,N,N,New York Giants,Polo Grounds IV
+1944,NYA,NYY,3,83,71,,,N,N,New York Yankees,Yankee Stadium I
+1944,PHA,OAK,5,72,82,,,N,N,Philadelphia Athletics,Shibe Park
+1944,PHI,PHI,8,61,92,,,N,N,Philadelphia Blue Jays,Shibe Park
+1944,PIT,PIT,2,90,63,,,N,N,Pittsburgh Pirates,Forbes Field
+1944,SLA,BAL,1,89,65,,,Y,N,St. Louis Browns,Sportsman's Park IV
+1944,SLN,STL,1,105,49,,,Y,Y,St. Louis Cardinals,Sportsman's Park IV
+1944,WS1,MIN,8,64,90,,,N,N,Washington Senators,Griffith Stadium I
+1945,BOS,BOS,7,71,83,,,N,N,Boston Red Sox,Fenway Park II
+1945,BRO,LAD,3,87,67,,,N,N,Brooklyn Dodgers,Ebbets Field
+1945,BSN,ATL,6,67,85,,,N,N,Boston Braves,Braves Field
+1945,CHA,CHW,6,71,78,,,N,N,Chicago White Sox,Comiskey Park
+1945,CHN,CHC,1,98,56,,,Y,N,Chicago Cubs,Wrigley Field
+1945,CIN,CIN,7,61,93,,,N,N,Cincinnati Reds,Crosley Field
+1945,CLE,CLE,5,73,72,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1945,DET,DET,1,88,65,,,Y,Y,Detroit Tigers,Briggs Stadium
+1945,NY1,SFG,5,78,74,,,N,N,New York Giants,Polo Grounds IV
+1945,NYA,NYY,4,81,71,,,N,N,New York Yankees,Yankee Stadium I
+1945,PHA,OAK,8,52,98,,,N,N,Philadelphia Athletics,Shibe Park
+1945,PHI,PHI,8,46,108,,,N,N,Philadelphia Phillies,Shibe Park
+1945,PIT,PIT,4,82,72,,,N,N,Pittsburgh Pirates,Forbes Field
+1945,SLA,BAL,3,81,70,,,N,N,St. Louis Browns,Sportsman's Park IV
+1945,SLN,STL,2,95,59,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1945,WS1,MIN,2,87,67,,,N,N,Washington Senators,Griffith Stadium I
+1946,BOS,BOS,1,104,50,,,Y,N,Boston Red Sox,Fenway Park II
+1946,BRO,LAD,2,96,60,,,N,N,Brooklyn Dodgers,Ebbets Field
+1946,BSN,ATL,4,81,72,,,N,N,Boston Braves,Braves Field
+1946,CHA,CHW,5,74,80,,,N,N,Chicago White Sox,Comiskey Park
+1946,CHN,CHC,3,82,71,,,N,N,Chicago Cubs,Wrigley Field
+1946,CIN,CIN,6,67,87,,,N,N,Cincinnati Reds,Crosley Field
+1946,CLE,CLE,6,68,86,,,N,N,Cleveland Indians,League Park II/Cleveland Stadium
+1946,DET,DET,2,92,62,,,N,N,Detroit Tigers,Briggs Stadium
+1946,NY1,SFG,8,61,93,,,N,N,New York Giants,Polo Grounds IV
+1946,NYA,NYY,3,87,67,,,N,N,New York Yankees,Yankee Stadium I
+1946,PHA,OAK,8,49,105,,,N,N,Philadelphia Athletics,Shibe Park
+1946,PHI,PHI,5,69,85,,,N,N,Philadelphia Phillies,Shibe Park
+1946,PIT,PIT,7,63,91,,,N,N,Pittsburgh Pirates,Forbes Field
+1946,SLA,BAL,7,66,88,,,N,N,St. Louis Browns,Sportsman's Park IV
+1946,SLN,STL,1,98,58,,,Y,Y,St. Louis Cardinals,Sportsman's Park IV
+1946,WS1,MIN,4,76,78,,,N,N,Washington Senators,Griffith Stadium I
+1947,BOS,BOS,3,83,71,,,N,N,Boston Red Sox,Fenway Park II
+1947,BRO,LAD,1,94,60,,,Y,N,Brooklyn Dodgers,Ebbets Field
+1947,BSN,ATL,3,86,68,,,N,N,Boston Braves,Braves Field
+1947,CHA,CHW,6,70,84,,,N,N,Chicago White Sox,Comiskey Park
+1947,CHN,CHC,6,69,85,,,N,N,Chicago Cubs,Wrigley Field
+1947,CIN,CIN,5,73,81,,,N,N,Cincinnati Reds,Crosley Field
+1947,CLE,CLE,4,80,74,,,N,N,Cleveland Indians,Cleveland Stadium
+1947,DET,DET,2,85,69,,,N,N,Detroit Tigers,Briggs Stadium
+1947,NY1,SFG,4,81,73,,,N,N,New York Giants,Polo Grounds IV
+1947,NYA,NYY,1,97,57,,,Y,Y,New York Yankees,Yankee Stadium I
+1947,PHA,OAK,5,78,76,,,N,N,Philadelphia Athletics,Shibe Park
+1947,PHI,PHI,7,62,92,,,N,N,Philadelphia Phillies,Shibe Park
+1947,PIT,PIT,7,62,92,,,N,N,Pittsburgh Pirates,Forbes Field
+1947,SLA,BAL,8,59,95,,,N,N,St. Louis Browns,Sportsman's Park IV
+1947,SLN,STL,2,89,65,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1947,WS1,MIN,7,64,90,,,N,N,Washington Senators,Griffith Stadium I
+1948,BOS,BOS,2,96,59,,,N,N,Boston Red Sox,Fenway Park II
+1948,BRO,LAD,3,84,70,,,N,N,Brooklyn Dodgers,Ebbets Field
+1948,BSN,ATL,1,91,62,,,Y,N,Boston Braves,Braves Field
+1948,CHA,CHW,8,51,101,,,N,N,Chicago White Sox,Comiskey Park
+1948,CHN,CHC,8,64,90,,,N,N,Chicago Cubs,Wrigley Field
+1948,CIN,CIN,7,64,89,,,N,N,Cincinnati Reds,Crosley Field
+1948,CLE,CLE,1,97,58,,,Y,Y,Cleveland Indians,Cleveland Stadium
+1948,DET,DET,5,78,76,,,N,N,Detroit Tigers,Briggs Stadium
+1948,NY1,SFG,5,78,76,,,N,N,New York Giants,Polo Grounds IV
+1948,NYA,NYY,3,94,60,,,N,N,New York Yankees,Yankee Stadium I
+1948,PHA,OAK,4,84,70,,,N,N,Philadelphia Athletics,Shibe Park
+1948,PHI,PHI,6,66,88,,,N,N,Philadelphia Phillies,Shibe Park
+1948,PIT,PIT,4,83,71,,,N,N,Pittsburgh Pirates,Forbes Field
+1948,SLA,BAL,6,59,94,,,N,N,St. Louis Browns,Sportsman's Park IV
+1948,SLN,STL,2,85,69,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1948,WS1,MIN,7,56,97,,,N,N,Washington Senators,Griffith Stadium I
+1949,BOS,BOS,2,96,58,,,N,N,Boston Red Sox,Fenway Park II
+1949,BRO,LAD,1,97,57,,,Y,N,Brooklyn Dodgers,Ebbets Field
+1949,BSN,ATL,4,75,79,,,N,N,Boston Braves,Braves Field
+1949,CHA,CHW,6,63,91,,,N,N,Chicago White Sox,Comiskey Park
+1949,CHN,CHC,8,61,93,,,N,N,Chicago Cubs,Wrigley Field
+1949,CIN,CIN,7,62,92,,,N,N,Cincinnati Reds,Crosley Field
+1949,CLE,CLE,3,89,65,,,N,N,Cleveland Indians,Cleveland Stadium
+1949,DET,DET,4,87,67,,,N,N,Detroit Tigers,Briggs Stadium
+1949,NY1,SFG,5,73,81,,,N,N,New York Giants,Polo Grounds IV
+1949,NYA,NYY,1,97,57,,,Y,Y,New York Yankees,Yankee Stadium I
+1949,PHA,OAK,5,81,73,,,N,N,Philadelphia Athletics,Shibe Park
+1949,PHI,PHI,3,81,73,,,N,N,Philadelphia Phillies,Shibe Park
+1949,PIT,PIT,6,71,83,,,N,N,Pittsburgh Pirates,Forbes Field
+1949,SLA,BAL,7,53,101,,,N,N,St. Louis Browns,Sportsman's Park IV
+1949,SLN,STL,2,96,58,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1949,WS1,MIN,8,50,104,,,N,N,Washington Senators,Griffith Stadium I
+1950,BOS,BOS,3,94,60,,,N,N,Boston Red Sox,Fenway Park II
+1950,BRO,LAD,2,89,65,,,N,N,Brooklyn Dodgers,Ebbets Field
+1950,BSN,ATL,4,83,71,,,N,N,Boston Braves,Braves Field
+1950,CHA,CHW,6,60,94,,,N,N,Chicago White Sox,Comiskey Park
+1950,CHN,CHC,7,64,89,,,N,N,Chicago Cubs,Wrigley Field
+1950,CIN,CIN,6,66,87,,,N,N,Cincinnati Reds,Crosley Field
+1950,CLE,CLE,4,92,62,,,N,N,Cleveland Indians,Cleveland Stadium
+1950,DET,DET,2,95,59,,,N,N,Detroit Tigers,Briggs Stadium
+1950,NY1,SFG,3,86,68,,,N,N,New York Giants,Polo Grounds IV
+1950,NYA,NYY,1,98,56,,,Y,Y,New York Yankees,Yankee Stadium I
+1950,PHA,OAK,8,52,102,,,N,N,Philadelphia Athletics,Shibe Park
+1950,PHI,PHI,1,91,63,,,Y,N,Philadelphia Phillies,Shibe Park
+1950,PIT,PIT,8,57,96,,,N,N,Pittsburgh Pirates,Forbes Field
+1950,SLA,BAL,7,58,96,,,N,N,St. Louis Browns,Sportsman's Park IV
+1950,SLN,STL,5,78,75,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1950,WS1,MIN,5,67,87,,,N,N,Washington Senators,Griffith Stadium I
+1951,BOS,BOS,3,87,67,,,N,N,Boston Red Sox,Fenway Park II
+1951,BRO,LAD,2,97,60,,,N,N,Brooklyn Dodgers,Ebbets Field
+1951,BSN,ATL,4,76,78,,,N,N,Boston Braves,Braves Field
+1951,CHA,CHW,4,81,73,,,N,N,Chicago White Sox,Comiskey Park
+1951,CHN,CHC,8,62,92,,,N,N,Chicago Cubs,Wrigley Field
+1951,CIN,CIN,6,68,86,,,N,N,Cincinnati Reds,Crosley Field
+1951,CLE,CLE,2,93,61,,,N,N,Cleveland Indians,Cleveland Stadium
+1951,DET,DET,5,73,81,,,N,N,Detroit Tigers,Briggs Stadium
+1951,NY1,SFG,1,98,59,,,Y,N,New York Giants,Polo Grounds IV
+1951,NYA,NYY,1,98,56,,,Y,Y,New York Yankees,Yankee Stadium I
+1951,PHA,OAK,6,70,84,,,N,N,Philadelphia Athletics,Shibe Park
+1951,PHI,PHI,5,73,81,,,N,N,Philadelphia Phillies,Shibe Park
+1951,PIT,PIT,7,64,90,,,N,N,Pittsburgh Pirates,Forbes Field
+1951,SLA,BAL,8,52,102,,,N,N,St. Louis Browns,Sportsman's Park IV
+1951,SLN,STL,3,81,73,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1951,WS1,MIN,7,62,92,,,N,N,Washington Senators,Griffith Stadium I
+1952,BOS,BOS,6,76,78,,,N,N,Boston Red Sox,Fenway Park II
+1952,BRO,LAD,1,96,57,,,Y,N,Brooklyn Dodgers,Ebbets Field
+1952,BSN,ATL,7,64,89,,,N,N,Boston Braves,Braves Field
+1952,CHA,CHW,3,81,73,,,N,N,Chicago White Sox,Comiskey Park
+1952,CHN,CHC,5,77,77,,,N,N,Chicago Cubs,Wrigley Field
+1952,CIN,CIN,6,69,85,,,N,N,Cincinnati Reds,Crosley Field
+1952,CLE,CLE,2,93,61,,,N,N,Cleveland Indians,Cleveland Stadium
+1952,DET,DET,8,50,104,,,N,N,Detroit Tigers,Briggs Stadium
+1952,NY1,SFG,2,92,62,,,N,N,New York Giants,Polo Grounds IV
+1952,NYA,NYY,1,95,59,,,Y,Y,New York Yankees,Yankee Stadium I
+1952,PHA,OAK,4,79,75,,,N,N,Philadelphia Athletics,Shibe Park
+1952,PHI,PHI,4,87,67,,,N,N,Philadelphia Phillies,Shibe Park
+1952,PIT,PIT,8,42,112,,,N,N,Pittsburgh Pirates,Forbes Field
+1952,SLA,BAL,7,64,90,,,N,N,St. Louis Browns,Sportsman's Park IV
+1952,SLN,STL,3,88,66,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1952,WS1,MIN,5,78,76,,,N,N,Washington Senators,Griffith Stadium I
+1953,BOS,BOS,4,84,69,,,N,N,Boston Red Sox,Fenway Park II
+1953,BRO,LAD,1,105,49,,,Y,N,Brooklyn Dodgers,Ebbets Field
+1953,CHA,CHW,3,89,65,,,N,N,Chicago White Sox,Comiskey Park
+1953,CHN,CHC,7,65,89,,,N,N,Chicago Cubs,Wrigley Field
+1953,CIN,CIN,6,68,86,,,N,N,Cincinnati Reds,Crosley Field
+1953,CLE,CLE,2,92,62,,,N,N,Cleveland Indians,Cleveland Stadium
+1953,DET,DET,6,60,94,,,N,N,Detroit Tigers,Briggs Stadium
+1953,ML1,ATL,2,92,62,,,N,N,Milwaukee Braves,County Stadium
+1953,NY1,SFG,5,70,84,,,N,N,New York Giants,Polo Grounds IV
+1953,NYA,NYY,1,99,52,,,Y,Y,New York Yankees,Yankee Stadium I
+1953,PHA,OAK,7,59,95,,,N,N,Philadelphia Athletics,Connie Mack Stadium
+1953,PHI,PHI,3,83,71,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1953,PIT,PIT,8,50,104,,,N,N,Pittsburgh Pirates,Forbes Field
+1953,SLA,BAL,8,54,100,,,N,N,St. Louis Browns,Sportsman's Park IV
+1953,SLN,STL,3,83,71,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1953,WS1,MIN,5,76,76,,,N,N,Washington Senators,Griffith Stadium I
+1954,BAL,BAL,7,54,100,,,N,N,Baltimore Orioles,Memorial Stadium
+1954,BOS,BOS,4,69,85,,,N,N,Boston Red Sox,Fenway Park II
+1954,BRO,LAD,2,92,62,,,N,N,Brooklyn Dodgers,Ebbets Field
+1954,CHA,CHW,3,94,60,,,N,N,Chicago White Sox,Comiskey Park
+1954,CHN,CHC,7,64,90,,,N,N,Chicago Cubs,Wrigley Field
+1954,CIN,CIN,5,74,80,,,N,N,Cincinnati Redlegs,Crosley Field
+1954,CLE,CLE,1,111,43,,,Y,N,Cleveland Indians,Cleveland Stadium
+1954,DET,DET,5,68,86,,,N,N,Detroit Tigers,Briggs Stadium
+1954,ML1,ATL,3,89,65,,,N,N,Milwaukee Braves,County Stadium
+1954,NY1,SFG,1,97,57,,,Y,Y,New York Giants,Polo Grounds IV
+1954,NYA,NYY,2,103,51,,,N,N,New York Yankees,Yankee Stadium I
+1954,PHA,OAK,8,51,103,,,N,N,Philadelphia Athletics,Connie Mack Stadium
+1954,PHI,PHI,4,75,79,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1954,PIT,PIT,8,53,101,,,N,N,Pittsburgh Pirates,Forbes Field
+1954,SLN,STL,6,72,82,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1954,WS1,MIN,6,66,88,,,N,N,Washington Senators,Griffith Stadium I
+1955,BAL,BAL,7,57,97,,,N,N,Baltimore Orioles,Memorial Stadium
+1955,BOS,BOS,4,84,70,,,N,N,Boston Red Sox,Fenway Park II
+1955,BRO,LAD,1,98,55,,,Y,Y,Brooklyn Dodgers,Ebbets Field
+1955,CHA,CHW,3,91,63,,,N,N,Chicago White Sox,Comiskey Park
+1955,CHN,CHC,6,72,81,,,N,N,Chicago Cubs,Wrigley Field
+1955,CIN,CIN,5,75,79,,,N,N,Cincinnati Redlegs,Crosley Field
+1955,CLE,CLE,2,93,61,,,N,N,Cleveland Indians,Cleveland Stadium
+1955,DET,DET,5,79,75,,,N,N,Detroit Tigers,Briggs Stadium
+1955,KC1,OAK,6,63,91,,,N,N,Kansas City Athletics,Municipal Stadium I
+1955,ML1,ATL,2,85,69,,,N,N,Milwaukee Braves,County Stadium
+1955,NY1,SFG,3,80,74,,,N,N,New York Giants,Polo Grounds IV
+1955,NYA,NYY,1,96,58,,,Y,N,New York Yankees,Yankee Stadium I
+1955,PHI,PHI,4,77,77,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1955,PIT,PIT,8,60,94,,,N,N,Pittsburgh Pirates,Forbes Field
+1955,SLN,STL,7,68,86,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1955,WS1,MIN,8,53,101,,,N,N,Washington Senators,Griffith Stadium I
+1956,BAL,BAL,6,69,85,,,N,N,Baltimore Orioles,Memorial Stadium
+1956,BOS,BOS,4,84,70,,,N,N,Boston Red Sox,Fenway Park II
+1956,BRO,LAD,1,93,61,,,Y,N,Brooklyn Dodgers,Ebbets Field
+1956,CHA,CHW,3,85,69,,,N,N,Chicago White Sox,Comiskey Park
+1956,CHN,CHC,8,60,94,,,N,N,Chicago Cubs,Wrigley Field
+1956,CIN,CIN,3,91,63,,,N,N,Cincinnati Redlegs,Crosley Field
+1956,CLE,CLE,2,88,66,,,N,N,Cleveland Indians,Cleveland Stadium
+1956,DET,DET,5,82,72,,,N,N,Detroit Tigers,Briggs Stadium
+1956,KC1,OAK,8,52,102,,,N,N,Kansas City Athletics,Municipal Stadium I
+1956,ML1,ATL,2,92,62,,,N,N,Milwaukee Braves,County Stadium
+1956,NY1,SFG,6,67,87,,,N,N,New York Giants,Polo Grounds IV
+1956,NYA,NYY,1,97,57,,,Y,Y,New York Yankees,Yankee Stadium I
+1956,PHI,PHI,5,71,83,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1956,PIT,PIT,7,66,88,,,N,N,Pittsburgh Pirates,Forbes Field
+1956,SLN,STL,4,76,78,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1956,WS1,MIN,7,59,95,,,N,N,Washington Senators,Griffith Stadium II
+1957,BAL,BAL,5,76,76,,,N,N,Baltimore Orioles,Memorial Stadium
+1957,BOS,BOS,3,82,72,,,N,N,Boston Red Sox,Fenway Park II
+1957,BRO,LAD,3,84,70,,,N,N,Brooklyn Dodgers,Ebbets Field
+1957,CHA,CHW,2,90,64,,,N,N,Chicago White Sox,Comiskey Park
+1957,CHN,CHC,7,62,92,,,N,N,Chicago Cubs,Wrigley Field
+1957,CIN,CIN,4,80,74,,,N,N,Cincinnati Redlegs,Crosley Field
+1957,CLE,CLE,6,76,77,,,N,N,Cleveland Indians,Cleveland Stadium
+1957,DET,DET,4,78,76,,,N,N,Detroit Tigers,Briggs Stadium
+1957,KC1,OAK,7,59,94,,,N,N,Kansas City Athletics,Municipal Stadium I
+1957,ML1,ATL,1,95,59,,,Y,Y,Milwaukee Braves,County Stadium
+1957,NY1,SFG,6,69,85,,,N,N,New York Giants,Polo Grounds IV
+1957,NYA,NYY,1,98,56,,,Y,N,New York Yankees,Yankee Stadium I
+1957,PHI,PHI,5,77,77,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1957,PIT,PIT,7,62,92,,,N,N,Pittsburgh Pirates,Forbes Field
+1957,SLN,STL,2,87,67,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1957,WS1,MIN,8,55,99,,,N,N,Washington Senators,Griffith Stadium II
+1958,BAL,BAL,6,74,79,,,N,N,Baltimore Orioles,Memorial Stadium
+1958,BOS,BOS,3,79,75,,,N,N,Boston Red Sox,Fenway Park II
+1958,CHA,CHW,2,82,72,,,N,N,Chicago White Sox,Comiskey Park
+1958,CHN,CHC,5,72,82,,,N,N,Chicago Cubs,Wrigley Field
+1958,CIN,CIN,4,76,78,,,N,N,Cincinnati Redlegs,Crosley Field
+1958,CLE,CLE,4,77,76,,,N,N,Cleveland Indians,Cleveland Stadium
+1958,DET,DET,5,77,77,,,N,N,Detroit Tigers,Briggs Stadium
+1958,KC1,OAK,7,73,81,,,N,N,Kansas City Athletics,Municipal Stadium I
+1958,LAN,LAD,7,71,83,,,N,N,Los Angeles Dodgers,Los Angeles Memorial Coliseum
+1958,ML1,ATL,1,92,62,,,Y,N,Milwaukee Braves,County Stadium
+1958,NYA,NYY,1,92,62,,,Y,Y,New York Yankees,Yankee Stadium I
+1958,PHI,PHI,8,69,85,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1958,PIT,PIT,2,84,70,,,N,N,Pittsburgh Pirates,Forbes Field
+1958,SFN,SFG,3,80,74,,,N,N,San Francisco Giants,Seals Stadium
+1958,SLN,STL,5,72,82,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1958,WS1,MIN,8,61,93,,,N,N,Washington Senators,Griffith Stadium II
+1959,BAL,BAL,6,74,80,,,N,N,Baltimore Orioles,Memorial Stadium
+1959,BOS,BOS,5,75,79,,,N,N,Boston Red Sox,Fenway Park II
+1959,CHA,CHW,1,94,60,,,Y,N,Chicago White Sox,Comiskey Park
+1959,CHN,CHC,5,74,80,,,N,N,Chicago Cubs,Wrigley Field
+1959,CIN,CIN,5,74,80,,,N,N,Cincinnati Redlegs,Crosley Field
+1959,CLE,CLE,2,89,65,,,N,N,Cleveland Indians,Cleveland Stadium
+1959,DET,DET,4,76,78,,,N,N,Detroit Tigers,Briggs Stadium
+1959,KC1,OAK,7,66,88,,,N,N,Kansas City Athletics,Municipal Stadium I
+1959,LAN,LAD,1,88,68,,,Y,Y,Los Angeles Dodgers,Los Angeles Memorial Coliseum
+1959,ML1,ATL,2,86,70,,,N,N,Milwaukee Braves,County Stadium
+1959,NYA,NYY,3,79,75,,,N,N,New York Yankees,Yankee Stadium I
+1959,PHI,PHI,8,64,90,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1959,PIT,PIT,4,78,76,,,N,N,Pittsburgh Pirates,Forbes Field
+1959,SFN,SFG,3,83,71,,,N,N,San Francisco Giants,Seals Stadium
+1959,SLN,STL,7,71,83,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1959,WS1,MIN,8,63,91,,,N,N,Washington Senators,Griffith Stadium II
+1960,BAL,BAL,2,89,65,,,N,N,Baltimore Orioles,Memorial Stadium
+1960,BOS,BOS,7,65,89,,,N,N,Boston Red Sox,Fenway Park II
+1960,CHA,CHW,3,87,67,,,N,N,Chicago White Sox,Comiskey Park
+1960,CHN,CHC,7,60,94,,,N,N,Chicago Cubs,Wrigley Field
+1960,CIN,CIN,6,67,87,,,N,N,Cincinnati Reds,Crosley Field
+1960,CLE,CLE,4,76,78,,,N,N,Cleveland Indians,Cleveland Stadium
+1960,DET,DET,6,71,83,,,N,N,Detroit Tigers,Briggs Stadium
+1960,KC1,OAK,8,58,96,,,N,N,Kansas City Athletics,Municipal Stadium I
+1960,LAN,LAD,4,82,72,,,N,N,Los Angeles Dodgers,Los Angeles Memorial Coliseum
+1960,ML1,ATL,2,88,66,,,N,N,Milwaukee Braves,County Stadium
+1960,NYA,NYY,1,97,57,,,Y,N,New York Yankees,Yankee Stadium I
+1960,PHI,PHI,8,59,95,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1960,PIT,PIT,1,95,59,,,Y,Y,Pittsburgh Pirates,Forbes Field
+1960,SFN,SFG,5,79,75,,,N,N,San Francisco Giants,Candlestick Park
+1960,SLN,STL,3,86,68,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1960,WS1,MIN,5,73,81,,,N,N,Washington Senators,Griffith Stadium II
+1961,BAL,BAL,3,95,67,,,N,N,Baltimore Orioles,Memorial Stadium
+1961,BOS,BOS,6,76,86,,,N,N,Boston Red Sox,Fenway Park II
+1961,CHA,CHW,4,86,76,,,N,N,Chicago White Sox,Comiskey Park
+1961,CHN,CHC,7,64,90,,,N,N,Chicago Cubs,Wrigley Field
+1961,CIN,CIN,1,93,61,,,Y,N,Cincinnati Reds,Crosley Field
+1961,CLE,CLE,5,78,83,,,N,N,Cleveland Indians,Cleveland Stadium
+1961,DET,DET,2,101,61,,,N,N,Detroit Tigers,Tiger Stadium
+1961,KC1,OAK,9,61,100,,,N,N,Kansas City Athletics,Municipal Stadium I
+1961,LAA,ANA,8,70,91,,,N,N,Los Angeles Angels,Wrigley Field (LA)
+1961,LAN,LAD,2,89,65,,,N,N,Los Angeles Dodgers,Los Angeles Memorial Coliseum
+1961,MIN,MIN,7,70,90,,,N,N,Minnesota Twins,Metropolitan Stadium
+1961,ML1,ATL,4,83,71,,,N,N,Milwaukee Braves,County Stadium
+1961,NYA,NYY,1,109,53,,,Y,Y,New York Yankees,Yankee Stadium I
+1961,PHI,PHI,8,47,107,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1961,PIT,PIT,6,75,79,,,N,N,Pittsburgh Pirates,Forbes Field
+1961,SFN,SFG,3,85,69,,,N,N,San Francisco Giants,Candlestick Park
+1961,SLN,STL,5,80,74,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1961,WS2,TEX,9,61,100,,,N,N,Washington Senators,Griffith Stadium II
+1962,BAL,BAL,7,77,85,,,N,N,Baltimore Orioles,Memorial Stadium
+1962,BOS,BOS,8,76,84,,,N,N,Boston Red Sox,Fenway Park II
+1962,CHA,CHW,5,85,77,,,N,N,Chicago White Sox,Comiskey Park
+1962,CHN,CHC,9,59,103,,,N,N,Chicago Cubs,Wrigley Field
+1962,CIN,CIN,3,98,64,,,N,N,Cincinnati Reds,Crosley Field
+1962,CLE,CLE,6,80,82,,,N,N,Cleveland Indians,Cleveland Stadium
+1962,DET,DET,4,85,76,,,N,N,Detroit Tigers,Tiger Stadium
+1962,HOU,HOU,8,64,96,,,N,N,Houston Colt .45's,Colt Stadium
+1962,KC1,OAK,9,72,90,,,N,N,Kansas City Athletics,Municipal Stadium I
+1962,LAA,ANA,3,86,76,,,N,N,Los Angeles Angels,Dodger Stadium
+1962,LAN,LAD,2,102,63,,,N,N,Los Angeles Dodgers,Dodger Stadium
+1962,MIN,MIN,2,91,71,,,N,N,Minnesota Twins,Metropolitan Stadium
+1962,ML1,ATL,5,86,76,,,N,N,Milwaukee Braves,County Stadium
+1962,NYA,NYY,1,96,66,,,Y,Y,New York Yankees,Yankee Stadium I
+1962,NYN,NYM,10,40,120,,,N,N,New York Mets,Polo Grounds IV
+1962,PHI,PHI,7,81,80,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1962,PIT,PIT,4,93,68,,,N,N,Pittsburgh Pirates,Forbes Field
+1962,SFN,SFG,1,103,62,,,Y,N,San Francisco Giants,Candlestick Park
+1962,SLN,STL,6,84,78,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1962,WS2,TEX,10,60,101,,,N,N,Washington Senators,R.F.K. Stadium
+1963,BAL,BAL,4,86,76,,,N,N,Baltimore Orioles,Memorial Stadium
+1963,BOS,BOS,7,76,85,,,N,N,Boston Red Sox,Fenway Park II
+1963,CHA,CHW,2,94,68,,,N,N,Chicago White Sox,Comiskey Park
+1963,CHN,CHC,7,82,80,,,N,N,Chicago Cubs,Wrigley Field
+1963,CIN,CIN,5,86,76,,,N,N,Cincinnati Reds,Crosley Field
+1963,CLE,CLE,5,79,83,,,N,N,Cleveland Indians,Cleveland Stadium
+1963,DET,DET,5,79,83,,,N,N,Detroit Tigers,Tiger Stadium
+1963,HOU,HOU,9,66,96,,,N,N,Houston Colt .45's,Colt Stadium
+1963,KC1,OAK,8,73,89,,,N,N,Kansas City Athletics,Municipal Stadium I
+1963,LAA,ANA,9,70,91,,,N,N,Los Angeles Angels,Dodger Stadium
+1963,LAN,LAD,1,99,63,,,Y,Y,Los Angeles Dodgers,Dodger Stadium
+1963,MIN,MIN,3,91,70,,,N,N,Minnesota Twins,Metropolitan Stadium
+1963,ML1,ATL,6,84,78,,,N,N,Milwaukee Braves,County Stadium
+1963,NYA,NYY,1,104,57,,,Y,N,New York Yankees,Yankee Stadium I
+1963,NYN,NYM,10,51,111,,,N,N,New York Mets,Polo Grounds IV
+1963,PHI,PHI,4,87,75,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1963,PIT,PIT,8,74,88,,,N,N,Pittsburgh Pirates,Forbes Field
+1963,SFN,SFG,3,88,74,,,N,N,San Francisco Giants,Candlestick Park
+1963,SLN,STL,2,93,69,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1963,WS2,TEX,10,56,106,,,N,N,Washington Senators,R.F.K. Stadium
+1964,BAL,BAL,3,97,65,,,N,N,Baltimore Orioles,Memorial Stadium
+1964,BOS,BOS,8,72,90,,,N,N,Boston Red Sox,Fenway Park II
+1964,CHA,CHW,2,98,64,,,N,N,Chicago White Sox,Comiskey Park
+1964,CHN,CHC,8,76,86,,,N,N,Chicago Cubs,Wrigley Field
+1964,CIN,CIN,2,92,70,,,N,N,Cincinnati Reds,Crosley Field
+1964,CLE,CLE,6,79,83,,,N,N,Cleveland Indians,Cleveland Stadium
+1964,DET,DET,4,85,77,,,N,N,Detroit Tigers,Tiger Stadium
+1964,HOU,HOU,9,66,96,,,N,N,Houston Colt .45's,Colt Stadium
+1964,KC1,OAK,10,57,105,,,N,N,Kansas City Athletics,Municipal Stadium I
+1964,LAA,ANA,5,82,80,,,N,N,Los Angeles Angels,Dodger Stadium
+1964,LAN,LAD,6,80,82,,,N,N,Los Angeles Dodgers,Dodger Stadium
+1964,MIN,MIN,6,79,83,,,N,N,Minnesota Twins,Metropolitan Stadium
+1964,ML1,ATL,5,88,74,,,N,N,Milwaukee Braves,County Stadium
+1964,NYA,NYY,1,99,63,,,Y,N,New York Yankees,Yankee Stadium I
+1964,NYN,NYM,10,53,109,,,N,N,New York Mets,Shea Stadium
+1964,PHI,PHI,2,92,70,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1964,PIT,PIT,6,80,82,,,N,N,Pittsburgh Pirates,Forbes Field
+1964,SFN,SFG,4,90,72,,,N,N,San Francisco Giants,Candlestick Park
+1964,SLN,STL,1,93,69,,,Y,Y,St. Louis Cardinals,Sportsman's Park IV
+1964,WS2,TEX,9,62,100,,,N,N,Washington Senators,R.F.K. Stadium
+1965,BAL,BAL,3,94,68,,,N,N,Baltimore Orioles,Memorial Stadium
+1965,BOS,BOS,9,62,100,,,N,N,Boston Red Sox,Fenway Park II
+1965,CAL,ANA,7,75,87,,,N,N,California Angels,Dodger Stadium
+1965,CHA,CHW,2,95,67,,,N,N,Chicago White Sox,Comiskey Park
+1965,CHN,CHC,8,72,90,,,N,N,Chicago Cubs,Wrigley Field
+1965,CIN,CIN,4,89,73,,,N,N,Cincinnati Reds,Crosley Field
+1965,CLE,CLE,5,87,75,,,N,N,Cleveland Indians,Cleveland Stadium
+1965,DET,DET,4,89,73,,,N,N,Detroit Tigers,Tiger Stadium
+1965,HOU,HOU,9,65,97,,,N,N,Houston Astros,Astrodome
+1965,KC1,OAK,10,59,103,,,N,N,Kansas City Athletics,Municipal Stadium I
+1965,LAN,LAD,1,97,65,,,Y,Y,Los Angeles Dodgers,Dodger Stadium
+1965,MIN,MIN,1,102,60,,,Y,N,Minnesota Twins,Metropolitan Stadium
+1965,ML1,ATL,5,86,76,,,N,N,Milwaukee Braves,County Stadium
+1965,NYA,NYY,6,77,85,,,N,N,New York Yankees,Yankee Stadium I
+1965,NYN,NYM,10,50,112,,,N,N,New York Mets,Shea Stadium
+1965,PHI,PHI,6,85,76,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1965,PIT,PIT,3,90,72,,,N,N,Pittsburgh Pirates,Forbes Field
+1965,SFN,SFG,2,95,67,,,N,N,San Francisco Giants,Candlestick Park
+1965,SLN,STL,7,80,81,,,N,N,St. Louis Cardinals,Sportsman's Park IV
+1965,WS2,TEX,8,70,92,,,N,N,Washington Senators,R.F.K. Stadium
+1966,ATL,ATL,5,85,77,,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1966,BAL,BAL,1,97,63,,,Y,Y,Baltimore Orioles,Memorial Stadium
+1966,BOS,BOS,9,72,90,,,N,N,Boston Red Sox,Fenway Park II
+1966,CAL,ANA,6,80,82,,,N,N,California Angels,Anaheim Stadium
+1966,CHA,CHW,4,83,79,,,N,N,Chicago White Sox,Comiskey Park
+1966,CHN,CHC,10,59,103,,,N,N,Chicago Cubs,Wrigley Field
+1966,CIN,CIN,7,76,84,,,N,N,Cincinnati Reds,Crosley Field
+1966,CLE,CLE,5,81,81,,,N,N,Cleveland Indians,Cleveland Stadium
+1966,DET,DET,3,88,74,,,N,N,Detroit Tigers,Tiger Stadium
+1966,HOU,HOU,8,72,90,,,N,N,Houston Astros,Astrodome
+1966,KC1,OAK,7,74,86,,,N,N,Kansas City Athletics,Municipal Stadium I
+1966,LAN,LAD,1,95,67,,,Y,N,Los Angeles Dodgers,Dodger Stadium
+1966,MIN,MIN,2,89,73,,,N,N,Minnesota Twins,Metropolitan Stadium
+1966,NYA,NYY,10,70,89,,,N,N,New York Yankees,Yankee Stadium I
+1966,NYN,NYM,9,66,95,,,N,N,New York Mets,Shea Stadium
+1966,PHI,PHI,4,87,75,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1966,PIT,PIT,3,92,70,,,N,N,Pittsburgh Pirates,Forbes Field
+1966,SFN,SFG,2,93,68,,,N,N,San Francisco Giants,Candlestick Park
+1966,SLN,STL,6,83,79,,,N,N,St. Louis Cardinals,Sportsman's Park IV/Busch Stadium II
+1966,WS2,TEX,8,71,88,,,N,N,Washington Senators,R.F.K. Stadium
+1967,ATL,ATL,7,77,85,,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1967,BAL,BAL,6,76,85,,,N,N,Baltimore Orioles,Memorial Stadium
+1967,BOS,BOS,1,92,70,,,Y,N,Boston Red Sox,Fenway Park II
+1967,CAL,ANA,5,84,77,,,N,N,California Angels,Anaheim Stadium
+1967,CHA,CHW,4,89,73,,,N,N,Chicago White Sox,Comiskey Park
+1967,CHN,CHC,3,87,74,,,N,N,Chicago Cubs,Wrigley Field
+1967,CIN,CIN,4,87,75,,,N,N,Cincinnati Reds,Crosley Field
+1967,CLE,CLE,8,75,87,,,N,N,Cleveland Indians,Cleveland Stadium
+1967,DET,DET,2,91,71,,,N,N,Detroit Tigers,Tiger Stadium
+1967,HOU,HOU,9,69,93,,,N,N,Houston Astros,Astrodome
+1967,KC1,OAK,10,62,99,,,N,N,Kansas City Athletics,Municipal Stadium I
+1967,LAN,LAD,8,73,89,,,N,N,Los Angeles Dodgers,Dodger Stadium
+1967,MIN,MIN,2,91,71,,,N,N,Minnesota Twins,Metropolitan Stadium
+1967,NYA,NYY,9,72,90,,,N,N,New York Yankees,Yankee Stadium I
+1967,NYN,NYM,10,61,101,,,N,N,New York Mets,Shea Stadium
+1967,PHI,PHI,5,82,80,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1967,PIT,PIT,6,81,81,,,N,N,Pittsburgh Pirates,Forbes Field
+1967,SFN,SFG,2,91,71,,,N,N,San Francisco Giants,Candlestick Park
+1967,SLN,STL,1,101,60,,,Y,Y,St. Louis Cardinals,Busch Stadium II
+1967,WS2,TEX,6,76,85,,,N,N,Washington Senators,R.F.K. Stadium
+1968,ATL,ATL,5,81,81,,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1968,BAL,BAL,2,91,71,,,N,N,Baltimore Orioles,Memorial Stadium
+1968,BOS,BOS,4,86,76,,,N,N,Boston Red Sox,Fenway Park II
+1968,CAL,ANA,8,67,95,,,N,N,California Angels,Anaheim Stadium
+1968,CHA,CHW,8,67,95,,,N,N,Chicago White Sox,Comiskey Park
+1968,CHN,CHC,3,84,78,,,N,N,Chicago Cubs,Wrigley Field
+1968,CIN,CIN,4,83,79,,,N,N,Cincinnati Reds,Crosley Field
+1968,CLE,CLE,3,86,75,,,N,N,Cleveland Indians,Cleveland Stadium
+1968,DET,DET,1,103,59,,,Y,Y,Detroit Tigers,Tiger Stadium
+1968,HOU,HOU,10,72,90,,,N,N,Houston Astros,Astrodome
+1968,LAN,LAD,7,76,86,,,N,N,Los Angeles Dodgers,Dodger Stadium
+1968,MIN,MIN,7,79,83,,,N,N,Minnesota Twins,Metropolitan Stadium
+1968,NYA,NYY,5,83,79,,,N,N,New York Yankees,Yankee Stadium I
+1968,NYN,NYM,9,73,89,,,N,N,New York Mets,Shea Stadium
+1968,OAK,OAK,6,82,80,,,N,N,Oakland Athletics,Oakland Coliseum
+1968,PHI,PHI,7,76,86,,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1968,PIT,PIT,6,80,82,,,N,N,Pittsburgh Pirates,Forbes Field
+1968,SFN,SFG,2,88,74,,,N,N,San Francisco Giants,Candlestick Park
+1968,SLN,STL,1,97,65,,,Y,N,St. Louis Cardinals,Busch Stadium II
+1968,WS2,TEX,10,65,96,,,N,N,Washington Senators,R.F.K. Stadium
+1969,ATL,ATL,1,93,69,Y,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1969,BAL,BAL,1,109,53,Y,,Y,N,Baltimore Orioles,Memorial Stadium
+1969,BOS,BOS,3,87,75,N,,N,N,Boston Red Sox,Fenway Park II
+1969,CAL,ANA,3,71,91,N,,N,N,California Angels,Anaheim Stadium
+1969,CHA,CHW,5,68,94,N,,N,N,Chicago White Sox,Comiskey Park
+1969,CHN,CHC,2,92,70,N,,N,N,Chicago Cubs,Wrigley Field
+1969,CIN,CIN,3,89,73,N,,N,N,Cincinnati Reds,Crosley Field
+1969,CLE,CLE,6,62,99,N,,N,N,Cleveland Indians,Cleveland Stadium
+1969,DET,DET,2,90,72,N,,N,N,Detroit Tigers,Tiger Stadium
+1969,HOU,HOU,5,81,81,N,,N,N,Houston Astros,Astrodome
+1969,KCA,KCR,4,69,93,N,,N,N,Kansas City Royals,Municipal Stadium II
+1969,LAN,LAD,4,85,77,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1969,MIN,MIN,1,97,65,Y,,N,N,Minnesota Twins,Metropolitan Stadium
+1969,MON,WSN,6,52,110,N,,N,N,Montreal Expos,Jarry Park
+1969,NYA,NYY,5,80,81,N,,N,N,New York Yankees,Yankee Stadium I
+1969,NYN,NYM,1,100,62,Y,,Y,Y,New York Mets,Shea Stadium
+1969,OAK,OAK,2,88,74,N,,N,N,Oakland Athletics,Oakland Coliseum
+1969,PHI,PHI,5,63,99,N,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1969,PIT,PIT,3,88,74,N,,N,N,Pittsburgh Pirates,Forbes Field
+1969,SDN,SDP,6,52,110,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1969,SE1,MIL,6,64,98,N,,N,N,Seattle Pilots,Sicks Stadium
+1969,SFN,SFG,2,90,72,N,,N,N,San Francisco Giants,Candlestick Park
+1969,SLN,STL,4,87,75,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1969,WS2,TEX,4,86,76,N,,N,N,Washington Senators,R.F.K. Stadium
+1970,ATL,ATL,5,76,86,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1970,BAL,BAL,1,108,54,Y,,Y,Y,Baltimore Orioles,Memorial Stadium
+1970,BOS,BOS,3,87,75,N,,N,N,Boston Red Sox,Fenway Park II
+1970,CAL,ANA,3,86,76,N,,N,N,California Angels,Anaheim Stadium
+1970,CHA,CHW,6,56,106,N,,N,N,Chicago White Sox,Comiskey Park
+1970,CHN,CHC,2,84,78,N,,N,N,Chicago Cubs,Wrigley Field
+1970,CIN,CIN,1,102,60,Y,,Y,N,Cincinnati Reds,Crosley Field/Riverfront Stadium
+1970,CLE,CLE,5,76,86,N,,N,N,Cleveland Indians,Cleveland Stadium
+1970,DET,DET,4,79,83,N,,N,N,Detroit Tigers,Tiger Stadium
+1970,HOU,HOU,4,79,83,N,,N,N,Houston Astros,Astrodome
+1970,KCA,KCR,4,65,97,N,,N,N,Kansas City Royals,Municipal Stadium II
+1970,LAN,LAD,2,87,74,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1970,MIN,MIN,1,98,64,Y,,N,N,Minnesota Twins,Metropolitan Stadium
+1970,ML4,MIL,4,65,97,N,,N,N,Milwaukee Brewers,County Stadium
+1970,MON,WSN,6,73,89,N,,N,N,Montreal Expos,Jarry Park
+1970,NYA,NYY,2,93,69,N,,N,N,New York Yankees,Yankee Stadium I
+1970,NYN,NYM,3,83,79,N,,N,N,New York Mets,Shea Stadium
+1970,OAK,OAK,2,89,73,N,,N,N,Oakland Athletics,Oakland Coliseum
+1970,PHI,PHI,5,73,88,N,,N,N,Philadelphia Phillies,Connie Mack Stadium
+1970,PIT,PIT,1,89,73,Y,,N,N,Pittsburgh Pirates,Forbes Field/Three Rivers Stadium
+1970,SDN,SDP,6,63,99,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1970,SFN,SFG,3,86,76,N,,N,N,San Francisco Giants,Candlestick Park
+1970,SLN,STL,4,76,86,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1970,WS2,TEX,6,70,92,N,,N,N,Washington Senators,R.F.K. Stadium
+1971,ATL,ATL,3,82,80,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1971,BAL,BAL,1,101,57,Y,,Y,N,Baltimore Orioles,Memorial Stadium
+1971,BOS,BOS,3,85,77,N,,N,N,Boston Red Sox,Fenway Park II
+1971,CAL,ANA,4,76,86,N,,N,N,California Angels,Anaheim Stadium
+1971,CHA,CHW,3,79,83,N,,N,N,Chicago White Sox,Comiskey Park
+1971,CHN,CHC,3,83,79,N,,N,N,Chicago Cubs,Wrigley Field
+1971,CIN,CIN,4,79,83,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1971,CLE,CLE,6,60,102,N,,N,N,Cleveland Indians,Cleveland Stadium
+1971,DET,DET,2,91,71,N,,N,N,Detroit Tigers,Tiger Stadium
+1971,HOU,HOU,4,79,83,N,,N,N,Houston Astros,Astrodome
+1971,KCA,KCR,2,85,76,N,,N,N,Kansas City Royals,Municipal Stadium II
+1971,LAN,LAD,2,89,73,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1971,MIN,MIN,5,74,86,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1971,ML4,MIL,6,69,92,N,,N,N,Milwaukee Brewers,County Stadium
+1971,MON,WSN,5,71,90,N,,N,N,Montreal Expos,Jarry Park
+1971,NYA,NYY,4,82,80,N,,N,N,New York Yankees,Yankee Stadium I
+1971,NYN,NYM,3,83,79,N,,N,N,New York Mets,Shea Stadium
+1971,OAK,OAK,1,101,60,Y,,N,N,Oakland Athletics,Oakland Coliseum
+1971,PHI,PHI,6,67,95,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1971,PIT,PIT,1,97,65,Y,,Y,Y,Pittsburgh Pirates,Three Rivers Stadium
+1971,SDN,SDP,6,61,100,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1971,SFN,SFG,1,90,72,Y,,N,N,San Francisco Giants,Candlestick Park
+1971,SLN,STL,2,90,72,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1971,WS2,TEX,5,63,96,N,,N,N,Washington Senators,R.F.K. Stadium
+1972,ATL,ATL,4,70,84,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1972,BAL,BAL,3,80,74,N,,N,N,Baltimore Orioles,Memorial Stadium
+1972,BOS,BOS,2,85,70,N,,N,N,Boston Red Sox,Fenway Park II
+1972,CAL,ANA,5,75,80,N,,N,N,California Angels,Anaheim Stadium
+1972,CHA,CHW,2,87,67,N,,N,N,Chicago White Sox,Comiskey Park
+1972,CHN,CHC,2,85,70,N,,N,N,Chicago Cubs,Wrigley Field
+1972,CIN,CIN,1,95,59,Y,,Y,N,Cincinnati Reds,Riverfront Stadium
+1972,CLE,CLE,5,72,84,N,,N,N,Cleveland Indians,Cleveland Stadium
+1972,DET,DET,1,86,70,Y,,N,N,Detroit Tigers,Tiger Stadium
+1972,HOU,HOU,3,84,69,N,,N,N,Houston Astros,Astrodome
+1972,KCA,KCR,4,76,78,N,,N,N,Kansas City Royals,Municipal Stadium II
+1972,LAN,LAD,2,85,70,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1972,MIN,MIN,3,77,77,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1972,ML4,MIL,6,65,91,N,,N,N,Milwaukee Brewers,County Stadium
+1972,MON,WSN,5,70,86,N,,N,N,Montreal Expos,Jarry Park
+1972,NYA,NYY,4,79,76,N,,N,N,New York Yankees,Yankee Stadium I
+1972,NYN,NYM,3,83,73,N,,N,N,New York Mets,Shea Stadium
+1972,OAK,OAK,1,93,62,Y,,Y,Y,Oakland Athletics,Oakland Coliseum
+1972,PHI,PHI,6,59,97,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1972,PIT,PIT,1,96,59,Y,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1972,SDN,SDP,6,58,95,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1972,SFN,SFG,5,69,86,N,,N,N,San Francisco Giants,Candlestick Park
+1972,SLN,STL,4,75,81,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1972,TEX,TEX,6,54,100,N,,N,N,Texas Rangers,Arlington Stadium
+1973,ATL,ATL,5,76,85,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1973,BAL,BAL,1,97,65,Y,,N,N,Baltimore Orioles,Memorial Stadium
+1973,BOS,BOS,2,89,73,N,,N,N,Boston Red Sox,Fenway Park II
+1973,CAL,ANA,4,79,83,N,,N,N,California Angels,Anaheim Stadium
+1973,CHA,CHW,5,77,85,N,,N,N,Chicago White Sox,Comiskey Park
+1973,CHN,CHC,5,77,84,N,,N,N,Chicago Cubs,Wrigley Field
+1973,CIN,CIN,1,99,63,Y,,N,N,Cincinnati Reds,Riverfront Stadium
+1973,CLE,CLE,6,71,91,N,,N,N,Cleveland Indians,Cleveland Stadium
+1973,DET,DET,3,85,77,N,,N,N,Detroit Tigers,Tiger Stadium
+1973,HOU,HOU,4,82,80,N,,N,N,Houston Astros,Astrodome
+1973,KCA,KCR,2,88,74,N,,N,N,Kansas City Royals,Royals Stadium
+1973,LAN,LAD,2,95,66,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1973,MIN,MIN,3,81,81,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1973,ML4,MIL,5,74,88,N,,N,N,Milwaukee Brewers,County Stadium
+1973,MON,WSN,4,79,83,N,,N,N,Montreal Expos,Jarry Park
+1973,NYA,NYY,4,80,82,N,,N,N,New York Yankees,Yankee Stadium I
+1973,NYN,NYM,1,82,79,Y,,Y,N,New York Mets,Shea Stadium
+1973,OAK,OAK,1,94,68,Y,,Y,Y,Oakland Athletics,Oakland Coliseum
+1973,PHI,PHI,6,71,91,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1973,PIT,PIT,3,80,82,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1973,SDN,SDP,6,60,102,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1973,SFN,SFG,3,88,74,N,,N,N,San Francisco Giants,Candlestick Park
+1973,SLN,STL,2,81,81,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1973,TEX,TEX,6,57,105,N,,N,N,Texas Rangers,Arlington Stadium
+1974,ATL,ATL,3,88,74,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1974,BAL,BAL,1,91,71,Y,,N,N,Baltimore Orioles,Memorial Stadium
+1974,BOS,BOS,3,84,78,N,,N,N,Boston Red Sox,Fenway Park II
+1974,CAL,ANA,6,68,94,N,,N,N,California Angels,Anaheim Stadium
+1974,CHA,CHW,4,80,80,N,,N,N,Chicago White Sox,Comiskey Park
+1974,CHN,CHC,6,66,96,N,,N,N,Chicago Cubs,Wrigley Field
+1974,CIN,CIN,2,98,64,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1974,CLE,CLE,4,77,85,N,,N,N,Cleveland Indians,Cleveland Stadium
+1974,DET,DET,6,72,90,N,,N,N,Detroit Tigers,Tiger Stadium
+1974,HOU,HOU,4,81,81,N,,N,N,Houston Astros,Astrodome
+1974,KCA,KCR,5,77,85,N,,N,N,Kansas City Royals,Royals Stadium
+1974,LAN,LAD,1,102,60,Y,,Y,N,Los Angeles Dodgers,Dodger Stadium
+1974,MIN,MIN,3,82,80,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1974,ML4,MIL,5,76,86,N,,N,N,Milwaukee Brewers,County Stadium
+1974,MON,WSN,4,79,82,N,,N,N,Montreal Expos,Jarry Park
+1974,NYA,NYY,2,89,73,N,,N,N,New York Yankees,Shea Stadium
+1974,NYN,NYM,5,71,91,N,,N,N,New York Mets,Shea Stadium
+1974,OAK,OAK,1,90,72,Y,,Y,Y,Oakland Athletics,Oakland Coliseum
+1974,PHI,PHI,3,80,82,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1974,PIT,PIT,1,88,74,Y,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1974,SDN,SDP,6,60,102,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1974,SFN,SFG,5,72,90,N,,N,N,San Francisco Giants,Candlestick Park
+1974,SLN,STL,2,86,75,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1974,TEX,TEX,2,84,76,N,,N,N,Texas Rangers,Arlington Stadium
+1975,ATL,ATL,5,67,94,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1975,BAL,BAL,2,90,69,N,,N,N,Baltimore Orioles,Memorial Stadium
+1975,BOS,BOS,1,95,65,Y,,Y,N,Boston Red Sox,Fenway Park II
+1975,CAL,ANA,6,72,89,N,,N,N,California Angels,Anaheim Stadium
+1975,CHA,CHW,5,75,86,N,,N,N,Chicago White Sox,Comiskey Park
+1975,CHN,CHC,5,75,87,N,,N,N,Chicago Cubs,Wrigley Field
+1975,CIN,CIN,1,108,54,Y,,Y,Y,Cincinnati Reds,Riverfront Stadium
+1975,CLE,CLE,4,79,80,N,,N,N,Cleveland Indians,Cleveland Stadium
+1975,DET,DET,6,57,102,N,,N,N,Detroit Tigers,Tiger Stadium
+1975,HOU,HOU,6,64,97,N,,N,N,Houston Astros,Astrodome
+1975,KCA,KCR,2,91,71,N,,N,N,Kansas City Royals,Royals Stadium
+1975,LAN,LAD,2,88,74,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1975,MIN,MIN,4,76,83,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1975,ML4,MIL,5,68,94,N,,N,N,Milwaukee Brewers,County Stadium
+1975,MON,WSN,5,75,87,N,,N,N,Montreal Expos,Jarry Park
+1975,NYA,NYY,3,83,77,N,,N,N,New York Yankees,Shea Stadium
+1975,NYN,NYM,3,82,80,N,,N,N,New York Mets,Shea Stadium
+1975,OAK,OAK,1,98,64,Y,,N,N,Oakland Athletics,Oakland Coliseum
+1975,PHI,PHI,2,86,76,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1975,PIT,PIT,1,92,69,Y,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1975,SDN,SDP,4,71,91,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1975,SFN,SFG,3,80,81,N,,N,N,San Francisco Giants,Candlestick Park
+1975,SLN,STL,3,82,80,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1975,TEX,TEX,3,79,83,N,,N,N,Texas Rangers,Arlington Stadium
+1976,ATL,ATL,6,70,92,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1976,BAL,BAL,2,88,74,N,,N,N,Baltimore Orioles,Memorial Stadium
+1976,BOS,BOS,3,83,79,N,,N,N,Boston Red Sox,Fenway Park II
+1976,CAL,ANA,4,76,86,N,,N,N,California Angels,Anaheim Stadium
+1976,CHA,CHW,6,64,97,N,,N,N,Chicago White Sox,Comiskey Park
+1976,CHN,CHC,4,75,87,N,,N,N,Chicago Cubs,Wrigley Field
+1976,CIN,CIN,1,102,60,Y,,Y,Y,Cincinnati Reds,Riverfront Stadium
+1976,CLE,CLE,4,81,78,N,,N,N,Cleveland Indians,Cleveland Stadium
+1976,DET,DET,5,74,87,N,,N,N,Detroit Tigers,Tiger Stadium
+1976,HOU,HOU,3,80,82,N,,N,N,Houston Astros,Astrodome
+1976,KCA,KCR,1,90,72,Y,,N,N,Kansas City Royals,Royals Stadium
+1976,LAN,LAD,2,92,70,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1976,MIN,MIN,3,85,77,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1976,ML4,MIL,6,66,95,N,,N,N,Milwaukee Brewers,County Stadium
+1976,MON,WSN,6,55,107,N,,N,N,Montreal Expos,Jarry Park
+1976,NYA,NYY,1,97,62,Y,,Y,N,New York Yankees,Yankee Stadium II
+1976,NYN,NYM,3,86,76,N,,N,N,New York Mets,Shea Stadium
+1976,OAK,OAK,2,87,74,N,,N,N,Oakland Athletics,Oakland Coliseum
+1976,PHI,PHI,1,101,61,Y,,N,N,Philadelphia Phillies,Veterans Stadium
+1976,PIT,PIT,2,92,70,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1976,SDN,SDP,5,73,89,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1976,SFN,SFG,4,74,88,N,,N,N,San Francisco Giants,Candlestick Park
+1976,SLN,STL,5,72,90,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1976,TEX,TEX,4,76,86,N,,N,N,Texas Rangers,Arlington Stadium
+1977,ATL,ATL,6,61,101,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1977,BAL,BAL,2,97,64,N,,N,N,Baltimore Orioles,Memorial Stadium
+1977,BOS,BOS,2,97,64,N,,N,N,Boston Red Sox,Fenway Park II
+1977,CAL,ANA,5,74,88,N,,N,N,California Angels,Anaheim Stadium
+1977,CHA,CHW,3,90,72,N,,N,N,Chicago White Sox,Comiskey Park
+1977,CHN,CHC,4,81,81,N,,N,N,Chicago Cubs,Wrigley Field
+1977,CIN,CIN,2,88,74,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1977,CLE,CLE,5,71,90,N,,N,N,Cleveland Indians,Cleveland Stadium
+1977,DET,DET,4,74,88,N,,N,N,Detroit Tigers,Tiger Stadium
+1977,HOU,HOU,3,81,81,N,,N,N,Houston Astros,Astrodome
+1977,KCA,KCR,1,102,60,Y,,N,N,Kansas City Royals,Royals Stadium
+1977,LAN,LAD,1,98,64,Y,,Y,N,Los Angeles Dodgers,Dodger Stadium
+1977,MIN,MIN,4,84,77,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1977,ML4,MIL,6,67,95,N,,N,N,Milwaukee Brewers,County Stadium
+1977,MON,WSN,5,75,87,N,,N,N,Montreal Expos,Stade Olympique
+1977,NYA,NYY,1,100,62,Y,,Y,Y,New York Yankees,Yankee Stadium II
+1977,NYN,NYM,6,64,98,N,,N,N,New York Mets,Shea Stadium
+1977,OAK,OAK,7,63,98,N,,N,N,Oakland Athletics,Oakland Coliseum
+1977,PHI,PHI,1,101,61,Y,,N,N,Philadelphia Phillies,Veterans Stadium
+1977,PIT,PIT,2,96,66,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1977,SDN,SDP,5,69,93,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1977,SEA,SEA,6,64,98,N,,N,N,Seattle Mariners,Kingdome
+1977,SFN,SFG,4,75,87,N,,N,N,San Francisco Giants,Candlestick Park
+1977,SLN,STL,3,83,79,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1977,TEX,TEX,2,94,68,N,,N,N,Texas Rangers,Arlington Stadium
+1977,TOR,TOR,7,54,107,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1978,ATL,ATL,6,69,93,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1978,BAL,BAL,4,90,71,N,,N,N,Baltimore Orioles,Memorial Stadium
+1978,BOS,BOS,2,99,64,N,,N,N,Boston Red Sox,Fenway Park II
+1978,CAL,ANA,2,87,75,N,,N,N,California Angels,Anaheim Stadium
+1978,CHA,CHW,5,71,90,N,,N,N,Chicago White Sox,Comiskey Park
+1978,CHN,CHC,3,79,83,N,,N,N,Chicago Cubs,Wrigley Field
+1978,CIN,CIN,2,92,69,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1978,CLE,CLE,6,69,90,N,,N,N,Cleveland Indians,Cleveland Stadium
+1978,DET,DET,5,86,76,N,,N,N,Detroit Tigers,Tiger Stadium
+1978,HOU,HOU,5,74,88,N,,N,N,Houston Astros,Astrodome
+1978,KCA,KCR,1,92,70,Y,,N,N,Kansas City Royals,Royals Stadium
+1978,LAN,LAD,1,95,67,Y,,Y,N,Los Angeles Dodgers,Dodger Stadium
+1978,MIN,MIN,4,73,89,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1978,ML4,MIL,3,93,69,N,,N,N,Milwaukee Brewers,County Stadium
+1978,MON,WSN,4,76,86,N,,N,N,Montreal Expos,Stade Olympique
+1978,NYA,NYY,1,100,63,Y,,Y,Y,New York Yankees,Yankee Stadium II
+1978,NYN,NYM,6,66,96,N,,N,N,New York Mets,Shea Stadium
+1978,OAK,OAK,6,69,93,N,,N,N,Oakland Athletics,Oakland Coliseum
+1978,PHI,PHI,1,90,72,Y,,N,N,Philadelphia Phillies,Veterans Stadium
+1978,PIT,PIT,2,88,73,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1978,SDN,SDP,4,84,78,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1978,SEA,SEA,7,56,104,N,,N,N,Seattle Mariners,Kingdome
+1978,SFN,SFG,3,89,73,N,,N,N,San Francisco Giants,Candlestick Park
+1978,SLN,STL,5,69,93,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1978,TEX,TEX,2,87,75,N,,N,N,Texas Rangers,Arlington Stadium
+1978,TOR,TOR,7,59,102,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1979,ATL,ATL,6,66,94,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1979,BAL,BAL,1,102,57,Y,,Y,N,Baltimore Orioles,Memorial Stadium
+1979,BOS,BOS,3,91,69,N,,N,N,Boston Red Sox,Fenway Park II
+1979,CAL,ANA,1,88,74,Y,,N,N,California Angels,Anaheim Stadium
+1979,CHA,CHW,5,73,87,N,,N,N,Chicago White Sox,Comiskey Park
+1979,CHN,CHC,5,80,82,N,,N,N,Chicago Cubs,Wrigley Field
+1979,CIN,CIN,1,90,71,Y,,N,N,Cincinnati Reds,Riverfront Stadium
+1979,CLE,CLE,6,81,80,N,,N,N,Cleveland Indians,Cleveland Stadium
+1979,DET,DET,5,85,76,N,,N,N,Detroit Tigers,Tiger Stadium
+1979,HOU,HOU,2,89,73,N,,N,N,Houston Astros,Astrodome
+1979,KCA,KCR,2,85,77,N,,N,N,Kansas City Royals,Royals Stadium
+1979,LAN,LAD,3,79,83,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1979,MIN,MIN,4,82,80,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1979,ML4,MIL,2,95,66,N,,N,N,Milwaukee Brewers,County Stadium
+1979,MON,WSN,2,95,65,N,,N,N,Montreal Expos,Stade Olympique
+1979,NYA,NYY,4,89,71,N,,N,N,New York Yankees,Yankee Stadium II
+1979,NYN,NYM,6,63,99,N,,N,N,New York Mets,Shea Stadium
+1979,OAK,OAK,7,54,108,N,,N,N,Oakland Athletics,Oakland Coliseum
+1979,PHI,PHI,4,84,78,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1979,PIT,PIT,1,98,64,Y,,Y,Y,Pittsburgh Pirates,Three Rivers Stadium
+1979,SDN,SDP,5,68,93,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1979,SEA,SEA,6,67,95,N,,N,N,Seattle Mariners,Kingdome
+1979,SFN,SFG,4,71,91,N,,N,N,San Francisco Giants,Candlestick Park
+1979,SLN,STL,3,86,76,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1979,TEX,TEX,3,83,79,N,,N,N,Texas Rangers,Arlington Stadium
+1979,TOR,TOR,7,53,109,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1980,ATL,ATL,4,81,80,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1980,BAL,BAL,2,100,62,N,,N,N,Baltimore Orioles,Memorial Stadium
+1980,BOS,BOS,5,83,77,N,,N,N,Boston Red Sox,Fenway Park II
+1980,CAL,ANA,6,65,95,N,,N,N,California Angels,Anaheim Stadium
+1980,CHA,CHW,5,70,90,N,,N,N,Chicago White Sox,Comiskey Park
+1980,CHN,CHC,6,64,98,N,,N,N,Chicago Cubs,Wrigley Field
+1980,CIN,CIN,3,89,73,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1980,CLE,CLE,6,79,81,N,,N,N,Cleveland Indians,Cleveland Stadium
+1980,DET,DET,4,84,78,N,,N,N,Detroit Tigers,Tiger Stadium
+1980,HOU,HOU,1,93,70,Y,,N,N,Houston Astros,Astrodome
+1980,KCA,KCR,1,97,65,Y,,Y,N,Kansas City Royals,Royals Stadium
+1980,LAN,LAD,2,92,71,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1980,MIN,MIN,3,77,84,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1980,ML4,MIL,3,86,76,N,,N,N,Milwaukee Brewers,County Stadium
+1980,MON,WSN,2,90,72,N,,N,N,Montreal Expos,Stade Olympique
+1980,NYA,NYY,1,103,59,Y,,N,N,New York Yankees,Yankee Stadium II
+1980,NYN,NYM,5,67,95,N,,N,N,New York Mets,Shea Stadium
+1980,OAK,OAK,2,83,79,N,,N,N,Oakland Athletics,Oakland Coliseum
+1980,PHI,PHI,1,91,71,Y,,Y,Y,Philadelphia Phillies,Veterans Stadium
+1980,PIT,PIT,3,83,79,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1980,SDN,SDP,6,73,89,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1980,SEA,SEA,7,59,103,N,,N,N,Seattle Mariners,Kingdome
+1980,SFN,SFG,5,75,86,N,,N,N,San Francisco Giants,Candlestick Park
+1980,SLN,STL,4,74,88,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1980,TEX,TEX,4,76,85,N,,N,N,Texas Rangers,Arlington Stadium
+1980,TOR,TOR,7,67,95,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1981,ATL,ATL,5,50,56,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1981,BAL,BAL,2,59,46,N,,N,N,Baltimore Orioles,Memorial Stadium
+1981,BOS,BOS,5,59,49,N,,N,N,Boston Red Sox,Fenway Park II
+1981,CAL,ANA,5,51,59,N,,N,N,California Angels,Anaheim Stadium
+1981,CHA,CHW,3,54,52,N,,N,N,Chicago White Sox,Comiskey Park
+1981,CHN,CHC,6,38,65,N,,N,N,Chicago Cubs,Wrigley Field
+1981,CIN,CIN,1,66,42,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1981,CLE,CLE,6,52,51,N,,N,N,Cleveland Indians,Cleveland Stadium
+1981,DET,DET,3,60,49,N,,N,N,Detroit Tigers,Tiger Stadium
+1981,HOU,HOU,3,61,49,Y,,N,N,Houston Astros,Astrodome
+1981,KCA,KCR,4,50,53,Y,,N,N,Kansas City Royals,Royals Stadium
+1981,LAN,LAD,2,63,47,Y,,Y,Y,Los Angeles Dodgers,Dodger Stadium
+1981,MIN,MIN,7,41,68,N,,N,N,Minnesota Twins,Metropolitan Stadium
+1981,ML4,MIL,1,62,47,Y,,N,N,Milwaukee Brewers,County Stadium
+1981,MON,WSN,2,60,48,Y,,N,N,Montreal Expos,Stade Olympique
+1981,NYA,NYY,4,59,48,Y,,Y,N,New York Yankees,Yankee Stadium II
+1981,NYN,NYM,5,41,62,N,,N,N,New York Mets,Shea Stadium
+1981,OAK,OAK,1,64,45,Y,,N,N,Oakland Athletics,Oakland Coliseum
+1981,PHI,PHI,3,59,48,Y,,N,N,Philadelphia Phillies,Veterans Stadium
+1981,PIT,PIT,4,46,56,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1981,SDN,SDP,6,41,69,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1981,SEA,SEA,6,44,65,N,,N,N,Seattle Mariners,Kingdome
+1981,SFN,SFG,4,56,55,N,,N,N,San Francisco Giants,Candlestick Park
+1981,SLN,STL,1,59,43,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1981,TEX,TEX,2,57,48,N,,N,N,Texas Rangers,Arlington Stadium
+1981,TOR,TOR,7,37,69,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1982,ATL,ATL,1,89,73,Y,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1982,BAL,BAL,2,94,68,N,,N,N,Baltimore Orioles,Memorial Stadium
+1982,BOS,BOS,3,89,73,N,,N,N,Boston Red Sox,Fenway Park II
+1982,CAL,ANA,1,93,69,Y,,N,N,California Angels,Anaheim Stadium
+1982,CHA,CHW,3,87,75,N,,N,N,Chicago White Sox,Comiskey Park
+1982,CHN,CHC,5,73,89,N,,N,N,Chicago Cubs,Wrigley Field
+1982,CIN,CIN,6,61,101,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1982,CLE,CLE,6,78,84,N,,N,N,Cleveland Indians,Cleveland Stadium
+1982,DET,DET,4,83,79,N,,N,N,Detroit Tigers,Tiger Stadium
+1982,HOU,HOU,5,77,85,N,,N,N,Houston Astros,Astrodome
+1982,KCA,KCR,2,90,72,N,,N,N,Kansas City Royals,Royals Stadium
+1982,LAN,LAD,2,88,74,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1982,MIN,MIN,7,60,102,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1982,ML4,MIL,1,95,67,Y,,Y,N,Milwaukee Brewers,County Stadium
+1982,MON,WSN,3,86,76,N,,N,N,Montreal Expos,Stade Olympique
+1982,NYA,NYY,5,79,83,N,,N,N,New York Yankees,Yankee Stadium II
+1982,NYN,NYM,6,65,97,N,,N,N,New York Mets,Shea Stadium
+1982,OAK,OAK,5,68,94,N,,N,N,Oakland Athletics,Oakland Coliseum
+1982,PHI,PHI,2,89,73,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1982,PIT,PIT,4,84,78,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1982,SDN,SDP,4,81,81,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1982,SEA,SEA,4,76,86,N,,N,N,Seattle Mariners,Kingdome
+1982,SFN,SFG,3,87,75,N,,N,N,San Francisco Giants,Candlestick Park
+1982,SLN,STL,1,92,70,Y,,Y,Y,St. Louis Cardinals,Busch Stadium II
+1982,TEX,TEX,6,64,98,N,,N,N,Texas Rangers,Arlington Stadium
+1982,TOR,TOR,6,78,84,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1983,ATL,ATL,2,88,74,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1983,BAL,BAL,1,98,64,Y,,Y,Y,Baltimore Orioles,Memorial Stadium
+1983,BOS,BOS,6,78,84,N,,N,N,Boston Red Sox,Fenway Park II
+1983,CAL,ANA,5,70,92,N,,N,N,California Angels,Anaheim Stadium
+1983,CHA,CHW,1,99,63,Y,,N,N,Chicago White Sox,Comiskey Park
+1983,CHN,CHC,5,71,91,N,,N,N,Chicago Cubs,Wrigley Field
+1983,CIN,CIN,6,74,88,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1983,CLE,CLE,7,70,92,N,,N,N,Cleveland Indians,Cleveland Stadium
+1983,DET,DET,2,92,70,N,,N,N,Detroit Tigers,Tiger Stadium
+1983,HOU,HOU,3,85,77,N,,N,N,Houston Astros,Astrodome
+1983,KCA,KCR,2,79,83,N,,N,N,Kansas City Royals,Royals Stadium
+1983,LAN,LAD,1,91,71,Y,,N,N,Los Angeles Dodgers,Dodger Stadium
+1983,MIN,MIN,5,70,92,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1983,ML4,MIL,5,87,75,N,,N,N,Milwaukee Brewers,County Stadium
+1983,MON,WSN,3,82,80,N,,N,N,Montreal Expos,Stade Olympique
+1983,NYA,NYY,3,91,71,N,,N,N,New York Yankees,Yankee Stadium II
+1983,NYN,NYM,6,68,94,N,,N,N,New York Mets,Shea Stadium
+1983,OAK,OAK,4,74,88,N,,N,N,Oakland Athletics,Oakland Coliseum
+1983,PHI,PHI,1,90,72,Y,,Y,N,Philadelphia Phillies,Veterans Stadium
+1983,PIT,PIT,2,84,78,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1983,SDN,SDP,4,81,81,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1983,SEA,SEA,7,60,102,N,,N,N,Seattle Mariners,Kingdome
+1983,SFN,SFG,5,79,83,N,,N,N,San Francisco Giants,Candlestick Park
+1983,SLN,STL,4,79,83,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1983,TEX,TEX,3,77,85,N,,N,N,Texas Rangers,Arlington Stadium
+1983,TOR,TOR,4,89,73,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1984,ATL,ATL,2,80,82,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1984,BAL,BAL,5,85,77,N,,N,N,Baltimore Orioles,Memorial Stadium
+1984,BOS,BOS,4,86,76,N,,N,N,Boston Red Sox,Fenway Park II
+1984,CAL,ANA,2,81,81,N,,N,N,California Angels,Anaheim Stadium
+1984,CHA,CHW,5,74,88,N,,N,N,Chicago White Sox,Comiskey Park
+1984,CHN,CHC,1,96,65,Y,,N,N,Chicago Cubs,Wrigley Field
+1984,CIN,CIN,5,70,92,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1984,CLE,CLE,6,75,87,N,,N,N,Cleveland Indians,Cleveland Stadium
+1984,DET,DET,1,104,58,Y,,Y,Y,Detroit Tigers,Tiger Stadium
+1984,HOU,HOU,2,80,82,N,,N,N,Houston Astros,Astrodome
+1984,KCA,KCR,1,84,78,Y,,N,N,Kansas City Royals,Royals Stadium
+1984,LAN,LAD,4,79,83,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1984,MIN,MIN,2,81,81,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1984,ML4,MIL,7,67,94,N,,N,N,Milwaukee Brewers,County Stadium
+1984,MON,WSN,5,78,83,N,,N,N,Montreal Expos,Stade Olympique
+1984,NYA,NYY,3,87,75,N,,N,N,New York Yankees,Yankee Stadium II
+1984,NYN,NYM,2,90,72,N,,N,N,New York Mets,Shea Stadium
+1984,OAK,OAK,4,77,85,N,,N,N,Oakland Athletics,Oakland Coliseum
+1984,PHI,PHI,4,81,81,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1984,PIT,PIT,6,75,87,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1984,SDN,SDP,1,92,70,Y,,Y,N,San Diego Padres,Jack Murphy Stadium
+1984,SEA,SEA,5,74,88,N,,N,N,Seattle Mariners,Kingdome
+1984,SFN,SFG,6,66,96,N,,N,N,San Francisco Giants,Candlestick Park
+1984,SLN,STL,3,84,78,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1984,TEX,TEX,7,69,92,N,,N,N,Texas Rangers,Arlington Stadium
+1984,TOR,TOR,2,89,73,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1985,ATL,ATL,5,66,96,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1985,BAL,BAL,4,83,78,N,,N,N,Baltimore Orioles,Memorial Stadium
+1985,BOS,BOS,5,81,81,N,,N,N,Boston Red Sox,Fenway Park II
+1985,CAL,ANA,2,90,72,N,,N,N,California Angels,Anaheim Stadium
+1985,CHA,CHW,3,85,77,N,,N,N,Chicago White Sox,Comiskey Park
+1985,CHN,CHC,4,77,84,N,,N,N,Chicago Cubs,Wrigley Field
+1985,CIN,CIN,2,89,72,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1985,CLE,CLE,7,60,102,N,,N,N,Cleveland Indians,Cleveland Stadium
+1985,DET,DET,3,84,77,N,,N,N,Detroit Tigers,Tiger Stadium
+1985,HOU,HOU,3,83,79,N,,N,N,Houston Astros,Astrodome
+1985,KCA,KCR,1,91,71,Y,,Y,Y,Kansas City Royals,Royals Stadium
+1985,LAN,LAD,1,95,67,Y,,N,N,Los Angeles Dodgers,Dodger Stadium
+1985,MIN,MIN,4,77,85,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1985,ML4,MIL,6,71,90,N,,N,N,Milwaukee Brewers,County Stadium
+1985,MON,WSN,3,84,77,N,,N,N,Montreal Expos,Stade Olympique
+1985,NYA,NYY,2,97,64,N,,N,N,New York Yankees,Yankee Stadium II
+1985,NYN,NYM,2,98,64,N,,N,N,New York Mets,Shea Stadium
+1985,OAK,OAK,4,77,85,N,,N,N,Oakland Athletics,Oakland Coliseum
+1985,PHI,PHI,5,75,87,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1985,PIT,PIT,6,57,104,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1985,SDN,SDP,3,83,79,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1985,SEA,SEA,6,74,88,N,,N,N,Seattle Mariners,Kingdome
+1985,SFN,SFG,6,62,100,N,,N,N,San Francisco Giants,Candlestick Park
+1985,SLN,STL,1,101,61,Y,,Y,N,St. Louis Cardinals,Busch Stadium II
+1985,TEX,TEX,7,62,99,N,,N,N,Texas Rangers,Arlington Stadium
+1985,TOR,TOR,1,99,62,Y,,N,N,Toronto Blue Jays,Exhibition Stadium
+1986,ATL,ATL,6,72,89,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1986,BAL,BAL,7,73,89,N,,N,N,Baltimore Orioles,Memorial Stadium
+1986,BOS,BOS,1,95,66,Y,,Y,N,Boston Red Sox,Fenway Park II
+1986,CAL,ANA,1,92,70,Y,,N,N,California Angels,Anaheim Stadium
+1986,CHA,CHW,5,72,90,N,,N,N,Chicago White Sox,Comiskey Park
+1986,CHN,CHC,5,70,90,N,,N,N,Chicago Cubs,Wrigley Field
+1986,CIN,CIN,2,86,76,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1986,CLE,CLE,5,84,78,N,,N,N,Cleveland Indians,Cleveland Stadium
+1986,DET,DET,3,87,75,N,,N,N,Detroit Tigers,Tiger Stadium
+1986,HOU,HOU,1,96,66,Y,,N,N,Houston Astros,Astrodome
+1986,KCA,KCR,3,76,86,N,,N,N,Kansas City Royals,Royals Stadium
+1986,LAN,LAD,5,73,89,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1986,MIN,MIN,6,71,91,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1986,ML4,MIL,6,77,84,N,,N,N,Milwaukee Brewers,County Stadium
+1986,MON,WSN,4,78,83,N,,N,N,Montreal Expos,Stade Olympique
+1986,NYA,NYY,2,90,72,N,,N,N,New York Yankees,Yankee Stadium II
+1986,NYN,NYM,1,108,54,Y,,Y,Y,New York Mets,Shea Stadium
+1986,OAK,OAK,3,76,86,N,,N,N,Oakland Athletics,Oakland Coliseum
+1986,PHI,PHI,2,86,75,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1986,PIT,PIT,6,64,98,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1986,SDN,SDP,4,74,88,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1986,SEA,SEA,7,67,95,N,,N,N,Seattle Mariners,Kingdome
+1986,SFN,SFG,3,83,79,N,,N,N,San Francisco Giants,Candlestick Park
+1986,SLN,STL,3,79,82,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1986,TEX,TEX,2,87,75,N,,N,N,Texas Rangers,Arlington Stadium
+1986,TOR,TOR,4,86,76,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1987,ATL,ATL,5,69,92,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1987,BAL,BAL,6,67,95,N,,N,N,Baltimore Orioles,Memorial Stadium
+1987,BOS,BOS,5,78,84,N,,N,N,Boston Red Sox,Fenway Park II
+1987,CAL,ANA,6,75,87,N,,N,N,California Angels,Anaheim Stadium
+1987,CHA,CHW,5,77,85,N,,N,N,Chicago White Sox,Comiskey Park
+1987,CHN,CHC,6,76,85,N,,N,N,Chicago Cubs,Wrigley Field
+1987,CIN,CIN,2,84,78,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1987,CLE,CLE,7,61,101,N,,N,N,Cleveland Indians,Cleveland Stadium
+1987,DET,DET,1,98,64,Y,,N,N,Detroit Tigers,Tiger Stadium
+1987,HOU,HOU,3,76,86,N,,N,N,Houston Astros,Astrodome
+1987,KCA,KCR,2,83,79,N,,N,N,Kansas City Royals,Royals Stadium
+1987,LAN,LAD,4,73,89,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1987,MIN,MIN,1,85,77,Y,,Y,Y,Minnesota Twins,Hubert H Humphrey Metrodome
+1987,ML4,MIL,3,91,71,N,,N,N,Milwaukee Brewers,County Stadium
+1987,MON,WSN,3,91,71,N,,N,N,Montreal Expos,Stade Olympique
+1987,NYA,NYY,4,89,73,N,,N,N,New York Yankees,Yankee Stadium II
+1987,NYN,NYM,2,92,70,N,,N,N,New York Mets,Shea Stadium
+1987,OAK,OAK,3,81,81,N,,N,N,Oakland Athletics,Oakland Coliseum
+1987,PHI,PHI,4,80,82,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1987,PIT,PIT,4,80,82,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1987,SDN,SDP,6,65,97,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1987,SEA,SEA,4,78,84,N,,N,N,Seattle Mariners,Kingdome
+1987,SFN,SFG,1,90,72,Y,,N,N,San Francisco Giants,Candlestick Park
+1987,SLN,STL,1,95,67,Y,,Y,N,St. Louis Cardinals,Busch Stadium II
+1987,TEX,TEX,6,75,87,N,,N,N,Texas Rangers,Arlington Stadium
+1987,TOR,TOR,2,96,66,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1988,ATL,ATL,6,54,106,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1988,BAL,BAL,7,54,107,N,,N,N,Baltimore Orioles,Memorial Stadium
+1988,BOS,BOS,1,89,73,Y,,N,N,Boston Red Sox,Fenway Park II
+1988,CAL,ANA,4,75,87,N,,N,N,California Angels,Anaheim Stadium
+1988,CHA,CHW,5,71,90,N,,N,N,Chicago White Sox,Comiskey Park
+1988,CHN,CHC,4,77,85,N,,N,N,Chicago Cubs,Wrigley Field
+1988,CIN,CIN,2,87,74,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1988,CLE,CLE,6,78,84,N,,N,N,Cleveland Indians,Cleveland Stadium
+1988,DET,DET,2,88,74,N,,N,N,Detroit Tigers,Tiger Stadium
+1988,HOU,HOU,5,82,80,N,,N,N,Houston Astros,Astrodome
+1988,KCA,KCR,3,84,77,N,,N,N,Kansas City Royals,Royals Stadium
+1988,LAN,LAD,1,94,67,Y,,Y,Y,Los Angeles Dodgers,Dodger Stadium
+1988,MIN,MIN,2,91,71,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1988,ML4,MIL,3,87,75,N,,N,N,Milwaukee Brewers,County Stadium
+1988,MON,WSN,3,81,81,N,,N,N,Montreal Expos,Stade Olympique
+1988,NYA,NYY,5,85,76,N,,N,N,New York Yankees,Yankee Stadium II
+1988,NYN,NYM,1,100,60,Y,,N,N,New York Mets,Shea Stadium
+1988,OAK,OAK,1,104,58,Y,,Y,N,Oakland Athletics,Oakland Coliseum
+1988,PHI,PHI,6,65,96,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1988,PIT,PIT,2,85,75,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1988,SDN,SDP,3,83,78,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1988,SEA,SEA,7,68,93,N,,N,N,Seattle Mariners,Kingdome
+1988,SFN,SFG,4,83,79,N,,N,N,San Francisco Giants,Candlestick Park
+1988,SLN,STL,5,76,86,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1988,TEX,TEX,6,70,91,N,,N,N,Texas Rangers,Arlington Stadium
+1988,TOR,TOR,3,87,75,N,,N,N,Toronto Blue Jays,Exhibition Stadium
+1989,ATL,ATL,6,63,97,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1989,BAL,BAL,2,87,75,N,,N,N,Baltimore Orioles,Memorial Stadium
+1989,BOS,BOS,3,83,79,N,,N,N,Boston Red Sox,Fenway Park II
+1989,CAL,ANA,3,91,71,N,,N,N,California Angels,Anaheim Stadium
+1989,CHA,CHW,7,69,92,N,,N,N,Chicago White Sox,Comiskey Park
+1989,CHN,CHC,1,93,69,Y,,N,N,Chicago Cubs,Wrigley Field
+1989,CIN,CIN,5,75,87,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1989,CLE,CLE,6,73,89,N,,N,N,Cleveland Indians,Cleveland Stadium
+1989,DET,DET,7,59,103,N,,N,N,Detroit Tigers,Tiger Stadium
+1989,HOU,HOU,3,86,76,N,,N,N,Houston Astros,Astrodome
+1989,KCA,KCR,2,92,70,N,,N,N,Kansas City Royals,Royals Stadium
+1989,LAN,LAD,4,77,83,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1989,MIN,MIN,5,80,82,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1989,ML4,MIL,4,81,81,N,,N,N,Milwaukee Brewers,County Stadium
+1989,MON,WSN,4,81,81,N,,N,N,Montreal Expos,Stade Olympique
+1989,NYA,NYY,5,74,87,N,,N,N,New York Yankees,Yankee Stadium II
+1989,NYN,NYM,2,87,75,N,,N,N,New York Mets,Shea Stadium
+1989,OAK,OAK,1,99,63,Y,,Y,Y,Oakland Athletics,Oakland Coliseum
+1989,PHI,PHI,6,67,95,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1989,PIT,PIT,5,74,88,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1989,SDN,SDP,2,89,73,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1989,SEA,SEA,6,73,89,N,,N,N,Seattle Mariners,Kingdome
+1989,SFN,SFG,1,92,70,Y,,Y,N,San Francisco Giants,Candlestick Park
+1989,SLN,STL,3,86,76,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1989,TEX,TEX,4,83,79,N,,N,N,Texas Rangers,Arlington Stadium
+1989,TOR,TOR,1,89,73,Y,,N,N,Toronto Blue Jays,Exhibition Stadium /Skydome
+1990,ATL,ATL,6,65,97,N,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1990,BAL,BAL,5,76,85,N,,N,N,Baltimore Orioles,Memorial Stadium
+1990,BOS,BOS,1,88,74,Y,,N,N,Boston Red Sox,Fenway Park II
+1990,CAL,ANA,4,80,82,N,,N,N,California Angels,Anaheim Stadium
+1990,CHA,CHW,2,94,68,N,,N,N,Chicago White Sox,Comiskey Park
+1990,CHN,CHC,4,77,85,N,,N,N,Chicago Cubs,Wrigley Field
+1990,CIN,CIN,1,91,71,Y,,Y,Y,Cincinnati Reds,Riverfront Stadium
+1990,CLE,CLE,4,77,85,N,,N,N,Cleveland Indians,Cleveland Stadium
+1990,DET,DET,3,79,83,N,,N,N,Detroit Tigers,Tiger Stadium
+1990,HOU,HOU,4,75,87,N,,N,N,Houston Astros,Astrodome
+1990,KCA,KCR,6,75,86,N,,N,N,Kansas City Royals,Royals Stadium
+1990,LAN,LAD,2,86,76,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1990,MIN,MIN,7,74,88,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1990,ML4,MIL,6,74,88,N,,N,N,Milwaukee Brewers,County Stadium
+1990,MON,WSN,3,85,77,N,,N,N,Montreal Expos,Stade Olympique
+1990,NYA,NYY,7,67,95,N,,N,N,New York Yankees,Yankee Stadium II
+1990,NYN,NYM,2,91,71,N,,N,N,New York Mets,Shea Stadium
+1990,OAK,OAK,1,103,59,Y,,Y,N,Oakland Athletics,Oakland Coliseum
+1990,PHI,PHI,4,77,85,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1990,PIT,PIT,1,95,67,Y,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1990,SDN,SDP,4,75,87,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1990,SEA,SEA,5,77,85,N,,N,N,Seattle Mariners,Kingdome
+1990,SFN,SFG,3,85,77,N,,N,N,San Francisco Giants,Candlestick Park
+1990,SLN,STL,6,70,92,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1990,TEX,TEX,3,83,79,N,,N,N,Texas Rangers,Arlington Stadium
+1990,TOR,TOR,2,86,76,N,,N,N,Toronto Blue Jays,Skydome
+1991,ATL,ATL,1,94,68,Y,,Y,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1991,BAL,BAL,6,67,95,N,,N,N,Baltimore Orioles,Memorial Stadium
+1991,BOS,BOS,2,84,78,N,,N,N,Boston Red Sox,Fenway Park II
+1991,CAL,ANA,7,81,81,N,,N,N,California Angels,Anaheim Stadium
+1991,CHA,CHW,2,87,75,N,,N,N,Chicago White Sox,Comiskey Park II
+1991,CHN,CHC,4,77,83,N,,N,N,Chicago Cubs,Wrigley Field
+1991,CIN,CIN,5,74,88,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1991,CLE,CLE,7,57,105,N,,N,N,Cleveland Indians,Cleveland Stadium
+1991,DET,DET,2,84,78,N,,N,N,Detroit Tigers,Tiger Stadium
+1991,HOU,HOU,6,65,97,N,,N,N,Houston Astros,Astrodome
+1991,KCA,KCR,6,82,80,N,,N,N,Kansas City Royals,Royals Stadium
+1991,LAN,LAD,2,93,69,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1991,MIN,MIN,1,95,67,Y,,Y,Y,Minnesota Twins,Hubert H Humphrey Metrodome
+1991,ML4,MIL,4,83,79,N,,N,N,Milwaukee Brewers,County Stadium
+1991,MON,WSN,6,71,90,N,,N,N,Montreal Expos,Stade Olympique
+1991,NYA,NYY,5,71,91,N,,N,N,New York Yankees,Yankee Stadium II
+1991,NYN,NYM,5,77,84,N,,N,N,New York Mets,Shea Stadium
+1991,OAK,OAK,4,84,78,N,,N,N,Oakland Athletics,Oakland Coliseum
+1991,PHI,PHI,3,78,84,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1991,PIT,PIT,1,98,64,Y,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1991,SDN,SDP,3,84,78,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1991,SEA,SEA,5,83,79,N,,N,N,Seattle Mariners,Kingdome
+1991,SFN,SFG,4,75,87,N,,N,N,San Francisco Giants,Candlestick Park
+1991,SLN,STL,2,84,78,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1991,TEX,TEX,3,85,77,N,,N,N,Texas Rangers,Arlington Stadium
+1991,TOR,TOR,1,91,71,Y,,N,N,Toronto Blue Jays,Skydome
+1992,ATL,ATL,1,98,64,Y,,Y,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1992,BAL,BAL,3,89,73,N,,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+1992,BOS,BOS,7,73,89,N,,N,N,Boston Red Sox,Fenway Park II
+1992,CAL,ANA,5,72,90,N,,N,N,California Angels,Anaheim Stadium
+1992,CHA,CHW,3,86,76,N,,N,N,Chicago White Sox,Comiskey Park II
+1992,CHN,CHC,4,78,84,N,,N,N,Chicago Cubs,Wrigley Field
+1992,CIN,CIN,2,90,72,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1992,CLE,CLE,4,76,86,N,,N,N,Cleveland Indians,Cleveland Stadium
+1992,DET,DET,6,75,87,N,,N,N,Detroit Tigers,Tiger Stadium
+1992,HOU,HOU,4,81,81,N,,N,N,Houston Astros,Astrodome
+1992,KCA,KCR,5,72,90,N,,N,N,Kansas City Royals,Royals Stadium
+1992,LAN,LAD,6,63,99,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1992,MIN,MIN,2,90,72,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1992,ML4,MIL,2,92,70,N,,N,N,Milwaukee Brewers,County Stadium
+1992,MON,WSN,2,87,75,N,,N,N,Montreal Expos,Stade Olympique
+1992,NYA,NYY,4,76,86,N,,N,N,New York Yankees,Yankee Stadium II
+1992,NYN,NYM,5,72,90,N,,N,N,New York Mets,Shea Stadium
+1992,OAK,OAK,1,96,66,Y,,N,N,Oakland Athletics,Oakland Coliseum
+1992,PHI,PHI,6,70,92,N,,N,N,Philadelphia Phillies,Veterans Stadium
+1992,PIT,PIT,1,96,66,Y,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1992,SDN,SDP,3,82,80,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1992,SEA,SEA,7,64,98,N,,N,N,Seattle Mariners,Kingdome
+1992,SFN,SFG,5,72,90,N,,N,N,San Francisco Giants,Candlestick Park
+1992,SLN,STL,3,83,79,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1992,TEX,TEX,4,77,85,N,,N,N,Texas Rangers,Arlington Stadium
+1992,TOR,TOR,1,96,66,Y,,Y,Y,Toronto Blue Jays,Skydome
+1993,ATL,ATL,1,104,58,Y,,N,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1993,BAL,BAL,3,85,77,N,,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+1993,BOS,BOS,5,80,82,N,,N,N,Boston Red Sox,Fenway Park II
+1993,CAL,ANA,5,71,91,N,,N,N,California Angels,Anaheim Stadium
+1993,CHA,CHW,1,94,68,Y,,N,N,Chicago White Sox,Comiskey Park II
+1993,CHN,CHC,4,84,78,N,,N,N,Chicago Cubs,Wrigley Field
+1993,CIN,CIN,5,73,89,N,,N,N,Cincinnati Reds,Riverfront Stadium
+1993,CLE,CLE,6,76,86,N,,N,N,Cleveland Indians,Cleveland Stadium
+1993,COL,COL,6,67,95,N,,N,N,Colorado Rockies,Mile High Stadium
+1993,DET,DET,3,85,77,N,,N,N,Detroit Tigers,Tiger Stadium
+1993,FLO,FLA,6,64,98,N,,N,N,Florida Marlins,Joe Robbie Stadium
+1993,HOU,HOU,3,85,77,N,,N,N,Houston Astros,Astrodome
+1993,KCA,KCR,3,84,78,N,,N,N,Kansas City Royals,Kauffman Stadium
+1993,LAN,LAD,4,81,81,N,,N,N,Los Angeles Dodgers,Dodger Stadium
+1993,MIN,MIN,5,71,91,N,,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1993,ML4,MIL,7,69,93,N,,N,N,Milwaukee Brewers,County Stadium
+1993,MON,WSN,2,94,68,N,,N,N,Montreal Expos,Stade Olympique
+1993,NYA,NYY,2,88,74,N,,N,N,New York Yankees,Yankee Stadium II
+1993,NYN,NYM,7,59,103,N,,N,N,New York Mets,Shea Stadium
+1993,OAK,OAK,7,68,94,N,,N,N,Oakland Athletics,Oakland Coliseum
+1993,PHI,PHI,1,97,65,Y,,Y,N,Philadelphia Phillies,Veterans Stadium
+1993,PIT,PIT,5,75,87,N,,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1993,SDN,SDP,7,61,101,N,,N,N,San Diego Padres,Jack Murphy Stadium
+1993,SEA,SEA,4,82,80,N,,N,N,Seattle Mariners,Kingdome
+1993,SFN,SFG,2,103,59,N,,N,N,San Francisco Giants,Candlestick Park
+1993,SLN,STL,3,87,75,N,,N,N,St. Louis Cardinals,Busch Stadium II
+1993,TEX,TEX,2,86,76,N,,N,N,Texas Rangers,Arlington Stadium
+1993,TOR,TOR,1,95,67,Y,,Y,Y,Toronto Blue Jays,Skydome
+1994,ATL,ATL,2,68,46,,,,,Atlanta Braves,Atlanta-Fulton County Stadium
+1994,BAL,BAL,2,63,49,,,,,Baltimore Orioles,Oriole Park at Camden Yards
+1994,BOS,BOS,4,54,61,,,,,Boston Red Sox,Fenway Park II
+1994,CAL,ANA,4,47,68,,,,,California Angels,Anaheim Stadium
+1994,CHA,CHW,1,67,46,,,,,Chicago White Sox,Comiskey Park II
+1994,CHN,CHC,5,49,64,,,,,Chicago Cubs,Wrigley Field
+1994,CIN,CIN,1,66,48,,,,,Cincinnati Reds,Riverfront Stadium
+1994,CLE,CLE,2,66,47,,,,,Cleveland Indians,Jacobs Field
+1994,COL,COL,3,53,64,,,,,Colorado Rockies,Mile High Stadium
+1994,DET,DET,5,53,62,,,,,Detroit Tigers,Tiger Stadium
+1994,FLO,FLA,5,51,64,,,,,Florida Marlins,Joe Robbie Stadium
+1994,HOU,HOU,2,66,49,,,,,Houston Astros,Astrodome
+1994,KCA,KCR,3,64,51,,,,,Kansas City Royals,Kauffman Stadium
+1994,LAN,LAD,1,58,56,,,,,Los Angeles Dodgers,Dodger Stadium
+1994,MIN,MIN,4,53,60,,,,,Minnesota Twins,Hubert H Humphrey Metrodome
+1994,ML4,MIL,5,53,62,,,,,Milwaukee Brewers,County Stadium
+1994,MON,WSN,1,74,40,,,,,Montreal Expos,Stade Olympique
+1994,NYA,NYY,1,70,43,,,,,New York Yankees,Yankee Stadium II
+1994,NYN,NYM,3,55,58,,,,,New York Mets,Shea Stadium
+1994,OAK,OAK,2,51,63,,,,,Oakland Athletics,Oakland Coliseum
+1994,PHI,PHI,4,54,61,,,,,Philadelphia Phillies,Veterans Stadium
+1994,PIT,PIT,3,53,61,,,,,Pittsburgh Pirates,Three Rivers Stadium
+1994,SDN,SDP,4,47,70,,,,,San Diego Padres,Jack Murphy Stadium
+1994,SEA,SEA,3,49,63,,,,,Seattle Mariners,Kingdome
+1994,SFN,SFG,2,55,60,,,,,San Francisco Giants,Candlestick Park
+1994,SLN,STL,3,53,61,,,,,St. Louis Cardinals,Busch Stadium II
+1994,TEX,TEX,1,52,62,,,,,Texas Rangers,The Ballpark at Arlington
+1994,TOR,TOR,3,55,60,,,,,Toronto Blue Jays,Skydome
+1995,ATL,ATL,1,90,54,Y,N,Y,Y,Atlanta Braves,Atlanta-Fulton County Stadium
+1995,BAL,BAL,3,71,73,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+1995,BOS,BOS,1,86,58,Y,N,N,N,Boston Red Sox,Fenway Park II
+1995,CAL,ANA,2,78,67,N,N,N,N,California Angels,Anaheim Stadium
+1995,CHA,CHW,3,68,76,N,N,N,N,Chicago White Sox,Comiskey Park II
+1995,CHN,CHC,3,73,71,N,N,N,N,Chicago Cubs,Wrigley Field
+1995,CIN,CIN,1,85,59,Y,N,N,N,Cincinnati Reds,Riverfront Stadium
+1995,CLE,CLE,1,100,44,Y,N,Y,N,Cleveland Indians,Jacobs Field
+1995,COL,COL,2,77,67,N,Y,N,N,Colorado Rockies,Coors Field
+1995,DET,DET,4,60,84,N,N,N,N,Detroit Tigers,Tiger Stadium
+1995,FLO,FLA,4,67,76,N,N,N,N,Florida Marlins,Joe Robbie Stadium
+1995,HOU,HOU,2,76,68,N,N,N,N,Houston Astros,Astrodome
+1995,KCA,KCR,2,70,74,N,N,N,N,Kansas City Royals,Kauffman Stadium
+1995,LAN,LAD,1,78,66,Y,N,N,N,Los Angeles Dodgers,Dodger Stadium
+1995,MIN,MIN,5,56,88,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1995,ML4,MIL,4,65,79,N,N,N,N,Milwaukee Brewers,County Stadium
+1995,MON,WSN,5,66,78,N,N,N,N,Montreal Expos,Stade Olympique
+1995,NYA,NYY,2,79,65,N,Y,N,N,New York Yankees,Yankee Stadium II
+1995,NYN,NYM,2,69,75,N,N,N,N,New York Mets,Shea Stadium
+1995,OAK,OAK,4,67,77,N,N,N,N,Oakland Athletics,Oakland Coliseum
+1995,PHI,PHI,2,69,75,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+1995,PIT,PIT,5,58,86,N,N,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1995,SDN,SDP,3,70,74,N,N,N,N,San Diego Padres,Jack Murphy Stadium
+1995,SEA,SEA,1,79,66,Y,N,N,N,Seattle Mariners,Kingdome
+1995,SFN,SFG,4,67,77,N,N,N,N,San Francisco Giants,Candlestick Park
+1995,SLN,STL,4,62,81,N,N,N,N,St. Louis Cardinals,Busch Stadium II
+1995,TEX,TEX,3,74,70,N,N,N,N,Texas Rangers,The Ballpark at Arlington
+1995,TOR,TOR,5,56,88,N,N,N,N,Toronto Blue Jays,Skydome
+1996,ATL,ATL,1,96,66,Y,N,Y,N,Atlanta Braves,Atlanta-Fulton County Stadium
+1996,BAL,BAL,2,88,74,N,Y,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+1996,BOS,BOS,3,85,77,N,N,N,N,Boston Red Sox,Fenway Park II
+1996,CAL,ANA,4,70,91,N,N,N,N,California Angels,Anaheim Stadium
+1996,CHA,CHW,2,85,77,N,N,N,N,Chicago White Sox,Comiskey Park II
+1996,CHN,CHC,4,76,86,N,N,N,N,Chicago Cubs,Wrigley Field
+1996,CIN,CIN,3,81,81,N,N,N,N,Cincinnati Reds,Riverfront Stadium
+1996,CLE,CLE,1,99,62,Y,N,N,N,Cleveland Indians,Jacobs Field
+1996,COL,COL,3,83,79,N,N,N,N,Colorado Rockies,Coors Field
+1996,DET,DET,5,53,109,N,N,N,N,Detroit Tigers,Tiger Stadium
+1996,FLO,FLA,3,80,82,N,N,N,N,Florida Marlins,Joe Robbie Stadium
+1996,HOU,HOU,2,82,80,N,N,N,N,Houston Astros,Astrodome
+1996,KCA,KCR,5,75,86,N,N,N,N,Kansas City Royals,Kauffman Stadium
+1996,LAN,LAD,2,90,72,N,Y,N,N,Los Angeles Dodgers,Dodger Stadium
+1996,MIN,MIN,4,78,84,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1996,ML4,MIL,3,80,82,N,N,N,N,Milwaukee Brewers,County Stadium
+1996,MON,WSN,2,88,74,N,N,N,N,Montreal Expos,Stade Olympique
+1996,NYA,NYY,1,92,70,Y,N,Y,Y,New York Yankees,Yankee Stadium II
+1996,NYN,NYM,4,71,91,N,N,N,N,New York Mets,Shea Stadium
+1996,OAK,OAK,3,78,84,N,N,N,N,Oakland Athletics,Oakland Coliseum
+1996,PHI,PHI,5,67,95,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+1996,PIT,PIT,5,73,89,N,N,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1996,SDN,SDP,1,91,71,Y,N,N,N,San Diego Padres,Jack Murphy Stadium
+1996,SEA,SEA,2,85,76,N,N,N,N,Seattle Mariners,Kingdome
+1996,SFN,SFG,4,68,94,N,N,N,N,San Francisco Giants,Candlestick Park
+1996,SLN,STL,1,88,74,Y,N,N,N,St. Louis Cardinals,Busch Stadium II
+1996,TEX,TEX,1,90,72,Y,N,N,N,Texas Rangers,The Ballpark at Arlington
+1996,TOR,TOR,4,74,88,N,N,N,N,Toronto Blue Jays,Skydome
+1997,ANA,ANA,2,84,78,N,N,N,N,Anaheim Angels,Edison International Field
+1997,ATL,ATL,1,101,61,Y,N,N,N,Atlanta Braves,Turner Field
+1997,BAL,BAL,1,98,64,Y,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+1997,BOS,BOS,4,78,84,N,N,N,N,Boston Red Sox,Fenway Park II
+1997,CHA,CHW,2,80,81,N,N,N,N,Chicago White Sox,Comiskey Park II
+1997,CHN,CHC,5,68,94,N,N,N,N,Chicago Cubs,Wrigley Field
+1997,CIN,CIN,3,76,86,N,N,N,N,Cincinnati Reds,Cinergy Field
+1997,CLE,CLE,1,86,75,Y,N,Y,N,Cleveland Indians,Jacobs Field
+1997,COL,COL,3,83,79,N,N,N,N,Colorado Rockies,Coors Field
+1997,DET,DET,3,79,83,N,N,N,N,Detroit Tigers,Tiger Stadium
+1997,FLO,FLA,2,92,70,N,Y,Y,Y,Florida Marlins,Joe Robbie Stadium
+1997,HOU,HOU,1,84,78,Y,N,N,N,Houston Astros,Astrodome
+1997,KCA,KCR,5,67,94,N,N,N,N,Kansas City Royals,Kauffman Stadium
+1997,LAN,LAD,2,88,74,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+1997,MIN,MIN,4,68,94,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1997,ML4,MIL,3,78,83,N,N,N,N,Milwaukee Brewers,County Stadium
+1997,MON,WSN,4,78,84,N,N,N,N,Montreal Expos,Stade Olympique
+1997,NYA,NYY,2,96,66,N,Y,N,N,New York Yankees,Yankee Stadium II
+1997,NYN,NYM,3,88,74,N,N,N,N,New York Mets,Shea Stadium
+1997,OAK,OAK,4,65,97,N,N,N,N,Oakland Athletics,Oakland Coliseum
+1997,PHI,PHI,5,68,94,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+1997,PIT,PIT,2,79,83,N,N,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1997,SDN,SDP,4,76,86,N,N,N,N,San Diego Padres,Qualcomm Stadium
+1997,SEA,SEA,1,90,72,Y,N,N,N,Seattle Mariners,Kingdome
+1997,SFN,SFG,1,90,72,Y,N,N,N,San Francisco Giants,3Com Park
+1997,SLN,STL,4,73,89,N,N,N,N,St. Louis Cardinals,Busch Stadium II
+1997,TEX,TEX,3,77,85,N,N,N,N,Texas Rangers,The Ballpark at Arlington
+1997,TOR,TOR,5,76,86,N,N,N,N,Toronto Blue Jays,Skydome
+1998,ANA,ANA,2,85,77,N,N,N,N,Anaheim Angels,Edison International Field
+1998,ARI,ARI,5,65,97,N,N,N,N,Arizona Diamondbacks,Bank One Ballpark
+1998,ATL,ATL,1,106,56,Y,N,N,N,Atlanta Braves,Turner Field
+1998,BAL,BAL,4,79,83,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+1998,BOS,BOS,2,92,70,N,Y,N,N,Boston Red Sox,Fenway Park II
+1998,CHA,CHW,2,80,82,N,N,N,N,Chicago White Sox,Comiskey Park II
+1998,CHN,CHC,2,90,73,N,Y,N,N,Chicago Cubs,Wrigley Field
+1998,CIN,CIN,4,77,85,N,N,N,N,Cincinnati Reds,Cinergy Field
+1998,CLE,CLE,1,89,73,Y,N,N,N,Cleveland Indians,Jacobs Field
+1998,COL,COL,4,77,85,N,N,N,N,Colorado Rockies,Coors Field
+1998,DET,DET,5,65,97,N,N,N,N,Detroit Tigers,Tiger Stadium
+1998,FLO,FLA,5,54,108,N,N,N,N,Florida Marlins,Joe Robbie Stadium
+1998,HOU,HOU,1,102,60,Y,N,N,N,Houston Astros,Astrodome
+1998,KCA,KCR,3,72,89,N,N,N,N,Kansas City Royals,Kauffman Stadium
+1998,LAN,LAD,3,83,79,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+1998,MIL,MIL,5,74,88,N,N,N,N,Milwaukee Brewers,County Stadium
+1998,MIN,MIN,4,70,92,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1998,MON,WSN,4,65,97,N,N,N,N,Montreal Expos,Stade Olympique
+1998,NYA,NYY,1,114,48,Y,N,Y,Y,New York Yankees,Yankee Stadium II
+1998,NYN,NYM,2,88,74,N,N,N,N,New York Mets,Shea Stadium
+1998,OAK,OAK,4,74,88,N,N,N,N,Oakland Athletics,Oakland Coliseum
+1998,PHI,PHI,3,75,87,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+1998,PIT,PIT,6,69,93,N,N,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1998,SDN,SDP,1,98,64,Y,N,Y,N,San Diego Padres,Qualcomm Stadium
+1998,SEA,SEA,3,76,85,N,N,N,N,Seattle Mariners,Kingdome
+1998,SFN,SFG,2,89,74,N,N,N,N,San Francisco Giants,3Com Park
+1998,SLN,STL,3,83,79,N,N,N,N,St. Louis Cardinals,Busch Stadium II
+1998,TBA,TBD,5,63,99,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+1998,TEX,TEX,1,88,74,Y,N,N,N,Texas Rangers,The Ballpark at Arlington
+1998,TOR,TOR,3,88,74,N,N,N,N,Toronto Blue Jays,Skydome
+1999,ANA,ANA,4,70,92,N,N,N,N,Anaheim Angels,Edison International Field
+1999,ARI,ARI,1,100,62,Y,N,N,N,Arizona Diamondbacks,Bank One Ballpark
+1999,ATL,ATL,1,103,59,Y,N,Y,N,Atlanta Braves,Turner Field
+1999,BAL,BAL,4,78,84,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+1999,BOS,BOS,2,94,68,N,Y,N,N,Boston Red Sox,Fenway Park II
+1999,CHA,CHW,2,75,86,N,N,N,N,Chicago White Sox,Comiskey Park II
+1999,CHN,CHC,6,67,95,N,N,N,N,Chicago Cubs,Wrigley Field
+1999,CIN,CIN,2,96,67,N,N,N,N,Cincinnati Reds,Cinergy Field
+1999,CLE,CLE,1,97,65,Y,N,N,N,Cleveland Indians,Jacobs Field
+1999,COL,COL,5,72,90,N,N,N,N,Colorado Rockies,Coors Field
+1999,DET,DET,3,69,92,N,N,N,N,Detroit Tigers,Tiger Stadium
+1999,FLO,FLA,5,64,98,N,N,N,N,Florida Marlins,Pro Player Stadium
+1999,HOU,HOU,1,97,65,Y,N,N,N,Houston Astros,Astrodome
+1999,KCA,KCR,4,64,97,N,N,N,N,Kansas City Royals,Kauffman Stadium
+1999,LAN,LAD,3,77,85,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+1999,MIL,MIL,5,74,87,N,N,N,N,Milwaukee Brewers,County Stadium
+1999,MIN,MIN,5,63,97,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+1999,MON,WSN,4,68,94,N,N,N,N,Montreal Expos,Stade Olympique
+1999,NYA,NYY,1,98,64,Y,N,Y,Y,New York Yankees,Yankee Stadium II
+1999,NYN,NYM,2,97,66,N,Y,N,N,New York Mets,Shea Stadium
+1999,OAK,OAK,2,87,75,N,N,N,N,Oakland Athletics,Oakland Coliseum
+1999,PHI,PHI,3,77,85,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+1999,PIT,PIT,3,78,83,N,N,N,N,Pittsburgh Pirates,Three Rivers Stadium
+1999,SDN,SDP,4,74,88,N,N,N,N,San Diego Padres,Qualcomm Stadium
+1999,SEA,SEA,3,79,83,N,N,N,N,Seattle Mariners,Kingdome / Safeco Field
+1999,SFN,SFG,2,86,76,N,N,N,N,San Francisco Giants,3Com Park
+1999,SLN,STL,4,75,86,N,N,N,N,St. Louis Cardinals,Busch Stadium II
+1999,TBA,TBD,5,69,93,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+1999,TEX,TEX,1,95,67,Y,N,N,N,Texas Rangers,The Ballpark at Arlington
+1999,TOR,TOR,3,84,78,N,N,N,N,Toronto Blue Jays,Skydome
+2000,ANA,ANA,3,82,80,N,N,N,N,Anaheim Angels,Edison International Field
+2000,ARI,ARI,3,85,77,N,N,N,N,Arizona Diamondbacks,Bank One Ballpark
+2000,ATL,ATL,1,95,67,Y,N,N,N,Atlanta Braves,Turner Field
+2000,BAL,BAL,4,74,88,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2000,BOS,BOS,2,85,77,N,N,N,N,Boston Red Sox,Fenway Park II
+2000,CHA,CHW,1,95,67,Y,N,N,N,Chicago White Sox,Comiskey Park II
+2000,CHN,CHC,6,65,97,N,N,N,N,Chicago Cubs,Wrigley Field
+2000,CIN,CIN,2,85,77,N,N,N,N,Cincinnati Reds,Cinergy Field
+2000,CLE,CLE,2,90,72,N,N,N,N,Cleveland Indians,Jacobs Field
+2000,COL,COL,4,82,80,N,N,N,N,Colorado Rockies,Coors Field
+2000,DET,DET,3,79,83,N,N,N,N,Detroit Tigers,Comerica Park
+2000,FLO,FLA,3,79,82,N,N,N,N,Florida Marlins,Pro Player Stadium
+2000,HOU,HOU,4,72,90,N,N,N,N,Houston Astros,Enron Field
+2000,KCA,KCR,4,77,85,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2000,LAN,LAD,2,86,76,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2000,MIL,MIL,3,73,89,N,N,N,N,Milwaukee Brewers,County Stadium
+2000,MIN,MIN,5,69,93,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2000,MON,WSN,4,67,95,N,N,N,N,Montreal Expos,Stade Olympique
+2000,NYA,NYY,1,87,74,Y,N,Y,Y,New York Yankees,Yankee Stadium II
+2000,NYN,NYM,2,94,68,N,Y,Y,N,New York Mets,Shea Stadium
+2000,OAK,OAK,1,91,70,Y,N,N,N,Oakland Athletics,Oakland Coliseum
+2000,PHI,PHI,5,65,97,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+2000,PIT,PIT,5,69,93,N,N,N,N,Pittsburgh Pirates,Three Rivers Stadium
+2000,SDN,SDP,5,76,86,N,N,N,N,San Diego Padres,Qualcomm Stadium
+2000,SEA,SEA,2,91,71,N,Y,N,N,Seattle Mariners,Safeco Field
+2000,SFN,SFG,1,97,65,Y,N,N,N,San Francisco Giants,PacBell Park
+2000,SLN,STL,1,95,67,Y,N,N,N,St. Louis Cardinals,Busch Stadium II
+2000,TBA,TBD,5,69,92,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+2000,TEX,TEX,4,71,91,N,N,N,N,Texas Rangers,The Ballpark at Arlington
+2000,TOR,TOR,3,83,79,N,N,N,N,Toronto Blue Jays,Skydome
+2001,ANA,ANA,3,75,87,N,N,N,N,Anaheim Angels,Edison International Field
+2001,ARI,ARI,1,92,70,Y,N,Y,Y,Arizona Diamondbacks,Bank One Ballpark
+2001,ATL,ATL,1,88,74,Y,N,N,N,Atlanta Braves,Turner Field
+2001,BAL,BAL,4,63,98,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2001,BOS,BOS,2,82,79,N,N,N,N,Boston Red Sox,Fenway Park II
+2001,CHA,CHW,3,83,79,N,N,N,N,Chicago White Sox,Comiskey Park II
+2001,CHN,CHC,3,88,74,N,N,N,N,Chicago Cubs,Wrigley Field
+2001,CIN,CIN,5,66,96,N,N,N,N,Cincinnati Reds,Cinergy Field
+2001,CLE,CLE,1,91,71,Y,N,N,N,Cleveland Indians,Jacobs Field
+2001,COL,COL,5,73,89,N,N,N,N,Colorado Rockies,Coors Field
+2001,DET,DET,4,66,96,N,N,N,N,Detroit Tigers,Comerica Park
+2001,FLO,FLA,4,76,86,N,N,N,N,Florida Marlins,Pro Player Stadium
+2001,HOU,HOU,1,93,69,Y,N,N,N,Houston Astros,Enron Field
+2001,KCA,KCR,5,65,97,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2001,LAN,LAD,3,86,76,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2001,MIL,MIL,4,68,94,N,N,N,N,Milwaukee Brewers,Miller Park
+2001,MIN,MIN,2,85,77,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2001,MON,WSN,5,68,94,N,N,N,N,Montreal Expos,Stade Olympique
+2001,NYA,NYY,1,95,65,Y,N,Y,N,New York Yankees,Yankee Stadium II
+2001,NYN,NYM,3,82,80,N,N,N,N,New York Mets,Shea Stadium
+2001,OAK,OAK,2,102,60,N,Y,N,N,Oakland Athletics,Oakland Coliseum
+2001,PHI,PHI,2,86,76,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+2001,PIT,PIT,6,62,100,N,N,N,N,Pittsburgh Pirates,PNC Park
+2001,SDN,SDP,4,79,83,N,N,N,N,San Diego Padres,Qualcomm Stadium
+2001,SEA,SEA,1,116,46,Y,N,N,N,Seattle Mariners,Safeco Field
+2001,SFN,SFG,2,90,72,N,N,N,N,San Francisco Giants,PacBell Park
+2001,SLN,STL,2,93,69,N,Y,N,N,St. Louis Cardinals,Busch Stadium II
+2001,TBA,TBD,5,62,100,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+2001,TEX,TEX,4,73,89,N,N,N,N,Texas Rangers,The Ballpark at Arlington
+2001,TOR,TOR,3,80,82,N,N,N,N,Toronto Blue Jays,Skydome
+2002,ANA,ANA,2,99,63,N,Y,Y,Y,Anaheim Angels,Edison International Field
+2002,ARI,ARI,1,98,64,Y,N,N,N,Arizona Diamondbacks,Bank One Ballpark
+2002,ATL,ATL,1,101,59,Y,N,N,N,Atlanta Braves,Turner Field
+2002,BAL,BAL,4,67,95,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2002,BOS,BOS,2,93,69,N,N,N,N,Boston Red Sox,Fenway Park II
+2002,CHA,CHW,2,81,81,N,N,N,N,Chicago White Sox,Comiskey Park II
+2002,CHN,CHC,5,67,95,N,N,N,N,Chicago Cubs,Wrigley Field
+2002,CIN,CIN,3,78,84,N,N,N,N,Cincinnati Reds,Cinergy Field
+2002,CLE,CLE,3,74,88,N,N,N,N,Cleveland Indians,Jacobs Field
+2002,COL,COL,4,73,89,N,N,N,N,Colorado Rockies,Coors Field
+2002,DET,DET,5,55,106,N,N,N,N,Detroit Tigers,Comerica Park
+2002,FLO,FLA,4,79,83,N,N,N,N,Florida Marlins,Pro Player Stadium
+2002,HOU,HOU,2,84,78,N,N,N,N,Houston Astros,Minute Maid Park
+2002,KCA,KCR,4,62,100,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2002,LAN,LAD,3,92,70,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2002,MIL,MIL,6,56,106,N,N,N,N,Milwaukee Brewers,Miller Park
+2002,MIN,MIN,1,94,67,Y,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2002,MON,WSN,2,83,79,N,N,N,N,Montreal Expos,Stade Olympique
+2002,NYA,NYY,1,103,58,Y,N,N,N,New York Yankees,Yankee Stadium II
+2002,NYN,NYM,5,75,86,N,N,N,N,New York Mets,Shea Stadium
+2002,OAK,OAK,1,103,59,Y,N,N,N,Oakland Athletics,Oakland Coliseum
+2002,PHI,PHI,3,80,81,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+2002,PIT,PIT,4,72,89,N,N,N,N,Pittsburgh Pirates,PNC Park
+2002,SDN,SDP,5,66,96,N,N,N,N,San Diego Padres,Qualcomm Stadium
+2002,SEA,SEA,3,93,69,N,N,N,N,Seattle Mariners,Safeco Field
+2002,SFN,SFG,2,95,66,N,Y,Y,N,San Francisco Giants,PacBell Park
+2002,SLN,STL,1,97,65,Y,N,N,N,St. Louis Cardinals,Busch Stadium II
+2002,TBA,TBD,5,55,106,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+2002,TEX,TEX,4,72,90,N,N,N,N,Texas Rangers,The Ballpark at Arlington
+2002,TOR,TOR,3,78,84,N,N,N,N,Toronto Blue Jays,Skydome
+2003,ANA,ANA,3,77,85,N,N,N,N,Anaheim Angels,Edison International Field
+2003,ARI,ARI,3,84,78,N,N,N,N,Arizona Diamondbacks,Bank One Ballpark
+2003,ATL,ATL,1,101,61,Y,N,N,N,Atlanta Braves,Turner Field
+2003,BAL,BAL,4,71,91,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2003,BOS,BOS,2,95,67,N,Y,N,N,Boston Red Sox,Fenway Park II
+2003,CHA,CHW,2,86,76,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2003,CHN,CHC,1,88,74,Y,N,N,N,Chicago Cubs,Wrigley Field
+2003,CIN,CIN,5,69,93,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2003,CLE,CLE,4,68,94,N,N,N,N,Cleveland Indians,Jacobs Field
+2003,COL,COL,4,74,88,N,N,N,N,Colorado Rockies,Coors Field
+2003,DET,DET,5,43,119,N,N,N,N,Detroit Tigers,Comerica Park
+2003,FLO,FLA,2,91,71,N,Y,Y,Y,Florida Marlins,Pro Player Stadium
+2003,HOU,HOU,2,87,75,N,N,N,N,Houston Astros,Minute Maid Park
+2003,KCA,KCR,3,83,79,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2003,LAN,LAD,2,85,77,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2003,MIL,MIL,6,68,94,N,N,N,N,Milwaukee Brewers,Miller Park
+2003,MIN,MIN,1,90,72,Y,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2003,MON,WSN,4,83,79,N,N,N,N,Montreal Expos,Stade Olympique/Hiram Bithorn Stadium
+2003,NYA,NYY,1,101,61,Y,N,Y,N,New York Yankees,Yankee Stadium II
+2003,NYN,NYM,5,66,95,N,N,N,N,New York Mets,Shea Stadium
+2003,OAK,OAK,1,96,66,Y,N,N,N,Oakland Athletics,Oakland Coliseum
+2003,PHI,PHI,3,86,76,N,N,N,N,Philadelphia Phillies,Veterans Stadium
+2003,PIT,PIT,4,75,87,N,N,N,N,Pittsburgh Pirates,PNC Park
+2003,SDN,SDP,5,64,98,N,N,N,N,San Diego Padres,Qualcomm Stadium
+2003,SEA,SEA,2,93,69,N,N,N,N,Seattle Mariners,Safeco Field
+2003,SFN,SFG,1,100,61,Y,N,N,N,San Francisco Giants,PacBell Park
+2003,SLN,STL,3,85,77,N,N,N,N,St. Louis Cardinals,Busch Stadium II
+2003,TBA,TBD,5,63,99,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+2003,TEX,TEX,4,71,91,N,N,N,N,Texas Rangers,The Ballpark at Arlington
+2003,TOR,TOR,3,86,76,N,N,N,N,Toronto Blue Jays,Skydome
+2004,ANA,ANA,1,92,70,Y,N,N,N,Anaheim Angels,Angels Stadium of Anaheim
+2004,ARI,ARI,5,51,111,N,N,N,N,Arizona Diamondbacks,Bank One Ballpark
+2004,ATL,ATL,1,96,66,Y,N,N,N,Atlanta Braves,Turner Field
+2004,BAL,BAL,3,78,84,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2004,BOS,BOS,2,98,64,N,Y,Y,Y,Boston Red Sox,Fenway Park II
+2004,CHA,CHW,2,83,79,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2004,CHN,CHC,3,89,73,N,N,N,N,Chicago Cubs,Wrigley Field
+2004,CIN,CIN,4,76,86,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2004,CLE,CLE,3,80,82,N,N,N,N,Cleveland Indians,Jacobs Field
+2004,COL,COL,4,68,94,N,N,N,N,Colorado Rockies,Coors Field
+2004,DET,DET,4,72,90,N,N,N,N,Detroit Tigers,Comerica Park
+2004,FLO,FLA,3,83,79,N,N,N,N,Florida Marlins,Pro Player Stadium
+2004,HOU,HOU,2,92,70,N,Y,N,N,Houston Astros,Minute Maid Park
+2004,KCA,KCR,5,58,104,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2004,LAN,LAD,1,93,69,Y,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2004,MIL,MIL,6,67,94,N,N,N,N,Milwaukee Brewers,Miller Park
+2004,MIN,MIN,1,92,70,Y,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2004,MON,WSN,5,67,95,N,N,N,N,Montreal Expos,Stade Olympique/Hiram Bithorn Stadium
+2004,NYA,NYY,1,101,61,Y,N,N,N,New York Yankees,Yankee Stadium II
+2004,NYN,NYM,4,71,91,N,N,N,N,New York Mets,Shea Stadium
+2004,OAK,OAK,2,91,71,N,N,N,N,Oakland Athletics,Network Associates Coliseum
+2004,PHI,PHI,2,86,76,N,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2004,PIT,PIT,5,72,89,N,N,N,N,Pittsburgh Pirates,PNC Park
+2004,SDN,SDP,3,87,75,N,N,N,N,San Diego Padres,Petco Park
+2004,SEA,SEA,4,63,99,N,N,N,N,Seattle Mariners,Safeco Field
+2004,SFN,SFG,2,91,71,N,N,N,N,San Francisco Giants,SBC Park
+2004,SLN,STL,1,105,57,Y,N,Y,N,St. Louis Cardinals,Busch Stadium II
+2004,TBA,TBD,4,70,91,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+2004,TEX,TEX,3,89,73,N,N,N,N,Texas Rangers,The Ballpark at Arlington
+2004,TOR,TOR,5,67,94,N,N,N,N,Toronto Blue Jays,Skydome
+2005,ARI,ARI,2,77,85,N,N,N,N,Arizona Diamondbacks,Bank One Ballpark
+2005,ATL,ATL,1,90,72,Y,N,N,N,Atlanta Braves,Turner Field
+2005,BAL,BAL,4,74,88,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2005,BOS,BOS,2,95,67,N,Y,N,N,Boston Red Sox,Fenway Park II
+2005,CHA,CHW,1,99,63,Y,N,Y,Y,Chicago White Sox,U.S. Cellular Field
+2005,CHN,CHC,4,79,83,N,N,N,N,Chicago Cubs,Wrigley Field
+2005,CIN,CIN,5,73,89,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2005,CLE,CLE,2,93,69,N,N,N,N,Cleveland Indians,Jacobs Field
+2005,COL,COL,5,67,95,N,N,N,N,Colorado Rockies,Coors Field
+2005,DET,DET,4,71,91,N,N,N,N,Detroit Tigers,Comerica Park
+2005,FLO,FLA,3,83,79,N,N,N,N,Florida Marlins,Dolphin Stadium
+2005,HOU,HOU,2,89,73,N,Y,Y,N,Houston Astros,Minute Maid Park
+2005,KCA,KCR,5,56,106,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2005,LAA,ANA,1,95,67,Y,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium
+2005,LAN,LAD,4,71,91,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2005,MIL,MIL,3,81,81,N,N,N,N,Milwaukee Brewers,Miller Park
+2005,MIN,MIN,3,83,79,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2005,NYA,NYY,1,95,67,Y,N,N,N,New York Yankees,Yankee Stadium II
+2005,NYN,NYM,3,83,79,N,N,N,N,New York Mets,Shea Stadium
+2005,OAK,OAK,2,88,74,N,N,N,N,Oakland Athletics,McAfee Coliseum
+2005,PHI,PHI,2,88,74,N,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2005,PIT,PIT,6,67,95,N,N,N,N,Pittsburgh Pirates,PNC Park
+2005,SDN,SDP,1,82,80,Y,N,N,N,San Diego Padres,Petco Park
+2005,SEA,SEA,4,69,93,N,N,N,N,Seattle Mariners,Safeco Field
+2005,SFN,SFG,3,75,87,N,N,N,N,San Francisco Giants,SBC Park
+2005,SLN,STL,1,100,62,Y,N,N,N,St. Louis Cardinals,Busch Stadium II
+2005,TBA,TBD,5,67,95,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+2005,TEX,TEX,3,79,83,N,N,N,N,Texas Rangers,Ameriquest Field
+2005,TOR,TOR,3,80,82,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2005,WAS,WSN,5,81,81,N,N,N,N,Washington Nationals,R.F.K. Stadium
+2006,ARI,ARI,4,76,86,N,N,N,N,Arizona Diamondbacks,Chase Field
+2006,ATL,ATL,3,79,83,N,N,N,N,Atlanta Braves,Turner Field
+2006,BAL,BAL,4,70,92,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2006,BOS,BOS,3,86,76,N,N,N,N,Boston Red Sox,Fenway Park II
+2006,CHA,CHW,3,90,72,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2006,CHN,CHC,6,66,96,N,N,N,N,Chicago Cubs,Wrigley Field
+2006,CIN,CIN,3,80,82,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2006,CLE,CLE,4,78,84,N,N,N,N,Cleveland Indians,Jacobs Field
+2006,COL,COL,4,76,86,N,N,N,N,Colorado Rockies,Coors Field
+2006,DET,DET,2,95,67,N,Y,Y,N,Detroit Tigers,Comerica Park
+2006,FLO,FLA,4,78,84,N,N,N,N,Florida Marlins,Dolphin Stadium
+2006,HOU,HOU,2,82,80,N,N,N,N,Houston Astros,Minute Maid Park
+2006,KCA,KCR,5,62,100,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2006,LAA,ANA,2,89,73,N,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium
+2006,LAN,LAD,2,88,74,N,Y,N,N,Los Angeles Dodgers,Dodger Stadium
+2006,MIL,MIL,4,75,87,N,N,N,N,Milwaukee Brewers,Miller Park
+2006,MIN,MIN,1,96,66,Y,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2006,NYA,NYY,1,97,65,Y,N,N,N,New York Yankees,Yankee Stadium II
+2006,NYN,NYM,1,97,65,Y,N,N,N,New York Mets,Shea Stadium
+2006,OAK,OAK,1,93,69,Y,N,N,N,Oakland Athletics,McAfee Coliseum
+2006,PHI,PHI,2,85,77,N,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2006,PIT,PIT,5,67,95,N,N,N,N,Pittsburgh Pirates,PNC Park
+2006,SDN,SDP,1,88,74,Y,N,N,N,San Diego Padres,Petco Park
+2006,SEA,SEA,4,78,84,N,N,N,N,Seattle Mariners,Safeco Field
+2006,SFN,SFG,3,76,85,N,N,N,N,San Francisco Giants,AT&T Park
+2006,SLN,STL,1,83,78,Y,N,Y,Y,St. Louis Cardinals,Busch Stadium III
+2006,TBA,TBD,5,61,101,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+2006,TEX,TEX,3,80,82,N,N,N,N,Texas Rangers,Ameriquest Field
+2006,TOR,TOR,2,87,75,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2006,WAS,WSN,5,71,91,N,N,N,N,Washington Nationals,R.F.K. Stadium
+2007,ARI,ARI,1,90,72,Y,N,N,N,Arizona Diamondbacks,Chase Field
+2007,ATL,ATL,3,84,78,N,N,N,N,Atlanta Braves,Turner Field
+2007,BAL,BAL,4,69,93,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2007,BOS,BOS,1,96,66,Y,N,Y,Y,Boston Red Sox,Fenway Park II
+2007,CHA,CHW,4,72,90,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2007,CHN,CHC,1,85,77,Y,N,N,N,Chicago Cubs,Wrigley Field
+2007,CIN,CIN,5,72,90,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2007,CLE,CLE,1,96,66,Y,N,N,N,Cleveland Indians,Jacobs Field
+2007,COL,COL,2,90,73,N,Y,Y,N,Colorado Rockies,Coors Field
+2007,DET,DET,2,88,74,N,N,N,N,Detroit Tigers,Comerica Park
+2007,FLO,FLA,5,71,91,N,N,N,N,Florida Marlins,Dolphin Stadium
+2007,HOU,HOU,4,73,89,N,N,N,N,Houston Astros,Minute Maid Park
+2007,KCA,KCR,5,69,93,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2007,LAA,ANA,1,94,68,Y,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium
+2007,LAN,LAD,4,82,80,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2007,MIL,MIL,2,83,79,N,N,N,N,Milwaukee Brewers,Miller Park
+2007,MIN,MIN,3,79,83,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2007,NYA,NYY,2,94,68,N,Y,N,N,New York Yankees,Yankee Stadium II
+2007,NYN,NYM,2,88,74,N,N,N,N,New York Mets,Shea Stadium
+2007,OAK,OAK,3,76,86,N,N,N,N,Oakland Athletics,McAfee Coliseum
+2007,PHI,PHI,1,89,73,Y,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2007,PIT,PIT,6,68,94,N,N,N,N,Pittsburgh Pirates,PNC Park
+2007,SDN,SDP,3,89,74,N,N,N,N,San Diego Padres,Petco Park
+2007,SEA,SEA,2,88,74,N,N,N,N,Seattle Mariners,Safeco Field
+2007,SFN,SFG,5,71,91,N,N,N,N,San Francisco Giants,AT&T Park
+2007,SLN,STL,3,78,84,N,N,N,N,St. Louis Cardinals,Busch Stadium III
+2007,TBA,TBD,5,66,96,N,N,N,N,Tampa Bay Devil Rays,Tropicana Field
+2007,TEX,TEX,4,75,87,N,N,N,N,Texas Rangers,Rangers Ballpark in Arlington
+2007,TOR,TOR,3,83,79,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2007,WAS,WSN,4,73,89,N,N,N,N,Washington Nationals,R.F.K. Stadium
+2008,ARI,ARI,2,82,80,N,N,N,N,Arizona Diamondbacks,Chase Field
+2008,ATL,ATL,4,72,90,N,N,N,N,Atlanta Braves,Turner Field
+2008,BAL,BAL,5,68,93,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2008,BOS,BOS,2,95,67,N,Y,N,N,Boston Red Sox,Fenway Park II
+2008,CHA,CHW,1,89,74,Y,N,N,N,Chicago White Sox,U.S. Cellular Field
+2008,CHN,CHC,1,97,64,Y,N,N,N,Chicago Cubs,Wrigley Field
+2008,CIN,CIN,5,74,88,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2008,CLE,CLE,3,81,81,N,N,N,N,Cleveland Indians,Jacobs Field
+2008,COL,COL,3,74,88,N,N,N,N,Colorado Rockies,Coors Field
+2008,DET,DET,5,74,88,N,N,N,N,Detroit Tigers,Comerica Park
+2008,FLO,FLA,3,84,77,N,N,N,N,Florida Marlins,Dolphin Stadium
+2008,HOU,HOU,3,86,75,N,N,N,N,Houston Astros,Minute Maid Park
+2008,KCA,KCR,4,75,87,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2008,LAA,ANA,1,100,62,Y,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium
+2008,LAN,LAD,1,84,78,Y,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2008,MIL,MIL,2,90,72,N,Y,N,N,Milwaukee Brewers,Miller Park
+2008,MIN,MIN,2,88,75,N,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2008,NYA,NYY,3,89,73,N,N,N,N,New York Yankees,Yankee Stadium II
+2008,NYN,NYM,2,89,73,N,N,N,N,New York Mets,Shea Stadium
+2008,OAK,OAK,3,75,86,N,N,N,N,Oakland Athletics,McAfee Coliseum
+2008,PHI,PHI,1,92,70,Y,N,Y,Y,Philadelphia Phillies,Citizens Bank Park
+2008,PIT,PIT,6,67,95,N,N,N,N,Pittsburgh Pirates,PNC Park
+2008,SDN,SDP,5,63,99,N,N,N,N,San Diego Padres,Petco Park
+2008,SEA,SEA,4,61,101,N,N,N,N,Seattle Mariners,Safeco Field
+2008,SFN,SFG,4,72,90,N,N,N,N,San Francisco Giants,AT&T Park
+2008,SLN,STL,4,86,76,N,N,N,N,St. Louis Cardinals,Busch Stadium III
+2008,TBA,TBD,1,97,65,Y,N,Y,N,Tampa Bay Rays,Tropicana Field
+2008,TEX,TEX,2,79,83,N,N,N,N,Texas Rangers,Rangers Ballpark in Arlington
+2008,TOR,TOR,4,86,76,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2008,WAS,WSN,5,59,102,N,N,N,N,Washington Nationals,Nationals Park
+2009,ARI,ARI,5,70,92,N,N,N,N,Arizona Diamondbacks,Chase Field
+2009,ATL,ATL,3,86,76,N,N,N,N,Atlanta Braves,Turner Field
+2009,BAL,BAL,5,64,98,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2009,BOS,BOS,2,95,67,N,Y,N,N,Boston Red Sox,Fenway Park II
+2009,CHA,CHW,3,79,83,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2009,CHN,CHC,2,83,78,N,N,N,N,Chicago Cubs,Wrigley Field
+2009,CIN,CIN,4,78,84,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2009,CLE,CLE,4,65,97,N,N,N,N,Cleveland Indians,Jacobs Field
+2009,COL,COL,2,92,70,N,Y,N,N,Colorado Rockies,Coors Field
+2009,DET,DET,2,86,77,N,N,N,N,Detroit Tigers,Comerica Park
+2009,FLO,FLA,2,87,75,N,N,N,N,Florida Marlins,Dolphin Stadium
+2009,HOU,HOU,5,74,88,N,N,N,N,Houston Astros,Minute Maid Park
+2009,KCA,KCR,4,65,97,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2009,LAA,ANA,1,97,65,Y,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium
+2009,LAN,LAD,1,95,67,Y,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2009,MIL,MIL,3,80,82,N,N,N,N,Milwaukee Brewers,Miller Park
+2009,MIN,MIN,1,87,76,Y,N,N,N,Minnesota Twins,Hubert H Humphrey Metrodome
+2009,NYA,NYY,1,103,59,Y,N,Y,Y,New York Yankees,Yankee Stadium III
+2009,NYN,NYM,4,70,92,N,N,N,N,New York Mets,Citi Field
+2009,OAK,OAK,4,75,87,N,N,N,N,Oakland Athletics,Oakland-Alameda County Coliseum
+2009,PHI,PHI,1,93,69,Y,N,Y,N,Philadelphia Phillies,Citizens Bank Park
+2009,PIT,PIT,6,62,99,N,N,N,N,Pittsburgh Pirates,PNC Park
+2009,SDN,SDP,4,75,87,N,N,N,N,San Diego Padres,Petco Park
+2009,SEA,SEA,3,85,77,N,N,N,N,Seattle Mariners,Safeco Field
+2009,SFN,SFG,3,88,74,N,N,N,N,San Francisco Giants,AT&T Park
+2009,SLN,STL,1,91,71,Y,N,N,N,St. Louis Cardinals,Busch Stadium III
+2009,TBA,TBD,3,84,78,N,N,N,N,Tampa Bay Rays,Tropicana Field
+2009,TEX,TEX,2,87,75,N,N,N,N,Texas Rangers,Rangers Ballpark in Arlington
+2009,TOR,TOR,4,75,87,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2009,WAS,WSN,5,59,103,N,N,N,N,Washington Nationals,Nationals Park
+2010,ARI,ARI,5,65,97,N,N,N,N,Arizona Diamondbacks,Chase Field
+2010,ATL,ATL,2,91,71,N,Y,N,N,Atlanta Braves,Turner Field
+2010,BAL,BAL,5,66,96,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2010,BOS,BOS,3,89,73,N,N,N,N,Boston Red Sox,Fenway Park II
+2010,CHA,CHW,2,88,74,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2010,CHN,CHC,5,75,87,N,N,N,N,Chicago Cubs,Wrigley Field
+2010,CIN,CIN,1,91,71,Y,N,N,N,Cincinnati Reds,Great American Ball Park
+2010,CLE,CLE,4,69,93,N,N,N,N,Cleveland Indians,Jacobs Field
+2010,COL,COL,3,83,79,N,N,N,N,Colorado Rockies,Coors Field
+2010,DET,DET,3,81,81,N,N,N,N,Detroit Tigers,Comerica Park
+2010,FLO,FLA,3,80,82,N,N,N,N,Florida Marlins,Dolphin Stadium
+2010,HOU,HOU,4,76,86,N,N,N,N,Houston Astros,Minute Maid Park
+2010,KCA,KCR,5,67,95,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2010,LAA,ANA,3,80,82,N,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium
+2010,LAN,LAD,4,80,82,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2010,MIL,MIL,3,77,85,N,N,N,N,Milwaukee Brewers,Miller Park
+2010,MIN,MIN,1,94,68,Y,N,N,N,Minnesota Twins,Target Field
+2010,NYA,NYY,2,95,67,N,Y,N,N,New York Yankees,Yankee Stadium III
+2010,NYN,NYM,4,79,83,N,N,N,N,New York Mets,Citi Field
+2010,OAK,OAK,2,81,81,N,N,N,N,Oakland Athletics,Oakland-Alameda County Coliseum
+2010,PHI,PHI,1,97,65,Y,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2010,PIT,PIT,6,57,105,N,N,N,N,Pittsburgh Pirates,PNC Park
+2010,SDN,SDP,2,90,72,N,N,N,N,San Diego Padres,Petco Park
+2010,SEA,SEA,4,61,101,N,N,N,N,Seattle Mariners,Safeco Field
+2010,SFN,SFG,1,92,70,Y,N,Y,Y,San Francisco Giants,AT&T Park
+2010,SLN,STL,2,86,76,N,N,N,N,St. Louis Cardinals,Busch Stadium III
+2010,TBA,TBD,1,96,66,Y,N,N,N,Tampa Bay Rays,Tropicana Field
+2010,TEX,TEX,1,90,72,Y,N,Y,N,Texas Rangers,Rangers Ballpark in Arlington
+2010,TOR,TOR,4,85,77,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2010,WAS,WSN,5,69,93,N,N,N,N,Washington Nationals,Nationals Park
+2011,ARI,ARI,1,94,68,Y,N,N,N,Arizona Diamondbacks,Chase Field
+2011,ATL,ATL,2,89,73,N,N,N,N,Atlanta Braves,Turner Field
+2011,BAL,BAL,5,69,93,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2011,BOS,BOS,3,90,72,N,N,N,N,Boston Red Sox,Fenway Park II
+2011,CHA,CHW,3,79,83,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2011,CHN,CHC,5,71,91,N,N,N,N,Chicago Cubs,Wrigley Field
+2011,CIN,CIN,3,79,83,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2011,CLE,CLE,2,80,82,N,N,N,N,Cleveland Indians,Jacobs Field
+2011,COL,COL,4,73,89,N,N,N,N,Colorado Rockies,Coors Field
+2011,DET,DET,1,95,67,Y,N,N,N,Detroit Tigers,Comerica Park
+2011,FLO,FLA,5,72,90,N,N,N,N,Florida Marlins,Sun Life Stadium
+2011,HOU,HOU,6,56,106,N,N,N,N,Houston Astros,Minute Maid Park
+2011,KCA,KCR,4,71,91,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2011,LAA,ANA,2,86,76,N,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium
+2011,LAN,LAD,3,82,79,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2011,MIL,MIL,1,96,66,Y,N,N,N,Milwaukee Brewers,Miller Park
+2011,MIN,MIN,5,63,99,N,N,N,N,Minnesota Twins,Target Field
+2011,NYA,NYY,1,97,65,Y,N,N,N,New York Yankees,Yankee Stadium III
+2011,NYN,NYM,4,77,85,N,N,N,N,New York Mets,Citi Field
+2011,OAK,OAK,3,74,88,N,N,N,N,Oakland Athletics,Oakland-Alameda County Coliseum
+2011,PHI,PHI,1,102,60,Y,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2011,PIT,PIT,4,72,90,N,N,N,N,Pittsburgh Pirates,PNC Park
+2011,SDN,SDP,5,71,91,N,N,N,N,San Diego Padres,Petco Park
+2011,SEA,SEA,4,67,95,N,N,N,N,Seattle Mariners,Safeco Field
+2011,SFN,SFG,2,86,76,N,N,N,N,San Francisco Giants,AT&T Park
+2011,SLN,STL,2,90,72,N,Y,Y,Y,St. Louis Cardinals,Busch Stadium III
+2011,TBA,TBD,2,91,71,N,Y,N,N,Tampa Bay Rays,Tropicana Field
+2011,TEX,TEX,1,96,66,Y,N,Y,N,Texas Rangers,Rangers Ballpark in Arlington
+2011,TOR,TOR,4,81,81,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2011,WAS,WSN,3,80,81,N,N,N,N,Washington Nationals,Nationals Park
+2012,ARI,ARI,3,81,81,N,N,N,N,Arizona Diamondbacks,Chase Field
+2012,ATL,ATL,2,94,68,N,Y,N,N,Atlanta Braves,Turner Field
+2012,BAL,BAL,2,93,69,N,Y,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2012,BOS,BOS,5,69,93,N,N,N,N,Boston Red Sox,Fenway Park II
+2012,CHA,CHW,2,85,77,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2012,CHN,CHC,5,61,101,N,N,N,N,Chicago Cubs,Wrigley Field
+2012,CIN,CIN,1,97,65,Y,N,N,N,Cincinnati Reds,Great American Ball Park
+2012,CLE,CLE,4,68,94,N,N,N,N,Cleveland Indians,Progressive Field
+2012,COL,COL,5,64,98,N,N,N,N,Colorado Rockies,Coors Field
+2012,DET,DET,1,88,74,Y,N,Y,N,Detroit Tigers,Comerica Park
+2012,HOU,HOU,6,55,107,N,N,N,N,Houston Astros,Minute Maid Park
+2012,KCA,KCR,3,72,90,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2012,LAA,ANA,3,89,73,N,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium of Anaheim
+2012,LAN,LAD,2,86,76,N,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2012,MIA,FLA,5,69,93,N,N,N,N,Miami Marlins,Marlins Park
+2012,MIL,MIL,3,83,79,N,N,N,N,Milwaukee Brewers,Miller Park
+2012,MIN,MIN,5,66,96,N,N,N,N,Minnesota Twins,Target Field
+2012,NYA,NYY,1,95,67,Y,N,N,N,New York Yankees,Yankee Stadium III
+2012,NYN,NYM,4,74,88,N,N,N,N,New York Mets,Citi Field
+2012,OAK,OAK,1,94,68,Y,N,N,N,Oakland Athletics,O.co Coliseum
+2012,PHI,PHI,3,81,81,N,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2012,PIT,PIT,4,79,83,N,N,N,N,Pittsburgh Pirates,PNC Park
+2012,SDN,SDP,4,76,86,N,N,N,N,San Diego Padres,Petco Park
+2012,SEA,SEA,4,75,87,N,N,N,N,Seattle Mariners,Safeco Field
+2012,SFN,SFG,1,94,68,Y,N,Y,Y,San Francisco Giants,AT&T Park
+2012,SLN,STL,2,88,74,N,Y,N,N,St. Louis Cardinals,Busch Stadium III
+2012,TBA,TBD,3,90,72,N,N,N,N,Tampa Bay Rays,Tropicana Field
+2012,TEX,TEX,2,93,69,N,Y,N,N,Texas Rangers,Rangers Ballpark in Arlington
+2012,TOR,TOR,4,73,89,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2012,WAS,WSN,1,98,64,Y,N,N,N,Washington Nationals,Nationals Park
+2013,ARI,ARI,2,81,81,N,N,N,N,Arizona Diamondbacks,Chase Field
+2013,ATL,ATL,1,96,66,Y,N,N,N,Atlanta Braves,Turner Field
+2013,BAL,BAL,3,85,77,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2013,BOS,BOS,1,97,65,Y,N,Y,Y,Boston Red Sox,Fenway Park II
+2013,CHA,CHW,5,63,99,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2013,CHN,CHC,5,66,96,N,N,N,N,Chicago Cubs,Wrigley Field
+2013,CIN,CIN,3,90,72,N,Y,N,N,Cincinnati Reds,Great American Ball Park
+2013,CLE,CLE,2,92,70,N,Y,N,N,Cleveland Indians,Progressive Field
+2013,COL,COL,5,74,88,N,N,N,N,Colorado Rockies,Coors Field
+2013,DET,DET,1,93,69,Y,N,N,N,Detroit Tigers,Comerica Park
+2013,HOU,HOU,5,51,111,N,N,N,N,Houston Astros,Minute Maid Park
+2013,KCA,KCR,3,86,76,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2013,LAA,ANA,3,78,84,N,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium of Anaheim
+2013,LAN,LAD,1,92,70,Y,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2013,MIA,FLA,5,62,100,N,N,N,N,Miami Marlins,Marlins Park
+2013,MIL,MIL,4,74,88,N,N,N,N,Milwaukee Brewers,Miller Park
+2013,MIN,MIN,4,66,96,N,N,N,N,Minnesota Twins,Target Field
+2013,NYA,NYY,4,85,77,N,N,N,N,New York Yankees,Yankee Stadium III
+2013,NYN,NYM,4,74,88,N,N,N,N,New York Mets,Citi Field
+2013,OAK,OAK,1,96,66,Y,N,N,N,Oakland Athletics,O.co Coliseum
+2013,PHI,PHI,4,73,89,N,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2013,PIT,PIT,2,94,68,N,Y,N,N,Pittsburgh Pirates,PNC Park
+2013,SDN,SDP,3,76,86,N,N,N,N,San Diego Padres,Petco Park
+2013,SEA,SEA,4,71,91,N,N,N,N,Seattle Mariners,Safeco Field
+2013,SFN,SFG,4,76,86,N,N,N,N,San Francisco Giants,AT&T Park
+2013,SLN,STL,1,97,65,Y,N,Y,N,St. Louis Cardinals,Busch Stadium III
+2013,TBA,TBD,2,92,71,N,Y,N,N,Tampa Bay Rays,Tropicana Field
+2013,TEX,TEX,2,91,72,N,N,N,N,Texas Rangers,Rangers Ballpark in Arlington
+2013,TOR,TOR,5,74,88,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2013,WAS,WSN,2,86,76,N,N,N,N,Washington Nationals,Nationals Park
+2014,ARI,ARI,5,64,98,N,N,N,N,Arizona Diamondbacks,Chase Field
+2014,ATL,ATL,2,79,83,N,N,N,N,Atlanta Braves,Turner Field
+2014,BAL,BAL,1,96,66,Y,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2014,BOS,BOS,5,71,91,N,N,N,N,Boston Red Sox,Fenway Park II
+2014,CHA,CHW,4,73,89,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2014,CHN,CHC,5,73,89,N,N,N,N,Chicago Cubs,Wrigley Field
+2014,CIN,CIN,4,76,86,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2014,CLE,CLE,3,85,77,N,N,N,N,Cleveland Indians,Progressive Field
+2014,COL,COL,4,66,96,N,N,N,N,Colorado Rockies,Coors Field
+2014,DET,DET,1,90,72,Y,N,N,N,Detroit Tigers,Comerica Park
+2014,HOU,HOU,4,70,92,N,N,N,N,Houston Astros,Minute Maid Park
+2014,KCA,KCR,2,89,73,N,Y,Y,N,Kansas City Royals,Kauffman Stadium
+2014,LAA,ANA,1,98,64,Y,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium of Anaheim
+2014,LAN,LAD,1,94,68,Y,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2014,MIA,FLA,4,77,85,N,N,N,N,Miami Marlins,Marlins Park
+2014,MIL,MIL,3,82,80,N,N,N,N,Milwaukee Brewers,Miller Park
+2014,MIN,MIN,5,70,92,N,N,N,N,Minnesota Twins,Target Field
+2014,NYA,NYY,2,84,78,N,N,N,N,New York Yankees,Yankee Stadium III
+2014,NYN,NYM,3,79,83,N,N,N,N,New York Mets,Citi Field
+2014,OAK,OAK,2,88,74,N,Y,N,N,Oakland Athletics,O.co Coliseum
+2014,PHI,PHI,5,73,89,N,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2014,PIT,PIT,2,88,74,N,Y,N,N,Pittsburgh Pirates,PNC Park
+2014,SDN,SDP,3,77,85,N,N,N,N,San Diego Padres,Petco Park
+2014,SEA,SEA,3,87,75,N,N,N,N,Seattle Mariners,Safeco Field
+2014,SFN,SFG,2,88,74,N,Y,Y,Y,San Francisco Giants,AT&T Park
+2014,SLN,STL,1,90,72,Y,N,N,N,St. Louis Cardinals,Busch Stadium III
+2014,TBA,TBD,4,77,85,N,N,N,N,Tampa Bay Rays,Tropicana Field
+2014,TEX,TEX,5,67,95,N,N,N,N,Texas Rangers,Rangers Ballpark in Arlington
+2014,TOR,TOR,3,83,79,N,N,N,N,Toronto Blue Jays,Rogers Centre
+2014,WAS,WSN,1,96,66,Y,N,N,N,Washington Nationals,Nationals Park
+2015,ARI,ARI,3,79,83,N,N,N,N,Arizona Diamondbacks,Chase Field
+2015,ATL,ATL,4,67,95,N,N,N,N,Atlanta Braves,Turner Field
+2015,BAL,BAL,3,81,81,N,N,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2015,BOS,BOS,5,78,84,N,N,N,N,Boston Red Sox,Fenway Park II
+2015,CHA,CHW,4,76,86,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2015,CHN,CHC,3,97,65,N,Y,N,N,Chicago Cubs,Wrigley Field
+2015,CIN,CIN,5,64,98,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2015,CLE,CLE,3,81,80,N,N,N,N,Cleveland Indians,Progressive Field
+2015,COL,COL,5,68,94,N,N,N,N,Colorado Rockies,Coors Field
+2015,DET,DET,5,74,87,N,N,N,N,Detroit Tigers,Comerica Park
+2015,HOU,HOU,2,86,76,N,Y,N,N,Houston Astros,Minute Maid Park
+2015,KCA,KCR,1,95,67,Y,N,Y,Y,Kansas City Royals,Kauffman Stadium
+2015,LAA,ANA,3,85,77,N,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium of Anaheim
+2015,LAN,LAD,1,92,70,Y,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2015,MIA,FLA,3,71,91,N,N,N,N,Miami Marlins,Marlins Park
+2015,MIL,MIL,4,68,94,N,N,N,N,Milwaukee Brewers,Miller Park
+2015,MIN,MIN,2,83,79,N,N,N,N,Minnesota Twins,Target Field
+2015,NYA,NYY,2,87,75,N,Y,N,N,New York Yankees,Yankee Stadium III
+2015,NYN,NYM,1,90,72,Y,N,Y,N,New York Mets,Citi Field
+2015,OAK,OAK,5,68,94,N,N,N,N,Oakland Athletics,O.co Coliseum
+2015,PHI,PHI,5,63,99,N,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2015,PIT,PIT,2,98,64,N,Y,N,N,Pittsburgh Pirates,PNC Park
+2015,SDN,SDP,4,74,88,N,N,N,N,San Diego Padres,Petco Park
+2015,SEA,SEA,4,76,86,N,N,N,N,Seattle Mariners,Safeco Field
+2015,SFN,SFG,2,84,78,N,N,N,N,San Francisco Giants,AT&T Park
+2015,SLN,STL,1,100,62,Y,N,N,N,St. Louis Cardinals,Busch Stadium III
+2015,TBA,TBD,4,80,82,N,N,N,N,Tampa Bay Rays,Tropicana Field
+2015,TEX,TEX,1,88,74,Y,N,N,N,Texas Rangers,Rangers Ballpark in Arlington
+2015,TOR,TOR,1,93,69,Y,N,N,N,Toronto Blue Jays,Rogers Centre
+2015,WAS,WSN,2,83,79,N,N,N,N,Washington Nationals,Nationals Park
+2016,ARI,ARI,4,69,93,N,N,N,N,Arizona Diamondbacks,Chase Field
+2016,ATL,ATL,5,68,93,N,N,N,N,Atlanta Braves,Turner Field
+2016,BAL,BAL,2,89,73,N,Y,N,N,Baltimore Orioles,Oriole Park at Camden Yards
+2016,BOS,BOS,1,93,69,Y,N,N,N,Boston Red Sox,Fenway Park II
+2016,CHA,CHW,4,78,84,N,N,N,N,Chicago White Sox,U.S. Cellular Field
+2016,CHN,CHC,1,103,58,Y,N,Y,Y,Chicago Cubs,Wrigley Field
+2016,CIN,CIN,5,68,94,N,N,N,N,Cincinnati Reds,Great American Ball Park
+2016,CLE,CLE,1,94,67,Y,N,Y,N,Cleveland Indians,Progressive Field
+2016,COL,COL,3,75,87,N,N,N,N,Colorado Rockies,Coors Field
+2016,DET,DET,2,86,75,N,N,N,N,Detroit Tigers,Comerica Park
+2016,HOU,HOU,3,84,78,N,N,N,N,Houston Astros,Minute Maid Park
+2016,KCA,KCR,3,81,81,N,N,N,N,Kansas City Royals,Kauffman Stadium
+2016,LAA,ANA,4,74,88,N,N,N,N,Los Angeles Angels of Anaheim,Angel Stadium of Anaheim
+2016,LAN,LAD,1,91,71,Y,N,N,N,Los Angeles Dodgers,Dodger Stadium
+2016,MIA,FLA,3,79,82,N,N,N,N,Miami Marlins,Marlins Park
+2016,MIL,MIL,4,73,89,N,N,N,N,Milwaukee Brewers,Miller Park
+2016,MIN,MIN,5,59,103,N,N,N,N,Minnesota Twins,Target Field
+2016,NYA,NYY,4,84,78,N,N,N,N,New York Yankees,Yankee Stadium III
+2016,NYN,NYM,2,87,75,N,Y,N,N,New York Mets,Citi Field
+2016,OAK,OAK,5,69,93,N,N,N,N,Oakland Athletics,O.co Coliseum
+2016,PHI,PHI,4,71,91,N,N,N,N,Philadelphia Phillies,Citizens Bank Park
+2016,PIT,PIT,3,78,83,N,N,N,N,Pittsburgh Pirates,PNC Park
+2016,SDN,SDP,5,68,94,N,N,N,N,San Diego Padres,Petco Park
+2016,SEA,SEA,2,86,76,N,N,N,N,Seattle Mariners,Safeco Field
+2016,SFN,SFG,2,87,75,N,Y,N,N,San Francisco Giants,AT&T Park
+2016,SLN,STL,2,86,76,N,N,N,N,St. Louis Cardinals,Busch Stadium III
+2016,TBA,TBD,5,68,94,N,N,N,N,Tampa Bay Rays,Tropicana Field
+2016,TEX,TEX,1,95,67,Y,N,N,N,Texas Rangers,Rangers Ballpark in Arlington
+2016,TOR,TOR,2,89,73,N,Y,N,N,Toronto Blue Jays,Rogers Centre
+2016,WAS,WSN,1,95,67,Y,N,N,N,Washington Nationals,Nationals Park

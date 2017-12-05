@@ -56,7 +56,10 @@ def sse(x):
     for i in x:
         tse+=i**2.
         nse+=1.
-    return tse*1./nse
+    if nse==0:
+        return 0.
+    else:
+        return tse*1./nse
 
 def genbias(voter,this_week,apmassey,apgames):
     allranks = []
@@ -120,14 +123,20 @@ def genbias(voter,this_week,apmassey,apgames):
                 for idx, i in enumerate(teambias):
                     if sum(teambias[idx][3:])>0:
                         teambias[idx][2]=1.5**(sum(teambias[idx][3:])/len(teambias[idx][3:]))
-                    else:
+                    elif sum(teambias[idx][3:])<0:
                         teambias[idx][2]=-1.*.667**(sum(teambias[idx][3:])/len(teambias[idx][3:]))
+                    else:
+                        teambias[idx][2]=0.
+
                     #if i[1]=='ohio-state':
                     #    print teambias[idx], sum(teambias[idx][3:]), len(teambias[idx][3:])
                     teambias[idx]=[teambias[idx][0],teambias[idx][1],teambias[idx][2]]
             else:
                 for idx, i in enumerate(teambias):
-                    teambias[idx][3]=sse(teambias[idx][3:])
+                    if len(teambias[idx])>3:
+                        teambias[idx][3]=sse(teambias[idx][3:])
+                    else:
+                        teambias[idx].append(0.)
 
                     myrank = allranks[this_week-1]
                     teams = []
@@ -191,6 +200,13 @@ def createRank(my_week):
                 week = 13
             elif date < 32:
                 week = 14
+        elif month=='Dec':
+            if date < 3:
+                week= 15
+            else:
+                week = 16
+        elif month=='Jan':
+            week = 16
         ateam = 'FCS'
         aconf = 'FCS'
         hteam = 'FCS'

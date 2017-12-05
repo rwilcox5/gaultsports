@@ -8,5 +8,5 @@ cp ap2017/week${week}temp.csv ap2017/week${week}.csv
 python getgames.py $week
 echo "got the games"
 python outputtop25.py $week
-cat helloworld.txt ../../gaultsports-site/ncaaf/base/ap-poll-base.js > ../../gaultsports-site/ncaaf/ap-poll.js 
+cat helloworld.txt ../../triplelog/ncaaf/base/ap-poll-base.js > ../../triplelog/ncaaf/ap-poll.js 
 echo "done!"
