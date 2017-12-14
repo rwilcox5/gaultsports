@@ -1,28 +1,35 @@
-[INFO  - 2017-12-05T19:34:51.419Z] GhostDriver - Main - running on port 44112
-[INFO  - 2017-12-05T19:34:52.331Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-12-05T19:34:52.331Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - page.customHeaders:  - {}
-[INFO  - 2017-12-05T19:34:52.331Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-12-05T19:34:52.331Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5d46a280-d9f3-11e7-9981-81a3f5591f89
-[ERROR - 2017-12-05T19:34:55.400Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - page.onError - msg: TypeError: undefined is not an object (evaluating 'doc.documentElement')
+[INFO  - 2017-12-13T16:30:56.631Z] GhostDriver - Main - running on port 42670
+[INFO  - 2017-12-13T16:30:57.383Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-12-13T16:30:57.383Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.customHeaders:  - {}
+[INFO  - 2017-12-13T16:30:57.383Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-12-13T16:30:57.383Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ff3ce420-e022-11e7-905c-1db2edeb946c
+[ERROR - 2017-12-13T16:31:03.023Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.onError - msg: TypeError: undefined is not a function (evaluating 't.createElement("video").canPlayType(e(i).mimetype)')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-05T19:34:55.401Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - page.onError - stack:
+[ERROR - 2017-12-13T16:31:03.023Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.onError - stack:
+  i (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  getVideo (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  d (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  s (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  a (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  i (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  p (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  d (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  d (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  (anonymous function) (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  each (https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js:2)
+  each (https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js:2)
+  c (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  o (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+  (anonymous function) (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-13T16:31:03.087Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.onError - msg: TypeError: undefined is not an object (evaluating 'doc.documentElement')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-13T16:31:03.087Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.onError - stack:
   (anonymous function) (https://c1.undertonevideo.com/ut/re/pubfix/basketballap_ss_pubfix.js:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-05T19:34:56.617Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - page.onError - msg: TypeError: undefined is not an object (evaluating 'ne.paused')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-05T19:34:56.617Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - page.onError - stack:
-  s (https://sparkflow-a.akamaihd.net/spk/795/37550-1508515312/m153-0.html:1)
-  (anonymous function) (https://sparkflow-a.akamaihd.net/spk/795/37550-1508515312/m153-0.html:1)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-05T19:34:56.992Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - page.onError - msg: TypeError: undefined is not an object (evaluating 'ne.paused')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-05T19:34:56.992Z] Session [5d46a280-d9f3-11e7-9981-81a3f5591f89] - page.onError - stack:
-  s (https://sparkflow-a.akamaihd.net/spk/795/37550-1508515312/m153-0.html:1)
-  (anonymous function) (https://sparkflow-a.akamaihd.net/spk/795/37550-1508515312/m153-0.html:1)
-
-  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-12-13T16:35:56.637Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-12-13T16:35:56.637Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'ff3ce420-e022-11e7-905c-1db2edeb946c', because windowless
