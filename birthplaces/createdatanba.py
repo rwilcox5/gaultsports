@@ -24,8 +24,8 @@ def readcsv(filen):
 
 
 
-allplayers = readcsv("modified/People.csv")
-allbatting = readcsv("modified/Batting.csv")
+allplayers = readcsv("modified/Basketball/People.csv")
+allstats = readcsv("modified/Basketball/Stats.csv")
 
 
 allplayerdata = []
@@ -45,7 +45,7 @@ for idx,i in enumerate(allplayers):
 
 topplayerdata = []
 for idx,i in enumerate(allplayers):
-        playerdata = [i[5]]
+        playerdata = [i[0]]
         try:
                 playerdata.append(int(i[1]))
         except:
@@ -58,7 +58,7 @@ for idx,i in enumerate(allplayers):
         playerdata.append(0)
         topplayerdata.append(playerdata)
 
-for idx,i in enumerate(allbatting):
+for idx,i in enumerate(allstats):
         try:
                 pid = int(i[0])
                 atbats = int(i[3])
@@ -69,7 +69,6 @@ for idx,i in enumerate(allbatting):
                         allplayerdata[pid][4]+=war
                         allplayerdata[pid][5].append(year)
                         allplayerdata[pid][5].append(atbats)
-                        allplayerdata[pid][5].append(war)
                         topplayerdata[pid][6]+=atbats
                         topplayerdata[pid][7]+=war
                         if year < topplayerdata[pid][4]:
@@ -126,7 +125,7 @@ for idx,i in enumerate(allstateyears):
 
 
 statelist = []
-mlb_str = 'players = [['
+mlb_str = 'players.push(['
 
 for i in statearray:
         if len(i[5])>0:
@@ -143,7 +142,7 @@ for i in statearray:
                 if i[1] not in statelist:
                         statelist.append(i[1])
 
-top_str = 'topplayers = [['
+top_str = 'topplayers.push(['
 for i in topplayerdata:
         if i[4]>0:
                 top_str += '["'
@@ -163,15 +162,9 @@ for i in statelist:
 state_str = state_str[:-1]+'};'
 print state_str
 
-pop_str = 'statepops = {'
-allstatepops = readcsv("statepops.csv")[2:]
-for i in allstatepops:
-        pop_str += '"'+i[0]+'":['
-        for ii in range(0,10):
-                pop_str += str(i[ii*3+1])+','
-        pop_str = pop_str[:-1]+'],'
 
-f = open('mlbdata.js','w')
-f.write(mlb_str[:-1]+']];\n'+top_str[:-1]+']];\n')
+
+f = open('nbadata.js','w')
+f.write(mlb_str[:-1]+']);\n'+top_str[:-1]+']);\n')
 f.close()
 

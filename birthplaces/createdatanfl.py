@@ -17,15 +17,15 @@ def writecsv(parr, filen):
 def readcsv(filen):
         allgamesa  =[]
         with open(filen, 'rb') as csvfile:
-                spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
                 for row in spamreader:
                         allgamesa.append(row)
         return allgamesa
 
 
 
-allplayers = readcsv("modified/People.csv")
-allbatting = readcsv("modified/Batting.csv")
+allplayers = readcsv("modified/Football/People.csv")
+allstats = readcsv("modified/Football/Stats.csv")
 
 
 allplayerdata = []
@@ -38,14 +38,15 @@ for idx,i in enumerate(allplayers):
         playerdata.append(i[2])
         playerdata.append(i[3])
         playerdata.append(0)
-        playerdata.append(0)
         playerdata.append([])
         allplayerdata.append(playerdata)
 
 
 topplayerdata = []
 for idx,i in enumerate(allplayers):
-        playerdata = [i[5]]
+        fname = i[4][i[4].find(',')+2:]
+        lname = i[4][:i[4].find(',')]
+        playerdata = [fname+' '+lname]
         try:
                 playerdata.append(int(i[1]))
         except:
@@ -55,23 +56,18 @@ for idx,i in enumerate(allplayers):
         playerdata.append(2150)
         playerdata.append(0)
         playerdata.append(0)
-        playerdata.append(0)
         topplayerdata.append(playerdata)
 
-for idx,i in enumerate(allbatting):
+for idx,i in enumerate(allstats):
         try:
                 pid = int(i[0])
                 atbats = int(i[3])
                 year = int(i[1])
-                war = float(i[2])
                 if atbats>0:
                         allplayerdata[pid][3]+=atbats
-                        allplayerdata[pid][4]+=war
-                        allplayerdata[pid][5].append(year)
-                        allplayerdata[pid][5].append(atbats)
-                        allplayerdata[pid][5].append(war)
+                        allplayerdata[pid][4].append(year)
+                        allplayerdata[pid][4].append(atbats)
                         topplayerdata[pid][6]+=atbats
-                        topplayerdata[pid][7]+=war
                         if year < topplayerdata[pid][4]:
                                 topplayerdata[pid][4]=year
                         if year > topplayerdata[pid][5]:
@@ -100,23 +96,19 @@ for idx,i in enumerate(allstateyears):
         statedata.append(i[:2])
         statedata.append('')
         statedata.append(0)
-        statedata.append(0)
         statedata.append([])
         for ii in allstatedata[idx]:
                 statedata[3]+=allplayerdata[ii][3]
-                statedata[4]+=allplayerdata[ii][4]
-                for iii in range(0,len(allplayerdata[ii][5])/3):
+                for iii in range(0,len(allplayerdata[ii][4])/2):
                         alreadyin = False
-                        for iiii in range(0,len(statedata[5])/3):
-                                if allplayerdata[ii][5][iii*3]==statedata[5][iiii*3]:
-                                        statedata[5][iiii*3+1]+=allplayerdata[ii][5][iii*3+1]
-                                        statedata[5][iiii*3+2]+=allplayerdata[ii][5][iii*3+2]
+                        for iiii in range(0,len(statedata[4])/2):
+                                if allplayerdata[ii][4][iii*2]==statedata[4][iiii*2]:
+                                        statedata[4][iiii*2+1]+=allplayerdata[ii][4][iii*2+1]
                                         alreadyin = True
                                         break
                         if not alreadyin:
-                                statedata[5].append(allplayerdata[ii][5][iii*3])
-                                statedata[5].append(allplayerdata[ii][5][iii*3+1])
-                                statedata[5].append(allplayerdata[ii][5][iii*3+2])
+                                statedata[4].append(allplayerdata[ii][4][iii*2])
+                                statedata[4].append(allplayerdata[ii][4][iii*2+1])
 
         statearray.append(statedata)
 
@@ -126,24 +118,23 @@ for idx,i in enumerate(allstateyears):
 
 
 statelist = []
-mlb_str = 'players = [['
+mlb_str = 'players.push('
 
 for i in statearray:
-        if len(i[5])>0:
+        if len(i[4])>0:
                 mlb_str += '['
                 mlb_str += str(i[0])+',"'
                 mlb_str += i[1]+'","'
                 mlb_str += i[2]+'",'
-                mlb_str += str(i[3])+','
-                mlb_str += str(i[4])+',['
-                for ii in i[5]:
+                mlb_str += str(i[3])+',['
+                for ii in i[4]:
                         mlb_str += str(ii)+','
                 mlb_str = mlb_str[:-1]+']],'
 
                 if i[1] not in statelist:
                         statelist.append(i[1])
 
-top_str = 'topplayers = [['
+top_str = 'topplayers.push('
 for i in topplayerdata:
         if i[4]>0:
                 top_str += '["'
@@ -154,7 +145,6 @@ for i in topplayerdata:
                 top_str += str(i[4])+','
                 top_str += str(i[5])+','
                 top_str += str(i[6])+','
-                top_str += str(i[7])+','
                 top_str = top_str[:-1]+'],'
 
 state_str = '{'
@@ -163,15 +153,9 @@ for i in statelist:
 state_str = state_str[:-1]+'};'
 print state_str
 
-pop_str = 'statepops = {'
-allstatepops = readcsv("statepops.csv")[2:]
-for i in allstatepops:
-        pop_str += '"'+i[0]+'":['
-        for ii in range(0,10):
-                pop_str += str(i[ii*3+1])+','
-        pop_str = pop_str[:-1]+'],'
 
-f = open('mlbdata.js','w')
-f.write(mlb_str[:-1]+']];\n'+top_str[:-1]+']];\n')
+
+f = open('nfldata.js','w')
+f.write(mlb_str[:-1]+');\n'+top_str[:-1]+');\n')
 f.close()
 
