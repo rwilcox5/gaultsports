@@ -1,12 +1,19 @@
-[INFO  - 2017-12-13T16:30:56.631Z] GhostDriver - Main - running on port 42670
-[INFO  - 2017-12-13T16:30:57.383Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-12-13T16:30:57.383Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.customHeaders:  - {}
-[INFO  - 2017-12-13T16:30:57.383Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-12-13T16:30:57.383Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ff3ce420-e022-11e7-905c-1db2edeb946c
-[ERROR - 2017-12-13T16:31:03.023Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.onError - msg: TypeError: undefined is not a function (evaluating 't.createElement("video").canPlayType(e(i).mimetype)')
+[INFO  - 2017-12-21T22:32:49.092Z] GhostDriver - Main - running on port 54469
+[INFO  - 2017-12-21T22:32:49.865Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-12-21T22:32:49.865Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.customHeaders:  - {}
+[INFO  - 2017-12-21T22:32:49.865Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-12-21T22:32:49.865Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e0309130-e69e-11e7-b8ec-474ea23387b5
+[ERROR - 2017-12-21T22:32:54.836Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.onError - msg: TypeError: undefined is not an object (evaluating 'doc.documentElement')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-13T16:31:03.023Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.onError - stack:
+[ERROR - 2017-12-21T22:32:54.836Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.onError - stack:
+  (anonymous function) (https://c1.undertonevideo.com/ut/re/pubfix/basketballap_ss_pubfix.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-21T22:32:59.966Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.onError - msg: TypeError: undefined is not a function (evaluating 't.createElement("video").canPlayType(e(i).mimetype)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-12-21T22:32:59.966Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.onError - stack:
   i (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
   getVideo (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
   d (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
@@ -24,12 +31,3 @@
   (anonymous function) (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-13T16:31:03.087Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.onError - msg: TypeError: undefined is not an object (evaluating 'doc.documentElement')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-13T16:31:03.087Z] Session [ff3ce420-e022-11e7-905c-1db2edeb946c] - page.onError - stack:
-  (anonymous function) (https://c1.undertonevideo.com/ut/re/pubfix/basketballap_ss_pubfix.js:1)
-
-  phantomjs://platform/console++.js:263 in error
-[INFO  - 2017-12-13T16:35:56.637Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-12-13T16:35:56.637Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'ff3ce420-e022-11e7-905c-1db2edeb946c', because windowless
