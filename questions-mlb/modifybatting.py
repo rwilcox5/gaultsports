@@ -163,9 +163,13 @@ for i in allwar:
 writecsv(modifiedwar,'modified/war_daily_bat.csv')
 
 modifiedteams = []
+teamyears = []
+for i in range(0,150):
+	teamyears.append([])
 for i in allteams:
 	if int(i[0])>1900:
-		modifiedteams.append([i[0],i[2],i[3],i[5],i[8],i[9],i[10],i[11],i[12],i[13],i[40],i[41]])
+		modifiedteams.append([i[0],i[2],i[3],i[4],i[5],i[8],i[9],i[10],i[11],i[12],i[13],i[40],i[41]])
+		teamyears[int(i[0])-1900].append([i[2],i[4],i[5],i[8],i[9],i[10],i[11],i[12],i[13]])
 writecsv(modifiedteams,'modified/Teams.csv')
 
 modifiedstars = []
@@ -230,6 +234,19 @@ for idx,i in enumerate(allbatting):
 				for iii in range(0,len(modifiedwar[iidx][1:])/3):
 					if modifiedwar[iidx][iii*3+1]==int(i[1]) and modifiedwar[iidx][iii*3+2]==i[3]:
 						war = modifiedwar[iidx][iii*3+3]
+				teamdivision = ''
+				teamlgchamp = 'N'
+				teamwschamp = 'N'
+				teamwins = 0
+				teamdivfinish = 0
+				for iii in range(0,len(teamyears[int(i[1])-1900])):
+					if teamyears[int(i[1])-1900][iii][0]==i[3]:
+						teamdivision=teamyears[int(i[1])-1900][iii][1]
+						teamlgchamp=teamyears[int(i[1])-1900][iii][7]
+						teamwschamp=teamyears[int(i[1])-1900][iii][8]
+						teamwins=teamyears[int(i[1])-1900][iii][3]
+						teamdivfinish=teamyears[int(i[1])-1900][iii][2]
+						break
 				try:
 					allbatting[idx][0]=allbatting[idx][1]
 					allbatting[idx][1]=allbatting[idx][3]
@@ -258,7 +275,7 @@ for idx,i in enumerate(allbatting):
 					allbatting[idx][18]=round((allbatting[idx][7]+allbatting[idx][14]+allbatting[idx][16])*1./(allbatting[idx][5]+allbatting[idx][14]+allbatting[idx][16]),3)
 					allbatting[idx][19]=round((allbatting[idx][7]+allbatting[idx][9]+2*allbatting[idx][10]+3*allbatting[idx][11])*1./allbatting[idx][5],3)
 					allbatting[idx][20]=round(allbatting[idx][18]+allbatting[idx][19],3)
-					allbatting[idx] = [str(iidx)]+allbatting[idx]
+					allbatting[idx] = [str(iidx)]+allbatting[idx][:21]+[teamdivision,teamlgchamp,teamwschamp,teamwins,teamdivfinish]
 
 
 

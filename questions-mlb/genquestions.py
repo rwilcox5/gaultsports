@@ -77,7 +77,7 @@ for i in team_nicknames:
 stat_names = []
 stats_str = 'stat_names = ['
 stat_array = [['war',3],['ops',20],['homers',11],['triples',10],['doubles',9],['singles',8],['hits',7],['runs',6],['at-bats',5],['games',4],['rbi',12],['sb',13],['walks',14],['strikeouts',15],['hbp',16],['average',17],['onbase',18],['slugging',19]]
-other_array = [['year',0],['league',2]]
+other_array = [['year',0],['league',2],['division',21]]
 demo_array = [['bats',6],['throws',7],['birthState',2],['birthCountry',1],['inducted',11],['birthYear',0]]
 for stat in stat_array:
 	stat_name = stat[0]
@@ -113,7 +113,9 @@ print 'done all-stars'
 print len(player_years)
 print player_years[1000]
 
-for player_id_n in range(0,10):	
+player_id_str = 'player_ids = ['
+for player_id_n in range(0,len(allplayers)):	
+	player_id_str += str((player_id_n+7777777)*7777777)+','
 
 
 	answer_str = 'player_array = ['
@@ -142,7 +144,10 @@ for player_id_n in range(0,10):
 		star_str += "'games':"+str(year_data[1])+','
 		star_str += "'starts':"+str(year_data[2])+','
 		star_str += "'position':"+str(year_data[3])+'},'
-	star_str = star_str[:-1]+'];'
+	if star_str[-1]==',':
+		star_str = star_str[:-1]+'];'
+	else:
+		star_str = star_str+'];'
 
 	demo_str = 'player_demo = {'
 	for ii in demo_array:
@@ -153,11 +158,16 @@ for player_id_n in range(0,10):
 	demo_str = demo_str[:-1]+'};'
 
 
-	answer_str = answer_str[:-1]+'];'
+	if answer_str[-1]==',':
+		answer_str = answer_str[:-1]+'];'
+	else:
+		answer_str = answer_str+'];'
 	f = open('../../triplelog/mlb/questions/answers/'+str((player_id_n+7777777)*7777777)+'.js','w')
 	f.write(answer_str+'\n'+demo_str+'\n'+star_str)
 	f.close()
 
-
+f = open('../../triplelog/mlb/questions/players/player_list.js','w')
+f.write(player_id_str[:-1]+'];')
+f.close()
 
 

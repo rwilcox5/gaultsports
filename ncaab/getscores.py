@@ -74,7 +74,7 @@ def getdaysgames(year,month,day,today,allhrefs):
 
 def getgames():
     allhrefs = []
-    yearn = 2015
+    yearn = 2017
     today = int(sys.argv[1])*10000+int(sys.argv[2])*100+int(sys.argv[3])
     year = str(yearn)
     for monthn in [11,12]:
