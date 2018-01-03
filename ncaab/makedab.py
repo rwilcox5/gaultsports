@@ -25,7 +25,7 @@ def readcsv(filen):
         return allgamesa
 
 
-def rundab(allgames,polydab):
+def rundab(allgames,polydab,firstteam,dab_str):
         for i in range(0,len(allgames)):
                 allgames[i][0] = allgames[i][0].replace('alcorn-st','alcorn').replace('long-island','liu-brooklyn').replace('st-francis-ny','st-francis-brooklyn').replace('st-francis-pa','saint-francis-pa').replace('loyola-il','loyola-chicago').replace('md-east-shore','umes').replace('st-peters','saint-peters').replace('umass-lowell','mass-lowell')
                 allgames[i][1] = allgames[i][1].replace('alcorn-st','alcorn').replace('long-island','liu-brooklyn').replace('st-francis-ny','st-francis-brooklyn').replace('st-francis-pa','saint-francis-pa').replace('loyola-il','loyola-chicago').replace('md-east-shore','umes').replace('st-peters','saint-peters').replace('umass-lowell','mass-lowell')
@@ -224,47 +224,50 @@ def rundab(allgames,polydab):
                                 alldev[i]=alldev[i+1]
                                 alldev[i+1]=holdrpi
                                 unsorted = True
-        for i in range(45,55):
-                print alldev[i]
+        teamnames = readcsv('abbrevTOnames.csv')
+        for i in range(firstteam,firstteam+10):
+                addedteam =False
+                for ii in teamnames:
+                        if ii[1]==alldev[i][0]:
+                                teamname = ii[2]
+                                dab_str += '{"name":"'+ii[2]+'","dab":'+str(alldev[i][1])+',"conf":"'+ii[0]+'"},'        
+                                addedteam = True
+                if not addedteam:
+                        print alldev[i][0]
+        return dab_str
 
 
 allpred = [94.64,93.9,93.24,93.16,92.75,92.57,91.75,91.59,91.15,90.93,90.59,90.39,89.69,89.66,89.6,89.36,89.05,88.55,88.42,88.4,88.17,87.95,87.72,87.47,87.12,87,86.79,86.67,84.82,84.68,84.61,84.47,84.3,84.24,83.8,83.74,83.68,83.59,83.57,83.53,83.51,83.47,83.46,83.45,82.93,82.87,82.58,82.49,82.28,82.27,82.12,81.7,81.69,81.36,81.35,81.32,81.28,81.2,81.14,81.13,81.05,80.9,80.84,80.62,80.58,80.06,79.99,79.88,79.8,79.75,79.57,79.45,79.23,79.06,78.72,78.54,78.4,78.18,78.14,78.01,77.91,77.77,77.68,77.22,77.18,77.15,77.14,77.13,77.05,76.87,76.85,76.84,76.77,76.68,76.58,76.57,76.36,76.3,76.16,76.15,76,75.95,75.91,75.88,75.6,75.48,75.43,74.78,74.71,74.6,74.56,74.15,74.14,74.01,74,73.84,73.79,73.78,73.76,73.76,73.76,73.69,73.67,73.62,73.61,73.6,73.58,73.48,73.44,73.39,73.27,73.22,73.18,73.04,72.98,72.97,72.84,72.82,72.75,72.66,72.59,72.5,72.46,72.46,72.16,72.16,72.15,72.15,72.11,72.07,72.05,71.9,71.85,71.84,71.81,71.76,71.69,71.65,71.49,71.45,71.44,71.43,71.42,71.41,71.36,71.34,71.24,71.14,71.04,70.96,70.9,70.85,70.75,70.69,70.68,70.66,70.64,70.6,70.54,70.45,70.41,70.32,70.3,70.22,70.03,69.97,69.84,69.79,69.75,69.66,69.6,69.58,69.51,69.51,69.48,69.42,69.28,69.19,69.17,69.08,68.81,68.72,68.38,68.28,68.16,68.15,68.14,68.02,68,67.98,67.97,67.91,67.88,67.83,67.78,67.77,67.68,67.65,67.45,67.43,67.42,67.39,67.33,67.31,67.21,67.15,67.15,67.13,67.08,67.03,66.76,66.74,66.73,66.7,66.59,66.59,66.58,66.34,66.14,66.12,66.08,66.07,66.02,66.02,65.91,65.9,65.89,65.86,65.82,65.76,65.66,65.55,65.53,65.48,65.32,65.28,65.25,65.13,65.12,65.01,64.89,64.83,64.77,64.73,64.67,64.6,64.6,64.52,64.43,64.39,64.39,64.29,64.18,64.14,64.09,64.03,63.98,63.92,63.9,63.88,63.68,63.48,63.46,63.34,63.28,63.15,63.11,63.11,62.99,62.93,62.89,62.84,62.83,62.46,62.39,62.32,62.28,62.22,62.12,61.85,61.71,61.71,61.66,61.61,61.54,61.2,61.11,61.09,61.03,61.02,60.88,60.79,60.71,60.69,60.09,59.92,59.86,59.84,59.47,59.36,59.31,59.25,59.2,59.09,58.83,58.83,58.58,58.41,58.33,58.2,57.81,57.62,57.35,57.23,56.52,56.48,56.35,56.32,55.67,55.56,55.33,55.18,54.46,54.26,53.25,53.21,53.19,52.03,51.9,50.68,48.89]
-allgames = readcsv('allgames2015.csv')
+allgames = readcsv('allgames.csv')
 
-x = []
-y = []
-for i in range(0,len(allpred)):
-        sumpyelo = 0
-        allpyelo = []
-        for ii in range(0,10000):
-                spread = 83.0-allpred[i]
-                ptdiff = numpy.random.normal(spread,10.5)
-                ptscored = 83.0+ptdiff/2
-                ptallowed = 83.0-ptdiff/2
-                pywin = ptscored**15./(ptscored**15+ptallowed**15)
-                pyelo = 400*math.log(1/pywin-1)/math.log(10.)
-                sumpyelo += pyelo
-                allpyelo.append(pyelo)
-        x.append(i)
-        y.append(sumpyelo/10000)
-polydab = numpy.polyfit(x,y,3)
-rundab(allgames,polydab)
+def runthis(points,firstteam,dab_str):
+        x = []
+        y = []
+        for i in range(0,len(allpred)):
+                sumpyelo = 0
+                allpyelo = []
+                for ii in range(0,10000):
+                        spread = points-allpred[i]
+                        ptdiff = numpy.random.normal(spread,10.5)
+                        ptscored = points+ptdiff/2
+                        ptallowed = points-ptdiff/2
+                        pywin = ptscored**15./(ptscored**15+ptallowed**15)
+                        pyelo = 400*math.log(1/pywin-1)/math.log(10.)
+                        sumpyelo += pyelo
+                        allpyelo.append(pyelo)
+                x.append(i)
+                y.append(sumpyelo/10000)
+        polydab = numpy.polyfit(x,y,3)
 
-x = []
-y = []
-for i in range(0,len(allpred)):
-        sumpyelo = 0
-        allpyelo = []
-        for ii in range(0,10000):
-                spread = 97.5-allpred[i]
-                ptdiff = numpy.random.normal(spread,10.5)
-                ptscored = 97.5+ptdiff/2
-                ptallowed = 97.5-ptdiff/2
-                pywin = ptscored**15./(ptscored**15+ptallowed**15)
-                pyelo = 400*math.log(1/pywin-1)/math.log(10.)
-                sumpyelo += pyelo
-                allpyelo.append(pyelo)
-        x.append(i)
-        y.append(sumpyelo/10000)
-polydab = numpy.polyfit(x,y,3)
-rundab(allgames,polydab)
+        dab_str = rundab(allgames,polydab,firstteam,dab_str)
+        return dab_str
+
+dab_str = 'dabrank = ['
+dab_str = runthis(86.0,45,dab_str)
+dab_str = runthis(102.5,0,dab_str)
+dab_str = runthis(95.0,12,dab_str)
+dab_str = runthis(90.0,28,dab_str)
+
+f = open('hello_dab.txt','w')
+f.write(dab_str[:-1]+'];')
+f.close()

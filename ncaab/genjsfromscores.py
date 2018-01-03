@@ -29,7 +29,10 @@ for i in range(0,len(allgames)):
         allgames[i][1] = allgames[i][1].replace('alcorn-st','alcorn').replace('long-island','liu-brooklyn').replace('st-francis-ny','st-francis-brooklyn').replace('st-francis-pa','saint-francis-pa').replace('loyola-il','loyola-chicago').replace('md-east-shore','umes').replace('st-peters','saint-peters').replace('umass-lowell','mass-lowell')
 
 allteams = readcsv('conflist.csv')
+allteamnames = readcsv('abbrevTOnames.csv')
+
 teamstr = 'allteams = ['
+teamnamestr = 'allteamnames = ['
 teams = []
 clist = []
 confstr = 'allconfs = ['
@@ -40,6 +43,15 @@ for i in allteams:
                 teams.append(ii)
                 clist.append(i[0])
                 teamstr += '"'+ii+'",'
+                foundteam = False
+                for iii in allteamnames:
+                        if iii[1]==ii:
+                                teamnamestr +='"'+iii[2]+'",'
+                                foundteam = True
+                if not foundteam:
+                        print "DANGER", ii
+                        print soto
+
                 ingames = False
                 for iii in allgames:
                         if iii[0]==ii:
@@ -124,5 +136,5 @@ for i in range(0,len(alldata)):
 
         pstr = pstr[:-1]+ '],'
 f = open('helloworld.txt','w')
-f.write(pstr[:-1]+'];\n'+tstr[:-1]+'];\n'+teamstr[:-1]+'];\n')
+f.write(pstr[:-1]+'];\n'+tstr[:-1]+'];\n'+teamstr[:-1]+'];\n'+teamnamestr[:-1]+'];\n')
 f.close()

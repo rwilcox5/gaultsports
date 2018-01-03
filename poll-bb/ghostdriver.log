@@ -1,33 +1,7 @@
-[INFO  - 2017-12-21T22:32:49.092Z] GhostDriver - Main - running on port 54469
-[INFO  - 2017-12-21T22:32:49.865Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-12-21T22:32:49.865Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.customHeaders:  - {}
-[INFO  - 2017-12-21T22:32:49.865Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-12-21T22:32:49.865Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e0309130-e69e-11e7-b8ec-474ea23387b5
-[ERROR - 2017-12-21T22:32:54.836Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.onError - msg: TypeError: undefined is not an object (evaluating 'doc.documentElement')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-21T22:32:54.836Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.onError - stack:
-  (anonymous function) (https://c1.undertonevideo.com/ut/re/pubfix/basketballap_ss_pubfix.js:1)
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-21T22:32:59.966Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.onError - msg: TypeError: undefined is not a function (evaluating 't.createElement("video").canPlayType(e(i).mimetype)')
-
-  phantomjs://platform/console++.js:263 in error
-[ERROR - 2017-12-21T22:32:59.966Z] Session [e0309130-e69e-11e7-b8ec-474ea23387b5] - page.onError - stack:
-  i (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  getVideo (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  d (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  s (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  a (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  i (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  p (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  d (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  d (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  (anonymous function) (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  each (https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js:2)
-  each (https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js:2)
-  c (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  o (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-  (anonymous function) (https://sparkflow-a.akamaihd.net/spk/795/40377-1512756297/m153-0.html:1)
-
-  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-01-02T20:48:39.561Z] GhostDriver - Main - running on port 34259
+[INFO  - 2018-01-02T20:48:40.303Z] Session [501e63b0-effe-11e7-aa60-79c6c9d26825] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-01-02T20:48:40.304Z] Session [501e63b0-effe-11e7-aa60-79c6c9d26825] - page.customHeaders:  - {}
+[INFO  - 2018-01-02T20:48:40.304Z] Session [501e63b0-effe-11e7-aa60-79c6c9d26825] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-01-02T20:48:40.304Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 501e63b0-effe-11e7-aa60-79c6c9d26825
+[INFO  - 2018-01-02T20:53:39.673Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-01-02T20:53:39.674Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '501e63b0-effe-11e7-aa60-79c6c9d26825', because windowless

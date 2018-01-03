@@ -1,5 +1,5 @@
 import time
-
+import datetime
 import random
 import csv
 import math
@@ -75,7 +75,8 @@ def getdaysgames(year,month,day,today,allhrefs):
 def getgames():
     allhrefs = []
     yearn = 2017
-    today = int(sys.argv[1])*10000+int(sys.argv[2])*100+int(sys.argv[3])
+    now = datetime.datetime.now()
+    today = int(now.year)*10000+int(now.month)*100+int(now.day)
     year = str(yearn)
     for monthn in [11,12]:
         if monthn < 10:
@@ -83,12 +84,13 @@ def getgames():
         else:
             month = str(monthn)
         for dayn in range(1,32):
+            if dayn<10 and monthn == 11:
+                continue
 
             if dayn < 10:
                 day = '0'+str(dayn)
             else:
                 day = str(dayn)
-            print month, day, len(allhrefs)
             try:
                 lah = len(allhrefs)
                 allhrefs = getdaysgames(year,month,day,today,allhrefs)
@@ -101,7 +103,7 @@ def getgames():
                     print year,month,day
 
             
-        writecsvw(allhrefs,'allgames'+str(yearn)+'.csv')
+        writecsvw(allhrefs,str(sys.argv[1])+'.csv')
     year = str(yearn+1)
     for monthn in [1,2,3]:
         if monthn < 10:
@@ -117,7 +119,6 @@ def getgames():
                 day = '0'+str(dayn)
             else:
                 day = str(dayn)
-            print month, day, len(allhrefs)
             try:
                 lah = len(allhrefs)
                 allhrefs = getdaysgames(year,month,day,today,allhrefs)
