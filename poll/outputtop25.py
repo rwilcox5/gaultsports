@@ -160,81 +160,82 @@ def createRank(my_week):
     allgames = readcsv('results.csv')
     apgames = []
     for game in allgames:
-        gameday = game[3]
-        mindex = gameday.find(' ',2)
-        month = gameday[1:mindex]
-        date = int(gameday[mindex+1:-1])
-        week = 0
-        if month=='Aug':
-            week = 1
-        elif month=='Sept':
-            if date < 5:
+        if len(game)>4:
+            gameday = game[3]
+            mindex = gameday.find(' ',2)
+            month = gameday[1:mindex]
+            date = int(gameday[mindex+1:-1])
+            week = 0
+            if month=='Aug':
                 week = 1
-            elif date < 10:
-                week = 2
-            elif date < 17:
-                week = 3
-            elif date < 24:
-                week = 4
-            elif date < 31:
-                week = 5
-        elif month=='Oct':
-            if date < 8:
-                week = 6
-            elif date < 15:
-                week = 7
-            elif date < 22:
-                week = 8
-            elif date < 29:
-                week = 9
-            elif date < 32:
-                week = 10
-        elif month=='Nov':
-            if date < 5:
-                week= 10
-            elif date < 12:
-                week = 11
-            elif date < 19:
-                week = 12
-            elif date < 26:
-                week = 13
-            elif date < 32:
-                week = 14
-        elif month=='Dec':
-            if date < 3:
-                week= 15
-            else:
+            elif month=='Sept':
+                if date < 5:
+                    week = 1
+                elif date < 10:
+                    week = 2
+                elif date < 17:
+                    week = 3
+                elif date < 24:
+                    week = 4
+                elif date < 31:
+                    week = 5
+            elif month=='Oct':
+                if date < 8:
+                    week = 6
+                elif date < 15:
+                    week = 7
+                elif date < 22:
+                    week = 8
+                elif date < 29:
+                    week = 9
+                elif date < 32:
+                    week = 10
+            elif month=='Nov':
+                if date < 5:
+                    week= 10
+                elif date < 12:
+                    week = 11
+                elif date < 19:
+                    week = 12
+                elif date < 26:
+                    week = 13
+                elif date < 32:
+                    week = 14
+            elif month=='Dec':
+                if date < 3:
+                    week= 15
+                else:
+                    week = 16
+            elif month=='Jan':
                 week = 16
-        elif month=='Jan':
-            week = 16
-        ateam = 'FCS'
-        aconf = 'FCS'
-        hteam = 'FCS'
-        hconf = 'FCS'
-        for i in apconvert:
-            if i[2]==int(game[0]):
-                ateam = i[1]
-                aconf = i[0]
-                break
-        for i in apconvert:
-            if i[2]==int(game[1]):
-                hteam = i[1]
-                hconf = i[0]
-                break
-        if game[4].find(' ')>-1:
-            game[4]=game[4][:game[4].find(' ')]
-        if game[5].find(' ')>-1:
-            game[5]=game[5][:game[5].find(' ')]
-        donotadd = False
-        nsite = 0
-        for i in apgames:
-            if i[0]==week and i[1]==[ateam,hteam]:
-                donotadd = True
-            if i[0]==week and i[1]==[hteam,ateam]:
-                apgames.remove(i)
-                nsite = 1
-        if not donotadd:
-            apgames.append([week,[ateam,hteam],[aconf,hconf],[game[4],game[5]],nsite])
+            ateam = 'FCS'
+            aconf = 'FCS'
+            hteam = 'FCS'
+            hconf = 'FCS'
+            for i in apconvert:
+                if i[2]==int(game[0]):
+                    ateam = i[1]
+                    aconf = i[0]
+                    break
+            for i in apconvert:
+                if i[2]==int(game[1]):
+                    hteam = i[1]
+                    hconf = i[0]
+                    break
+            if game[4].find(' ')>-1:
+                game[4]=game[4][:game[4].find(' ')]
+            if game[5].find(' ')>-1:
+                game[5]=game[5][:game[5].find(' ')]
+            donotadd = False
+            nsite = 0
+            for i in apgames:
+                if i[0]==week and i[1]==[ateam,hteam]:
+                    donotadd = True
+                if i[0]==week and i[1]==[hteam,ateam]:
+                    apgames.remove(i)
+                    nsite = 1
+            if not donotadd:
+                apgames.append([week,[ateam,hteam],[aconf,hconf],[game[4],game[5]],nsite])
 
     allvoters = []
     allvotes = readcsv('ap2017/week1.csv')
@@ -292,13 +293,13 @@ def createRank(my_week):
         for voter in allvoterbias:
             for ii in voter:
                 if ii[1]==i[1]:
-                    totalweight += 1./(ii[3]**expweight+ii[5]**expweight+ii[7]**expweight)
+                    totalweight += 1./(.000001+ii[3]**expweight+ii[5]**expweight+ii[7]**expweight)
                     tvoters += 1
         for voter in allvoterbias:
             for ii in voter:
                 if ii[1]==i[1]:
                     rating += 1./tvoters*(ii[4])
-                    adjrating += (1./(ii[3]**expweight+ii[5]**expweight+ii[7]**expweight))/totalweight*(ii[4]+ii[2]/teambiaschg+ii[6]/confbiaschg)
+                    adjrating += (1./(.000001+ii[3]**expweight+ii[5]**expweight+ii[7]**expweight))/totalweight*(ii[4]+ii[2]/teambiaschg+ii[6]/confbiaschg)
                     tbias += ii[2]/tvoters
         top25.append([i[1], rating, adjrating,tbias])
 
@@ -360,7 +361,7 @@ def unbiasedRank(my_week):
 all_ranks = []
 for my_week in range(1,int(this_week)+1):
     print my_week
-    if my_week<3:
+    if my_week<6:
         top25ap = unbiasedRank(my_week)
         top25 = unbiasedRank(my_week)
     else:

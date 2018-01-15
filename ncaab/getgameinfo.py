@@ -63,27 +63,43 @@ def getdaysgames(year,month,day,today,allhrefs):
 
     allvoters = doc.xpath('//*[@id="scoreboard"]//section')
     for i in range(0,len(allvoters)):
-        voter = doc.xpath('//*[@id="scoreboard"]//section['+str(i)+']//div[contains(@class, "team")]//a')
-        if len(voter)>1:
-            voter2 = doc.xpath('//*[@id="scoreboard"]//section['+str(i)+']//td[contains(@class, "final")]')
-            if len(voter2)>1 and len(voter2[0].text_content())>0 and len(voter2[0].text_content())>0:
-                allhrefs.append([voter[0].attrib['href'].replace('/schools/',''), voter[1].attrib['href'].replace('/schools/',''),int(voter2[0].text_content()), int(voter2[1].text_content()),year,month,day])
-            elif len(voter2)>1 and int(year)*10000+int(month)*100+int(day)>=today:
-                allhrefs.append([voter[0].attrib['href'].replace('/schools/',''), voter[1].attrib['href'].replace('/schools/',''),year,month,day])
+        if allvoters[i].get('id') != None:
+            allhrefs.append('http://www.ncaa.com/game/'+allvoters[i].get('id')[allvoters[i].get('id').find('/game/')+6:])
+        
     return allhrefs
 
+def getgameinfo(burl,year,month,day,allhrefs):
+    gameinfo = []
+    res = requests.get(burl)
+    doc = html.fromstring(res.content)
+    loc_str = str(doc.find_class('round-location')[0].text_content()).replace('\n','').replace('\t','')
+
+    gameinfo.append(doc.find_class('school-name')[0].find('a').get('href').replace('/schools/','').replace('/basketball-men',''))
+    gameinfo.append(doc.find_class('school-name')[1].find('a').get('href').replace('/schools/','').replace('/basketball-men',''))
+    gameinfo.append(int(doc.find_class('game-score')[0].text_content()))
+    gameinfo.append(int(doc.find_class('game-score')[1].text_content()))
+    gameinfo.append(year)
+    gameinfo.append(month)
+    gameinfo.append(day)
+    gameinfo.append(loc_str)
+
+    allhrefs.append(gameinfo)
+    return allhrefs
 def getgames():
+
     allhrefs = []
     yearn = 2017
     now = datetime.datetime.now()
     today = int(now.year)*10000+int(now.month)*100+int(now.day)
     year = str(yearn)
+
     for monthn in [11,12]:
         if monthn < 10:
             month = '0'+str(monthn)
         else:
             month = str(monthn)
         for dayn in range(1,32):
+
             if dayn<10 and monthn == 11:
                 continue
 
@@ -91,19 +107,37 @@ def getgames():
                 day = '0'+str(dayn)
             else:
                 day = str(dayn)
+            print year,month,day,len(allhrefs)
             try:
                 lah = len(allhrefs)
-                allhrefs = getdaysgames(year,month,day,today,allhrefs)
+                allgames = getdaysgames(year,month,day,today,[])
+                for i in allgames:
+                    try:
+                        allhrefs = getgameinfo(i,year,month,day,allhrefs)
+                    except:
+                        try:
+                            allhrefs = getgameinfo(i,year,month,day,allhrefs)
+                        except:
+                            print i
+
                 if len(allhrefs)==lah:
                     print soto
             except:
                 lah = len(allhrefs)
-                allhrefs = getdaysgames(year,month,day,today,allhrefs)
+                allgames = getdaysgames(year,month,day,today,[])
+                for i in allgames:
+                    try:
+                        allhrefs = getgameinfo(i,year,month,day,allhrefs)
+                    except:
+                        try:
+                            allhrefs = getgameinfo(i,year,month,day,allhrefs)
+                        except:
+                            pass
                 if len(allhrefs)==lah:
                     print year,month,day
 
             
-        writecsvw(allhrefs,'allscores'+str(yearn)+'.csv')
+        writecsvw(allhrefs,'allgameinfo'+str(yearn)+'.csv')
     year = str(yearn+1)
     for monthn in [1,2,3]:
         if monthn < 10:
@@ -115,21 +149,41 @@ def getgames():
         else:
             maxday = 32
         for dayn in range(1,maxday):
+            if dayn<10 and monthn == 11:
+                continue
+
             if dayn < 10:
                 day = '0'+str(dayn)
             else:
                 day = str(dayn)
+            print year,month,day,len(allhrefs)
             try:
                 lah = len(allhrefs)
-                allhrefs = getdaysgames(year,month,day,today,allhrefs)
+                allgames = getdaysgames(year,month,day,today,[])
+                for i in allgames:
+                    try:
+                        allhrefs = getgameinfo(i,year,month,day,allhrefs)
+                    except:
+                        try:
+                            allhrefs = getgameinfo(i,year,month,day,allhrefs)
+                        except:
+                            pass
                 if len(allhrefs)==lah:
                     print soto
             except:
                 lah = len(allhrefs)
-                allhrefs = getdaysgames(year,month,day,today,allhrefs)
+                allgames = getdaysgames(year,month,day,today,[])
+                for i in allgames:
+                    try:
+                        allhrefs = getgameinfo(i,year,month,day,allhrefs)
+                    except:
+                        try:
+                            allhrefs = getgameinfo(i,year,month,day,allhrefs)
+                        except:
+                            pass
                 if len(allhrefs)==lah:
                     print year,month,day
-        writecsvw(allhrefs,'allscores'+str(yearn)+'.csv')
+        writecsvw(allhrefs,'allgameinfo'+str(yearn)+'.csv')
     return allhrefs
 
 

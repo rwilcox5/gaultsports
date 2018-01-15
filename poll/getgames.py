@@ -155,22 +155,22 @@ def getgames(teamid):
     allgames = []
     print teamid
     for i in range(3,len(voteTable)+1):
-
-        game = []
-        isheader = doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']//td')
-        tname = doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']/td[2]//a')[0].attrib['href']
-        sindex = tname.find('/id')
-        eindex = tname.find('/',sindex+4)
-
-        
-        if str(isheader[1].find_class('game-status')[0].text_content())=='@':
-            game.append(teamid)
-            game.append(str(tname[sindex+4:eindex]))
-        else:
-            game.append(str(tname[sindex+4:eindex]))
-            game.append(teamid)
-        game.append(str(isheader[0].text_content()))
         try:
+            game = []
+            isheader = doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']//td')
+            tname = doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']/td[2]//a')[0].attrib['href']
+            sindex = tname.find('/id')
+            eindex = tname.find('/',sindex+4)
+
+            
+            if str(isheader[1].find_class('game-status')[0].text_content())=='@':
+                game.append(teamid)
+                game.append(str(tname[sindex+4:eindex]))
+            else:
+                game.append(str(tname[sindex+4:eindex]))
+                game.append(teamid)
+            game.append(str(isheader[0].text_content()))
+
             score_str = str(doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']/td[3]//a')[0].text_content())
             dindex = score_str.find('-')
 
@@ -191,7 +191,24 @@ def getgames(teamid):
 
             allgames.append(game)
         except:
-            pass
+            try:
+                game = []
+                isheader = doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']//td')
+                tname = doc.xpath('//*[@id="showschedule"]/div/table/tr['+str(i)+']/td[2]//a')[0].attrib['href']
+                sindex = tname.find('/id')
+                eindex = tname.find('/',sindex+4)
+
+                
+                if str(isheader[1].find_class('game-status')[0].text_content())=='@':
+                    game.append(teamid)
+                    game.append(str(tname[sindex+4:eindex]))
+                else:
+                    game.append(str(tname[sindex+4:eindex]))
+                    game.append(teamid)
+                game.append(str(isheader[0].text_content()))
+                allgames.append(game)
+            except:
+                pass
 
 
     return allgames

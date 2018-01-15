@@ -23,10 +23,10 @@ def readcsv(filen):
                         allgamesa.append(row)
         return allgamesa
 
-allgames = readcsv('allgames.csv')
+allgames = readcsv('allgames2017.csv')
 for i in range(0,len(allgames)):
-        allgames[i][0] = allgames[i][0].replace('alcorn-st','alcorn').replace('long-island','liu-brooklyn').replace('st-francis-ny','st-francis-brooklyn').replace('st-francis-pa','saint-francis-pa').replace('loyola-il','loyola-chicago').replace('md-east-shore','umes').replace('st-peters','saint-peters').replace('umass-lowell','mass-lowell')
-        allgames[i][1] = allgames[i][1].replace('alcorn-st','alcorn').replace('long-island','liu-brooklyn').replace('st-francis-ny','st-francis-brooklyn').replace('st-francis-pa','saint-francis-pa').replace('loyola-il','loyola-chicago').replace('md-east-shore','umes').replace('st-peters','saint-peters').replace('umass-lowell','mass-lowell')
+        allgames[i][0] = allgames[i][0].replace('alcorn-st','alcorn').replace('long-island','liu-brooklyn').replace('st-francis-ny','st-francis-brooklyn').replace('st-francis-pa','saint-francis-pa').replace('loyola-il','loyola-chicago').replace('md-east-shore','umes').replace('st-peters','saint-peters').replace('umass-lowell','mass-lowell').replace('usc-upstate','sc-upstate')
+        allgames[i][1] = allgames[i][1].replace('alcorn-st','alcorn').replace('long-island','liu-brooklyn').replace('st-francis-ny','st-francis-brooklyn').replace('st-francis-pa','saint-francis-pa').replace('loyola-il','loyola-chicago').replace('md-east-shore','umes').replace('st-peters','saint-peters').replace('umass-lowell','mass-lowell').replace('usc-upstate','sc-upstate')
 
 allteams = readcsv('conflist.csv')
 allteamnames = readcsv('abbrevTOnames.csv')
@@ -40,40 +40,85 @@ idx = 0
 for i in allteams:
         confstr +='["'+i[0]+'",'+str(idx)+','
         for ii in i[1:]:
-                teams.append(ii)
-                clist.append(i[0])
-                teamstr += '"'+ii+'",'
-                foundteam = False
-                for iii in allteamnames:
-                        if iii[1]==ii:
-                                teamnamestr +='"'+iii[2]+'",'
-                                foundteam = True
-                if not foundteam:
-                        print "DANGER", ii
-                        print soto
+                if len(ii)>0:
+                        teams.append(ii)
+                        clist.append(i[0])
+                        teamstr += '"'+ii+'",'
+                        foundteam = False
+                        for iii in allteamnames:
+                                if iii[1]==ii:
+                                        teamnamestr +='"'+iii[2]+'",'
+                                        foundteam = True
+                        if not foundteam:
+                                print "DANGER", ii, i
+                                print soto
 
-                ingames = False
-                for iii in allgames:
-                        if iii[0]==ii:
-                                ingames = True
-                                break
-                if not ingames:
-                        print ii
-                idx +=1
+                        ingames = False
+                        for iii in allgames:
+                                if iii[0]==ii:
+                                        ingames = True
+                                        break
+                        if not ingames:
+                                print ii
+                        idx +=1
         confstr += str(idx)+',0],'
 print confstr
 
+allarenas = []
+for i in teams:
+        myarenas = []
+        for ii in allgames:
+                if ii[1]==i:
+                        try:
+                                nomatch = True
+                                for iii in myarenas:
+                                        if ii[7]==iii[0]:
+                                                iii[1]+=1
+                                                nomatch = False
+                                                break
+                                if nomatch:
+                                        myarenas.append([ii[7],1])
+                        except:
+                                pass
+        homemax = 2
+        homearena = '???'
+        for ii in myarenas:
+                if ii[1]>homemax:
+                        homemax = ii[1]
+                        homearena = ii[0]
+        allarenas.append(homearena)
 
+for ii in allgames:
+        if ii[0] in teams and ii[1] in teams and len(ii)>7:
+                homearena = '???'
+                for iiiidx in range(0,len(allarenas)):
+                        if teams[iiiidx]==ii[1]:
+                                homearena = allarenas[iiiidx]
+                ishome = False
+                if homearena =='???':
+                        ishome = True
+                if ii[7]==homearena:
+                        ishome = True
+                ii.append(ishome)
 alldata = []
 for i in teams:
         datarow = [i]
         for ii in allgames:
                 if ii[0] in teams and ii[1] in teams:
+                        ishome = True
+                        if len(ii)>8:
+                                ishome=ii[8]
                         if ii[0]==i:
                                 if clist[teams.index(ii[0])]== clist[teams.index(ii[1])]:
-                                        datarow.append('@c')
+                                        if ishome:
+                                                datarow.append('@c')
+                                        else:
+                                                datarow.append('nc')
                                 else:
-                                        datarow.append('@n')
+                                        if ishome:
+                                                datarow.append('@n')
+                                        else:
+                                                datarow.append('nn')
                                 datarow.append(ii[1])
                                 if len(ii)>5:
                                         if int(ii[2])>int(ii[3]):
@@ -84,9 +129,15 @@ for i in teams:
                                         datarow.append('')
                         if ii[1]==i:
                                 if clist[teams.index(ii[0])]== clist[teams.index(ii[1])]:
-                                        datarow.append('hc')
+                                        if ishome:
+                                                datarow.append('hc')
+                                        else:
+                                                datarow.append('nc')
                                 else:
-                                        datarow.append('hn')
+                                        if ishome:
+                                                datarow.append('hn')
+                                        else:
+                                                datarow.append('nn')
                                 datarow.append(ii[0])
                                 if len(ii)>5:
                                         if int(ii[3])>int(ii[2]):
@@ -98,7 +149,7 @@ for i in teams:
         alldata.append(datarow)
 
 
-print alldata[0]
+print alldata[35]
 print len(alldata)
 
 
