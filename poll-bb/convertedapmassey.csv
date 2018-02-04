@@ -1,0 +1,351 @@
+ACC,"Boston College",783,boston-college
+ACC,Clemson,1603,clemson
+ACC,Duke,2265,duke
+ACC,"Florida St",2666,florida-state
+ACC,"Georgia Tech",2911,georgia-tech
+ACC,Louisville,4224,louisville
+ACC,"Miami FL",4719,miami-fl
+ACC,"North Carolina",5492,north-carolina
+ACC,"NC State",5511,north-carolina-state
+ACC,"Notre Dame",5749,notre-dame
+ACC,Pittsburgh,6236,pittsburgh
+ACC,Syracuse,7729,syracuse
+ACC,Virginia,8432,virginia
+ACC,"Virginia Tech",8459,virginia-tech
+ACC,"Wake Forest",8508,wake-forest
+AEC,"Albany NY",123,albany
+AEC,Binghamton,700,binghamton
+AEC,Hartford,3150,hartford
+AEC,Maine,4319,maine
+AEC,"New Hampshire",5342,new-hampshire
+AEC,"Stony Brook",7642,stony-brook
+AEC,"MA Lowell",4540,umass-lowell
+AEC,UMBC,4487,umbc
+AEC,Vermont,8393,vermont
+"American Athletic Conference (AAC)",Cincinnati,1529,cincinnati
+"American Athletic Conference (AAC)",Connecticut,1872,connecticut
+"American Athletic Conference (AAC)","East Carolina",2292,east-carolina
+"American Athletic Conference (AAC)",Houston,3347,houston
+"American Athletic Conference (AAC)",Memphis,4636,memphis
+"American Athletic Conference (AAC)",SMU,7358,smu
+"American Athletic Conference (AAC)","South Florida",7278,south-florida
+"American Athletic Conference (AAC)",Temple,7788,temple
+"American Athletic Conference (AAC)",Tulane,8092,tulane
+"American Athletic Conference (AAC)",Tulsa,8099,tulsa
+"American Athletic Conference (AAC)",UCF,1380,ucf
+"American Athletic Conference (AAC)","Wichita St",8898,wichita-state
+"Atlantic 10",Davidson,2069,davidson
+"Atlantic 10",Dayton,2085,dayton
+"Atlantic 10",Duquesne,2272,duquesne
+"Atlantic 10",Fordham,2682,fordham
+"Atlantic 10","George Mason",2855,george-mason
+"Atlantic 10","G Washington",2861,george-washington
+"Atlantic 10","La Salle",3869,la-salle
+"Atlantic 10",Massachusetts,4548,massachusetts
+"Atlantic 10","Rhode Island",6516,rhode-island
+"Atlantic 10",Richmond,6547,richmond
+"Atlantic 10","St Joseph's PA",6817,saint-josephs
+"Atlantic 10","St Louis",6841,saint-louis
+"Atlantic 10","St Bonaventure",6763,st-bonaventure
+"Atlantic 10","VA Commonwealth",8443,vcu
+"Atlantic Sun","FL Gulf Coast",2649,florida-gulf-coast
+"Atlantic Sun",Jacksonville,3599,jacksonville
+"Atlantic Sun",Kennesaw,3766,kennesaw-state
+"Atlantic Sun",Lipscomb,2065,lipscomb
+"Atlantic Sun",NJIT,5366,njit
+"Atlantic Sun","North Florida",5558,north-florida
+"Atlantic Sun","SC Upstate",7254,sc-upstate
+"Atlantic Sun",Stetson,7613,stetson
+"Big 12",Baylor,557,baylor
+"Big 12","Iowa St",3554,iowa-state
+"Big 12",Kansas,3717,kansas
+"Big 12","Kansas St",3731,kansas-state
+"Big 12",Oklahoma,5886,oklahoma
+"Big 12","Oklahoma St",5912,oklahoma-state
+"Big 12",TCU,7878,tcu
+"Big 12",Texas,7840,texas
+"Big 12","Texas Tech",7918,texas-tech
+"Big 12","West Virginia",8716,west-virginia
+"Big East",Butler,1004,butler
+"Big East",Creighton,1950,creighton
+"Big East",DePaul,2157,depaul
+"Big East",Georgetown,2868,georgetown
+"Big East",Marquette,4425,marquette
+"Big East",Providence,6358,providence
+"Big East","Seton Hall",7099,seton-hall
+"Big East","St John's",6797,st-johns
+"Big East",Villanova,8415,villanova
+"Big East",Xavier,9170,xavier
+"Big Sky","E Washington",2383,eastern-washington
+"Big Sky",Idaho,3415,idaho
+"Big Sky","Idaho St",3421,idaho-state
+"Big Sky",Montana,5035,montana
+"Big Sky","Montana St",5042,montana-state
+"Big Sky","North Dakota",5538,north-dakota
+"Big Sky","Northern Arizona",5620,northern-arizona
+"Big Sky","N Colorado",5625,northern-colorado
+"Big Sky","Portland St",6302,portland-state
+"Big Sky","CS Sacramento",1067,sacramento-state
+"Big Sky","Southern Utah",7399,southern-utah
+"Big Sky","Weber St",8636,weber-state
+"Big South",Campbell,1186,campbell
+"Big South","Charleston So",1457,charleston-southern
+"Big South","Gardner Webb",2825,gardner-webb
+"Big South","High Point",3244,high-point
+"Big South",Liberty,4076,liberty
+"Big South",Longwood,4170,longwood
+"Big South",Presbyterian,6326,presbyterian
+"Big South",Radford,6444,radford
+"Big South","UNC Asheville",8153,unc-asheville
+"Big South",Winthrop,9025,winthrop
+"Big Ten",Illinois,3425,illinois
+"Big Ten",Indiana,3484,indiana
+"Big Ten",Iowa,3540,iowa
+"Big Ten",Maryland,4474,maryland
+"Big Ten",Michigan,4741,michigan
+"Big Ten","Michigan St",4757,michigan-state
+"Big Ten",Minnesota,4858,minnesota
+"Big Ten",Nebraska,5279,nebraska
+"Big Ten",Northwestern,5704,northwestern
+"Big Ten","Ohio St",5850,ohio-state
+"Big Ten","Penn St",6114,penn-state
+"Big Ten",Purdue,6393,purdue
+"Big Ten",Rutgers,6696,rutgers
+"Big Ten",Wisconsin,9031,wisconsin
+"Big West","Cal Poly",1032,cal-poly
+"Big West","CS Fullerton",1057,cal-state-fullerton
+"Big West","CS Northridge",1062,cal-state-northridge
+"Big West",Hawaii,3197,hawaii
+"Big West","Long Beach St",4159,long-beach-state
+"Big West","UC Davis",8200,uc-davis
+"Big West","UC Irvine",8122,uc-irvine
+"Big West","UC Riverside",8207,uc-riverside
+"Big West","UC Santa Barbara",8127,uc-santa-barbara
+CAA,"Col Charleston",1685,charleston
+CAA,Delaware,2108,delaware
+CAA,Drexel,2246,drexel
+CAA,Elon,2447,elon
+CAA,Hofstra,3288,hofstra
+CAA,"James Madison",3611,james-madison
+CAA,Northeastern,5603,northeastern
+CAA,Towson,8000,towson
+CAA,"UNC Wilmington",8165,unc-wilmington
+CAA,"William & Mary",8934,william-mary
+CUSA,Charlotte,8156,charlotte
+CUSA,"FL Atlantic",2638,florida-atlantic
+CUSA,"Florida Intl",2652,florida-international
+CUSA,"Louisiana Tech",4218,louisiana-tech
+CUSA,Marshall,4436,marshall
+CUSA,MTSU,4785,middle-tennessee
+CUSA,"North Texas",5584,north-texas
+CUSA,"Old Dominion",5925,old-dominion
+CUSA,Rice,6535,rice
+CUSA,"Southern Miss",7365,southern-mississippi
+CUSA,"UT San Antonio",7900,texas-san-antonio
+CUSA,UAB,87,uab
+CUSA,UTEP,7933,utep
+CUSA,WKU,8761,western-kentucky
+HL,"Cleveland St",1612,cleveland-state
+HL,Detroit,2176,detroit
+HL,"WI Green Bay",9055,green-bay
+HL,"IL Chicago",3437,illinois-chicago
+HL,IUPUI,3500,iupui
+HL,"WI Milwaukee",9064,milwaukee
+HL,"N Kentucky",5646,northern-kentucky
+HL,Oakland,5783,oakland
+HL,"Wright St",9156,wright-state
+HL,"Youngstown St",9217,youngstown-state
+Ivy,Brown,933,brown
+Ivy,Columbia,1766,columbia
+Ivy,Cornell,1910,cornell
+Ivy,Dartmouth,2052,dartmouth
+Ivy,Harvard,3162,harvard
+Ivy,Penn,6103,pennsylvania
+Ivy,Princeton,6339,princeton
+Ivy,Yale,9177,yale
+MAAC,Canisius,1201,canisius
+MAAC,Fairfield,2527,fairfield
+MAAC,Iona,3533,iona
+MAAC,Manhattan,4360,manhattan
+MAAC,Marist,4417,marist
+MAAC,"Monmouth NJ",5023,monmouth
+MAAC,Niagara,5444,niagara
+MAAC,Quinnipiac,6434,quinnipiac
+MAAC,Rider,6554,rider
+MAAC,Siena,7163,siena
+MAAC,"St Peter's",6906,st-peters
+MEAC,Bethune-Cookman,691,bethune-cookman
+MEAC,"Coppin St",1900,coppin-state
+MEAC,"Delaware St",2118,delaware-state
+MEAC,"Florida A&M",2633,florida-am
+MEAC,Hampton,3112,hampton
+MEAC,Howard,3359,howard
+MEAC,"MD E Shore",4494,maryland-eastern-shore
+MEAC,"Morgan St",5114,morgan-state
+MEAC,"Norfolk St",5475,norfolk-state
+MEAC,"NC A&T",5500,north-carolina-0
+MEAC,"NC Central",5505,north-carolina-central
+MEAC,"Savannah St",7058,savannah-state
+MEAC,"S Carolina St",7250,south-carolina-state
+"Mid-American Conference",Akron,66,akron
+"Mid-American Conference","Ball St",501,ball-state
+"Mid-American Conference","Bowling Green",821,bowling-green
+"Mid-American Conference",Buffalo,979,buffalo
+"Mid-American Conference","C Michigan",1404,central-michigan
+"Mid-American Conference","E Michigan",2353,eastern-michigan
+"Mid-American Conference",Kent,3771,kent-state
+"Mid-American Conference","Miami OH",4725,miami-oh
+"Mid-American Conference","N Illinois",5634,northern-illinois
+"Mid-American Conference",Ohio,5825,ohio
+"Mid-American Conference",Toledo,7978,toledo
+"Mid-American Conference","W Michigan",8767,western-michigan
+"Missouri Valley",Bradley,830,bradley
+"Missouri Valley",Drake,2236,drake
+"Missouri Valley",Evansville,2517,evansville
+"Missouri Valley","Illinois St",3449,illinois-state
+"Missouri Valley","Indiana St",3509,indiana-state
+"Missouri Valley",Loyola-Chicago,4254,loyola-il
+"Missouri Valley","Missouri St",4970,missouri-state
+"Missouri Valley","S Illinois",7339,southern-illinois
+"Missouri Valley","Northern Iowa",5641,uni
+"Missouri Valley",Valparaiso,8361,valparaiso
+"Mountain West","Air Force",55,air-force
+"Mountain West","Boise St",771,boise-state
+"Mountain West","Colorado St",1753,colorado-state
+"Mountain West","Fresno St",2776,fresno-state
+"Mountain West",Nevada,5316,nevada
+"Mountain West","New Mexico",5371,new-mexico
+"Mountain West","San Diego St",7002,san-diego-state
+"Mountain West","San Jose St",7024,san-jose-state
+"Mountain West",UNLV,5323,unlv
+"Mountain West","Utah St",8325,utah-state
+"Mountain West",Wyoming,9162,wyoming
+Northeast,Bryant,950,bryant-university
+Northeast,"Central Conn",1372,central-connecticut-state
+Northeast,"F Dickinson",2536,fairleigh-dickinson
+Northeast,"Long Island",4164,long-island
+Northeast,"Mt St Mary's",5187,mount-st-marys
+Northeast,"Robert Morris",6588,robert-morris
+Northeast,"Sacred Heart",6718,sacred-heart
+Northeast,"St Francis NY",7509,stfrancis-ny
+Northeast,"St Francis PA",6791,stfrancis-pa
+Northeast,Wagner,8500,wagner
+OVC,"Austin Peay",451,austin-peay
+OVC,Belmont,589,belmont
+OVC,"E Illinois",2341,eastern-illinois
+OVC,"E Kentucky",2346,eastern-kentucky
+OVC,"Jacksonville St",3606,jacksonville-state
+OVC,"Morehead St",5105,morehead-state
+OVC,"Murray St",5228,murray-state
+OVC,Edwardsville,7199,siu-edwardsville
+OVC,"SE Missouri St",7300,southeast-missouri-state
+OVC,"TN Martin",7813,tennessee-martin
+OVC,"Tennessee St",7822,tennessee-state
+OVC,"Tennessee Tech",7826,tennessee-tech
+P12,Arizona,294,arizona
+P12,"Arizona St",304,arizona-state
+P12,California,1098,california
+P12,Colorado,1715,colorado
+P12,Oregon,5961,oregon
+P12,"Oregon St",5970,oregon-state
+P12,USC,8251,southern-california
+P12,Stanford,7582,stanford
+P12,UCLA,8141,ucla
+P12,Utah,8315,utah
+P12,Washington,8551,washington
+P12,"Washington St",8588,washington-state
+PL,"American Univ",227,american-university
+PL,Army,356,army
+PL,"Boston Univ",796,boston-university
+PL,Bucknell,964,bucknell
+PL,Colgate,1675,colgate
+PL,"Holy Cross",3304,holy-cross
+PL,Lafayette,3888,lafayette
+PL,Lehigh,4024,lehigh
+PL,"Loyola MD",4245,loyola-md
+PL,Navy,5253,navy
+SEC,Alabama,74,alabama
+SEC,Arkansas,316,arkansas
+SEC,Auburn,402,auburn
+SEC,Florida,2625,florida
+SEC,Georgia,2881,georgia
+SEC,Kentucky,3781,kentucky
+SEC,LSU,4206,lsu
+SEC,Mississippi,4920,mississippi
+SEC,"Mississippi St",4936,mississippi-state
+SEC,Missouri,4948,missouri
+SEC,"South Carolina",7242,south-carolina
+SEC,Tennessee,7801,tennessee
+SEC,"Texas A&M",7848,texas-am
+SEC,Vanderbilt,8367,vanderbilt
+Southern,Chattanooga,7809,chattanooga
+Southern,Citadel,1545,citadel
+Southern,ETSU,2321,east-tennessee-state
+Southern,Furman,2800,furman
+Southern,Mercer,4649,mercer
+Southern,Samford,6987,samford
+Southern,"UNC Greensboro",8161,unc-greensboro
+Southern,VMI,8450,vmi
+Southern,"W Carolina",8742,western-carolina
+Southern,Wofford,9126,wofford
+Southland,"Abilene Chr",18,abilene-christian
+Southland,"Cent Arkansas",1351,central-arkansas
+Southland,"Houston Bap",3354,houston-baptist
+Southland,"Incarnate Word",3473,incarnate-word
+Southland,Lamar,3935,lamar
+Southland,"McNeese St",4613,mcneese-state
+Southland,"New Orleans",5394,new-orleans
+Southland,"Nicholls St",5455,nicholls-state
+Southland,"Northwestern LA",5724,northwestern-state
+Southland,"Sam Houston St",6981,sam-houston-state
+Southland,"SE Louisiana",7314,southeastern-louisiana
+Southland,"SF Austin",7600,stephen-faustin
+Southland,"TAM C. Christi",7856,texas-am-cc
+"Summit League",Denver,2147,denver
+"Summit League",IPFW,3586,ipfw
+"Summit League","NE Omaha",5300,nebraska-omaha-mavericks
+"Summit League","N Dakota St",5545,north-dakota-state
+"Summit League","Oral Roberts",5955,oral-roberts
+"Summit League","South Dakota",7262,south-dakota
+"Summit League","S Dakota St",7268,south-dakota-state
+"Summit League","W Illinois",8754,western-illinois
+"Sun Belt","Appalachian St",275,appalachian-state
+"Sun Belt","Ark Little Rock",325,arkansas-little-rock
+"Sun Belt","Arkansas St",333,arkansas-state
+"Sun Belt","Coastal Car",1637,coastal-carolina
+"Sun Belt","Ga Southern",2899,georgia-southern
+"Sun Belt","Georgia St",2907,georgia-state
+"Sun Belt",ULL,4194,louisiana-lafayette
+"Sun Belt",ULM,4200,louisiana-monroe
+"Sun Belt","South Alabama",7237,south-alabama
+"Sun Belt","UT Arlington",7872,texas-arlington
+"Sun Belt","Texas St",7911,texas-state
+"Sun Belt",Troy,8068,troy
+SWAC,"Alabama A&M",82,alabama-am
+SWAC,"Alabama St",103,alabama-state
+SWAC,"Alcorn St",157,alcorn-state
+SWAC,"Ark Pine Bluff",343,arkansas-pine-bluff
+SWAC,Grambling,2988,grambling-state
+SWAC,"Jackson St",3592,jackson-state
+SWAC,"MS Valley St",4942,mississippi-valley-state
+SWAC,"Prairie View",6317,prairie-view-am
+SWAC,"Southern Univ",7392,southern-university
+SWAC,"TX Southern",7906,texas-southern
+WAC,"CS Bakersfield",1043,cal-state-bakersfield
+WAC,"Chicago St",1501,chicago-state
+WAC,"Grand Canyon",2993,grand-canyon
+WAC,"New Mexico St",5387,new-mexico-state
+WAC,Seattle,7084,seattle
+WAC,UTRGV,7938,texas-rio-grande-valley
+WAC,"Missouri KC",4961,umkc-0
+WAC,"Utah Valley",8332,utah-valley
+WCC,BYU,891,brigham-young
+WCC,Gonzaga,2954,gonzaga
+WCC,"Loy Marymount",4238,loyola-marymount
+WCC,Pacific,6026,pacific
+WCC,Pepperdine,6161,pepperdine
+WCC,Portland,6296,portland
+WCC,"St Mary's CA",6853,saint-marys-cal
+WCC,"San Diego",8241,san-diego
+WCC,"San Francisco",7010,san-francisco
+WCC,"Santa Clara",7034,santa-clara

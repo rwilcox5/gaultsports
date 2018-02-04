@@ -45,7 +45,7 @@ def readcsva(filen):
         return allgamesa
 
 def getapteamsconfs(driver):
-    b_url = "http://collegefootball.ap.org/conferences"
+    b_url = "http://collegebasketball.ap.org/conferences"
     allhrefs = []
     driver.get(b_url)
     time.sleep(1)
@@ -114,93 +114,72 @@ def getmasseyids(driver,b_url):
 driver = webdriver.Chrome()
 this_week = int(sys.argv[1])
 for week in range(0,this_week-1):
-    b_url = "https://www.masseyratings.com/cf/arch/compare2017-"+str(week)+".htm"
+    b_url = "https://www.masseyratings.com/cb/arch/compare2018-"+str(week)+".htm"
     allteams = getmasseyids(driver,b_url)
-    writecsv(allteams,'masseyweek'+str(week)+'.csv')
-b_url = "https://www.masseyratings.com/cf/compare.htm"
-allteams = getmasseyids(driver,b_url)
-writecsv(allteams,'masseyweek'+str(this_week-1)+'.csv')
-driver.close()
+    writecsv(allteams,'massey1718/masseyweek'+str(week)+'.csv')
+b_url = "https://www.masseyratings.com/cb/compare.htm"
+masseyteams = getmasseyids(driver,b_url)
+writecsv(masseyteams,'massey1718/masseyweek'+str(this_week-1)+'.csv')
+allteams = []
+for i in masseyteams[:351]:
+    if i[0] not in allteams:
+        allteams.append(i[0])
+print len(allteams)
 
+#driver.close()
 
-
-def getteams(driver,with_names):
-    b_url = "http://www.espn.com/college-football/standings"
-    allhrefs = []
-    driver.get(b_url)
-    time.sleep(2)
-    alltrs = driver.find_elements_by_class_name('standings-row')
-    print 
-    for cell in alltrs:
-        td = cell.find_element_by_tag_name('td')
-        link = td.find_element_by_tag_name('a')
-        teamlink = link.get_attribute('href')
-        sindex = teamlink.find('/id')
-        eindex = teamlink.find('/',sindex+4)
-        if with_names==0:
-            allhrefs.append(str(teamlink[sindex+4:eindex]))
-        else:
-            allhrefs.append([str(teamlink[sindex+4:eindex]),str(teamlink[eindex+1:])])
-
-    return allhrefs
 
 def getgames(teamid,driver):
-    b_url = 'http://www.espn.com/college-football/team/schedule?id='+teamid+'&year=2017'
+    b_url = 'https://www.masseyratings.com/team.php?t='+str(teamid)+'&s=298892'
 
     time.sleep(1)
     driver.get(b_url)
 
     time.sleep(1)
-    pollTable = driver.find_element_by_class_name('tablehead')
-    time.sleep(1)
-    voteTable = pollTable.find_elements_by_tag_name('tr')
+    voteTable = driver.find_elements_by_class_name('bodyrow')
+    print len(voteTable)
     allgames = []
-    for vote in voteTable[2:]:
-        try:
-            game = []
-            isheader = vote.find_elements_by_tag_name('td')
-            tname = isheader[1].find_element_by_class_name('team-name').find_element_by_tag_name('a').get_attribute('href')
-            sindex = tname.find('/id')
-            eindex = tname.find('/',sindex+4)
+    for vote in voteTable:
+
+        game = []
+        isheader = vote.find_elements_by_tag_name('td')
+        if isheader[4].get_attribute('innerHTML').find('W')>-1 or isheader[4].get_attribute('innerHTML').find('L')>-1:
+            tname = isheader[2].find_element_by_tag_name('a').get_attribute('href')
+            sindex = tname.find('?t=')
+            eindex = tname.find('&',sindex+3)
 
             
-            if str(isheader[1].find_element_by_class_name('game-status').get_attribute('innerHTML'))=='@':
+            if str(isheader[1].get_attribute('innerHTML'))=='at':
                 game.append(teamid)
-                game.append(str(tname[sindex+4:eindex]))
+                game.append(str(tname[sindex+3:eindex]))
             else:
-                game.append(str(tname[sindex+4:eindex]))
+                game.append(str(tname[sindex+3:eindex]))
                 game.append(teamid)
-            game.append(str(isheader[0].get_attribute('innerHTML')))
-            score_str = str(isheader[2].find_element_by_class_name('score').find_element_by_tag_name('a').get_attribute('innerHTML'))
-            dindex = score_str.find('-')
 
-            if str(isheader[1].find_element_by_class_name('game-status').get_attribute('innerHTML'))=='@':
-                if str(isheader[2].get_attribute('innerHTML')).find('redfont')>-1:
-                    game.append(score_str[dindex+1:])
-                    game.append(score_str[:dindex])
-                else:
-                    game.append(score_str[:dindex])
-                    game.append(score_str[dindex+1:])
+
+            game.append(str(isheader[0].find_element_by_class_name('detail').get_attribute('innerHTML'))) #Date of Game
+
+
+
+            if str(isheader[1].get_attribute('innerHTML'))=='at':
+
+                game.append(isheader[5].get_attribute('innerHTML'))
+                game.append(isheader[6].get_attribute('innerHTML'))
+
             else:
-                if str(isheader[2].get_attribute('innerHTML')).find('redfont')==-1:
-                    game.append(score_str[dindex+1:])
-                    game.append(score_str[:dindex])
-                else:
-                    game.append(score_str[:dindex])
-                    game.append(score_str[dindex+1:])
+                game.append(isheader[6].get_attribute('innerHTML'))
+                game.append(isheader[5].get_attribute('innerHTML'))
+            if str(isheader[1].get_attribute('innerHTML')).find('vs')>-1:
+                game.append('neutral')
+
 
             allgames.append(game)
-        except:
-            pass
+
 
     return allgames
 
 
 
-import sys
-driver = webdriver.Chrome()
-allteams = getteams(driver,0)
-print len(allteams)
 
 allvotes = []
 
@@ -212,12 +191,10 @@ allvotes = []
 writecsv('','results.csv')
 for team in allteams:
     print team
-    try:
-        allvotes = getgames(team,driver)
-        writecsva(allvotes,'results.csv')
-    except:
-        allvotes = getgames(team,driver)
-        writecsva(allvotes,'results.csv')
+
+    allvotes = getgames(team,driver)
+    writecsva(allvotes,'results.csv')
+
 
 driver.close()
 

@@ -4,14 +4,58 @@ ACC,duke
 ACC,florida-state
 ACC,georgia-tech
 ACC,louisville
-ACC,miami-fl
 ACC,north-carolina
 ACC,north-carolina-state
+ACC,notre-dame
 ACC,pittsburgh
 ACC,syracuse
 ACC,virginia
 ACC,virginia-tech
 ACC,wake-forest
+ACC,miami-fl
+America East,albany
+America East,binghamton
+America East,hartford
+America East,maine
+America East,new-hampshire
+America East,stony-brook
+America East,umass-lowell
+America East,umbc
+America East,vermont
+American Athletic Conference (AAC),cincinnati
+American Athletic Conference (AAC),connecticut
+American Athletic Conference (AAC),east-carolina
+American Athletic Conference (AAC),houston
+American Athletic Conference (AAC),smu
+American Athletic Conference (AAC),south-florida
+American Athletic Conference (AAC),temple
+American Athletic Conference (AAC),tulane
+American Athletic Conference (AAC),tulsa
+American Athletic Conference (AAC),ucf
+American Athletic Conference (AAC),wichita-state
+American Athletic Conference (AAC),memphis
+Atlantic 10,davidson
+Atlantic 10,dayton
+Atlantic 10,duquesne
+Atlantic 10,fordham
+Atlantic 10,george-mason
+Atlantic 10,george-washington
+Atlantic 10,la-salle
+Atlantic 10,massachusetts
+Atlantic 10,rhode-island
+Atlantic 10,richmond
+Atlantic 10,saint-josephs
+Atlantic 10,saint-louis
+Atlantic 10,st-bonaventure
+Atlantic 10,vcu
+Atlantic Sun,florida-gulf-coast
+Atlantic Sun,jacksonville
+Atlantic Sun,kennesaw-state
+Atlantic Sun,lipscomb
+Atlantic Sun,njit
+Atlantic Sun,north-florida
+Atlantic Sun,sc-upstate
+Atlantic Sun,stetson
 Big 12,baylor
 Big 12,iowa-state
 Big 12,kansas
@@ -22,12 +66,44 @@ Big 12,tcu
 Big 12,texas
 Big 12,texas-tech
 Big 12,west-virginia
+Big East,butler
+Big East,creighton
+Big East,depaul
+Big East,georgetown
+Big East,marquette
+Big East,providence
+Big East,seton-hall
+Big East,st-johns
+Big East,villanova
+Big East,xavier
+Big Sky,eastern-washington
+Big Sky,idaho
+Big Sky,idaho-state
+Big Sky,montana
+Big Sky,montana-state
+Big Sky,north-dakota
+Big Sky,northern-arizona
+Big Sky,northern-colorado
+Big Sky,portland-state
+Big Sky,sacramento-state
+Big Sky,southern-utah
+Big Sky,weber-state
+Big South,campbell
+Big South,charleston-southern
+Big South,coastal-carolina
+Big South,gardner-webb
+Big South,high-point
+Big South,liberty
+Big South,longwood
+Big South,presbyterian
+Big South,radford
+Big South,unc-asheville
+Big South,winthrop
 Big Ten,illinois
 Big Ten,indiana
 Big Ten,iowa
 Big Ten,maryland
 Big Ten,michigan
-Big Ten,michigan-state
 Big Ten,minnesota
 Big Ten,nebraska
 Big Ten,northwestern
@@ -36,41 +112,108 @@ Big Ten,penn-state
 Big Ten,purdue
 Big Ten,rutgers
 Big Ten,wisconsin
-Conference USA,fiu
+Big Ten,michigan-state
+Big West,cal-poly
+Big West,cal-state-fullerton
+Big West,cal-state-northridge
+Big West,hawaii
+Big West,long-beach-state
+Big West,uc-davis
+Big West,uc-irvine
+Big West,uc-riverside
+Big West,uc-santa-barbara
+Colonial,charleston
+Colonial,delaware
+Colonial,drexel
+Colonial,elon
+Colonial,hofstra
+Colonial,james-madison
+Colonial,northeastern
+Colonial,towson
+Colonial,unc-wilmington
+Colonial,william-mary
+Conference USA,charlotte
 Conference USA,florida-atlantic
+Conference USA,florida-international
 Conference USA,louisiana-tech
 Conference USA,marshall
 Conference USA,middle-tennessee
 Conference USA,north-texas
 Conference USA,old-dominion
 Conference USA,rice
-Conference USA,southern-miss
+Conference USA,southern-mississippi
+Conference USA,texas-san-antonio
+Conference USA,uab
 Conference USA,utep
-Conference USA,utsa
 Conference USA,western-kentucky
-Division I FBS Independents,army
-Division I FBS Independents,ua-birmingham
-Division I FBS Independents,brigham-young
-Division I FBS Independents,charlotte
-Division I FBS Independents,notre-dame
-Mid-American,akron
-Mid-American,ball-state
-Mid-American,bowling-green
-Mid-American,buffalo
-Mid-American,central-michigan
-Mid-American,eastern-michigan
-Mid-American,kent-state
-Mid-American,massachusetts
-Mid-American,miami-ohio
-Mid-American,northern-illinois
-Mid-American,ohio
-Mid-American,toledo
-Mid-American,western-michigan
+Horizon,cleveland-state
+Horizon,detroit
+Horizon,green-bay
+Horizon,illinois-chicago
+Horizon,iupui
+Horizon,milwaukee
+Horizon,northern-kentucky
+Horizon,oakland
+Horizon,wright-state
+Horizon,youngstown-state
+Ivy,brown
+Ivy,columbia
+Ivy,cornell
+Ivy,dartmouth
+Ivy,harvard
+Ivy,pennsylvania
+Ivy,princeton
+Ivy,yale
+MAAC,canisius
+MAAC,fairfield
+MAAC,iona
+MAAC,manhattan
+MAAC,marist
+MAAC,monmouth
+MAAC,niagara
+MAAC,quinnipiac
+MAAC,rider
+MAAC,siena
+MAAC,st-peters
+MEAC,bethune-cookman
+MEAC,coppin-state
+MEAC,delaware-state
+MEAC,florida-am
+MEAC,hampton
+MEAC,howard
+MEAC,maryland-eastern-shore
+MEAC,morgan-state
+MEAC,norfolk-state
+MEAC,north-carolina-0
+MEAC,north-carolina-central
+MEAC,savannah-state
+MEAC,south-carolina-state
+Mid-American Conference,akron
+Mid-American Conference,ball-state
+Mid-American Conference,bowling-green
+Mid-American Conference,buffalo
+Mid-American Conference,central-michigan
+Mid-American Conference,eastern-michigan
+Mid-American Conference,kent-state
+Mid-American Conference,miami-oh
+Mid-American Conference,northern-illinois
+Mid-American Conference,ohio
+Mid-American Conference,toledo
+Mid-American Conference,western-michigan
+Missouri Valley,bradley
+Missouri Valley,drake
+Missouri Valley,evansville
+Missouri Valley,illinois-state
+Missouri Valley,indiana-state
+Missouri Valley,loyola-il
+Missouri Valley,missouri-state
+Missouri Valley,southern-illinois
+Missouri Valley,uni
+Missouri Valley,valparaiso
 Mountain West,air-force
 Mountain West,boise-state
 Mountain West,colorado-state
 Mountain West,fresno-state
-Mountain West,hawaii
 Mountain West,nevada
 Mountain West,new-mexico
 Mountain West,san-diego-state
@@ -78,18 +221,50 @@ Mountain West,san-jose-state
 Mountain West,unlv
 Mountain West,utah-state
 Mountain West,wyoming
+Northeast,bryant-university
+Northeast,central-connecticut-state
+Northeast,fairleigh-dickinson
+Northeast,long-island
+Northeast,mount-st-marys
+Northeast,robert-morris
+Northeast,sacred-heart
+Northeast,stfrancis-ny
+Northeast,stfrancis-pa
+Northeast,wagner
+Ohio Valley,austin-peay
+Ohio Valley,belmont
+Ohio Valley,eastern-illinois
+Ohio Valley,eastern-kentucky
+Ohio Valley,jacksonville-state
+Ohio Valley,morehead-state
+Ohio Valley,murray-state
+Ohio Valley,siu-edwardsville
+Ohio Valley,southeast-missouri-state
+Ohio Valley,tennessee-state
+Ohio Valley,tennessee-tech
+Ohio Valley,tennessee-martin
 Pac-12,arizona
 Pac-12,arizona-state
 Pac-12,california
 Pac-12,colorado
 Pac-12,oregon
 Pac-12,oregon-state
+Pac-12,southern-california
 Pac-12,stanford
 Pac-12,ucla
-Pac-12,usc
 Pac-12,utah
 Pac-12,washington
 Pac-12,washington-state
+Patriot League,american-university
+Patriot League,army
+Patriot League,boston-university
+Patriot League,bucknell
+Patriot League,colgate
+Patriot League,holy-cross
+Patriot League,lafayette
+Patriot League,lehigh
+Patriot League,loyola-md
+Patriot League,navy
 SEC,alabama
 SEC,arkansas
 SEC,auburn
@@ -104,28 +279,75 @@ SEC,south-carolina
 SEC,tennessee
 SEC,texas-am
 SEC,vanderbilt
+Southern,chattanooga
+Southern,citadel
+Southern,east-tennessee-state
+Southern,furman
+Southern,mercer
+Southern,samford
+Southern,unc-greensboro
+Southern,vmi
+Southern,western-carolina
+Southern,wofford
+Southland,abilene-christian
+Southland,central-arkansas
+Southland,houston-baptist
+Southland,incarnate-word
+Southland,lamar
+Southland,mcneese-state
+Southland,new-orleans
+Southland,nicholls-state
+Southland,northwestern-state
+Southland,sam-houston-state
+Southland,southeastern-louisiana
+Southland,stephen-faustin
+Southland,texas-am-cc
+Summit League,denver
+Summit League,ipfw
+Summit League,nebraska-omaha-mavericks
+Summit League,north-dakota-state
+Summit League,oral-roberts
+Summit League,south-dakota
+Summit League,south-dakota-state
+Summit League,umkc
+Summit League,western-illinois
 Sun Belt,appalachian-state
 Sun Belt,arkansas-state
-Sun Belt,coastal-carolina
+Sun Belt,arkansas-little-rock
 Sun Belt,georgia-southern
 Sun Belt,georgia-state
-Sun Belt,idaho
 Sun Belt,louisiana-lafayette
-Sun Belt,new-mexico-state
 Sun Belt,louisiana-monroe
 Sun Belt,south-alabama
 Sun Belt,texas-state
+Sun Belt,texas-arlington
 Sun Belt,troy
-The American,cincinnati
-The American,connecticut
-The American,east-carolina
-The American,houston
-The American,navy
-The American,memphis
-The American,southern-methodist
-The American,south-florida
-The American,tulane
-The American,temple
-The American,tulsa
-The American,ucf
-FCS Teams,north-dakota-state
+SWAC,alabama-am
+SWAC,alabama-state
+SWAC,alcorn-state
+SWAC,arkansas-pine-bluff
+SWAC,grambling-state
+SWAC,jackson-state
+SWAC,mississippi-valley-state
+SWAC,prairie-view-am
+SWAC,southern-university
+SWAC,texas-southern
+TBD,55481
+WAC,cal-state-bakersfield
+WAC,chicago-state
+WAC,grand-canyon
+WAC,new-mexico-state
+WAC,seattle
+WAC,texas-rio-grande-valley
+WAC,umkc-0
+WAC,utah-valley
+West Coast,brigham-young
+West Coast,gonzaga
+West Coast,loyola-marymount
+West Coast,pacific
+West Coast,pepperdine
+West Coast,portland
+West Coast,saint-marys-cal
+West Coast,san-diego
+West Coast,san-francisco
+West Coast,santa-clara

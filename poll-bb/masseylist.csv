@@ -1,141 +1,351 @@
-74,Alabama
-5850,Ohio St
-1603,Clemson
-5886,Oklahoma
-8551,Washington
-2666,Florida St
-8251,USC
-4206,LSU
-6114,Penn St
-4741,Michigan
-9031,Wisconsin
-402,Auburn
-7582,Stanford
-5912,Oklahoma St
-4719,Miami FL
-4224,Louisville
-2625,Florida
-8459,Virginia Tech
-7801,Tennessee
-3731,Kansas St
-8588,Washington St
-7848,Texas A&amp;M
-2881,Georgia
-5492,North Carolina
-7278,South Florida
-1715,Colorado
-2911,Georgia Tech
-8716,West Virginia
-8315,Utah
-5511,NC State
-3540,Iowa
-8761,WKU
-8767,W Michigan
-6236,Pittsburgh
-5704,Northwestern
-7878,TCU
-891,BYU
-3347,Houston
-5749,Notre Dame
-771,Boise St
-4858,Minnesota
-5279,Nebraska
-7002,San Diego St
-316,Arkansas
-275,Appalachian St
-557,Baylor
-4636,Memphis
-4920,Mississippi
-7978,Toledo
-7840,Texas
-7788,Temple
-8099,Tulsa
-4936,Mississippi St
-8141,UCLA
-5961,Oregon
-3781,Kentucky
-5253,Navy
-8367,Vanderbilt
-1753,Colorado St
-3484,Indiana
-7242,South Carolina
-8068,Troy
-8508,Wake Forest
-1098,California
-4218,Louisiana Tech
-7918,Texas Tech
-55,Air Force
-4757,Michigan St
-4948,Missouri
-304,Arizona St
-5970,Oregon St
-2265,Duke
-783,Boston College
-333,Arkansas St
-1380,UCF
-9162,Wyoming
-7729,Syracuse
-5925,Old Dominion
-4474,Maryland
-3554,Iowa St
-5371,New Mexico
-356,Army
-5825,Ohio
-294,Arizona
-5634,N Illinois
-4785,MTSU
-3415,Idaho
-7365,Southern Miss
-7358,SMU
-7900,UT San Antonio
-4725,Miami OH
-8432,Virginia
-1404,C Michigan
-1529,Cincinnati
-2899,Ga Southern
-2353,E Michigan
-8325,Utah St
-4194,ULL
-3425,Illinois
-8092,Tulane
-3197,Hawaii
+8415,Villanova
 6393,Purdue
-66,Akron
-2292,East Carolina
-821,Bowling Green
-5316,Nevada
-7237,South Alabama
-6696,Rutgers
-7024,San Jose St
-1637,Coastal Car
-501,Ball St
-4436,Marshall
+8432,Virginia
+2265,Duke
+7918,"Texas Tech"
+5886,Oklahoma
+5492,"North Carolina"
+8716,"West Virginia"
 3717,Kansas
-2907,Georgia St
-5323,UNLV
-3771,Kent
-1872,Connecticut
-2652,Florida Intl
-4200,ULM
-5584,North Texas
-2638,FL Atlantic
-4548,Massachusetts
-5387,New Mexico St
-6535,Rice
-2776,Fresno St
-87,UAB
-7933,UTEP
-8156,Charlotte
+4757,"Michigan St"
+8898,"Wichita St"
+9170,Xavier
+2954,Gonzaga
+402,Auburn
+1529,Cincinnati
+1603,Clemson
+7801,Tennessee
+5850,"Ohio St"
+3781,Kentucky
+4741,Michigan
+7099,"Seton Hall"
+304,"Arizona St"
+294,Arizona
+7878,TCU
+1950,Creighton
+5316,Nevada
+2666,"Florida St"
+2625,Florida
+4719,"Miami FL"
+6853,"St Mary's CA"
+4224,Louisville
+316,Arkansas
+6516,"Rhode Island"
+1004,Butler
+5749,"Notre Dame"
+7848,"Texas A&amp;M"
+4948,Missouri
+4425,Marquette
+7840,Texas
+3347,Houston
+771,"Boise St"
+4474,Maryland
+7729,Syracuse
+8251,USC
+8141,UCLA
+4785,MTSU
+74,Alabama
+8761,WKU
+4206,LSU
+7358,SMU
+557,Baylor
+3731,"Kansas St"
+8459,"Virginia Tech"
+5387,"New Mexico St"
+5912,"Oklahoma St"
+7002,"San Diego St"
+5961,Oregon
+2881,Georgia
+891,BYU
+5511,"NC State"
+6358,Providence
+6763,"St Bonaventure"
+6114,"Penn St"
+4858,Minnesota
+2321,ETSU
+1380,UCF
 979,Buffalo
-7911,Texas St
-14028,Southeastern
-10423,Atlantic Coast
-107818,Pac 12
-10686,Big 12
-10678,Big 10
-9224,FBS Indep
-200137,American Athletic
-12734,Mountain West
-12526,Mid-American
-14238,Sun Belt
-11312,Conference USA
+7242,"South Carolina"
+4194,ULL
+8315,Utah
+4936,"Mississippi St"
+783,"Boston College"
+4970,"Missouri St"
+5279,Nebraska
+7268,"S Dakota St"
+5925,"Old Dominion"
+3484,Indiana
+5323,UNLV
+8393,Vermont
+5228,"Murray St"
+5704,Northwestern
+6797,"St John's"
+4920,Mississippi
+8551,Washington
+4254,Loyola-Chicago
+1715,Colorado
+3554,"Iowa St"
+7262,"South Dakota"
+7788,Temple
+5646,"N Kentucky"
+9031,Wisconsin
+589,Belmont
+2868,Georgetown
+3540,Iowa
+87,UAB
+2800,Furman
+2069,Davidson
+8508,"Wake Forest"
+8332,"Utah Valley"
+3425,Illinois
+2776,"Fresno St"
+7582,Stanford
+8443,"VA Commonwealth"
+8000,Towson
+2911,"Georgia Tech"
+8241,"San Diego"
+5035,Montana
+1872,Connecticut
+2085,Dayton
+8367,Vanderbilt
+9162,Wyoming
+2993,"Grand Canyon"
+2899,"Ga Southern"
+9156,"Wright St"
+8161,"UNC Greensboro"
+5970,"Oregon St"
+7600,"SF Austin"
+6302,"Portland St"
+7872,"UT Arlington"
+8127,"UC Santa Barbara"
+3533,Iona
+964,Bucknell
+7978,Toledo
+4636,Memphis
+8200,"UC Davis"
+8099,Tulsa
+2157,DePaul
+830,Bradley
+8092,Tulane
+5641,"Northern Iowa"
+6554,Rider
+6696,Rutgers
+9126,Wofford
+6339,Princeton
+8934,"William &amp; Mary"
+501,"Ball St"
+5603,Northeastern
+1685,"Col Charleston"
+123,"Albany NY"
+2907,"Georgia St"
+3415,Idaho
+6103,Penn
+3288,Hofstra
+4436,Marshall
+7010,"San Francisco"
+8588,"Washington St"
+5545,"N Dakota St"
+5783,Oakland
+1057,"CS Fullerton"
+2517,Evansville
+2649,"FL Gulf Coast"
+3449,"Illinois St"
+7339,"S Illinois"
+2236,Drake
+4649,Mercer
+8361,Valparaiso
+4218,"Louisiana Tech"
+5371,"New Mexico"
+3869,"La Salle"
+8325,"Utah St"
+4548,Massachusetts
+2272,Duquesne
+3606,"Jacksonville St"
+2447,Elon
+1753,"Colorado St"
+1201,Canisius
+6817,"St Joseph's PA"
+2065,Lipscomb
+5625,"N Colorado"
+6444,Radford
+8767,"W Michigan"
+3197,Hawaii
+3509,"Indiana St"
+1404,"C Michigan"
+6026,Pacific
+8153,"UNC Asheville"
+3586,IPFW
+5825,Ohio
+451,"Austin Peay"
+6841,"St Louis"
+6236,Pittsburgh
+4076,Liberty
+8068,Troy
+6588,"Robert Morris"
+5023,"Monmouth NJ"
+2383,"E Washington"
+356,Army
+7826,"Tennessee Tech"
+5584,"North Texas"
+6791,"St Francis PA"
+8636,"Weber St"
+9025,Winthrop
+2861,"G Washington"
+4487,UMBC
+9177,Yale
+8122,"UC Irvine"
+2353,"E Michigan"
+3162,Harvard
+8500,Wagner
+5444,Niagara
+6906,"St Peter's"
+1098,California
+7911,"Texas St"
+5955,"Oral Roberts"
+796,"Boston Univ"
+7084,Seattle
+2855,"George Mason"
+4360,Manhattan
+4725,"Miami OH"
+4159,"Long Beach St"
+821,"Bowling Green"
+7642,"Stony Brook"
+5455,"Nicholls St"
+5394,"New Orleans"
+7237,"South Alabama"
+6981,"Sam Houston St"
+7900,"UT San Antonio"
+3771,Kent
+5253,Navy
+1351,"Cent Arkansas"
+7938,UTRGV
+7365,"Southern Miss"
+1675,Colgate
+7906,"TX Southern"
+66,Akron
+5634,"N Illinois"
+6547,Richmond
+2108,Delaware
+2638,"FL Atlantic"
+1637,"Coastal Car"
+275,"Appalachian St"
+5042,"Montana St"
+9064,"WI Milwaukee"
+4238,"Loy Marymount"
+2825,"Gardner Webb"
+7314,"SE Louisiana"
+2527,Fairfield
+18,"Abilene Chr"
+3935,Lamar
+4024,Lehigh
+3150,Hartford
+933,Brown
+7822,"Tennessee St"
+3437,"IL Chicago"
+1043,"CS Bakersfield"
+3244,"High Point"
+1186,Campbell
+7933,UTEP
+5300,"NE Omaha"
+5538,"North Dakota"
+2682,Fordham
+5366,NJIT
+1910,Cornell
+5500,"NC A&amp;T"
+2652,"Florida Intl"
+55,"Air Force"
+5342,"New Hampshire"
+5187,"Mt St Mary's"
+2246,Drexel
+5558,"North Florida"
+3421,"Idaho St"
+2341,"E Illinois"
+6317,"Prairie View"
+2147,Denver
+1032,"Cal Poly"
+7163,Siena
+8742,"W Carolina"
+7300,"SE Missouri St"
+1766,Columbia
+3611,"James Madison"
+1067,"CS Sacramento"
+8207,"UC Riverside"
+8754,"W Illinois"
+7613,Stetson
+6987,Samford
+325,"Ark Little Rock"
+4164,"Long Island"
+700,Binghamton
+3500,IUPUI
+7199,Edwardsville
+7399,"Southern Utah"
+2346,"E Kentucky"
+1372,"Central Conn"
+5505,"NC Central"
+8156,Charlotte
+7034,"Santa Clara"
+8165,"UNC Wilmington"
+3112,Hampton
+6296,Portland
+4200,ULM
+333,"Arkansas St"
+7278,"South Florida"
+5105,"Morehead St"
+2176,Detroit
+4961,"Missouri KC"
+6434,Quinnipiac
+2536,"F Dickinson"
+7509,"St Francis NY"
+2292,"East Carolina"
+6161,Pepperdine
+4613,"McNeese St"
+7058,"Savannah St"
+7813,"TN Martin"
+2052,Dartmouth
+691,Bethune-Cookman
+3888,Lafayette
+7809,Chattanooga
+4245,"Loyola MD"
+5114,"Morgan St"
+6718,"Sacred Heart"
+3592,"Jackson St"
+1457,"Charleston So"
+3599,Jacksonville
+6326,Presbyterian
+9055,"WI Green Bay"
+6535,Rice
+4540,"MA Lowell"
+8450,VMI
+3304,"Holy Cross"
+7024,"San Jose St"
+4417,Marist
+9217,"Youngstown St"
+7392,"Southern Univ"
+2988,Grambling
+1612,"Cleveland St"
+3354,"Houston Bap"
+227,"American Univ"
+3766,Kennesaw
+7856,"TAM C. Christi"
+5475,"Norfolk St"
+1545,Citadel
+3473,"Incarnate Word"
+7250,"S Carolina St"
+4319,Maine
+343,"Ark Pine Bluff"
+5620,"Northern Arizona"
+4494,"MD E Shore"
+7254,"SC Upstate"
+950,Bryant
+5724,"Northwestern LA"
+3359,Howard
+4170,Longwood
+1062,"CS Northridge"
+157,"Alcorn St"
+103,"Alabama St"
+1501,"Chicago St"
+2633,"Florida A&amp;M"
+82,"Alabama A&amp;M"
+1900,"Coppin St"
+2118,"Delaware St"
+4942,"MS Valley St"

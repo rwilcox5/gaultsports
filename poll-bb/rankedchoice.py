@@ -42,24 +42,61 @@ def getvotes(burl):
             allvotes[idx%13-3].append(vote.text_content())
     return allvotes
 
+def unbiasedRank(my_week):
+    allvoters = []
+    allvotes = readcsv('ap1718/week'+str(my_week)+'.csv')
+    for i in allvotes:
+        allvoters.append(i[0])
 
+
+    allvoterdata = []
+    for voter in allvoters:
+        allvotes = readcsv('ap1718/week'+str(my_week)+'.csv')
+        for ii in allvotes:
+            if ii[0]==voter:
+                voterranks = ii[1:]
+                allranks = voterranks
+        allvoterdata.append(allranks)
+
+    top25 = []
+    for i in apmassey:
+        rating = 0
+        for voter in allvoterdata:
+            for iidx,ii in enumerate(voter):
+                if ii==i[1]:
+                    rating += max(0,25-iidx)
+        top25.append([i[1], rating, rating,0])
+
+    unsorted = True
+    while unsorted:
+        unsorted = False
+        for i in range(0,len(top25)-1):
+            if top25[i][2]<top25[i+1][2]:
+                holdit = top25[i]
+                top25[i]=top25[i+1]
+                top25[i+1]=holdit
+                unsorted = True
+    return top25
 
 import sys
+this_week = int(sys.argv[1])
 
-for award in ['mvp']:
+allranks = []
+for week in range(1,this_week+1):
     #allvotes = getvotes('https://bbwaa.com/17-nl-'+award+'-ballots/')
     #writecsv(allvotes,'nlmvp17.csv')
     goodteams = []
     for iiiiii in range(0,25):
 
 
-        rawvotes = readcsv('ap1718/week10.csv')
+        rawvotes = readcsv('ap1718/week'+str(week)+'.csv')
         allvotes = []
         for i in range(0,25):
             allvotes.append([])
         for i in rawvotes:
-            for ii in range(0,25):
-                allvotes[ii].append(i[ii+1])
+            if len(i)>25:
+                for ii in range(0,25):
+                    allvotes[ii].append(i[ii+1])
 
 
         orderedvotes = []
@@ -79,10 +116,10 @@ for award in ['mvp']:
                     allteams.append(ii)
 
         for i in goodteams:
-                allteams.remove(i)
+                allteams.remove(i[0])
                 for ii in range(0,len(allvotes)):
                     for iii in range(0,len(allvotes[ii])):
-                        if allvotes[ii][iii]==i:
+                        if allvotes[ii][iii]==i[0]:
                             allvotes[ii].remove(allvotes[ii][iii])
                             break
 
@@ -131,8 +168,8 @@ for award in ['mvp']:
             if len(minindex)==len(allteams):
                 anyoneleft = False
                 print minindex
-                for i in minindex:
-                    goodteams.append(i)
+                for idx,i in enumerate(minindex):
+                    goodteams.append([i,idx])
             
             for i in minindex:
                 allteams.remove(i)
@@ -144,8 +181,67 @@ for award in ['mvp']:
             if 1==len(allteams):
                 anyoneleft = False
                 print allteams
-                goodteams.append(allteams[0])
+                goodteams.append([allteams[0],0])
 
+    allranks.append(goodteams)
+
+
+
+
+csvapmassey = readcsv('convertedapmassey.csv')
+apmassey = []
+nameconvert = []
+for i in csvapmassey:
+    apmassey.append([i[0],i[3],int(i[2])])
+    nameconvert.append([i[3],i[1]])
+
+top25un = unbiasedRank(this_week)
+
+top25 = allranks[-1]
+allteams = []
+for i in top25:
+    for ii in apmassey:
+        if ii[1]==i[0]:
+            conf = ii[0]
+    for ii in nameconvert:
+        if ii[0]==i[0]:
+            namename = ii[1]
+    unrank = 'NR'
+    for iidx,ii in enumerate(top25un[:25]):
+        if ii[0]==i[0]:
+            unrank = iidx+1
+
+    this_team = [namename,conf,i[1],unrank,[]]
+
+    for ii in allranks:
+        isranked = False
+        for iiidx,iii in enumerate(ii):
+            if iii[0]==i[0]:
+                this_team[4].append(max(0,25-(iiidx-iii[1])))
+                isranked = True
+                break
+        if not isranked:
+            this_team[4].append(0)
+    allteams.append(this_team)
+print allteams
+
+
+istr = 'top25RC = ['
+for i in allteams:
+    namename = i[0].replace('"','')
+    confname = i[1].replace('"','')
+    weightedpoints = str(i[2])
+    aprank = str(i[3])
+    allranks = i[4]
+    istr +='["'+namename+'","'+confname+'",'+weightedpoints+','+aprank+','+'['
+    for iii in range(0,len(allranks)):
+        istr += str(allranks[iii])+','
+    istr = istr[:-1]+']],'
+istr = istr[:-1]+'];'
+
+f = open('helloworldRC.txt','w')
+f.write(istr+'\n')
+f.close()
 
 
 

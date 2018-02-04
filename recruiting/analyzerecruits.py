@@ -35,15 +35,15 @@ def readcsv(filen):
 def minforstars(nstars):
     nstars = int(nstars)
     if nstars == 2:
-        return 5.
-    elif nstars == 3:
-        return 10.
-    elif nstars == 4:
-        return 20.
-    elif nstars == 5:
-        return 30.
-    else:
         return 2.5
+    elif nstars == 3:
+        return 5.
+    elif nstars == 4:
+        return 10.
+    elif nstars == 5:
+        return 20.
+    else:
+        return 1.25
 def getallplayers():
     allplayers = []
     with open(basefile+str(theyear)+'done.csv', 'rb') as csvfile:

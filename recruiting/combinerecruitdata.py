@@ -27,11 +27,28 @@ def combine():
         for ii in range(0,5):
             starrecs = []
             with open(basefile+str(theyear)+'done'+str(ii)+'.csv', 'rb') as csvfile:
-                spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+                spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
                 for row in spamreader:
                     starrecs.append(row)
             allrecs=allrecs+starrecs
-        writecsv(allrecs,basefile+str(theyear)+"done.csv")
+        norepeats = []
+        for i in allrecs:
+            if i not in norepeats:
+                norepeats.append(i)
+        writecsv(norepeats,basefile+str(theyear)+"done.csv")
+        allrecs = []
+        for ii in range(0,5):
+            starrecs = []
+            with open(basefile+str(theyear)+'done'+str(ii)+'-profile.csv', 'rb') as csvfile:
+                spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
+                for row in spamreader:
+                    starrecs.append(row)
+            allrecs=allrecs+starrecs
+        norepeats = []
+        for i in allrecs:
+            if i not in norepeats:
+                norepeats.append(i)
+        writecsv(norepeats,basefile+str(theyear)+"done-profile.csv")
 
 
 
